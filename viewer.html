@@ -301,6 +301,30 @@ body.panel-open #search { right: 476px; }
 
 const GRAPH_DATA = {
   "nodes": {
+    "aarvi": {
+      "id": "aarvi",
+      "name": "AARVI",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 201.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "AARVI"
+    },
     "abb": {
       "id": "abb",
       "name": "ABB",
@@ -448,7 +472,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "ABDL — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "BUY",
@@ -481,13 +505,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -2.65,
         "delta_3m_pct": 6.68,
         "delta_ytd_pct": -10.2,
-        "week_52_high": 654.55,
+        "week_52_high": 653.8,
         "week_52_low": 384.15,
-        "pct_from_52w_high": -17.52,
+        "pct_from_52w_high": -17.43,
         "pct_from_52w_low": 40.53,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -603,6 +627,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": -0.93
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": -0.93
         }
       ],
@@ -1023,6 +1051,16 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Section D (cohort cascade): specialty-chemicals peer ANURAS (Anupam Rasayan, non-tracked) to acquire 43.3-48.2% of Bliss GVS Pharma (Rs 300cr term loan, May 23); earlier Jayhawk Fine Chemicals US acquisition (~$95M proforma rev); FY26 rev +65%. The inorganic-growth + regulated-market-access playbook is the same one ACUTAAS is running (Battery/Semicon/Pharma CDMO) — cohort validation, and an India-US-trade-deal-export beneficiary (B3). No fresh ACUTAAS corporate event in window; carried fundamentals positive (Q4 PAT +114.1%, EBITDA margin 42.4%, FY27 guide 25% rev growth).",
+          "sources": [
+            "news-intel-nse.md Agent A Section D"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -1685,6 +1723,30 @@ const GRAPH_DATA = {
       ],
       "_display_label": "AFFLE"
     },
+    "ajmera": {
+      "id": "ajmera",
+      "name": "AJMERA",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 2389.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "AJMERA"
+    },
     "alivus": {
       "id": "alivus",
       "name": "ALIVUS",
@@ -2059,6 +2121,28 @@ const GRAPH_DATA = {
           "verification": "REPORTED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent B Section B-Fresh (FRESH 05-28 catalyst, price vote pending): APARINDS Q4FY26 + FY26 audited results printed intraday 28-May ~14:2x IST (Reg 30 board outcome SEC/2805/2026; auditor C N K & Associates LLP unmodified opinion — clean audit; recommended final dividend; Change in Auditors filing [benign per Agent C]; ESOP). The +7.10% in the alerts list is a 05-27 PRE-PRINT run-up (T&D-conductor capex theme); the Q4 PRINT itself landed AFTER the 05-27 close — the market's vote will appear in the 05-28 EOD tape (tomorrow's fetch). P&L detail is Agent C's filings lane (cover dividend OCR-garbled). Polarity ambiguous pending print detail + tape vote. DR-refresh watch carried (pre-print run flagged 05-27; now results-confirmed).",
+          "sources": [
+            "market-action-nse.md Agent B Section B-Fresh",
+            "NSE Reg 30 SEC/2805/2026 (manifest)"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "B"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section A2/D4 (filings lane): APARINDS Outcome of Board Meeting / Audited Q4+FY26 + Final Dividend Rs 60/sh + ESOP, filed 2026-05-28 14:27-14:58 IST. FY26 consol revenue Rs 22,902cr (+23% YoY), consol PAT Rs 974cr (+23%); Q4 consol revenue Rs 6,602cr. Final dividend Rs 60/sh (above Street's Rs 30-40, web-verified). Statutory auditor C N K & Associates LLP UNCHANGED, unmodified opinion (standalone + consol). The 'Change in Auditors' NSE label is a MISLABEL = routine FY27 Cost Auditor (Rahul Ganesh Dugal & Co) + Internal Auditor (Deloitte) reappointments — Lesson 1 does NOT fire. One exceptional item: Rs 32.36cr (standalone) past-service gratuity/leave actuarial true-up, transparently disclosed. SOFT severity; PARTIAL_PASS_T2_UPDATED. Polarity positive.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section A2/D4",
+            "NSE Reg 30 Outcome of Board Meeting 2026-05-28 SEC/2805/2026"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -3094,6 +3178,30 @@ const GRAPH_DATA = {
         }
       ],
       "_display_label": "ASALCBR"
+    },
+    "ashiana": {
+      "id": "ashiana",
+      "name": "ASHIANA",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 3799.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "ASHIANA"
     },
     "asianene": {
       "id": "asianene",
@@ -5221,6 +5329,33 @@ const GRAPH_DATA = {
           "polarity": "ambiguous",
           "attribution_arbitrated": "agent_b_dominant",
           "arbitration_note": "Phase 3 2026-05-27 reconciliation: market-data.json EOD snapshot (2026-05-27 13:37 UTC) confirms Agent B level/direction (-6.16% to $93.45) as canonical same-day print. Agent A $99.18 (-0.41%) is secondary context = May 26 intraday re-spike + 1-month framing. Price/direction dispute -> Agent B (market-action) specialty authoritative."
+        },
+        {
+          "date": "2026-05-28",
+          "content": "B5/B7/A1: Iran-US ceasefire VIOLATED — Iran fired a ballistic missile at Kuwait (intercepted May 28; Kuwait MFA + US called it an 'egregious ceasefire violation'); IRGC said it struck a US air base; CENTCOM intercepted 5 one-way attack drones near Hormuz + prevented a 6th launch; US-Iran traded fresh strikes. Brent climbed ~2.5% to ~$96.63 (Agent A web/intraday level) but held below $97 and remains down WoW/MoM — market still prices an eventual deal (contained re-spike, not a Hormuz-closure breakout). Dominant macro overlay: repositions Brent/rupee/sulphur-input/EPC-ME-order/June-MPC framing simultaneously; bear tail more active than any point this week. NOTE: Agent A's ~$96.63 web level DIVERGES from Agent B's yfinance EOD $93.02 — reconciliation candidate for Phase 3.",
+          "sources": [
+            "news-intel-nse.md Agent A Section B5/B7/A1",
+            "CNN live (Tier 1B)",
+            "Washington Times (Tier 1B)",
+            "Al Jazeera event-facts (Tier 1B)",
+            "Irish Times Brent level (Tier 1B)",
+            "brent_disagreement_vs_agent_b_recon_candidate"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent B Section B5/A (FRESH 05-28): Brent Crude $93.02 (-1.35% 1D; WTI +0.89% $89.47 — the two diverged today, Brent soft / WTI firm). 1D below the 3% threshold but extends the 05-27 -6.16% collapse: Brent now -11.43% 1W, -16.39% 1M on the US-Iran peace-framework de-rating. India read: net-POSITIVE for the import bill (~85% crude import dependence) + OMC/downstream margins; negative for upstream (ONGC) and tanker forward earnings (GESHIP). RECONCILIATION CANDIDATE: Agent B's yfinance EOD $93.02 (down) vs Agent A's web/intraday ~$96.63 (+2.5%, tied to Iran escalation) — surfaced for Phase 3 (market-data.json price-primary).",
+          "sources": [
+            "market-action-nse.md Agent B Section B5",
+            "yfinance EOD 2026-05-28",
+            "brent_disagreement_vs_agent_a_recon_candidate"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "B"
         }
       ],
       "edges": [
@@ -6170,6 +6305,27 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "B",
           "polarity": "negative"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "C-CARRARO: Trading window opened May 28 (post-results 48h close ended); June 1 investor conference (Axis Capital 'Rising Stars', Mumbai, 1x1 + group). No new fundamental datum; Q4/FY26 (board May 26, concall May 27, MD Dr. Balaji Gopalan + CFO Davide Grossi): FY26 PAT Rs 130.6cr (+48% YoY); final dividend Rs 6.75/sh (~30% payout). Agri-driveline recovery thesis intact, monsoon-leveraged. Polarity positive.",
+          "sources": [
+            "news-intel-nse.md Agent A Section C-CARRARO"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section A1/C1 (transcript graduation): CARRARO Con-call Audio Recording Link, filed 2026-05-27 21:17 IST. Q4/FY26 audited results (Deloitte Big-4 unmodified, flat YoY) covered 26 May; recording now on disk -> CARRARO graduates pending-transcript -> ready_for_dr. RECORD_ONLY severity; transcript-availability datum.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section A1/C1",
+            "NSE analyst_call audio recording link 2026-05-27"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [
@@ -6931,6 +7087,16 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section C3/F6 (diligence monitor): CEINSYS Q4 results 14-May; today filed only 'Schedule of meet / Q4 earnings-call intimation' — transcript now 14 days STALLED (timeout 2026-06-02). Crosses the 14-day degraded-DR threshold — flag for DR-with-degraded-context if no transcript by 02-Jun. F6 use-of-funds variation monitor-only carry-forward also open. Diligence-monitor continues.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section C3/F6"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -8104,6 +8270,17 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "B",
           "polarity": "negative"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section C2 (transcript graduation, T2 DR-candidate): CONTROLPR (Control Print) Q4/FY26 results + transcript broadcast 27-May 19:01 -> graduated to ready_for_dr. RECORD_ONLY severity; transcript-availability datum.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section C2",
+            "NSE transcript 2026-05-27 19:01"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -8569,6 +8746,16 @@ const GRAPH_DATA = {
           "significance": "medium",
           "verification": "REPORTED",
           "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "A3/B7/C-COROMANDEL: sulphur-supply input-cost risk live and SHARPENED by the May 28 ceasefire-violation escalation (B5) — a wider Gulf conflict raises phosphatic-input (sulphur) supply risk further. Sulphur, not crude, is the binding phosphatic input for COROMANDEL/CHAMBLFERT/RCF. No fresh corporate event; price_entry:active trigger carried, AGM July 23. Carried Q4/FY26: Q4 PAT -75.86% YoY to Rs 139.93cr on rising input costs; Kakinada Rs 1,100cr acid plants commissioned (backward integration) + Nano ~50% market share are the structural offsets. Input-cost-watch elevated.",
+          "sources": [
+            "news-intel-nse.md Agent A Section A3/B7/C-COROMANDEL"
+          ],
+          "significance": "medium",
+          "verification": "REPORTED",
+          "source_agent": "A"
         }
       ],
       "edges": [
@@ -8687,9 +8874,9 @@ const GRAPH_DATA = {
           "type": "competitive",
           "context": "Chambal Fertilisers — India's largest private urea maker, ~Rs 22,000 cr mcap, 13x PE, 18% ROCE. Urea-heavy mix vs Coromandel phosphatic mix; substitutable in NPK at the dealer level for some farmer segments. Used for relative-PE read (Coromandel premium 2x+ on platform thesis); compare per-tonne EBITDA quarterly. Different subsidy regime (urea = fixed pricing; phosphatic = NBS).",
           "directness": 1,
-          "last_activated": "2026-05-27",
-          "activation_count": 2.5,
-          "weight": 7.5,
+          "last_activated": "2026-05-28",
+          "activation_count": 3.0,
+          "weight": 9.0,
           "source": "deep_research_reports/COROMANDEL_Q3FY26_opus.md"
         },
         {
@@ -9206,6 +9393,16 @@ const GRAPH_DATA = {
           "significance": "high",
           "verification": "CONFIRMED",
           "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "B4: CPI April 2026 = 3.48% (vs 3.40% March; below the 3.8% expectation — fastest in a year but benign vs expectation); May CPI expected to HARDEN to ~4.1% on food-price pressure; food inflation already 4.20% YoY. The gap between the benign April realised print and the ~4.1% May projection + the upward FY27-forecast-revision expectation (B1) is the 'comfortable now, energy-and-food-driven upside later' tension the June MPC must navigate; the Iran escalation (B5) pushes it the wrong way.",
+          "sources": [
+            "news-intel-nse.md Agent A Section B4"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [
@@ -9414,6 +9611,30 @@ const GRAPH_DATA = {
         }
       ],
       "_display_label": "CRAFTSMAN"
+    },
+    "cslfinance": {
+      "id": "cslfinance",
+      "name": "CSLFINANCE",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 552.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "CSLFINANCE"
     },
     "deedev": {
       "id": "deedev",
@@ -10066,6 +10287,16 @@ const GRAPH_DATA = {
           "significance": "medium",
           "verification": "CONFIRMED",
           "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "C-DHANUKA/A10: Buyback (Rs 70cr, Rs 1,400 tender, 5 lakh shares = 1.11% of equity) + Rs 2 final dividend — record date May 29 (TOMORROW, T-1); tender process commences post-record-date. (One source separately cites July 17 as a dividend-eligibility record date; the May 29 buyback record date is the imminent load-bearing milestone.) Q4 PAT +29% YoY carried. Rs 1,400 buyback price sets a soft floor vs CMP ~Rs 1,180. Agri-input cohort leveraged to the below-normal monsoon. Positive into the record date.",
+          "sources": [
+            "news-intel-nse.md Agent A Section C-DHANUKA/A10"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [
@@ -10484,6 +10715,30 @@ const GRAPH_DATA = {
         }
       ],
       "_display_label": "DHANUKA"
+    },
+    "dharmaj": {
+      "id": "dharmaj",
+      "name": "DHARMAJ",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 961.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "DHARMAJ"
     },
     "diffnkg": {
       "id": "diffnkg",
@@ -10940,7 +11195,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "DIXON — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "BUY",
@@ -10973,13 +11228,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": 3.39,
         "delta_3m_pct": 6.18,
         "delta_ytd_pct": -2.77,
-        "week_52_high": 14643.0,
+        "week_52_high": 14601.0,
         "week_52_low": 9673.0,
-        "pct_from_52w_high": -19.72,
+        "pct_from_52w_high": -19.48,
         "pct_from_52w_low": 21.53,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -11089,6 +11344,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": 0.71
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": 0.71
         }
       ],
@@ -11534,6 +11793,16 @@ const GRAPH_DATA = {
           "verification": "REPORTED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "C-DSSL/A8: Board meeting May 30 (audited Q4/FY26 results) now 2 days out; trading window closed — the next thesis checkpoint for a momentum-extended T1. Carried catalysts: RBI Rs 750.82cr 5-year private-cloud contract (May 4); FT High-Growth Companies APAC 2026 listing (5th time, May 13); FY26 secretarial compliance report filed May 23 (compliant overall, one prior minor results-delay fine noted). Momentum at extended valuation caps incremental signal until the print. (graph=T1 vs DB=T2 tier_disagree carried; DSSL re-confirmed T1 per Sec 19 prior run.)",
+          "sources": [
+            "news-intel-nse.md Agent A Section C-DSSL/A8"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -12210,6 +12479,16 @@ const GRAPH_DATA = {
           "significance": "medium",
           "verification": "CONFIRMED",
           "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "C-EICHERMOT/A11: Polarity UPGRADED to positive (from yesterday's 'ambiguous-digestion') as Q4 beat detail confirmed strength. Q4/FY26 (board May 25): Q4 PAT +11.6% to Rs 1,520cr, rev Rs 6,080cr (+16% YoY), EBITDA Rs 1,510cr (+20.4%, 24.9% margin) — above estimates; Royal Enfield FY26 sales >1.2M (record, domestic +23% / intl +20%); capacity 1.4M->1.6M units from June-July 2026; Flying Flea C6 EV launched April 2026; final dividend Rs 82/sh. thesis_event:active (Volvo Financial Services JV) live as the durable structural catalyst. Post a genuinely strong print.",
+          "sources": [
+            "news-intel-nse.md Agent A Section C-EICHERMOT/A11"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [
@@ -12775,7 +13054,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "ELLEN — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "HOLD",
@@ -12808,13 +13087,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -7.93,
         "delta_3m_pct": 5.94,
         "delta_ytd_pct": -22.56,
-        "week_52_high": 394.85,
+        "week_52_high": 392.9,
         "week_52_low": 180.5,
-        "pct_from_52w_high": -34.01,
+        "pct_from_52w_high": -33.69,
         "pct_from_52w_low": 44.35,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -12891,6 +13170,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": -1.08
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": -1.08
         }
       ],
@@ -13828,6 +14111,16 @@ const GRAPH_DATA = {
           "content": "T&D/EPC cohort Middle East exposure now QUANTIFIED: Kalpataru (KPIL) warned of Rs 200-300cr Q4FY26 revenue hit from the Middle East war; 10-11% of its Rs 63,300cr order book is ME-exposed (KPIL Q4 PAT +92.6% to Rs 430.6cr despite warning). Same geopolitical vector ENGINERSIN management flagged, sharpened by May 26 Iran retaliation vow. Concrete cohort read on order-inflow/execution risk facing T1 EPC/T&D names (ENGINERSIN, POWERMECH, TRANSRAILL).",
           "sources": [
             "news-intel-nse.md Agent A Section D (T&D/EPC ME-exposure cohort)"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Section D/A9/C-ENGINERSIN: T&D/EPC cohort Middle East exposure SHARPENED by the May 28 ceasefire violation (B5) — moves ME order/execution risk from 'management caution' to active-conflict state. KPIL (Kalpataru) Rs 200-300cr Q4 ME revenue hit (10-11% of its Rs 63,300cr order book ME-exposed) is the cleanest magnitude reference for the order-inflow/execution risk ENGINERSIN faces. Carried: Angola Rs 59.43cr doubtful-receivable = single-counterparty housekeeping (unmodified audit). No fresh ENGINERSIN corporate event; PSU EPC/consultancy thesis intact, geopolitical tail on future ME orders the watch item.",
+          "sources": [
+            "news-intel-nse.md Agent A Section D/A9/C-ENGINERSIN"
           ],
           "significance": "high",
           "verification": "CONFIRMED",
@@ -15380,6 +15673,16 @@ const GRAPH_DATA = {
           "verification": "REPORTED",
           "source_agent": "B",
           "polarity": "negative"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Section D/F (Universe Watch, has node): GESHIP record Q4 FY26 (board May 14): PAT Rs 1,044cr (+188% YoY, first-ever >Rs 1,000cr quarter), rev Rs 1,511cr (+23.5%); FY26 PAT Rs 2,943cr (+26%), FY26 dividend Rs 35.10/sh; driven by strong tanker + LPG markets amid global trade disruptions + Rs 236.8cr FX gains + vessel-sale gains. BUT stock fell ~8.4% on May 27 (record-print sell-off) — print was peak-cycle-priced. Tanker earnings are Hormuz/Brent-disruption-leveraged (B5); GESHIP is a read on how the market prices the geopolitical-disruption-beneficiary trade (selling the peak even as the conflict escalates).",
+          "sources": [
+            "news-intel-nse.md Agent A Section D/F"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -16159,6 +16462,16 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "C-GRWRHITECH (NEW in-window): incorporated a wholly-owned Dubai (UAE) subsidiary — Garware Hi Tech Global Trading FZCO — for films / ceramic coatings / PPF sale + export in the MENA region. Modest international-distribution expansion (positive directionally) but timing irony: a MENA-export push announced into an active Gulf-conflict escalation (B5) adds a small geopolitical-execution caveat. Carried context: CFO Abhishek Agarwal resigned eff. May 15 ('external career opportunity', ceases KMP + Risk Mgmt Committee; no successor named) at/near a 52-wk high — offsetting governance flag (meta.json multi-event arc, Agent C domain). Net ambiguous.",
+          "sources": [
+            "news-intel-nse.md Agent A Section C-GRWRHITECH"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -16786,6 +17099,17 @@ const GRAPH_DATA = {
           "significance": "medium",
           "verification": "CONFIRMED",
           "source_agent": "C"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section A2/D4: HARSHA (Harsha Engineers International) Capacity Addition Reg 30, filed 2026-05-28 14:21 IST. WoS Harsha Engineers Advantek Ltd to undertake Phase-2 strategic capital investment ~Rs 110cr at its Bhayla, Ahmedabad plant. Growth capex (precision bearing-cages / EV adjacency). SOFT severity; PARTIAL_PASS_T2_UPDATED. Polarity positive.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section A2/D4",
+            "NSE Reg 30 Capacity Addition 2026-05-28"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -17119,7 +17443,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "HINDZINC — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "BUY",
@@ -17153,12 +17477,12 @@ const GRAPH_DATA = {
         "delta_3m_pct": 12.11,
         "delta_ytd_pct": 7.97,
         "week_52_high": 714.1518,
-        "week_52_low": 466.0351,
+        "week_52_low": 476.494,
         "pct_from_52w_high": -9.14,
-        "pct_from_52w_low": 39.23,
+        "pct_from_52w_low": 36.17,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -17356,6 +17680,10 @@ const GRAPH_DATA = {
         {
           "date": "2026-05-27",
           "delta_1d_pct": 0.22
+        },
+        {
+          "date": "2026-05-28",
+          "delta_1d_pct": 0.22
         }
       ],
       "_display_label": "HINDZINC"
@@ -17537,6 +17865,30 @@ const GRAPH_DATA = {
         }
       ],
       "_display_label": "HIRECT"
+    },
+    "hmaagro": {
+      "id": "hmaagro",
+      "name": "HMAAGRO",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 1180.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "HMAAGRO"
     },
     "hndfds": {
       "id": "hndfds",
@@ -18819,6 +19171,19 @@ const GRAPH_DATA = {
       ],
       "schema_version": "v1.0_2026-05-25",
       "phase": "Phase 1 (10Y only); Phase 2 adds T-bill curve + 5Y/30Y + spreads",
+      "signals": [
+        {
+          "date": "2026-05-28",
+          "content": "Agent B Section B7 (FRESH 05-28): India curve held firm and normally sloped — 3M 5.51% (+2.0bps), 6M 5.70% (+0.3), 1Y 6.15% (+0.3), 2Y 6.55% (+3.0), 5Y 6.83% (+1.2), 10Y 7.00% (0.0bps), 30Y 7.63% (+1.1); slope 10Y-3M +148.6bps, 10Y-2Y +44.4bps (no inversion), 30Y-10Y +63.3bps. NO TRIGGER — no instrument moved >=10bps (max 2Y +3.0bps), slope shift <15bps DoD. The 10Y pinned flat at 6.996% (0.0bps) for a 2nd straight session even as Brent kept sliding — bond market still NOT pricing a durable disinflation impulse from oil (consistent with crude's event-driven, two-way US-Iran-headline character). (investing.com, as_of 2026-05-28, 7/7 instruments ok.)",
+          "sources": [
+            "market-action-nse.md Agent B Section B7",
+            "investing.com India curve 2026-05-28"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "B"
+        }
+      ],
       "_display_label": "India 10y Gsec"
     },
     "india_vix": {
@@ -19329,6 +19694,17 @@ const GRAPH_DATA = {
           "significance": "medium",
           "verification": "CONFIRMED",
           "source_agent": "B"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section A2/D4: INDNIPPON Outcome of Board Meeting / Audited Q4+FY26, filed 2026-05-28 14:49-17:22 IST. FY26 revenue from operations Rs 1,068.5cr (+26% YoY); total income Rs 1,099cr. Auto-electricals/EFI ancillary. Statutory auditor Deloitte Haskins & Sells LLP (FRN 117366W/W-100018) UNCHANGED, unmodified opinion. 'Change in Auditors' + 'Change in Director(s)' NSE labels are benign: FY27 Cost Auditor re-appointment (K. Suryanarayanan) + Internal Auditor (PKF Sridhar & Santhanam LLP) + re-appointment of 2 Independent Directors for 2nd 5-yr terms w.e.f. 10-Aug-2026 (subject to AGM). No CFO/CEO/Chairman exit — Lesson 7 N/A. SOFT severity; PARTIAL_PASS_T2_UPDATED. Polarity positive.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section A2/D4",
+            "NSE Reg 30 Outcome of Board Meeting 2026-05-28"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -19959,6 +20335,18 @@ const GRAPH_DATA = {
           "provenance": "derived_from_sector_cascade:it_services_sector:2026-05-27:1448ead1",
           "agent": "derived",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "B8/A4/C-INFY: Nifty IT structural AI-deflation overhang intact (2-3%/yr revenue deflation, 30-40% of IT-services revenue 'at risk', peak impact FY26-FY28); NASSCOM FY26 tech revenue $315bn (+6.1%). No fresh INFY-specific datum in window; Rs 25 dividend record date June 10 ~2 weeks out; IDBI Capital HOLD/TP Rs 1,355 carried. Thesis remains value-vs-structural-decline, consistent with the graph HOLD. June MPC, June 10 dividend, and any India-US trade-deal IT carve-out (B3) are the only near-term supports.",
+          "sources": [
+            "news-intel-nse.md Agent A Section B8/A4/C-INFY",
+            "NASSCOM (Tier 1)",
+            "IDBI Capital (sell-side, HOLD)"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -20493,7 +20881,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "INTERARCH — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "BUY",
@@ -20526,13 +20914,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -15.37,
         "delta_3m_pct": -8.02,
         "delta_ytd_pct": -22.44,
-        "week_52_high": 2428.0,
+        "week_52_high": 2417.3999,
         "week_52_low": 1632.0,
-        "pct_from_52w_high": -26.45,
+        "pct_from_52w_high": -26.13,
         "pct_from_52w_low": 9.42,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -20657,6 +21045,10 @@ const GRAPH_DATA = {
         {
           "date": "2026-05-27",
           "delta_1d_pct": -1.09
+        },
+        {
+          "date": "2026-05-28",
+          "delta_1d_pct": -1.09
         }
       ],
       "_display_label": "INTERARCH"
@@ -20703,6 +21095,17 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "B",
           "polarity": "negative"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section C2 (transcript graduation, T2 DR-candidate): IPL (India Pesticides) Q4/FY26 results + transcript broadcast 28-May 15:16 -> graduated to ready_for_dr (DR-candidate routing per market-cap tier at /update-graph-nse). RECORD_ONLY severity; transcript-availability datum.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section C2",
+            "NSE transcript 2026-05-28 15:16"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -20906,6 +21309,16 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "C",
           "polarity": "positive"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "C-IRCTC: Q4 FY26 (board May 26-27): consolidated PAT Rs 326.39cr (-8.88% YoY), revenue Rs 1,459.71cr (+15.07% YoY); final dividend Rs 0.50/sh (25% on Rs 2 FV), taking FY26 total dividend to Rs 9.00/sh (Rs 5 + Rs 3.50 interims already paid); legal matters noted as NOT impacting results; shares fell ~2% on the print. Top-line +15% healthy but PAT decline (-8.88%) the disappointing line; -2% reaction confirms market read it as a miss. Monopoly-rail-services thesis structurally intact; margin slippage is the watch item. (Detail refined vs yesterday: final dividend is Rs 0.50, not just 'recommended'.) Polarity negative on the print.",
+          "sources": [
+            "news-intel-nse.md Agent A Section C-IRCTC"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -21426,7 +21839,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "JIOFIN — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": null,
       "current": {
@@ -21440,13 +21853,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -3.16,
         "delta_3m_pct": -6.08,
         "delta_ytd_pct": -17.86,
-        "week_52_high": 306.45,
+        "week_52_high": 306.2,
         "week_52_low": 224.1,
-        "pct_from_52w_high": -20.74,
+        "pct_from_52w_high": -20.68,
         "pct_from_52w_low": 8.38,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -21757,6 +22170,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": 0.92
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": 0.92
         }
       ],
@@ -22444,6 +22861,30 @@ const GRAPH_DATA = {
         }
       ],
       "_display_label": "KALYANKJIL"
+    },
+    "kamdhenu": {
+      "id": "kamdhenu",
+      "name": "KAMDHENU",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 720.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "KAMDHENU"
     },
     "kei": {
       "id": "kei",
@@ -25472,7 +25913,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "LODHA — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "BUY",
@@ -25505,13 +25946,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": 4.62,
         "delta_3m_pct": -13.77,
         "delta_ytd_pct": -13.9,
-        "week_52_high": 1156.6,
+        "week_52_high": 1148.2,
         "week_52_low": 677.0,
-        "pct_from_52w_high": -20.14,
+        "pct_from_52w_high": -19.56,
         "pct_from_52w_low": 36.43,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -25619,6 +26060,10 @@ const GRAPH_DATA = {
         {
           "date": "2026-05-27",
           "delta_1d_pct": 2.21
+        },
+        {
+          "date": "2026-05-28",
+          "delta_1d_pct": 2.21
         }
       ],
       "_display_label": "LODHA"
@@ -25631,7 +26076,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-05-24",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "Created from screener pass on 2026-05-24 — passed mechanical gates (FULL_PASS_TRANSCRIPT_PENDING). Awaiting deep research.",
       "thesis": null,
       "current": {
@@ -25643,14 +26088,14 @@ const GRAPH_DATA = {
         "delta_1d_pct": 0.46,
         "delta_1w_pct": -2.44,
         "delta_1m_pct": -7.73,
-        "delta_ytd_pct": -20.02,
-        "week_52_high": 4987.165,
+        "delta_ytd_pct": -33.87,
+        "week_52_high": 6322.2725,
         "week_52_low": 3868.3584,
-        "pct_from_52w_high": -20.02,
+        "pct_from_52w_high": -36.91,
         "pct_from_52w_low": 3.11,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27",
+        "last_updated": "2026-05-28",
         "delta_3m_pct": -17.33
       },
       "signals": [],
@@ -25679,6 +26124,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": 0.46
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": 0.46
         }
       ],
@@ -25755,6 +26204,17 @@ const GRAPH_DATA = {
           "verification": "REPORTED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section A2/D4: LUMAXIND Outcome of Board Meeting / Audited Q4+FY26 + Final Dividend + Record Date 06-Aug-2026 + Leadership Reshuffle, filed 2026-05-28 17:33-17:46 IST. Unmodified opinion. Internal Auditor (Grant Thornton Bharat LLP) + Cost Auditor (Jitender Navneet & Co) reappointed (routine). Leadership reshuffle, all with named successors, no exits (Lesson 7 N/A): Deepak Jain re-designated CMD -> Chairman (Whole-Time Director); Anmol Jain Joint MD -> Managing Director (w.e.f. 28-May-2026, terms unchanged); Tadayoshi Aoki re-appointed Sr Exec Director/WTD. Planned generational/role realignment within the promoter family — opposite of the Lesson-7 distress signature. Auto-lighting (Stanley JV). SOFT severity; PARTIAL_PASS_T2_UPDATED. Polarity positive.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section A2/D4",
+            "NSE Reg 30 Outcome of Board Meeting 2026-05-28"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -26061,6 +26521,17 @@ const GRAPH_DATA = {
             "NSE reg30_material_info.csv 22-May 15:48:44"
           ],
           "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section A2/D4: LUPIN two Reg 30 PRs, filed 2026-05-28 09:48 & 11:10 IST. (1) Ankleshwar facility received EIR (Establishment Inspection Report) from US FDA following closure of a product-specific Pre-Approval Inspection (2-7 Mar 2026) — clean inspection close, no 483 / no Warning Letter / no import alert. (2) Phase 1 oncology data on LNP8701 (SOS1 inhibitor) presented at ASCO 2026. EIR is a regulatory positive (facility cleared for approvals); ASCO data is early-stage pipeline optionality. SOFT severity; PARTIAL_PASS_T2_UPDATED. Polarity positive.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section A2/D4",
+            "NSE Reg 30 PR 2026-05-28"
+          ],
+          "significance": "medium",
           "verification": "CONFIRMED",
           "source_agent": "C"
         }
@@ -26535,7 +27006,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-05-18",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "Created from screener pass on 2026-05-18 — outcome: FULL_PASS_DR_QUEUED; mechanical screen passed; broadcast 12-May-2026 12:28:35; PE 18.9, mcap ₹1767.0 cr; Q4FY26 investor presentation filed. Awaiting deep research.",
       "thesis": null,
       "current": {
@@ -26549,13 +27020,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -8.87,
         "delta_3m_pct": -14.32,
         "delta_ytd_pct": -20.42,
-        "week_52_high": 392.15,
+        "week_52_high": 391.35,
         "week_52_low": 226.45,
-        "pct_from_52w_high": -22.39,
+        "pct_from_52w_high": -22.23,
         "pct_from_52w_low": 34.4,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -26595,6 +27066,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": -1.49
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": -1.49
         }
       ],
@@ -27697,6 +28172,16 @@ const GRAPH_DATA = {
           "significance": "high",
           "verification": "CONFIRMED",
           "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "B4/A5: IMD below-normal seasonal forecast (El Nino conditions, ~92% LPA, carried) now explicitly cited by economists as an upside risk to food inflation feeding the ~4.1% May CPI estimate (B1). Binding rural-demand + food-price datum for agri/consumer/AC cohorts (COROMANDEL, DHANUKA, VBL, BLUESTARCO). Below-normal-but-hot read mildly extends the summer cooling/beverage demand window.",
+          "sources": [
+            "news-intel-nse.md Agent A Section B4/A5"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [
@@ -27706,8 +28191,8 @@ const GRAPH_DATA = {
           "context": "Per DHANUKA Q3FY26 DR (Bear Point 1: El Niño Risk to Kharif 2026, Severity High): 'Multiple forecasters project 40-60% probability of El Niño forming in mid-2026, which could weaken the Indian monsoon and suppress Kharif crop output. A weak Kharif would compress farmer incomes and delay the demand recovery that the bull case requires. Dhanuka's Q2-Q3 (Kharif season) contributes ~55-60% of annual revenue. A weak monsoon in FY27, on top of flat FY26, would mean two consecutive years of stagnation — killing the cyclical recovery narrative.' DR explicitly flags April IMD forecast as the definitive catalyst date, May 2026 (Q4 FY26 results) as the position-add timing. The April 13 2026 actual IMD forecast at 92% LPA materially confirms the bear-case scenario the DR flagged probabilistically. Transcript dual-source confirms: management identifies 'high dependence on monsoon and crop prices creating cyclical volatility' as central risk, explicitly acknowledges 'farmer purchasing power severely impacted by low crop prices and extended rainfall,' and flags 'further deterioration in farmer economics leading to prolonged demand weakness' as the kill-condition.",
           "directness": 1,
           "polarity": "negative",
-          "last_activated": "2026-05-27",
-          "activation_count": 5.0,
+          "last_activated": "2026-05-28",
+          "activation_count": 6.0,
           "weight": 10.0,
           "source": "deep_research_reports/DHANUKA_Q3FY26_opus.md"
         },
@@ -27717,8 +28202,8 @@ const GRAPH_DATA = {
           "context": "Per COROMANDEL Q3FY26 DR (line 131, management commentary): 'Tough quarter — extended monsoon withdrawal damaged chilli/grape crops in Andhra/Telangana, affecting agri input consumption.' This is current-quarter realized impact: monsoon-withdrawal pattern transmitted directly to agri-input demand in COROMANDEL's South-India geographic concentration. Combined with Q3 PAT down 4% YoY (₹488 cr from ₹508 cr) and subsidy outstanding surge of 81% YoY to ₹3,785 cr, the monsoon-withdrawal compounded the working-capital stress. Forward-looking: SW Monsoon 2026 quality will determine Kharif 2026 fertilizer volume trajectory (NPK and DAP sales, ~82% of revenue). The IMD 2026 92% LPA below-normal forecast (Apr 13) materially raises downside risk to Kharif 2026 NPK/DAP volumes. Cross-mechanism linkage: weaker monsoon → CAD pressure → USDINR depreciation → phosphate-rock import COGS uplift (the usdinr node carries the FX leg).",
           "directness": 1,
           "polarity": "negative",
-          "last_activated": "2026-05-27",
-          "activation_count": 5.0,
+          "last_activated": "2026-05-28",
+          "activation_count": 6.0,
           "weight": 10.0,
           "source": "deep_research_reports/COROMANDEL_Q3FY26_opus.md"
         },
@@ -27728,9 +28213,9 @@ const GRAPH_DATA = {
           "context": "Per VBL Mar 2026 portfolio review (line 66): 'The CY2025 growth moderation to 8.5% revenue and 16% PAT growth was driven by: (a) heavy unseasonal rainfall impacting Q2/Q3 demand, (b) competitive intensity from Campa Cola at the Rs 10 price point, and (c) high base effect from CY2024s strong 25% growth. This is not structural deterioration — it is cyclical/weather-driven.' Quantification: rural revenue share ~30%, growing faster than urban; India volume CAGR target 12-15% includes 'rural penetration' as a key driver. Mechanism: monsoon quality → rural disposable income (~30% of VBL India revenue) + summer-beverage demand pattern (heavy rainfall depresses Q2/Q3 carbonated-soft-drink consumption; deficient rainfall affects rural farmer income → discretionary FMCG demand). Asymmetric polarity: BOTH heavy unseasonal rainfall AND deficient rainfall are negative for VBL — the optimal regime is well-distributed normal monsoon. Directness 2 (indirect via demand cycle, not commodity input). Below-normal 2026 forecast at 92% LPA is BEARISH for VBL on the deficient-rainfall channel; upside risk if 2025-style late-season excess returns is neutral-to-bearish on the unseasonal-rainfall channel.",
           "directness": 2,
           "polarity": "negative",
-          "last_activated": "2026-05-27",
-          "activation_count": 5.0,
-          "weight": 7.5,
+          "last_activated": "2026-05-28",
+          "activation_count": 6.0,
+          "weight": 9.0,
           "source": "deep_research_reports/VBL_PORTFOLIO_REVIEW_Mar2026.md"
         }
       ],
@@ -30187,6 +30672,17 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "C",
           "polarity": "positive"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section A1/C1 (transcript graduation): POCL Con-call Recording Link (analyst_call) + Newspaper Publication, filed 2026-05-27 18:46 / 18:37 IST. Q4 earnings-call recording now on disk -> POCL graduates pending-transcript -> ready_for_dr. Q4/FY26 audited results + corporate-action cluster (5:2 split, ID appointment, MD->CMD elevation, new copper-recycling plant) covered 26-27 May give DR-refresh material. (tier-disagree carry: graph=T1 / DB=T2.) RECORD_ONLY severity; transcript-availability datum.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section A1/C1",
+            "NSE analyst_call recording link 2026-05-27"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -30663,6 +31159,16 @@ const GRAPH_DATA = {
           ],
           "significance": "high",
           "verification": "CONFIRMED",
+          "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Section D/A9/C-POWERMECH: T&D/EPC cohort ME exposure sharpened by the May 28 ceasefire violation (B5); KPIL Rs 200-300cr Q4 ME hit is the cohort magnitude read. POWERMECH's Rs 55,151cr backlog (largely domestic/power) insulates it more than ENGINERSIN. No fresh corporate event in window; positive on the backlog, ME tail the cohort watch.",
+          "sources": [
+            "news-intel-nse.md Agent A Section D/A9/C-POWERMECH"
+          ],
+          "significance": "medium",
+          "verification": "REPORTED",
           "source_agent": "A"
         }
       ],
@@ -31849,6 +32355,16 @@ const GRAPH_DATA = {
           "verification": "REPORTED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "C-RADICO: Investor-conference blitz May 29 – June 8 (360 ONE Capital, Nomura, ICICI Securities) — in-window scheduling item. Q4/FY26 (May 6-7, carried): FY26 rev Rs 6,059cr (+24.7%), EBITDA Rs 1,018cr (+52.4%), FY26 PAT Rs 600cr (+75%); D'YAVOL 47.5% stake; FY27 guide 25% luxury / 20% P&A volume, debt-free target. Premiumisation story carried into the institutional channel. Positive on carried fundamentals + IR momentum.",
+          "sources": [
+            "news-intel-nse.md Agent A Section C-RADICO"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -32682,6 +33198,28 @@ const GRAPH_DATA = {
           "significance": "high",
           "verification": "CONFIRMED",
           "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "B1: June MPC (June 3-5) ~1 week out; status quo at 5.25% expected for a 3rd consecutive meeting, but with a DEFENSIVE tone — BS poll (May 24) + Republic World (May 27) under Gov. Sanjay Malhotra: most respondents now see at least one HIKE this FY (trajectory reversal 'sooner rather than later') and a majority expect an UPWARD revision to the FY27 CPI forecast, driven by West-Asia-conflict supply distortions. FY27 real-GDP projection 6.9%. Framing shift from 'hold-with-hike-tail' to 'hold-now-but-next-move-is-up'; the Iran ceasefire-violation escalation (B5) feeds the supply-distortion->inflation-upside logic. Modest negative for rate-sensitive duration (JIOFIN/INDIASHLTR/APTUS). India 10Y G-Sec ~7% May 27-28 (was ~7.1% May 22).",
+          "sources": [
+            "news-intel-nse.md Agent A Section B1",
+            "Business Standard MPC poll (Tier 1)",
+            "Republic World (Tier 1B)"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "B1: RBI $5bn USD/INR buy-sell swap settled May 26; RBI continuing dollar-selling intervention through the third week of May, lifting the rupee off its 96.96/97.15 record low to ~95.7-95.9 (carried).",
+          "sources": [
+            "news-intel-nse.md Agent A Section B1/B7"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [
@@ -32690,8 +33228,8 @@ const GRAPH_DATA = {
           "type": "macro_sensitivity",
           "context": "Aptus Value Housing is among India's most profitable HFCs (20% RoE, 7.9% RoA, 8.9% spreads). RBI 125 bps cuts in 2025 (6.50 -> 5.25 across 4 cuts: Feb 25 / Apr 25 / Jun 50 / Dec 25) directly reduce cost of funds while borrower yields stay sticky (82% fixed-rate book), expanding spreads. Cost of borrowing declined 44 bps YoY to 8.3% in Q3 FY26. DR explicitly quantifies: 'Every 25 bps repo cut adds ~10-15 bps to spreads.' Bear case explicitly cites 'RBI may pause rate cuts (possible due to Hormuz-driven inflation), CoB stops falling while yield keeps compressing' — that pause has now materialized in the Feb 6 + Apr 8 2026 holds. Transcript Q3FY26 reaffirms: 'Interest rate risk if RBI reverses rate cuts, impacting cost of funds and spreads.' DR Action Triggers section names: 'RBI April/June 2026 policy: If rate cut cycle continues despite Hormuz, massive positive for HFCs.'",
           "directness": 1,
-          "last_activated": "2026-05-27",
-          "activation_count": 6.5,
+          "last_activated": "2026-05-28",
+          "activation_count": 7.5,
           "weight": 10.0,
           "source": "deep_research_reports/APTUS_Q3FY26_opus.md"
         },
@@ -32700,8 +33238,8 @@ const GRAPH_DATA = {
           "type": "macro_sensitivity",
           "context": "India Shelter is the fastest-growing affordable HFC alongside Home First. RBI 125 bps cumulative cuts in 2025 directly reduce HFC cost of funds. CoF has already declined from 8.8% to 8.3%, with marginal cost at 8.1%. A pending AA- -> AA credit upgrade (expected basis FY26 results) would unlock another 20 bps. DR quantifies: 'At 6.6% spread on Rs 10,000+ Cr book, even 20 bps improvement = Rs 20 Cr incremental annual NII.' Bear case: 'If rates reverse (RBI forced to hike), the entire bull thesis on falling cost of funds collapses. Small-cap and mid-cap indices already down 5-16% from highs.' Transcript Q3FY26 reaffirms 'spread expansion from declining cost of funds (8.3% in Q3FY26) while maintaining yields' as the core catalyst.",
           "directness": 1,
-          "last_activated": "2026-05-27",
-          "activation_count": 5.5,
+          "last_activated": "2026-05-28",
+          "activation_count": 6.5,
           "weight": 10.0,
           "source": "deep_research_reports/INDIASHLTR_Q3FY26_opus.md"
         }
@@ -33247,6 +33785,30 @@ const GRAPH_DATA = {
         }
       ],
       "_display_label": "REDINGTON"
+    },
+    "redtape": {
+      "id": "redtape",
+      "name": "REDTAPE",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 7815.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "REDTAPE"
     },
     "remsonsind": {
       "id": "remsonsind",
@@ -34904,7 +35466,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-05-24",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "Created from screener pass on 2026-05-24 — passed mechanical gates (FULL_PASS_TRANSCRIPT_PENDING). Awaiting deep research.",
       "thesis": null,
       "current": {
@@ -34919,12 +35481,12 @@ const GRAPH_DATA = {
         "delta_3m_pct": 24.32,
         "delta_ytd_pct": 49.35,
         "week_52_high": 1633.6,
-        "week_52_low": 915.8,
+        "week_52_low": 958.7,
         "pct_from_52w_high": 0.0,
-        "pct_from_52w_low": 78.38,
+        "pct_from_52w_low": 70.4,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -34965,6 +35527,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": 2.41
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": 2.41
         }
       ],
@@ -35422,7 +35988,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-05-18",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "Created from screener pass on 2026-05-18 — outcome: FULL_PASS_TRANSCRIPT_PENDING; mechanical screen passed; broadcast 15-May-2026 13:11:55; PE 34.0, mcap ₹2720.0 cr; Q4FY26 investor presentation filed. Awaiting deep research.",
       "thesis": null,
       "current": {
@@ -35435,14 +36001,14 @@ const GRAPH_DATA = {
         "delta_1w_pct": 3.49,
         "delta_1m_pct": 2.37,
         "delta_3m_pct": 10.27,
-        "delta_ytd_pct": 0.6,
-        "week_52_high": 143.03,
+        "delta_ytd_pct": -6.4,
+        "week_52_high": 160.37,
         "week_52_low": 105.65,
-        "pct_from_52w_high": -1.92,
+        "pct_from_52w_high": -12.53,
         "pct_from_52w_low": 32.78,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -35493,6 +36059,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": 3.61
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": 3.61
         }
       ],
@@ -36380,7 +36950,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "SIRCA — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "BUY",
@@ -36413,13 +36983,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -2.42,
         "delta_3m_pct": -8.65,
         "delta_ytd_pct": -13.25,
-        "week_52_high": 523.95,
+        "week_52_high": 519.6,
         "week_52_low": 398.65,
-        "pct_from_52w_high": -20.0,
+        "pct_from_52w_high": -19.33,
         "pct_from_52w_low": 5.14,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -36488,6 +37058,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": -0.08
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": -0.08
         }
       ],
@@ -37205,6 +37779,16 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "C",
           "polarity": "positive"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Section D (T2 in-window print): SKYGOLD Q4 FY26 (board May 27): PAT Rs 84.28cr (+120.8% YoY), rev Rs 1,911.5cr (+80.6% YoY / +8.1% QoQ), EBITDA Rs 140.7cr (+123.3%, margin 7.4% vs 6.0%); FY26 PAT Rs 275.3cr (+107.5%), FY26 rev Rs 6,294.9cr (+77.4%). Jewellery-manufacturing (B2B gold jewellery) cohort; second hard jewellery-cohort beat in two days after SENCO (+151%). The ~7.4% EBITDA margin (vs SENCO 13.7%) shows SKYGOLD is the thinner-margin B2B manufacturer end of the chain; gold-price tailwind double-edged (great for inventory revaluation, reverses on a gold correction).",
+          "sources": [
+            "news-intel-nse.md Agent A Section D"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
         }
       ],
       "edges": [],
@@ -37591,7 +38175,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "SRM — placeholder node created at cold-start seed (2026-04-26). Sector + thesis fields pending market-data-nse.py enrichment and DR ingestion.",
       "thesis": {
         "verdict": "BUY",
@@ -37624,13 +38208,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -0.64,
         "delta_3m_pct": 19.55,
         "delta_ytd_pct": -1.74,
-        "week_52_high": 578.75,
+        "week_52_high": 571.7,
         "week_52_low": 373.7,
-        "pct_from_52w_high": -9.39,
+        "pct_from_52w_high": -8.27,
         "pct_from_52w_low": 40.33,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -37860,6 +38444,10 @@ const GRAPH_DATA = {
         {
           "date": "2026-05-27",
           "delta_1d_pct": 1.7
+        },
+        {
+          "date": "2026-05-28",
+          "delta_1d_pct": 1.7
         }
       ],
       "_display_label": "SRM"
@@ -38059,6 +38647,16 @@ const GRAPH_DATA = {
           "verification": "REPORTED",
           "source_agent": "B",
           "polarity": "ambiguous"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section C3 (diligence monitor): STYLEBAAZA Q4 results 14-May; 14 days, no transcript — approaching/at the degraded-DR threshold. Pending transcript broadcast.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section C3"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
         }
       ],
       "edges": [],
@@ -38584,7 +39182,19 @@ const GRAPH_DATA = {
         "data_source": "yfinance_via_market-data.json",
         "last_updated": "2026-05-27"
       },
-      "signals": [],
+      "signals": [
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section C2 (transcript graduation, T2 DR-candidate): TCI (Transport Corporation of India) Q4/FY26 results + audio recording link broadcast 28-May 13:03 -> graduated to ready_for_dr. RECORD_ONLY severity; transcript-availability datum.",
+          "sources": [
+            "filings-intel-nse.md Agent C Section C2",
+            "NSE audio recording link 2026-05-28 13:03"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "C"
+        }
+      ],
       "edges": [],
       "management_promises": [],
       "trigger_points": [],
@@ -39622,7 +40232,7 @@ const GRAPH_DATA = {
       "sector": "capital_goods",
       "industry": "power-transmission-and-distribution-epc",
       "created": "2026-04-26",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "T&D EPC specialist with backward-integrated tower + conductor manufacturing across 63 countries (12.7% EBITDA / 35% ROCE / debt-free). BUY (7.5/10) + CR=CONFIRMED (8.0/10 — UPGRADED on stronger PGCIL pipeline + HVDC + 765kV backlog). Watching FY26 order intake completion + Asiana Fund exit + Hormuz MENA stability + greenfield commissioning Apr 2026 as next inflections.",
       "value_chain_summary": "INPUTS: in-house galvanized steel towers + conductors (backward integration moat — peers buy externally); steel + aluminum (NOT copper per management — 'we don't use copper'); zinc for galvanization; cement + civil materials. OUTPUTS: T&D EPC (~90% revenue) including 765kV + HVDC Khavda-Nagpur + 220kV substations + tower fabrication + conductor stringing; civil construction (bridges, cooling towers, elevated roads); railways; poles & lighting. DOWNSTREAM: PGCIL India (Rs 37,000 cr FY27 capex +32% YoY / Rs 1 trillion 3-yr plan); state electricity utilities; CEA 500 GW non-fossil 2030 = Rs 2.4 lakh cr transmission infra; international 43% order book — Africa Rs 4,000 cr / SAARC Rs 1,200 cr (Bangladesh reducing) / MENA Rs 750-800 cr (Abu Dhabi, Oman, Jordan — NOT Saudi); 50+ GW stranded RE = urgency driver. MACRO NET: most-sensitive to India infra capex (PGCIL trajectory), steel + aluminum global prices (tower+conductor input), USDINR (international order realization + raw material), RBI repo (Rs 463 cr net debt servicing low at 0.57x Net Debt/EBITDA), Hormuz / MENA geopolitics (Rs 750-800 cr exposure), Bangladesh political stability (~Rs 600-700 cr remaining). PEERS: KEC International (Rs 24,500 cr mcap, 8% EBITDA, 14% ROCE), Kalpataru Projects (Rs 21,000 cr mcap, 8.6% EBITDA, 14% ROCE), L&T PT&D (segment of L&T, ~Rs 25,000+ cr revenue), Skipper (domestic-focused). KILL MECHANISMS: India PGCIL capex slowdown (fiscal consolidation / 500 GW target push to 2035) + Bangladesh receivables default + Hormuz escalation hitting MENA simultaneously, OR EBITDA margin mean-reversion to 8% sector average + working capital blowout above 100 days.",
       "thesis": {
@@ -39675,13 +40285,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -19.79,
         "delta_3m_pct": -13.5,
         "delta_ytd_pct": -11.79,
-        "week_52_high": 650.7,
+        "week_52_high": 637.15,
         "week_52_low": 452.0,
-        "pct_from_52w_high": -24.44,
+        "pct_from_52w_high": -22.84,
         "pct_from_52w_low": 8.77,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "price_snapshots": [
         {
@@ -39919,6 +40529,28 @@ const GRAPH_DATA = {
           "verification": "CONFIRMED",
           "source_agent": "C",
           "polarity": "negative"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Section D/A9/C-TRANSRAILL: T&D/EPC cohort ME exposure sharpened by the May 28 ceasefire violation (B5); KPIL Rs 200-300cr Q4 ME hit is the cohort read — TRANSRAILL's Q4 margin compression to 5.1% is consistent with cohort-wide ME/execution headwinds, and the ME tail applies to TRANSRAILL's forward inflows. Q4/FY26 print (board May 27, carried): Q4 PAT Rs 97cr (-24% YoY) on margin compression to 5.1%, BUT FY26 rev Rs 6,880cr (+30%), FY26 PAT Rs 421cr (+28%), EBITDA Rs 820cr (+21%); record UEOB Rs 16,361cr; FY26 inflows Rs 8,520cr; FY27 guide 20-22% rev growth; Rs 2/sh dividend + Rs 203cr capex approved. Weight the order book over the Q4 PAT line. (F11 GST-penalty/IT-search arc is Agent C's domain.)",
+          "sources": [
+            "news-intel-nse.md Agent A Section D/A9/C-TRANSRAILL"
+          ],
+          "significance": "high",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent C Section F11 (CRITICAL carry-forward, web-corroborated update): Income Tax Section-132 search + auditor Emphasis of Matter vs IR-omission; CRITICAL/material-risk-monitor opened 2026-05-26, stays OPEN. No new substantive Reg 30 this window (only routine results-publication newspaper row 28-May 14:11). WEB UPDATE (corroborated): the IT search (24-28 Mar) concluded with no operational impact; the related GST demand Rs 8.23cr + penalty Rs 42.74cr (CGST/TNGST, FY2019-20) was confirmed via a Dy. Commissioner (Appeals), Chennai order dated 20-May-2026 — company plans to appeal, states no material financial impact. Separately, web surfaced an NSE/BSE WARNING to Transrail for inaccurate disclosure on a senior-management termination — a governance-process flag added to the arc. Watch: (a) IT assessment order/demand; (b) any KMP exit in next 21-60 days (Lesson 7 overlay -> 9/10); (c) GST appeal outcome; (d) follow-through on the disclosure-accuracy warning. Phase-2a-uncovered primary-source path (surfaced via WebSearch, not a wired regulator scraper).",
+          "sources": [
+            "filings-intel-nse.md Agent C Section F11",
+            "Dy. Commissioner (Appeals) Chennai order 20-May-2026 (web-corroborated)",
+            "NSE/BSE disclosure-accuracy warning (web-corroborated)"
+          ],
+          "significance": "high",
+          "verification": "REPORTED",
+          "source_agent": "C"
         }
       ],
       "edges": [
@@ -40376,6 +41008,10 @@ const GRAPH_DATA = {
         {
           "date": "2026-05-27",
           "delta_1d_pct": -5.29
+        },
+        {
+          "date": "2026-05-28",
+          "delta_1d_pct": -5.29
         }
       ],
       "_display_label": "TRANSRAILL"
@@ -40538,6 +41174,30 @@ const GRAPH_DATA = {
         }
       ],
       "_display_label": "TRENT"
+    },
+    "uniparts": {
+      "id": "uniparts",
+      "name": "UNIPARTS",
+      "type": "stock",
+      "tier": 2,
+      "sector": null,
+      "industry": null,
+      "created": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "summary": "Created from screener pass on 2026-05-28 (FULL_PASS_TRANSCRIPT_PENDING) — passed mechanical + cooldown gates; transcript not yet on disk. Awaiting deep research.",
+      "thesis": null,
+      "current": {
+        "price": null,
+        "delta_1d": null,
+        "delta_1w": null,
+        "delta_1m": null,
+        "market_cap_cr": 2754.0
+      },
+      "signals": [],
+      "edges": [],
+      "management_promises": [],
+      "trigger_points": [],
+      "_display_label": "UNIPARTS"
     },
     "univastu": {
       "id": "univastu",
@@ -41295,6 +41955,26 @@ const GRAPH_DATA = {
           "verification": "REPORTED",
           "source_agent": "B",
           "polarity": "negative"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "B1/B7/A1: Rupee held off its 96.96/97.15 record low to ~95.7-95.9 on continuing RBI dollar-selling intervention ($5bn USD/INR buy-sell swap settled May 26). The Iran ceasefire-violation escalation (B5) keeps the imported-inflation / rupee-pressure tail live into the June 3-5 MPC. (Agent B fresh 05-28 EOD: USD/INR 95.68, -0.23%, mild rupee-positive, re-coupled to a soft DXY -0.14% — Agent B owns the price attribution.)",
+          "sources": [
+            "news-intel-nse.md Agent A Section B1/B7/A1"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "A"
+        },
+        {
+          "date": "2026-05-28",
+          "content": "Agent B Section B6/E (FRESH 05-28): USD/INR 95.68 (-0.23% 1D, mild rupee-POSITIVE) tracking a soft DXY (99.07, -0.14%) — rupee + broad dollar moved TOGETHER, NOT an India-specific divergence. REGIME SHIFT vs 05-27 (when the rupee weakened +0.45% against a flat dollar — an India-specific FII-outflow candidate): today's decoupling CLOSED. No India-specific signal / no FII-outflow signal tonight; rupee tracking the dollar, consistent with crude staying soft (import-bill-supportive). Move is sub-0.5% (sub-threshold) but the regime re-coupling is the note. EUR/INR +0.21%, JPY/INR +0.04% quiet.",
+          "sources": [
+            "market-action-nse.md Agent B Section B6/E"
+          ],
+          "significance": "medium",
+          "verification": "CONFIRMED",
+          "source_agent": "B"
         }
       ],
       "edges": [
@@ -41954,7 +42634,7 @@ const GRAPH_DATA = {
       "sector": null,
       "industry": null,
       "created": "2026-05-11",
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "summary": "Created from screener pass on 2026-05-11 — passed mechanical gates (Q1FY27 investor presentation). Awaiting deep research; transcript not yet on disk.",
       "thesis": null,
       "current": {
@@ -41969,13 +42649,13 @@ const GRAPH_DATA = {
         "delta_1m_pct": -11.01,
         "delta_3m_pct": 4.73,
         "delta_ytd_pct": -15.07,
-        "week_52_high": 265.8,
+        "week_52_high": 261.5,
         "week_52_low": 165.74,
-        "pct_from_52w_high": -24.21,
+        "pct_from_52w_high": -22.96,
         "pct_from_52w_low": 21.55,
         "last_close_date": "2026-05-27",
         "data_source": "yfinance_via_market-data.json",
-        "last_updated": "2026-05-27"
+        "last_updated": "2026-05-28"
       },
       "signals": [
         {
@@ -42065,6 +42745,10 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-05-27",
+          "delta_1d_pct": 0.82
+        },
+        {
+          "date": "2026-05-28",
           "delta_1d_pct": 0.82
         }
       ],
@@ -44556,9 +45240,9 @@ const GRAPH_DATA = {
       "type": "competitive",
       "context": "Chambal Fertilisers — India's largest private urea maker, ~Rs 22,000 cr mcap, 13x PE, 18% ROCE. Urea-heavy mix vs Coromandel phosphatic mix; substitutable in NPK at the dealer level for some farmer segments. Used for relative-PE read (Coromandel premium 2x+ on platform thesis); compare per-tonne EBITDA quarterly. Different subsidy regime (urea = fixed pricing; phosphatic = NBS).",
       "directness": 1,
-      "weight": 7.5,
-      "last_activated": "2026-05-27",
-      "activation_count": 2.5,
+      "weight": 9.0,
+      "last_activated": "2026-05-28",
+      "activation_count": 3.0,
       "source": "deep_research_reports/COROMANDEL_Q3FY26_opus.md"
     },
     {
@@ -44953,8 +45637,8 @@ const GRAPH_DATA = {
       "context": "Per DHANUKA Q3FY26 DR (Bear Point 1: El Niño Risk to Kharif 2026, Severity High): 'Multiple forecasters project 40-60% probability of El Niño forming in mid-2026, which could weaken the Indian monsoon and suppress Kharif crop output. A weak Kharif would compress farmer incomes and delay the demand recovery that the bull case requires. Dhanuka's Q2-Q3 (Kharif season) contributes ~55-60% of annual revenue. A weak monsoon in FY27, on top of flat FY26, would mean two consecutive years of stagnation — killing the cyclical recovery narrative.' DR explicitly flags April IMD forecast as the definitive catalyst date, May 2026 (Q4 FY26 results) as the position-add timing. The April 13 2026 actual IMD forecast at 92% LPA materially confirms the bear-case scenario the DR flagged probabilistically. Transcript dual-source confirms: management identifies 'high dependence on monsoon and crop prices creating cyclical volatility' as central risk, explicitly acknowledges 'farmer purchasing power severely impacted by low crop prices and extended rainfall,' and flags 'further deterioration in farmer economics leading to prolonged demand weakness' as the kill-condition.",
       "directness": 1,
       "weight": 10.0,
-      "last_activated": "2026-05-27",
-      "activation_count": 5.0,
+      "last_activated": "2026-05-28",
+      "activation_count": 6.0,
       "source": "deep_research_reports/DHANUKA_Q3FY26_opus.md"
     },
     {
@@ -44964,8 +45648,8 @@ const GRAPH_DATA = {
       "context": "Per COROMANDEL Q3FY26 DR (line 131, management commentary): 'Tough quarter — extended monsoon withdrawal damaged chilli/grape crops in Andhra/Telangana, affecting agri input consumption.' This is current-quarter realized impact: monsoon-withdrawal pattern transmitted directly to agri-input demand in COROMANDEL's South-India geographic concentration. Combined with Q3 PAT down 4% YoY (₹488 cr from ₹508 cr) and subsidy outstanding surge of 81% YoY to ₹3,785 cr, the monsoon-withdrawal compounded the working-capital stress. Forward-looking: SW Monsoon 2026 quality will determine Kharif 2026 fertilizer volume trajectory (NPK and DAP sales, ~82% of revenue). The IMD 2026 92% LPA below-normal forecast (Apr 13) materially raises downside risk to Kharif 2026 NPK/DAP volumes. Cross-mechanism linkage: weaker monsoon → CAD pressure → USDINR depreciation → phosphate-rock import COGS uplift (the usdinr node carries the FX leg).",
       "directness": 1,
       "weight": 10.0,
-      "last_activated": "2026-05-27",
-      "activation_count": 5.0,
+      "last_activated": "2026-05-28",
+      "activation_count": 6.0,
       "source": "deep_research_reports/COROMANDEL_Q3FY26_opus.md"
     },
     {
@@ -44974,9 +45658,9 @@ const GRAPH_DATA = {
       "type": "macro_sensitivity",
       "context": "Per VBL Mar 2026 portfolio review (line 66): 'The CY2025 growth moderation to 8.5% revenue and 16% PAT growth was driven by: (a) heavy unseasonal rainfall impacting Q2/Q3 demand, (b) competitive intensity from Campa Cola at the Rs 10 price point, and (c) high base effect from CY2024s strong 25% growth. This is not structural deterioration — it is cyclical/weather-driven.' Quantification: rural revenue share ~30%, growing faster than urban; India volume CAGR target 12-15% includes 'rural penetration' as a key driver. Mechanism: monsoon quality → rural disposable income (~30% of VBL India revenue) + summer-beverage demand pattern (heavy rainfall depresses Q2/Q3 carbonated-soft-drink consumption; deficient rainfall affects rural farmer income → discretionary FMCG demand). Asymmetric polarity: BOTH heavy unseasonal rainfall AND deficient rainfall are negative for VBL — the optimal regime is well-distributed normal monsoon. Directness 2 (indirect via demand cycle, not commodity input). Below-normal 2026 forecast at 92% LPA is BEARISH for VBL on the deficient-rainfall channel; upside risk if 2025-style late-season excess returns is neutral-to-bearish on the unseasonal-rainfall channel.",
       "directness": 2,
-      "weight": 7.5,
-      "last_activated": "2026-05-27",
-      "activation_count": 5.0,
+      "weight": 9.0,
+      "last_activated": "2026-05-28",
+      "activation_count": 6.0,
       "source": "deep_research_reports/VBL_PORTFOLIO_REVIEW_Mar2026.md"
     },
     {
@@ -45030,8 +45714,8 @@ const GRAPH_DATA = {
       "context": "Aptus Value Housing is among India's most profitable HFCs (20% RoE, 7.9% RoA, 8.9% spreads). RBI 125 bps cuts in 2025 (6.50 -> 5.25 across 4 cuts: Feb 25 / Apr 25 / Jun 50 / Dec 25) directly reduce cost of funds while borrower yields stay sticky (82% fixed-rate book), expanding spreads. Cost of borrowing declined 44 bps YoY to 8.3% in Q3 FY26. DR explicitly quantifies: 'Every 25 bps repo cut adds ~10-15 bps to spreads.' Bear case explicitly cites 'RBI may pause rate cuts (possible due to Hormuz-driven inflation), CoB stops falling while yield keeps compressing' — that pause has now materialized in the Feb 6 + Apr 8 2026 holds. Transcript Q3FY26 reaffirms: 'Interest rate risk if RBI reverses rate cuts, impacting cost of funds and spreads.' DR Action Triggers section names: 'RBI April/June 2026 policy: If rate cut cycle continues despite Hormuz, massive positive for HFCs.'",
       "directness": 1,
       "weight": 10.0,
-      "last_activated": "2026-05-27",
-      "activation_count": 6.5,
+      "last_activated": "2026-05-28",
+      "activation_count": 7.5,
       "source": "deep_research_reports/APTUS_Q3FY26_opus.md"
     },
     {
@@ -45041,8 +45725,8 @@ const GRAPH_DATA = {
       "context": "India Shelter is the fastest-growing affordable HFC alongside Home First. RBI 125 bps cumulative cuts in 2025 directly reduce HFC cost of funds. CoF has already declined from 8.8% to 8.3%, with marginal cost at 8.1%. A pending AA- -> AA credit upgrade (expected basis FY26 results) would unlock another 20 bps. DR quantifies: 'At 6.6% spread on Rs 10,000+ Cr book, even 20 bps improvement = Rs 20 Cr incremental annual NII.' Bear case: 'If rates reverse (RBI forced to hike), the entire bull thesis on falling cost of funds collapses. Small-cap and mid-cap indices already down 5-16% from highs.' Transcript Q3FY26 reaffirms 'spread expansion from declining cost of funds (8.3% in Q3FY26) while maintaining yields' as the core catalyst.",
       "directness": 1,
       "weight": 10.0,
-      "last_activated": "2026-05-27",
-      "activation_count": 5.5,
+      "last_activated": "2026-05-28",
+      "activation_count": 6.5,
       "source": "deep_research_reports/INDIASHLTR_Q3FY26_opus.md"
     },
     {
@@ -45234,19 +45918,19 @@ const GRAPH_DATA = {
     }
   ],
   "meta": {
-    "last_updated": "2026-05-27",
-    "total_nodes": 235,
+    "last_updated": "2026-05-28",
+    "total_nodes": 244,
     "total_edges": 94,
     "tier_counts": {
       "tier_1": 30,
-      "tier_2": 172,
+      "tier_2": 181,
       "macro": 13,
       "sector": 16,
       "commodity": 4,
       "institution": 0
     },
-    "updated_today": 202,
-    "updated_this_week": 225,
+    "updated_today": 24,
+    "updated_this_week": 234,
     "active_triggers": 17,
     "elevated_triggers": 2,
     "silently_dropped_promises": 0,
