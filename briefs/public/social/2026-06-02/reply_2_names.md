@@ -1,6 +1,6 @@
 # Reply 2 — Names worth knowing — 2026-06-02 (v2.3 — 3-post structure)
 
-**Character count:** ~1,160 chars
+**Character count:** ~1,180 chars
 **Format:** 3 bullets max, names + numbers + cause per bullet
 **Posting:** post as a reply to `connections_reply.md` (which is itself a reply to `main_post.md`). Sequence: main → reply 1 (Connections) → reply 2 (Names)
 
@@ -8,8 +8,8 @@
 
 Three slices of names worth knowing from Monday's session:
 
-- Monday's Q4 results: Titagarh Rail Systems (TITAGARH) posted standalone PAT of ₹53.96 cr (+19.5% QoQ), one of the cleanest operating quarters in the rail-capital-goods cohort, but the consolidated FY26 carried a ₹64.78 cr exceptional charge tied to the complete exit from Italian associate Firema, and the stock fell 2.99% as the market digested the exceptional rather than the operating result; MMTC posted ₹126 cr PAT (+172% QoQ) but on revenue of just ₹0.61 cr, hence non-operating treasury and residual realisations
+- Monday's cleanest discovery story was Wockhardt (WOCKPHARMA) +5.98% to a fresh ATH on USFDA approval of Zaynich (cefepime+zidebactam), a novel antibiotic for complicated UTI with an estimated $9 billion US market opportunity; the stock is now +75% in the past month, +57% YTD, the rare Indian pharma name being priced as discovery rather than as the generic-formulations cohort
 
-- Monday's IT cohort lead: Persistent (PERSISTENT) +5.18%, Infosys (INFY) +4.29%, Coforge (COFORGE) +4.18%, TCS (TCS) +4.0% and Tech Mahindra (TECHM) +3.43%, all on the Snowflake overnight AI catalyst, with the weaker rupee a secondary tailwind rather than the lead
+- Monday's biggest gainer was PTC Industries (PTCIL) +14.19% on Q4 PAT +143% YoY to ₹59.9 cr with revenue +85%, and Goldman Sachs maintained Buy with a ₹25,770 target on the aerospace-grade titanium ramp; NMDC Steel (NSLNISP) +13.18% to a 52-week high on Q4 flipping the prior-year loss; Shaily Engineering (SHAILY) +5.19% to ATH on the GLP-1 injector-pen narrative
 
-- Monday's downside lead within Nifty 50: Kotak Bank, Bajaj Finance, ITC, Hindustan Unilever and Tata Consumer all fell 1.7-2.8% on the FMCG monsoon scare plus MPC-week financials de-risk; Nifty FMCG was the day's worst at -2.30% and Nifty PSU Bank -1.85% led the financials drag
+- Monday's biggest fall was JP Power (JPPOWER) -14.08% as the May 21 Adani Power 24% stake-acquisition pop (₹2,994 cr) unwound on profit-booking; MTAR Technologies (MTARTECH) -10.28% was the cleanest momentum-reversal of the day after a 92% three-month run and a 165% YTD rally; Finolex Cables (FINCABLES) -12.90% on intraday reversal plus a CEO/CFO transition effective June 1

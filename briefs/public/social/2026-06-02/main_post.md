@@ -1,6 +1,6 @@
 # Twitter Main Post — 2026-06-02 (v2.3 — 5-bullets-max format)
 
-**Character count:** ~1,310 chars
+**Character count:** ~1,340 chars
 **Format:** 5 bullets max, one sentence each
 **Posting order:** post this first, then post `connections_reply.md` as a reply, then `reply_2_names.md` as a reply to that
 
@@ -10,7 +10,7 @@ Broad emerging markets had a strong session Monday (EEM +2.16%, EM Asia +2.18%) 
 
 - The US-Iran 60-day framework slipped again, with Trump sending the draft back to Iran late Sunday on tougher uranium and Hormuz terms, which bounced Brent 3.07% to $94.88 and revived the pass-through worry into Friday's MPC
 
-- Nifty IT was the lone green sector at +3.27% (Persistent +5.18%, Infosys +4.29%, Coforge +4.18%, TCS +4.0%) on Snowflake's overnight result reinforcing the global enterprise-AI-spend thesis, and the weaker rupee was a secondary tailwind rather than the lead
+- Nifty IT was the lone green sector at +3.27% (Persistent +5.18%, Infosys +4.29%, Coforge +4.18%, TCS +4.0%) on the global enterprise-AI bid carrying forward — Snowflake's $6 billion AWS AI deal (May 27) was the catalyst, and the weaker rupee was a secondary tailwind rather than the lead
 
 - The Glenmark/AbbVie pharma question got its answer, with the stock falling another 3.63% and Nifty Pharma extending Friday's drag, so foreign capital is still valuing Indian pharma as a generic-formulations cohort even after a landmark out-licensing deal
 

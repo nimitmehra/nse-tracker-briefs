@@ -1,6 +1,6 @@
 # Connections Reply — 2026-06-02 (v2.3 — 3-bullets-max format)
 
-**Character count:** ~1,080 chars
+**Character count:** ~1,090 chars
 **Format:** 3 bullets max for the analytical wedge
 **Posting:** post as reply to today's `main_post.md` immediately after the main post goes live
 
