@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>toroIQ Cover — Show-Name Hero — Export 3000×3000</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    background: #1a1a1a;
+    color: #fff;
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+  body {
+    padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 { font-size: 22px; margin-bottom: 6px; font-weight: 700; text-align: center; }
+  .intro { color: #999; margin-bottom: 24px; font-size: 14px; text-align: center; line-height: 1.6; max-width: 800px; }
+
+  /* The cover — designed at 800×800, show-name as hero (NPR Marketplace pattern) */
+  .cover {
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(135deg, #0d3b3e 0%, #114e51 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 60px 50px;
+    box-shadow: 0 12px 60px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Soft circles in background (kept from V3) */
+  .shape-1 {
+    position: absolute;
+    top: -120px;
+    right: -120px;
+    width: 440px;
+    height: 440px;
+    background: rgba(255, 196, 102, 0.10);
+    border-radius: 50%;
+  }
+  .shape-2 {
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+    width: 280px;
+    height: 280px;
+    background: rgba(255, 196, 102, 0.06);
+    border-radius: 50%;
+  }
+
+  /* TOP ZONE — brand header (small) */
+  .top-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+  }
+  .brand-mark {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    color: #fff;
+    letter-spacing: -2.5px;
+    line-height: 1;
+  }
+  .brand-mark .iq {
+    color: #ffc466;
+  }
+  .brand-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    color: rgba(255, 196, 102, 0.85);
+    letter-spacing: 7px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .brand-divider {
+    width: 40px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.25);
+    margin-top: 14px;
+  }
+
+  /* CENTER ZONE — show name (HERO) */
+  .show-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 0.95;
+    letter-spacing: -3px;
+    z-index: 2;
+  }
+  .show-title .line {
+    display: block;
+    font-size: 130px;
+  }
+  .show-title .accent-stripe {
+    display: block;
+    width: 100px;
+    height: 6px;
+    background: #ffc466;
+    margin: 22px auto 22px auto;
+  }
+
+  /* BOTTOM ZONE — tagline */
+  .bottom-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+  }
+  .tagline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .export-instructions {
+    margin-top: 30px;
+    max-width: 800px;
+    background: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .export-instructions h2 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+  .export-instructions ol {
+    padding-left: 22px;
+  }
+  .export-instructions li {
+    margin-bottom: 8px;
+  }
+  .export-instructions code {
+    background: #2a2a2a;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #ffc466;
+    font-size: 12px;
+  }
+  .change-note {
+    background: rgba(132, 204, 22, 0.08);
+    border-left: 3px solid #84cc16;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    max-width: 800px;
+    font-size: 13px;
+    color: #c8e6a0;
+    line-height: 1.6;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<h1>toroIQ Daily Brief — Show Name as Hero</h1>
+<p class="intro">
+  Show name dominant (NPR Marketplace / NYT The Daily pattern). Brand smaller at top. Better for Spotify discovery — listeners search "India markets" not "toroIQ."
+</p>
+
+<div class="change-note">
+  <strong>What changed from previous version:</strong> "toroIQ" reduced to a small brand header at top (~56px). "INDIA MARKETS BRIEF" promoted to the visual hero (~130px per line). Gold accent stripe sits between brand zone and show title. Tagline preserved at bottom. Soft circles + deep teal palette unchanged.
+</div>
+
+<!-- =========================================================== -->
+<!-- THE COVER — screenshot this element                       -->
+<!-- =========================================================== -->
+<div class="cover">
+  <div class="shape-1"></div>
+  <div class="shape-2"></div>
+
+  <div class="top-zone">
+    <div class="brand-mark">toro<span class="iq">IQ</span></div>
+    <div class="brand-label">PODCAST</div>
+    <div class="brand-divider"></div>
+  </div>
+
+  <div class="show-title">
+    <span class="line">INDIA</span>
+    <span class="line">MARKETS</span>
+    <span class="accent-stripe"></span>
+    <span class="line">BRIEF</span>
+  </div>
+
+  <div class="bottom-zone">
+    <div class="tagline">PRE-MARKET · WEEKDAYS</div>
+  </div>
+</div>
+
+<div class="export-instructions">
+  <h2>Export to 3000×3000 PNG</h2>
+  <ol>
+    <li><strong>Screenshot:</strong> Press <code>Cmd + Shift + 4</code> → <code>Space</code> → click the cover</li>
+    <li><strong>Open in Preview:</strong> Double-click the screenshot from Desktop</li>
+    <li><strong>Upscale:</strong> Tools → Adjust Size → 3000 px wide → Scale proportionally + Resample image both checked → OK</li>
+    <li><strong>Save as PNG:</strong> File → Export → PNG → save as <code>toroiq_cover_v1.png</code></li>
+    <li><strong>Upload to Spotify</strong> in the cover art field</li>
+  </ol>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>toroIQ Cover — 3000×3000 Render Target</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 3000px;
+    height: 3000px;
+    overflow: hidden;
+    background: #0d3b3e;
+  }
+
+  /* 3000x3000 cover (sizes multiplied 3.75x from the 800px reference) */
+  .cover {
+    width: 3000px;
+    height: 3000px;
+    background: linear-gradient(135deg, #0d3b3e 0%, #114e51 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 225px 188px;
+  }
+
+  /* Soft circles */
+  .shape-1 {
+    position: absolute;
+    top: -450px;
+    right: -450px;
+    width: 1650px;
+    height: 1650px;
+    background: rgba(255, 196, 102, 0.10);
+    border-radius: 50%;
+  }
+  .shape-2 {
+    position: absolute;
+    bottom: -300px;
+    left: -300px;
+    width: 1050px;
+    height: 1050px;
+    background: rgba(255, 196, 102, 0.06);
+    border-radius: 50%;
+  }
+
+  /* TOP — small brand header */
+  .top-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+  }
+  .brand-mark {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 210px;
+    color: #fff;
+    letter-spacing: -9px;
+    line-height: 1;
+  }
+  .brand-mark .iq {
+    color: #ffc466;
+  }
+  .brand-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 49px;
+    color: rgba(255, 196, 102, 0.85);
+    letter-spacing: 26px;
+    font-weight: 700;
+    margin-top: 38px;
+  }
+  .brand-divider {
+    width: 150px;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.25);
+    margin-top: 52px;
+  }
+
+  /* CENTER — show name HERO */
+  .show-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 0.95;
+    letter-spacing: -11px;
+    z-index: 2;
+  }
+  .show-title .line {
+    display: block;
+    font-size: 487px;
+  }
+  .show-title .accent-stripe {
+    display: block;
+    width: 375px;
+    height: 22px;
+    background: #ffc466;
+    margin: 82px auto 82px auto;
+  }
+
+  /* BOTTOM — tagline */
+  .bottom-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+  }
+  .tagline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 56px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="shape-1"></div>
+  <div class="shape-2"></div>
+
+  <div class="top-zone">
+    <div class="brand-mark">toro<span class="iq">IQ</span></div>
+    <div class="brand-label">PODCAST</div>
+    <div class="brand-divider"></div>
+  </div>
+
+  <div class="show-title">
+    <span class="line">INDIA</span>
+    <span class="line">MARKETS</span>
+    <span class="accent-stripe"></span>
+    <span class="line">BRIEF</span>
+  </div>
+
+  <div class="bottom-zone">
+    <div class="tagline">PRE-MARKET · WEEKDAYS</div>
+  </div>
+</div>
+
+</body>
+</html>

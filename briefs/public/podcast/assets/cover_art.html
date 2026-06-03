@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>toroIQ Podcast Cover — Navy / Purple / Lime / Saffron</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0d0d0d;
+    color: #fff;
+    font-family: 'Inter', -apple-system, sans-serif;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  h1 { font-size: 24px; margin-bottom: 8px; font-weight: 700; }
+  .intro { color: #888; margin-bottom: 30px; font-size: 14px; line-height: 1.6; }
+  .palette {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .swatch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #1a1a1a;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+  .swatch-color {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .variant {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .variant-label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+  .variant-desc {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .cover-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .full-size-note {
+    font-size: 11px;
+    color: #666;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+
+  /* ============================================================ */
+  /* V1 — WORDMARK DOMINANT — Navy base, Lime "IQ", Saffron line  */
+  /* ============================================================ */
+  .v1 {
+    width: 100%;
+    height: 100%;
+    background: #0f1535;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    overflow: hidden;
+  }
+  .v1::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    width: 60%;
+    height: 60%;
+    background: radial-gradient(circle, rgba(124, 58, 237, 0.35), transparent 70%);
+    border-radius: 50%;
+  }
+  .v1::after {
+    content: '';
+    position: absolute;
+    bottom: -25%;
+    left: -25%;
+    width: 70%;
+    height: 70%;
+    background: radial-gradient(circle, rgba(132, 204, 22, 0.18), transparent 70%);
+    border-radius: 50%;
+  }
+  .v1-top-label {
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.2vw;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    z-index: 2;
+  }
+  .v1-brand {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 10vw;
+    color: #fff;
+    letter-spacing: -0.05em;
+    line-height: 1;
+    margin-bottom: 2%;
+    z-index: 2;
+  }
+  .v1-brand .iq {
+    color: #a78bfa;
+  }
+  .v1-accent-line {
+    width: 9%;
+    height: 6px;
+    background: #ff9933;
+    margin: 2.5% 0 3% 0;
+    z-index: 2;
+  }
+  .v1-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.2vw;
+    color: rgba(255, 255, 255, 0.95);
+    letter-spacing: 0.05em;
+    text-align: center;
+    z-index: 2;
+  }
+  .v1-tagline {
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1vw;
+    color: #84cc16;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    z-index: 2;
+  }
+
+  /* ============================================================ */
+  /* V2 — COLOR-SPLIT DIAGONAL — Purple + Navy, Lime + Saffron     */
+  /* ============================================================ */
+  .v2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #4c1d95 0%, #0f1535 60%, #0f1535 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10%;
+    overflow: hidden;
+  }
+  .v2-circle {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 50%;
+    height: 50%;
+    background: rgba(132, 204, 22, 0.12);
+    border-radius: 50%;
+  }
+  .v2-dot {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 3vw;
+    height: 3vw;
+    background: #84cc16;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(132, 204, 22, 0.4);
+  }
+  .v2-top-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3vw;
+    color: #ff9933;
+    letter-spacing: 0.35em;
+    font-weight: 700;
+    margin-bottom: 4%;
+    z-index: 2;
+  }
+  .v2-brand {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 11vw;
+    color: #fff;
+    line-height: 0.95;
+    letter-spacing: -0.05em;
+    margin-bottom: 3%;
+    z-index: 2;
+  }
+  .v2-brand .iq {
+    color: #84cc16;
+    font-style: italic;
+  }
+  .v2-divider {
+    width: 7%;
+    height: 5px;
+    background: #ff9933;
+    margin-bottom: 3%;
+    z-index: 2;
+  }
+  .v2-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 2.2vw;
+    color: #fff;
+    letter-spacing: 0.04em;
+    z-index: 2;
+  }
+  .v2-tagline {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1vw;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.25em;
+    font-weight: 500;
+    z-index: 2;
+  }
+
+  /* ============================================================ */
+  /* V3 — EDITORIAL POP — Deep navy, Lime IQ, Saffron stripe       */
+  /* ============================================================ */
+  .v3 {
+    width: 100%;
+    height: 100%;
+    background: #0f1535;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    overflow: hidden;
+  }
+  .v3-stripe-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8%;
+    background: #ff9933;
+  }
+  .v3-stripe-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4%;
+    background: linear-gradient(90deg, #7c3aed 0%, #84cc16 100%);
+  }
+  .v3-top-label {
+    position: absolute;
+    top: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #0f1535;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: 0.35em;
+    font-weight: 900;
+    line-height: 8vw;
+    z-index: 2;
+  }
+  .v3-brand {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 11vw;
+    color: #fff;
+    letter-spacing: -0.05em;
+    line-height: 1;
+    margin-bottom: 2%;
+    z-index: 2;
+  }
+  .v3-brand .iq {
+    color: #84cc16;
+  }
+  .v3-purple-bar {
+    width: 12%;
+    height: 5px;
+    background: #a78bfa;
+    margin: 2% 0 3% 0;
+    z-index: 2;
+  }
+  .v3-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.4vw;
+    color: rgba(255, 255, 255, 0.95);
+    letter-spacing: 0.05em;
+    text-align: center;
+    z-index: 2;
+  }
+</style>
+</head>
+<body>
+
+<h1>toroIQ Podcast Cover Art — v2 (Navy / Purple / Lime / Saffron)</h1>
+<p class="intro">
+  Modern fintech feel with India anchor. Pick a composition; the 4-color palette is locked.<br>
+  Export: open in browser → Cmd+= until one cover fills screen → Cmd+Shift+4 → Space → click cover → Preview → resize to 3000×3000 → save as PNG.
+</p>
+
+<div class="palette">
+  <div class="swatch"><div class="swatch-color" style="background:#0f1535"></div>Navy #0f1535</div>
+  <div class="swatch"><div class="swatch-color" style="background:#a78bfa"></div>Purple #a78bfa</div>
+  <div class="swatch"><div class="swatch-color" style="background:#84cc16"></div>Lime #84cc16</div>
+  <div class="swatch"><div class="swatch-color" style="background:#ff9933"></div>Saffron #ff9933</div>
+</div>
+
+<div class="gallery">
+
+  <div class="variant">
+    <div class="variant-label">V1 — Wordmark Dominant</div>
+    <div class="variant-desc">Navy base, purple "IQ", saffron accent line, lime tagline. Most balanced; brand-first.</div>
+    <div class="cover-wrapper">
+      <div class="v1">
+        <div class="v1-top-label">PODCAST</div>
+        <div class="v1-brand">toro<span class="iq">IQ</span></div>
+        <div class="v1-accent-line"></div>
+        <div class="v1-subtitle">INDIA MARKETS BRIEF</div>
+        <div class="v1-tagline">WEEKDAYS · PRE-MARKET</div>
+      </div>
+    </div>
+    <p class="full-size-note">All 4 colors used hierarchically. Purple IQ is the brand cue; saffron stripe is the India cue; lime is the tagline pop. Reads cleanly at thumbnail.</p>
+  </div>
+
+  <div class="variant">
+    <div class="variant-label">V2 — Color-Split Diagonal</div>
+    <div class="variant-desc">Purple-to-navy gradient, lime IQ + dot pop, saffron divider. Most contemporary.</div>
+    <div class="cover-wrapper">
+      <div class="v2">
+        <div class="v2-circle"></div>
+        <div class="v2-dot"></div>
+        <div class="v2-top-label">PODCAST</div>
+        <div class="v2-brand">toro<span class="iq">IQ</span></div>
+        <div class="v2-divider"></div>
+        <div class="v2-subtitle">INDIA MARKETS BRIEF</div>
+        <div class="v2-tagline">WEEKDAYS · 7 AM IST</div>
+      </div>
+    </div>
+    <p class="full-size-note">Most distinctive of the 3. Italic lime "IQ" + glowing dot give energy. Saffron divider holds the India anchor. Risk: more "tech startup" than "finance institution."</p>
+  </div>
+
+  <div class="variant">
+    <div class="variant-label">V3 — Editorial Pop</div>
+    <div class="variant-desc">Bold saffron top stripe, navy center, purple-to-lime gradient bottom. Magazine-cover feel.</div>
+    <div class="cover-wrapper">
+      <div class="v3">
+        <div class="v3-stripe-top"></div>
+        <div class="v3-stripe-bottom"></div>
+        <div class="v3-top-label">PODCAST · WEEKDAYS</div>
+        <div class="v3-brand">toro<span class="iq">IQ</span></div>
+        <div class="v3-purple-bar"></div>
+        <div class="v3-subtitle">INDIA MARKETS BRIEF</div>
+      </div>
+    </div>
+    <p class="full-size-note">Most "editorial" — feels like an Economist or Foreign Affairs cover with the saffron header band. All 4 colors carry weight. Most "designed" of the three.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
