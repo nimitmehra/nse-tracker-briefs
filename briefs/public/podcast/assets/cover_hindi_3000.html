@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>toroIQ Hindi Cover — 3000×3000</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Space+Grotesk:wght@500;700&family=Noto+Sans+Devanagari:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:3000px; height:3000px; overflow:hidden; background:#0d3b3e; }
+  .cover {
+    width:3000px; height:3000px;
+    background:linear-gradient(135deg,#0d3b3e 0%,#114e51 100%);
+    position:relative; display:flex; flex-direction:column;
+    justify-content:space-between; align-items:center;
+    padding:250px 188px;
+  }
+  .shape-1 { position:absolute; top:-450px; right:-450px; width:1650px; height:1650px; background:rgba(255,196,102,0.10); border-radius:50%; }
+  .shape-2 { position:absolute; bottom:-300px; left:-300px; width:1050px; height:1050px; background:rgba(255,196,102,0.06); border-radius:50%; }
+
+  .top-zone { display:flex; flex-direction:column; align-items:center; z-index:2; }
+  .brand-mark { font-family:'Inter',sans-serif; font-weight:900; font-size:200px; color:#fff; letter-spacing:-9px; line-height:1; }
+  .brand-mark .iq { color:#ffc466; }
+  .brand-label { font-family:'Space Grotesk','Noto Sans Devanagari',sans-serif; font-size:66px; color:rgba(255,196,102,0.9); letter-spacing:6px; font-weight:700; margin-top:46px; }
+  .brand-divider { width:150px; height:7px; background:rgba(255,255,255,0.25); margin-top:52px; }
+
+  .show-title { font-family:'Inter','Noto Sans Devanagari',sans-serif; font-weight:900; color:#fff; text-align:center; line-height:1.05; letter-spacing:-2px; z-index:2; }
+  .show-title .line { display:block; font-size:405px; }
+  .show-title .accent-stripe { display:block; width:375px; height:22px; background:#ffc466; margin:74px auto 74px auto; }
+
+  .bottom-zone { display:flex; flex-direction:column; align-items:center; z-index:2; }
+  .tagline { font-family:'Space Grotesk','Noto Sans Devanagari',sans-serif; font-size:72px; color:rgba(255,255,255,0.65); letter-spacing:5px; font-weight:600; text-align:center; }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="shape-1"></div>
+  <div class="shape-2"></div>
+
+  <div class="top-zone">
+    <div class="brand-mark">toro<span class="iq">IQ</span></div>
+    <div class="brand-label">हिंदी पॉडकास्ट</div>
+    <div class="brand-divider"></div>
+  </div>
+
+  <div class="show-title">
+    <span class="line">इंडिया</span>
+    <span class="line">मार्केट्स</span>
+    <span class="accent-stripe"></span>
+    <span class="line">ब्रीफ</span>
+  </div>
+
+  <div class="bottom-zone">
+    <div class="tagline">रोज़ · आसान भाषा में</div>
+  </div>
+</div>
+</body>
+</html>

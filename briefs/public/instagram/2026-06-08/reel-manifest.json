@@ -1,0 +1,30 @@
+{
+  "duration": 54.031,
+  "cards": [
+    {
+      "id": "0_poster",
+      "start": 0.0,
+      "end": 0.1
+    },
+    {
+      "id": "1_market",
+      "start": 0.1,
+      "end": 12.388
+    },
+    {
+      "id": "2_decouple",
+      "start": 12.388,
+      "end": 23.652
+    },
+    {
+      "id": "3_ccl",
+      "start": 23.652,
+      "end": 37.22
+    },
+    {
+      "id": "4_watch",
+      "start": 37.22,
+      "end": 54.031
+    }
+  ]
+}
