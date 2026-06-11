@@ -1,0 +1,30 @@
+{
+  "duration": 52.239,
+  "cards": [
+    {
+      "id": "0_poster",
+      "start": 0.0,
+      "end": 0.1
+    },
+    {
+      "id": "1_market",
+      "start": 0.1,
+      "end": 11.364
+    },
+    {
+      "id": "2_lead",
+      "start": 11.364,
+      "end": 24.335
+    },
+    {
+      "id": "3_jnk",
+      "start": 24.335,
+      "end": 38.244
+    },
+    {
+      "id": "4_watch",
+      "start": 38.244,
+      "end": 52.239
+    }
+  ]
+}

@@ -1,7 +1,12 @@
-# YouTube Channel Descriptions — copy-paste
+# YouTube Channel Descriptions — copy-paste (v2, human-involvement framing)
 
 Paste into: **YouTube → Customize channel → Basic info → Description** (1,000-char limit; both are under it).
 Banners: `banner_english.png` / `banner_hindi.png` (in this folder), 2560×1440.
+
+> **v2 (2026-06-10):** added the "How this is made" block — makes the human/AI split legible to
+> YouTube's inauthentic-content reviewers (real named analyst writes/reviews daily; only the
+> narration is AI, and it's disclosed). Also: tick YouTube's "altered/synthetic content"
+> disclosure checkbox on EVERY upload.
 
 ---
 
@@ -10,13 +15,13 @@ Banners: `banner_english.png` / `banner_hindi.png` (in this folder), 2560×1440.
 ```
 Plain-English daily brief on the Indian market — what moved, and why. No tips, no buy/sell calls.
 
-Every market day, two short things:
+Every market day:
 • A market-wrap reel — the day in under a minute
-• A ~4-minute podcast — where Nifty closed, which sectors moved, and the real reason behind the biggest movers
+• A short podcast episode — where Nifty closed, which sectors moved, and the real reason behind the biggest movers
 
-The goal is simple: help you understand the market, not trade it. Cause and effect, in language a normal person can follow.
+How this is made: every episode is researched, written and reviewed each evening by Nimit Mehra (CFA L3, NISM XA/XB), from that day's market data and verified news. The narration is AI-generated (disclosed on every video) so the brief can ship daily. The analysis is human — and accountable.
 
-By Nimit Mehra (CFA L3, NISM XA/XB). This is general market commentary, not investment advice. SEBI Research Analyst registration is in process. For advice specific to your situation, talk to a SEBI-registered Investment Adviser.
+This is general market commentary, not investment advice. SEBI Research Analyst registration is in process. For advice specific to your situation, talk to a SEBI-registered Investment Adviser.
 
 📩 Free daily brief: https://toroiq.substack.com/
 🎧 Podcast: https://open.spotify.com/show/033rwEHFh1kFDzi9G5SQv8
@@ -30,13 +35,13 @@ By Nimit Mehra (CFA L3, NISM XA/XB). This is general market commentary, not inve
 ```
 रोज़ का Indian market brief, आसान भाषा में — क्या हुआ और क्यों। कोई tips नहीं, कोई buy-sell call नहीं।
 
-हर market day, दो छोटी चीज़ें:
+हर market day:
 • एक market-wrap reel — पूरा दिन एक मिनट से कम में
-• एक ~4 मिनट का podcast — Nifty कहाँ बंद हुआ, किस sector ने क्या किया, और सबसे बड़े movers के पीछे की असली वजह
+• एक छोटा podcast episode — Nifty कहाँ बंद हुआ, किस sector ने क्या किया, और सबसे बड़े movers के पीछे की असली वजह
 
-मकसद सीधा है: market को समझने में मदद करना, trade कराना नहीं।
+ये कैसे बनता है: हर episode उसी दिन के market data और verified news से, हर शाम Nimit Mehra (CFA L3) खुद research करके लिखते और review करते हैं। Narration AI-generated है (हर video पर disclosed), ताकि brief रोज़ निकल सके। Analysis इंसान की है — और जवाबदेह है।
 
-Nimit Mehra (CFA L3) द्वारा, toroIQ से। ये general market commentary है, investment advice नहीं। SEBI Research Analyst registration process में है। अपनी situation के लिए किसी SEBI-registered Investment Adviser से बात करें।
+ये general market commentary है, investment advice नहीं। SEBI Research Analyst registration process में है। अपनी situation के लिए किसी SEBI-registered Investment Adviser से बात करें।
 
 📩 रोज़ का brief: https://toroiq.substack.com/
 🎧 Podcast (हिंदी): https://open.spotify.com/show/033uV72hslyoX5p6bmvBz4
