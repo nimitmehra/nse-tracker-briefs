@@ -1,0 +1,8 @@
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/0_poster.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/1_fall.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/2_fade.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/3_bond.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/4_riser.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/5_faller.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/6_reversal.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-06-11/typed_fast_voiced/seg/7_closer.mp4'
