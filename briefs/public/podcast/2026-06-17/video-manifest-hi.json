@@ -1,0 +1,46 @@
+{
+  "lang": "hi",
+  "duration": 242.037,
+  "cards": [
+    {
+      "id": "1_hook",
+      "start": 0.0,
+      "end": 36.623
+    },
+    {
+      "id": "2_close",
+      "start": 36.623,
+      "end": 74.284
+    },
+    {
+      "id": "3_cautions",
+      "start": 74.284,
+      "end": 121.417
+    },
+    {
+      "id": "4_movers",
+      "start": 121.417,
+      "end": 151.299
+    },
+    {
+      "id": "5_wedge",
+      "start": 151.299,
+      "end": 181.777
+    },
+    {
+      "id": "6_flow",
+      "start": 181.777,
+      "end": 207.904
+    },
+    {
+      "id": "7_watch",
+      "start": 207.904,
+      "end": 224.8
+    },
+    {
+      "id": "8_close",
+      "start": 224.8,
+      "end": 242.037
+    }
+  ]
+}

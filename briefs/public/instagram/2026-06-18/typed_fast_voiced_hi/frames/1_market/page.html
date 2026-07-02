@@ -1,0 +1,41 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Space+Grotesk:wght@500;700&family=Noto+Sans+Devanagari:wght@500;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0d3b3e;}
+.card{width:1080px;height:1920px;background:linear-gradient(150deg,#0d3b3e,#114e51);
+  position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;
+  justify-content:space-between;padding:106px 88px;}
+.glow{position:absolute;border-radius:50%;}
+.g1{width:760px;height:760px;top:-280px;right:-220px;background:rgba(255,196,102,.10);}
+.g2{width:520px;height:520px;bottom:-220px;left:-200px;background:rgba(255,196,102,.05);}
+.row{display:flex;justify-content:space-between;align-items:center;z-index:2;}
+.mk{font-family:'Inter';font-weight:900;font-size:58px;letter-spacing:-3px;color:#fff;}
+.mk .iq{color:#ffc466;}
+.date{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:700;font-size:36px;letter-spacing:2px;color:rgba(255,255,255,.55);text-transform:uppercase;}
+.body{z-index:2;}
+.numlabel{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:700;font-size:42px;letter-spacing:4px;color:rgba(255,196,102,.85);text-transform:uppercase;margin-bottom:6px;opacity:0;}
+.num{font-family:'Inter';font-weight:900;font-size:240px;line-height:.9;letter-spacing:-10px;opacity:0;}
+.up{color:#5fcb97;} .down{color:#e8806a;} .flat{color:#f4efe3;}
+.head{font-family:'Inter','Noto Sans Devanagari';font-weight:900;font-size:80px;line-height:1.12;letter-spacing:-2px;color:#fff;margin-top:14px;opacity:0;}
+.stripe{width:200px;height:22px;background:#ffc466;margin:40px 0;transform:scaleX(0);transform-origin:left;}
+.why{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:500;font-size:50px;line-height:1.55;color:rgba(244,239,227,.92);min-height:440px;opacity:0;}
+.foot{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:600;font-size:36px;letter-spacing:1px;color:rgba(255,255,255,.45);text-transform:uppercase;z-index:2;}
+.cover{justify-content:center;align-items:center;text-align:center;}
+.label{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:700;font-size:42px;letter-spacing:1px;color:rgba(255,196,102,.85);text-transform:uppercase;opacity:0;}
+.big{font-family:'Inter','Noto Sans Devanagari';font-weight:900;font-size:140px;line-height:1.0;letter-spacing:-5px;color:#fff;opacity:0;}
+.sub{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:500;font-size:48px;line-height:1.5;color:rgba(244,239,227,.78);max-width:900px;opacity:0;}
+.fixed-top{position:absolute;top:106px;left:88px;right:88px;}
+.social{position:absolute;bottom:104px;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:22px;z-index:3;}
+.social .icons{display:flex;gap:44px;align-items:center;font-size:58px;color:#ffc466;}
+.social .ic-svg{width:52px;height:52px;fill:#ffc466;}
+.social .handle{font-family:'Space Grotesk';font-weight:700;font-size:42px;letter-spacing:3px;color:#fff;}
+</style>
+<script>
+function ez(p){p=Math.max(0,Math.min(1,p));return 1-Math.pow(1-p,3);}
+function renderAt(tf){
+  function set(sel,st,du,dy){var el=document.querySelector(sel);if(!el)return;var e=ez((tf-st)/du);el.style.opacity=e;if(dy)el.style.transform='translateY('+(dy*(1-e))+'px)';}
+  set('.numlabel',0.02,0.40,14); set('.num',0.06,0.42,18); set('.head',0.12,0.42,14); set('.why',0.28,0.50,14);
+  var sp=document.querySelector('.stripe'); if(sp){sp.style.transform='scaleX('+ez((tf-0.16)/0.40)+')';}
+  set('.label',0.04,0.42,14); set('.big',0.12,0.45,16); set('.sub',0.26,0.50,14);
+}
+</script>
+</head><body><div class='card'><div class='glow g1'></div><div class='glow g2'></div><div class='row'><div class='mk'>toro<span class='iq'>IQ</span></div><div class='date'>18 जून</div></div><div class='body'><div class='numlabel'>NIFTY 50</div><div class='num up'>+0.40%</div><div class='head'>Nifty ने 24,000 पार किया</div><div class='stripe'></div><div class='why'>Nifty 0.40% चढ़कर 24,085.70 पर बंद हुआ, लगातार चौथे up-day पर। आज रात के US Fed decision से पहले पैसा cyclicals में लग रहा था।</div></div><div class='foot'>इंडिया मार्केट्स ब्रीफ</div></div></body></html>

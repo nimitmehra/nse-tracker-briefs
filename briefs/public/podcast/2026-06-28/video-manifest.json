@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "duration": 239.507,
+  "cards": [
+    {
+      "id": "1_hook",
+      "start": 0.0,
+      "end": 35.699
+    },
+    {
+      "id": "2_hormuz",
+      "start": 35.699,
+      "end": 68.993
+    },
+    {
+      "id": "3_inversion",
+      "start": 68.993,
+      "end": 101.605
+    },
+    {
+      "id": "4_tech",
+      "start": 101.605,
+      "end": 136.536
+    },
+    {
+      "id": "5_compound",
+      "start": 136.536,
+      "end": 159.079
+    },
+    {
+      "id": "6_levels",
+      "start": 159.079,
+      "end": 194.692
+    },
+    {
+      "id": "7_watch",
+      "start": 194.692,
+      "end": 224.147
+    },
+    {
+      "id": "8_close",
+      "start": 224.147,
+      "end": 239.507
+    }
+  ]
+}

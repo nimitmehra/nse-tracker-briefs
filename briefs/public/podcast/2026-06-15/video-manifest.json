@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "duration": 185.005,
+  "cards": [
+    {
+      "id": "1_lead",
+      "start": 0.0,
+      "end": 15.36
+    },
+    {
+      "id": "2_friday",
+      "start": 15.36,
+      "end": 57.544
+    },
+    {
+      "id": "3_weekend",
+      "start": 57.544,
+      "end": 85.548
+    },
+    {
+      "id": "4_open",
+      "start": 85.548,
+      "end": 104.251
+    },
+    {
+      "id": "5_flows",
+      "start": 104.251,
+      "end": 133.62
+    },
+    {
+      "id": "6_bonds",
+      "start": 133.62,
+      "end": 155.053
+    },
+    {
+      "id": "7_watch",
+      "start": 155.053,
+      "end": 170.328
+    },
+    {
+      "id": "8_close",
+      "start": 170.328,
+      "end": 185.005
+    }
+  ]
+}

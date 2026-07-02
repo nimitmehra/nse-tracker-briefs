@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "duration": 238.924,
+  "cards": [
+    {
+      "id": "1_hook",
+      "start": 0.0,
+      "end": 37.405
+    },
+    {
+      "id": "2_close",
+      "start": 37.405,
+      "end": 71.127
+    },
+    {
+      "id": "3_relief",
+      "start": 71.127,
+      "end": 110.495
+    },
+    {
+      "id": "4_persistent",
+      "start": 110.495,
+      "end": 130.904
+    },
+    {
+      "id": "5_movers",
+      "start": 130.904,
+      "end": 157.813
+    },
+    {
+      "id": "6_auto",
+      "start": 157.813,
+      "end": 196.243
+    },
+    {
+      "id": "7_watch",
+      "start": 196.243,
+      "end": 223.564
+    },
+    {
+      "id": "8_close",
+      "start": 223.564,
+      "end": 238.924
+    }
+  ]
+}

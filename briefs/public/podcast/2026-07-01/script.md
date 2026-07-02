@@ -1,0 +1,33 @@
+# Podcast Script — 2026-07-01 (evening recap: the unsigned near-deal that lifted the index while IT sank)
+
+**Word count:** ~733 words (spoken body)
+**Estimated duration:** ~4.4 minutes at 165 WPM
+**Self-verify:** PASS with one WARN (TTS-clean: numbers spelled out, no rupee/dollar/percent symbols, zero em-dashes in body; no trader jargon; all sections present; first-person used once in the wedge; trade deal framed UNSIGNED in both hook and What-to-Watch). WARN: body is ~33 words over the 700-word ceiling, on par with yesterday's accepted 727. Kept because the day carries two distinct load-bearing stories (the unsigned US-India near-deal AND the IT three-year-low re-pricing) plus the mandated separate EM-divergence section; further trimming would drop causation, not padding.
+**Skill version:** podcast-script-public-nse v1.7 (evening recap model)
+
+**Composition note (live date 01 July; evening recap of today's close):**
+Evening recap of TODAY's session (Wednesday 01-July, day one of Q2 FY27). Hook inherits the brief's Lead: India and the US are within touching distance of an interim trade deal, and shares rose on the HOPE of it, but nothing is signed and the temporary 10% US tariff expires 24 July. That optimism plus cheaper oil plus record June GST lifted the Nifty +0.59% to 24,005.85 and snapped a two-day fall, while IT alone kept sinking (Nifty IT −2.01%, a three-year low). Cash close used throughout (24,005.85). The wedge is the tell: a weaker rupee should help dollar-earning IT, yet IT fell to a three-year low anyway, so the weakness is demand/AI/US-rates, not currency. KPIT −16.98% (first revenue fall in 23 quarters) is the single-name face. Movers spine: Paisalo (biggest gainer, promoter stake-up), KPIT (biggest fall, IT face), RITES (clean order win). EM divergence handled as an overnight, next-session input (EEM −2.32% after India closed), not today's cause.
+
+**Trade-deal framing:** UNSIGNED. "Close" / "hope of it" / "nothing is signed" in the hook; "still unsigned" at the 24-July deadline in What-to-Watch.
+
+**Audio status:** NOT generated. Awaiting principal review per the TTS gate.
+
+---
+
+Good evening. This is India Markets Brief from toroIQ. Your read on today's session.
+
+Here is the story of today. India and the United States are close to a trade deal, and the hope of it lifted the market. Officials call the talks very close, with only about one percent left to settle. But nothing is signed, and the clock is ticking, because a temporary American tariff on Indian goods expires on the twenty-fourth of July. That hope, along with cheaper oil, pushed the Nifty fifty up a little over half a percent and snapped a two-day fall. Yet underneath the green, one corner kept sinking. India's technology shares fell again, to a fresh three-year low. So today was really two markets in one.
+
+Here is where the market closed today. The Nifty fifty finished at twenty-four thousand and six, up zero point five nine percent. The Sensex and the Bank Nifty rose by about the same small amount. But the real story was the gap between sectors. Money moved out of technology and into home-facing shares. Realty led, up about three and a half percent. Consumer goods, media and autos all rose more than one percent. Technology was the lone loser, down two percent, to a three-year low. That is a spread of more than five percentage points between the best and worst corners, on a day the index barely moved.
+
+There was one more piece of context. After India had closed, emerging-market shares elsewhere fell more than two percent, on a jump in American bond yields. But India had already closed higher on its own, a home-driven up-day standing apart from that weaker crowd.
+
+Now the two forces under the day. On the supportive side, three things lined up. Cheaper oil is showing up in company accounts. Hindustan Unilever [SAY: hin-DUS-tan yoo-nih-LEE-ver] said its input costs should ease as crude falls, part of why consumer shares led. June's goods-and-services-tax collection hit a record, about one lakh ninety-five thousand crore rupees, up nearly fourteen percent on a year earlier. And June car and two-wheeler sales were strong. On the worrying side is the weather. This June closed about forty percent short of normal rain, a direct threat to rural incomes and food prices.
+
+Now the movers. The biggest gainer was Paisalo Digital [SAY: py-SAH-low], a small non-bank lender, up almost twenty percent to a fresh high on promoter confidence. Its own promoters raised their stake to about forty-seven percent, which the market read as a vote of confidence rather than an operating update. The biggest fall was the face of the technology weakness. KPIT Technologies [SAY: K-P-I-T] dropped almost seventeen percent to a one-year low. The company warned that its June-quarter dollar revenue will fall about one percent on a year earlier. That is its first revenue decline in twenty-three quarters, as some European carmakers pulled back after their own profit warnings. Several brokerages cut their targets. The third mover was RITES [SAY: RITE-ess], the state-owned transport consultancy, up about fourteen percent, after winning a fresh order worth about one hundred and seventy-five crore rupees.
+
+Here is the one thing that struck me most about today. A weaker rupee normally helps India's technology exporters, because they earn in dollars and spend in rupees. Today the rupee did weaken, and technology fell to a three-year low anyway. When a sector ignores its own tailwind, the weakness is about demand, not the currency. The worry is structural. Artificial intelligence is starting to do the routine work these firms used to bill for, and American interest rates are staying high. KPIT's first revenue fall in twenty-three quarters put a single name to that fear.
+
+Now, what to watch. Around the third of July, watch the monsoon, where a Bay of Bengal system is expected to finally bring July's rains. The same Friday, the third, brings American jobs data, which matters more now that United States interest rates are weighing on Indian technology. Then Tata Consultancy Services reports on the ninth, and Infosys follows on the twenty-third. And the big one is the twenty-fourth of July, when that temporary American tariff on Indian goods expires, and the trade deal is still unsigned.
+
+That's your brief. Before I sign off: this has been general market commentary, not investment advice. For investment advice tailored to your situation, consult a SEBI-registered Investment Adviser. Markets are risky; you may lose money; act with care. See you tomorrow.

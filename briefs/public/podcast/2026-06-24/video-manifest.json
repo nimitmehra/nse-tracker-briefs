@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "duration": 239.848,
+  "cards": [
+    {
+      "id": "1_hook",
+      "start": 0.0,
+      "end": 20.58
+    },
+    {
+      "id": "2_trigger",
+      "start": 20.58,
+      "end": 74.981
+    },
+    {
+      "id": "3_puzzle",
+      "start": 74.981,
+      "end": 111.433
+    },
+    {
+      "id": "4_cushion",
+      "start": 111.433,
+      "end": 132.696
+    },
+    {
+      "id": "5_pharma",
+      "start": 132.696,
+      "end": 166.332
+    },
+    {
+      "id": "6_vedanta",
+      "start": 166.332,
+      "end": 193.141
+    },
+    {
+      "id": "7_watch",
+      "start": 193.141,
+      "end": 221.587
+    },
+    {
+      "id": "8_close",
+      "start": 221.587,
+      "end": 239.848
+    }
+  ]
+}
