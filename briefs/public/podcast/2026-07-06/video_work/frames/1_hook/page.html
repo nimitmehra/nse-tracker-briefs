@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Space+Grotesk:wght@500;700&family=Noto+Sans+Devanagari:wght@500;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#0d3b3e;}
+.card{width:1920px;height:1080px;background:linear-gradient(135deg,#0d3b3e,#114e51);
+  position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;
+  justify-content:space-between;padding:64px 120px;}
+.glow{position:absolute;border-radius:50%;}
+.g1{width:900px;height:900px;top:-340px;right:-260px;background:rgba(255,196,102,.10);}
+.g2{width:620px;height:620px;bottom:-300px;left:-240px;background:rgba(255,196,102,.05);}
+.row{display:flex;justify-content:space-between;align-items:center;z-index:2;}
+.mk{font-family:'Inter';font-weight:900;font-size:52px;letter-spacing:-3px;color:#fff;}
+.mk .iq{color:#ffc466;}
+.date{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:700;font-size:32px;letter-spacing:4px;color:rgba(255,255,255,.55);text-transform:uppercase;}
+.body{z-index:2;flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;}
+.label{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:700;font-size:34px;letter-spacing:8px;color:rgba(255,196,102,.85);text-transform:uppercase;opacity:0;margin-bottom:26px;}
+.big{font-family:'Inter','Noto Sans Devanagari';font-weight:900;font-size:150px;line-height:.95;letter-spacing:-6px;opacity:0;}
+.up{color:#5fcb97;} .down{color:#e8806a;} .flat{color:#f4efe3;}
+.head{font-family:'Inter','Noto Sans Devanagari';font-weight:900;font-size:70px;line-height:1.08;letter-spacing:-2px;color:#fff;opacity:0;margin-top:18px;}
+.stripe{width:180px;height:18px;background:#ffc466;margin:38px 0;transform:scaleX(0);transform-origin:center;}
+.sub{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:500;font-size:44px;line-height:1.5;color:rgba(244,239,227,.82);max-width:1380px;opacity:0;}
+.foot{font-family:'Space Grotesk','Noto Sans Devanagari';font-weight:600;font-size:32px;letter-spacing:5px;color:rgba(255,255,255,.45);text-transform:uppercase;z-index:2;text-align:center;}
+.social{display:flex;justify-content:center;align-items:center;gap:34px;z-index:2;}
+.social .icons{display:flex;gap:34px;align-items:center;font-size:44px;color:#ffc466;}
+.social .ic-svg{width:40px;height:40px;fill:#ffc466;}
+.social .handle{font-family:'Space Grotesk';font-weight:700;font-size:38px;letter-spacing:3px;color:#fff;}
+</style>
+<script>
+function ez(p){p=Math.max(0,Math.min(1,p));return 1-Math.pow(1-p,3);}
+function renderAt(tf){
+  function set(sel,st,du,dy){var el=document.querySelector(sel);if(!el)return;var e=ez((tf-st)/du);el.style.opacity=e;if(dy)el.style.transform='translateY('+(dy*(1-e))+'px)';}
+  set('.label',0.04,0.55,16); set('.big',0.16,0.6,18); set('.head',0.12,0.55,16); set('.sub',0.30,0.7,16);
+  var sp=document.querySelector('.stripe'); if(sp){sp.style.transform='scaleX('+ez((tf-0.20)/0.5)+')';}
+}
+</script>
+</head><body><div class='card'><div class='glow g1'></div><div class='glow g2'></div><div class='row'><div class='mk'>toro<span class='iq'>IQ</span></div><div class='date'>06 Jul</div></div><div class='body'><div class='label'>today's session</div><div class='head'>Foreign money quietly turned buyer</div><div class='stripe'></div><div class='sub'>The Nifty rose a modest 0.66%, its 4th straight gain, but the real story was underneath. After pulling 49,000+ crore out in June, foreign investors flipped to buyers across early July and stayed buying today (FII +243 crore, DII +3,791 crore). Small and early, but the direction flipped.</div></div><div class='foot'>India Markets Brief</div></div></body></html>
