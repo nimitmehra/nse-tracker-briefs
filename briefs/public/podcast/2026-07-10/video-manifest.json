@@ -1,0 +1,56 @@
+{
+  "lang": "en",
+  "duration": 252.477,
+  "cards": [
+    {
+      "id": "1_hook",
+      "start": 0.0,
+      "end": 37.149
+    },
+    {
+      "id": "2_close",
+      "start": 37.149,
+      "end": 73.787
+    },
+    {
+      "id": "3_money",
+      "start": 73.787,
+      "end": 97.353
+    },
+    {
+      "id": "4_forces",
+      "start": 97.353,
+      "end": 129.041
+    },
+    {
+      "id": "5_indianbank",
+      "start": 129.041,
+      "end": 156.363
+    },
+    {
+      "id": "6_zensar",
+      "start": 156.363,
+      "end": 170.955
+    },
+    {
+      "id": "7_greaves",
+      "start": 170.955,
+      "end": 184.181
+    },
+    {
+      "id": "8_tell",
+      "start": 184.181,
+      "end": 213.977
+    },
+    {
+      "id": "9_watch",
+      "start": 213.977,
+      "end": 236.52
+    },
+    {
+      "id": "10_close",
+      "start": 236.52,
+      "end": 252.477
+    }
+  ]
+}
