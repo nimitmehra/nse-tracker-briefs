@@ -1,0 +1,6 @@
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-07-20/typed_fast_voiced/seg/0p_poster.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-07-20/typed_fast_voiced/seg/1m_market.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-07-20/typed_fast_voiced/seg/2b_banks.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-07-20/typed_fast_voiced/seg/3g_dpab.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-07-20/typed_fast_voiced/seg/4p_pnb.mp4'
+file '/Users/nimitmehra/Manus/NSE-Tracker/briefs/public/instagram/2026-07-20/typed_fast_voiced/seg/5c_closer.mp4'
