@@ -1,0 +1,61 @@
+{
+  "lang": "en",
+  "duration": 240.943,
+  "cards": [
+    {
+      "id": "1_hook",
+      "start": 0.0,
+      "end": 25.871
+    },
+    {
+      "id": "2_close",
+      "start": 25.871,
+      "end": 60.46
+    },
+    {
+      "id": "3_vix",
+      "start": 60.46,
+      "end": 72.151
+    },
+    {
+      "id": "4_diverge",
+      "start": 72.151,
+      "end": 90.683
+    },
+    {
+      "id": "5_forces",
+      "start": 90.683,
+      "end": 123.992
+    },
+    {
+      "id": "6_datapat",
+      "start": 123.992,
+      "end": 147.9
+    },
+    {
+      "id": "7_bandhan",
+      "start": 147.9,
+      "end": 170.272
+    },
+    {
+      "id": "8_mmfin",
+      "start": 170.272,
+      "end": 179.573
+    },
+    {
+      "id": "9_wedge",
+      "start": 179.573,
+      "end": 209.711
+    },
+    {
+      "id": "10_watch",
+      "start": 209.711,
+      "end": 224.473
+    },
+    {
+      "id": "11_close",
+      "start": 224.473,
+      "end": 240.943
+    }
+  ]
+}
