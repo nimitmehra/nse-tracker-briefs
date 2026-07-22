@@ -1,6 +1,6 @@
 # Podcast Script — 2026-07-22 (evening recap: a third straight down day where the fear finally showed up, an oil-and-Iran risk-off that pushed Brent toward ninety-five dollars and dragged India down while the world rose)
 
-**Word count:** 685 words narrated (SAY-hint brackets stripped before TTS)
+**Word count:** 696 words narrated (SAY-hint brackets stripped before TTS)
 **Estimated duration:** ~4.2 minutes at 165 WPM
 **Self-verify:** PASS. TTS-clean (all numbers spelled out; no rupee/dollar/percent symbols; zero em-dashes in body). All sections present. First-person used once, in the wedge. Lead inherited from the brief: a third straight fall where the fear gauge rose on a down day for the first time in the slide, driven by the US-Iran oil spike. EM/India divergence gets its own sentence (India fell while the world rose, decoupling downward on its oil-import bill). Wedge = the Bandhan / M&M Financial pair, the season's clearest lesson that forward guidance moves a bank more than last quarter's profit.
 **Skill version:** podcast-script-public-nse v1.7 (evening recap model)
@@ -26,13 +26,13 @@ The real signal was the fear gauge, India VIX. It rose five and a half percent, 
 
 And here is the unusual part. Overnight, American markets rose, and emerging markets across the region gained nearly three percent, yet India fell anyway. So this was not foreign money fleeing the whole region. It was India going its own way, dragged down by an oil-import bill its neighbours do not carry.
 
-Two forces framed the day. On the worrying side, the oil premium got worse. Brent crude pushed toward ninety-five dollars a barrel, after an eleventh night of United States and Iran strikes and an attack on a tanker in the Strait of Hormuz. That is the lane that carries about a fifth of the world's seaborne oil. For India, costlier crude revives inflation worry, widens the trade gap, and pressures the rupee. On the supportive side, foreign investors were net buyers on Tuesday, about sixteen hundred and fifty crore rupees, while domestic funds sold. One day, and it may not last, but worth watching.
+Two forces framed the day. On the worrying side, the oil premium got worse. Brent crude pushed toward ninety-five dollars a barrel. That came after an eleventh night of United States and Iran strikes, and an attack on a tanker in the Strait of Hormuz. That strait carries about a fifth of the world's seaborne oil. For India, costlier crude revives inflation worry and pressures the rupee. On the supportive side, foreign investors were net buyers on Tuesday, about sixteen hundred and fifty crore rupees, while domestic funds sold. One day, and it may not last, but worth watching.
 
 Now the movers. The cleanest gain was Data Patterns, a defence-electronics company, up nearly thirteen percent. It emerged as the lowest bidder for a project worth about thirteen hundred crore rupees from Hindustan Aeronautics, India's state aircraft maker. One caveat, lowest-bidder status is not yet a signed contract. Even so, the stock closed near its year high against a falling market.
 
-The biggest fall was Bandhan Bank, down about seventeen percent, and it is a lesson in itself. The bank reported a strong quarter, profit up thirty-five percent, bad loans easing. But management cut its forward profitability guidance, the number that shows how much a bank expects to earn on its assets next year, blaming rising deposit costs. The market sold the weaker outlook hard and looked past the good headline.
+The biggest fall was Bandhan Bank, down about seventeen percent. The bank reported a strong quarter, profit up thirty-five percent, bad loans easing. But management cut its forward profitability guidance, the number that shows how much a bank expects to earn on its assets next year, blaming rising deposit costs. The market sold the weaker outlook hard and looked past the good headline.
 
-And the mirror was M and M Financial Services [SAY: M-and-M Financial Services], up about eight percent, on a seventy-five percent jump in profit and its best asset quality in eight years.
+The mirror was M and M Financial Services [SAY: M-and-M Financial Services], up about eight percent. Its profit jumped seventy-five percent, with its best asset quality in eight years.
 
 Here is what struck me most about today. Side by side, those two are the season's clearest lesson on how the market reads a bank. Both grew profit, one by a third, one by three quarters, yet one fell seventeen percent and the other rose eight. The difference was not last quarter's number. It was the outlook. A bank's forward guidance moves its stock more than the profit it just reported, because the market pays for next year, not last quarter. And Bandhan's cut is a warning that may read across the whole small-lending pack.
 

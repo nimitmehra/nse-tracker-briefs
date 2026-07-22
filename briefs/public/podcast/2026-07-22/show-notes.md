@@ -1,7 +1,7 @@
 # Show Notes — 2026-07-22
 
-**Word count:** 682 words (script)
-**Estimated duration:** ~4.1 minutes at 165 WPM
+**Word count:** 696 words (script)
+**Estimated duration:** ~4.2 minutes at 165 WPM
 **Self-verify:** PASS (jargon-free, no recommendation language, all claims sourced to the brief)
 **Skill version:** podcast-script-public-nse v1.7
 **TTS-ready:** YES (numbers spelled out, pronunciation hints, no em-dashes)

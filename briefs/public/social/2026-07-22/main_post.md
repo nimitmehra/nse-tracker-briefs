@@ -1,6 +1,6 @@
 # Twitter Main Post — 2026-07-22
 
-**Character count:** {computed below}
+**Character count:** 1,025 chars (body + firebreak) · 180 words
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post first

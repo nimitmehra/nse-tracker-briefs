@@ -1,6 +1,6 @@
 # Connections Reply — 2026-07-22
 
-**Character count:** {computed below}
+**Character count:** 912 chars (body) · 150 words
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post as reply to main_post.md after it goes live
