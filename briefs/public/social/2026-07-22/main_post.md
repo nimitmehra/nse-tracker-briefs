@@ -8,16 +8,16 @@
 
 ---
 
-Indian shares fell for a third straight day on Wednesday, and this time the fear finally showed up. The Nifty slipped 0.79% to 23,996, back below 24,000. Five things to know:
+Indian shares fell for a third straight day on Wednesday, and this time the fear finally showed up. The Nifty slipped 0.79% to 23,996, below 24,000.
 
-- The market's fear gauge, the VIX, rose 5.5% to 13.29, its first climb on a down day in this slide, a sign the selling had turned from an orderly drift into something more nervous.
+- The market's fear gauge, the VIX, rose 5.5% to 13.29, its first climb on a down day in this slide, a sign the selling had turned more nervous.
 
-- The trigger was oil, as an eleventh night of US-Iran strikes and a Strait of Hormuz tanker attack pushed Brent back toward $95, and India imports about 85% of its crude, so it lands on the import bill and the rupee.
+- The trigger was oil, as an eleventh night of US-Iran strikes and a Hormuz tanker attack pushed Brent toward $95, and India imports 85% of its crude, so it hits the import bill and rupee.
 
 - The damage was broad, with fourteen of sixteen sectors closing red and only consumer staples and autos holding green.
 
-- The fall was India's own story, since Wall Street had closed higher and the broader emerging-market group rose 2.8% anyway, yet the Nifty dropped on a crude bill its peers do not carry.
+- The fall was India's own story, since Wall Street closed higher and emerging markets rose 2.8% anyway, yet the Nifty dropped on a crude bill its peers lack.
 
-- Looking ahead, the US tariff deadline for Indian goods falls on Friday and is still unsigned, while IndusInd Bank reported after the close so its reaction lands Thursday, when Infosys also reports as the big test of the software recovery.
+- Looking ahead, the US tariff deadline for Indian goods falls on Friday still unsigned, and IndusInd Bank reported after the close so its reaction lands Thursday, alongside Infosys.
 
 General market commentary — not investment advice. Full disclaimer in bio.

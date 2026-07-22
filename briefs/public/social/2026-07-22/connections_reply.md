@@ -10,7 +10,7 @@
 
 A few cross-currents from Wednesday worth thinking about.
 
-Rising oil hurt India but split the energy complex. Costlier crude squeezes fuel retailers and importers, which is bearish for most of the market, but it lifts pure refiners, whose refining and inventory economics improve as crude rises. The same shock that sank the broad market rewarded one corner of it.
+Rising oil hurt India but split the energy complex. Costlier crude squeezes fuel retailers and importers, which is bearish for most of the market, but it lifts pure refiners, whose refining and inventory economics improve as crude rises.
 
 Software did not hide either, and that is the signal. The IT index fell about 1.5% even though a record-weak rupee normally helps exporters who earn in dollars, because on a genuine risk-off day the currency tailwind gets ignored and fear outweighs the maths.
 
