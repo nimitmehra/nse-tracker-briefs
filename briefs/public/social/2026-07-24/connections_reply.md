@@ -1,6 +1,6 @@
 # Connections Reply — 2026-07-24
 
-**Character count:** TBD chars (body)
+**Character count:** 915 chars (body) · 157 words
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post as reply to main_post.md after it goes live
@@ -10,7 +10,7 @@
 
 A few cross-currents from Friday worth thinking about.
 
-The whole results day carried one motif, that a good past quarter is not enough if the next one looks softer. A broker's profit rose about 10% but it came from treasury gains rather than its core business, and the stock fell 7.3%, because in a heavy market investors are pricing the next two quarters, not the last one.
+The whole results day carried one motif, that a good past quarter is not enough if the next one looks softer. A broker's profit rose about 10% but it came from treasury gains rather than its core business, and the stock fell 7.3%, because investors are pricing the next two quarters, not the last one.
 
 The blowout nobody rewarded was the more telling signal. A zinc producer posted a 145% jump in profit and still closed flat, because the metals complex was soft with aluminium down 3.4% overnight, and when a result that strong fails to lift a stock it is the sector tone doing the pricing.
 
