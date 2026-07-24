@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "duration": 236.464,
+  "cards": [
+    {
+      "id": "1_hook",
+      "start": 0.0,
+      "end": 28.957
+    },
+    {
+      "id": "2_close",
+      "start": 28.957,
+      "end": 62.523
+    },
+    {
+      "id": "3_diverge",
+      "start": 62.523,
+      "end": 76.347
+    },
+    {
+      "id": "4_forces",
+      "start": 76.347,
+      "end": 112.472
+    },
+    {
+      "id": "5_movers",
+      "start": 112.472,
+      "end": 146.379
+    },
+    {
+      "id": "6_wedge",
+      "start": 146.379,
+      "end": 183.784
+    },
+    {
+      "id": "7_watch",
+      "start": 183.784,
+      "end": 220.763
+    },
+    {
+      "id": "8_close",
+      "start": 220.763,
+      "end": 236.464
+    }
+  ]
+}
