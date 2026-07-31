@@ -140,17 +140,19 @@ The pattern is worth naming for the writer skill: **its self-review searched for
 
 ## Punch list
 
-Ranked. The first four are the ones I would not ship without.
+Ranked. **Item 1 is the FAIL and must be fixed before TTS. Items 2 to 5 are the ones I would not ship without.** Items 6 to 10 are quality, and the principal can take or leave them.
 
-**1. [L1/L4] Sentences 11–12 — the expiry paragraph.** Replace both sentences with:
+**1. [S1 — this is the FAIL] Sentences 44–45 — the causal misattribution.** The word "on" in both clauses asserts exactly what the brief forbids. Replace with:
 
-> "Today was also settlement day for the monthly derivative contracts on the Sensex, the Bombay exchange's main index, not the National Stock Exchange. On a settlement day, trading crowds into the largest companies in that index, and that can lift the headline number even while the average stock falls."
+> "Their numbers had no time to trade. Hyundai had already closed up over one percent before its results landed, and those results showed profit down thirty-five percent. Bajaj Finance closed flat, and its profit was up almost twenty-eight percent. Neither close had anything to do with the numbers. Both moved with their sector."
 
-Explains what expires, keeps the BSE-not-NSE accuracy constraint, and softens the universal law to "can", which is what the day supports.
+That last clause is the brief's own explanation for both — auto strength for Hyundai, non-bank lenders being sold ahead of the rate meeting for Bajaj Finance — and it turns the passage from a contradiction into the point the brief wanted made.
 
-**2. [L1/L4] Sentence 45 + 44 — the self-contradiction.** Replace with:
+**2. [L1/L4] Sentences 11–12 — the expiry paragraph.** Replace both sentences with:
 
-> "Their numbers had no time to trade. Hyundai had already closed up over one percent before its profit landed, and that profit was down thirty-five percent. Bajaj Finance closed flat, and its profit was up almost twenty-eight percent. Neither close had anything to do with the numbers."
+> "Today was also settlement day for the monthly derivative contracts on the Sensex, the Bombay exchange's main index, not the National Stock Exchange. On a settlement day, trading crowds into the largest companies in that index, which is part of why the Sensex finished a shade ahead of the Nifty."
+
+Explains what expires, keeps the BSE-not-NSE accuracy constraint, and — the substantive change — **re-narrows the claim to what the brief actually supports** (Sensex beat Nifty) instead of letting expiry explain the whole headline-versus-breadth split.
 
 **3. [L3] Sentence 47 — the week error.** Replace with:
 
@@ -160,9 +162,11 @@ Explains what expires, keeps the BSE-not-NSE accuracy constraint, and softens th
 
 > "The entire fall came from one-off items and tax, not from the business itself."
 
-**5. [L4] Sentence 21 — restore the oil caveat (~16 words).** Append:
+**5. [L4] Sentence 21 — restore the oil caveat (16 words).** Append:
 
-> "...and India imports about eighty-five percent of its oil. So today's dip helps at the margin, but at these levels that support is thin and could reverse quickly."
+> "...and India imports about eighty-five percent of its oil. So today's dip helps, but that relief lasts only as long as the oil keeps physically flowing."
+
+"Keeps physically flowing" is the brief's own distinction (headlines move little, a confirmed blockage of physical flow re-prices everything) reduced to six words, and it is what makes the paragraph cohere.
 
 **6. [L2] Sentence 9 — place Mahindra and Mahindra.** Replace with:
 
@@ -182,8 +186,63 @@ Explains what expires, keeps the BSE-not-NSE accuracy constraint, and softens th
 
 **10. [L1, minor] Sentence 7** "the median stock" → "the typical stock". **Sentence 10** "sold too" → "sold as well". **Sentence 14** "a pause in North Asia's chip leadership" → "a pause in the chip trade that drives those markets". **Sentence 46** "get priced" → "get their reaction".
 
-Items 1–5 add roughly forty words net and items 8–9 add about fifteen; items 4, 7 and 10 give some back. Expect the body to land near 730–740 words, above the 700 ceiling. **The word to cut is the Asia paragraph (sentences 13–14, thirty-one words)** — it is the only passage in the script that does not serve the day's story, and removing it pays for every fix above.
+### Word budget
+
+The body is already at 700, the ceiling of the 500–700 band. Items 1–5 add roughly fifty-five words net and items 8–9 about fifteen; items 4, 7 and 10 give some back. Expect to land near 740–750 — outside the band, which would itself be an L5 hit on the revised script.
+
+**The words to cut are the Asia paragraph (sentences 13–14, thirty-one words).** It is the only passage that does not serve the day's story: it reports four foreign markets a listener has no stake in, then explains their move with "North Asia's chip leadership", a concept the script never establishes. The brief itself concedes the point — *"one session settles nothing."* Cutting it pays for every fix above and removes an L1 flag at the same time. If more is needed, sentence 4 ("Anyone who read only the index number...") is a rhetorical restatement of sentence 2 and can go without losing a fact.
 
 ## Source spot-check (S1)
 
-_Pending — see below._
+Run against `briefs/public/2026-07-30.md` and `hive-mind/staging/2026-07-30/verify-public-brief-report.md`, only after the ledger above was written and saved.
+
+### The mismatch (1) — FAIL
+
+**Sentence 45 reverses the brief's most emphatic causal instruction.**
+
+The brief, Earnings, opening in bold: *"Read the timestamps before you read the reactions... **Their results cannot explain their share moves today.** What those numbers do to the price happens tomorrow, and that is the most useful thing to take from tonight."* It then gives the alternative cause for each: Hyundai's *"+1.27% was auto-sector strength, and it in fact lagged that sector"*; Bajaj Finance's flat close is *"a pre-result reading: it filed eleven minutes before the bell, and today's price moved with the non-bank lending pack being sold ahead of the rate meeting."*
+
+The script writes: *"Hyundai rose over one percent **on** profit that fell thirty-five percent, and Bajaj Finance closed flat **on** profit up almost twenty-eight percent."* Both instances of "on" assert result-caused-move. The brief says the opposite twice, in bold, and calls the point the day's most useful takeaway. The percentages are individually correct — the causal direction is inverted, which is the S1 failure mode.
+
+This also explains the cold read's confusion: the contradiction a naive listener hears one sentence after "their numbers had no time to trade" is the audible symptom of a real source distortion underneath it.
+
+### Figures checked — all correct
+
+| Claim in script | Brief | Match |
+|---|---|---|
+| Nifty at twenty-four thousand three hundred and seventeen, up zero point two eight percent | 24,317.15, +0.28% | ✓ |
+| Sensex up zero point three five percent | +0.35% | ✓ |
+| 457 falling / 215 rising | 457 declines / 215 advances | ✓ |
+| Median stock about six-tenths of a percent | −0.60% | ✓ |
+| VIX rose over one percent | +1.21% | ✓ |
+| Auto up over one and a half percent as a group | +1.63%, close reports / aggregation | ✓ (correctly spoken as group direction, not an index print) |
+| Property developers down about two percent | Realty −2.06%, same caveat | ✓ (same) |
+| Reuters poll, seventy-two economists, sixty-eight / four / none | 72, 68 hold / 4 hike / 0 cut | ✓ |
+| Brent eased about one point two percent to eighty-nine dollars sixty-six | −1.19% to $89.66 | ✓ correct variant |
+| Up almost twenty-three percent over the month | +22.96% | ✓ |
+| India imports about eighty-five percent of its oil | ~85% | ✓ |
+| Balkrishna up almost eleven, revenue up twenty-five, profit up fifty-six | +10.82%, +25.19%, +56.35% | ✓ |
+| Redington up over eight, one-year high, revenue up thirty-four | +8.18%, 52-week high, +34% | ✓ ("one-year high" is a good plain-English conversion) |
+| PCBL down about ten on profit up sixty-five; seventy crore one-off | −10.31%, +65%, ~₹70 cr | ✓ |
+| Hexaware profit down thirteen, share down almost seven, margin up three and a half points | −13%, −6.91%, +352 bps | ✓ |
+| KPIT down nearly eight on guidance | −7.67%, on guidance not the quarter | ✓ |
+| Last eight to twenty-one minutes | "final 8 to 21 minutes" | ✓ (the corrected figure, not the earlier 9-to-21) |
+| Hyundai profit down thirty-five; Bajaj Finance profit up almost twenty-eight | −35%; +27.6% | ✓ figures — **causal direction fails, see above** |
+| Asia: Korea, Shanghai, Taiwan fell, Japan rose, India mid-pack | −1.23% / −0.62% / −0.26%, Nikkei +0.71%, India mid-pack | ✓ |
+| RBI decision Wednesday the fifth of August | 5 August, meeting 3-5 August | ✓ figure correct; "the week's" framing is wrong (L3) |
+
+### Hard constraints from `verify-public-brief-report.md` — all held
+
+Every constraint the brief was bound by, the script also honours. This is the script's strongest dimension and it should be said plainly:
+
+- **Expiry named as BSE/Sensex, explicitly not NSE** — held. No sentence says "NSE expiry."
+- **No dollar index** — absent. **No FII/DII flows** — absent entirely, so no dating problem could arise.
+- **Brent variant** — the correct −1.19% / +22.96% / $89.66 set. No trace of the rejected −0.87 / −0.78 / +24.13 variants.
+- **Post-close items are tomorrow-only** — the script uses no gold, no yen, no Wall Street rally, no US session as a Thursday cause. All correctly absent.
+- **Nine unusable sector indices** — none implied. Auto and Realty appear only as group direction.
+- **Bond curve** — not mentioned. **GRWRHITECH / HFCL** — absent.
+- **The four date traps** (Gandhar flood, Sona robotics, Waaree CVD, Prestige) — none appears.
+- **Withheld figures** — Mankind is named in the late-filer list with no number, exactly as required; Vedanta, Vardhman and Prestige carry no profit figures.
+- **No recommendation language, no price targets, no broker ratings.** The brief's Nomura and Motilal Oswal targets were correctly not carried into audio.
+
+One proportionality note rather than a violation: the brief flags PCBL's quality-of-earnings read as sourced to *"Business Today, citing brokerage commentary"* and its own verifier caps it at REPORTED rather than established fact. The script says "brokerages pointed out", which preserves the attribution — acceptable, and worth keeping if the sentence is reworded for item 10.
