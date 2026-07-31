@@ -1,9 +1,11 @@
 # Verify Podcast Script — 2026-07-30
 
 **Verdict:** FAIL (fixable — every finding is a sentence-level rewrite, none requires re-reporting)
-**Checks:** L1 6 / L2 3 / L3 1 / L4 3 / L5 0 / L6 3 / S1 (pending)
+**Checks:** L1 6 / L2 3 / L3 1 / L4 3 / L5 0 / L6 3 / **S1 1**
 
-> Cold read completed before the brief was opened. Ledger below was written from the script + exemplar only.
+> Cold read completed before the brief was opened. The ledger below was written from the script + exemplar only, and was saved to disk before the brief was read. The source pass then confirmed the cold read's two unprompted findings and converted the more serious one into an S1 hit.
+
+**The FAIL rests on one finding, and it is a source mismatch, not a matter of taste:** sentence 45 attributes Hyundai's and Bajaj Finance's closes to their profit numbers, when the brief states in bold that those results "cannot explain their share moves today" and calls that "the most useful thing to take from tonight." The script inverts the single point the brief was most insistent about. Everything else here is a WARN-grade punch list.
 
 ---
 
@@ -86,7 +88,7 @@ They know what happened before the fifteen-second mark, in a plain-English sente
 42. "Four large companies filed results in the last eight to twenty-one minutes of trading today." — FLAG (L6, mild: "the last eight to twenty-one minutes" is a data range read aloud as prose; "the final twenty minutes" carries the same meaning)
 43. "Vedanta, Bajaj Finance, Hyundai and Mankind." — FLAG (L2: four companies named, none placed. One word each fixes it.)
 44. "Their numbers had no time to trade." — OK in isolation, but see next.
-45. "Hyundai rose over one percent on profit that fell thirty-five percent, and Bajaj Finance closed flat on profit up almost twenty-eight percent." — **FLAG (internal contradiction, L1/L4): the script has just said these numbers "had no time to trade", then immediately attributes each company's move to those same numbers with the word "on".** A listener hears the script contradict itself one sentence later. **This was not among the writer's three nominations and is more damaging than two of them.**
+45. "Hyundai rose over one percent on profit that fell thirty-five percent, and Bajaj Finance closed flat on profit up almost twenty-eight percent." — **FLAG (S1 + L1/L4). The most serious finding in the run.** On the cold read this is an internal contradiction: the script says these numbers "had no time to trade", then one sentence later attributes both moves to those same numbers with the word "on". The source pass upgraded it — see S1 below. **Not among the writer's three nominations, and worse than all three.**
 46. "Tomorrow is when those get priced." — FLAG (L1, mild: "get priced" is desk voice). Time-word itself is correct: Thursday session, Friday reaction.
 47. "And the week's real event is the Reserve Bank's rate decision next Wednesday, the fifth of August." — **FLAG (L3: "the week's real event" is wrong.** Today is Thursday the thirtieth; Wednesday the fifth of August is *next* week, as the script itself said in sentence 17. The script contradicts its own time-frame.) **Also not among the writer's nominations.**
 
@@ -98,21 +100,29 @@ They know what happened before the fifteen-second mark, in a plain-English sente
 
 ## The writer's three nominations — my independent view
 
-### Item A — the expiry generalisation. **The writer is right, and understates it.**
+### Item A — the expiry generalisation. **The writer has diagnosed the right sentence for the wrong reason.**
 
-Two problems, not one. The generalisation ("Expiry days concentrate trading...") is real: it states a standing law of market microstructure where a source can only support what happened today. But the larger cold-read failure is that **"monthly expiry" is never explained at all** — the listener does not know what expires, so the mechanism sentence is explaining an effect of a thing they have not been told about. Fixing only the generalisation leaves the paragraph opaque.
+Its stated worry is that "the source asserts this only for today, and the script generalises beyond it." **That is not what the brief says.** Brief line 42 generalises in exactly the same present tense the script does: *"Expiry-day pinning concentrates in the large, index-weighted names."* The general mechanism is inherited, not invented. On provenance, the script is clean.
 
-### Item B — the dropped oil caveat. **The writer is right; the caveat is not optional.**
+The real defect is **scope**, and it is a genuine distortion in compression. The brief attaches that mechanism to a narrow claim — it is *"why the Sensex (+0.35%) beat the Nifty (+0.28%)"*, a seven-basis-point difference between two indices. The script re-points it at the day's entire headline-versus-breadth split: *"props the headline up while the average stock falls."* The brief assigns that split primarily to the earnings-versus-rates trade (its Lead: "the market bought the earnings-and-cheaper-crude story and sold the interest-rate story"), and `verify-public-brief-report.md` item 2 weights expiry at roughly fifteen percent of it. The script promotes a fifteen-percent mechanical co-cause into a standalone paragraph, positioned third, ahead of the two forces that actually drove the day.
 
-This is not a completeness nicety, it is a coherence failure detectable on the cold read with no source access. The paragraph announces "The support is oil" and then supplies two facts (up twenty-three percent on the month, eighty-five percent import dependence) that both read as pressure. Without the closing clause the listener is handed a contradiction and no resolution. Fifteen words is a bargain.
+And the cold read found a third problem the writer did not raise, which is larger than either: **"monthly expiry" is never explained.** The listener is not told what expires, so the mechanism sentence explains the effect of a thing they have not been told about. Fixing only the generalisation leaves the paragraph opaque.
+
+### Item B — the dropped oil caveat. **The writer is right, and the source makes it more load-bearing than the writer suggests.**
+
+The cold read caught this with no source access: the paragraph announces "The support is oil", then supplies two facts (up twenty-three percent on the month, eighty-five percent import dependence) that both read as pressure, and never resolves them.
+
+The source pass makes restoring it close to mandatory. The brief does not treat the fragility as a caveat at all — it treats it as the substance: *"That distinction is the whole basis of India's macro relief, and its fragility — a strike headline moves little, a confirmed and sustained blockage of physical flow re-prices the import bill, the rupee and next month's inflation. Real relief... but contingent rather than structural."* The script also drops the reason oil is where it is (the US-Iran escalation of 28-29 July, a 7.9% Brent spike and an ~8.5% give-back over six days) — so it presents a number with neither cause nor condition. Fifteen words is a bargain; I would spend sixteen.
 
 ### Item C — "A clean result-driven move, from a beaten-down base." **The writer is right.**
 
-It reads as a desk note pasted into speech: verbless, and both "result-driven move" and "beaten-down base" are shorthand. The compounding problem the writer did not name: "beaten-down base" assumes prior knowledge of a fall the script never mentions, so it is also an orphan reference.
+Verbless, and both "result-driven move" and "beaten-down base" are desk shorthand. The compounding problem it did not name: "beaten-down base" assumes prior knowledge of a fall the script never mentions, so it is an orphan reference. Source note — the phrase is lifted from the brief (*"Still 14.91% below its 52-week high, so this is recovery from a beaten-down base"*), where the supporting fact is present. Written prose can carry that phrase because the reader has just been given the fourteen-nine-one. Speech cannot.
 
 ### Where I differ from the writer
 
-Its three nominations are all valid, but it missed the two findings I would rank highest after the expiry paragraph: the **"no time to trade" / "rose on profit" self-contradiction** (sentence 45) and the **"the week's real event ... next Wednesday" time error** (sentence 47). Both are audible on a single cold hearing. A writer reviewing its own compression looks for things it removed; it does not hear what it left adjacent.
+All three nominations point at real sentences, but the writer misread the provenance on Item A, and it missed the two findings I rank highest overall: the **Hyundai / Bajaj Finance causal misattribution** (sentence 45, now an S1 FAIL) and the **"the week's real event ... next Wednesday" time error** (sentence 47). Both are audible on a single cold hearing, without any source access.
+
+The pattern is worth naming for the writer skill: **its self-review searched for things it had removed** (a trimmed caveat, an over-reached claim) **and did not hear what it had left adjacent.** Both of my top findings are adjacency failures — two sentences that are individually defensible and contradictory when spoken back to back. That is precisely the class of defect a cold read catches and a self-review structurally cannot.
 
 ---
 
