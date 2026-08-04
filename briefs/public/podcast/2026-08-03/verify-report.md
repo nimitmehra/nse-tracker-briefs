@@ -1,8 +1,12 @@
 # Verify Podcast Script — 2026-08-03 (RE-VERIFY, pass 2 of 2)
 
-**Verdict:** _pending_
+**Verdict:** **WARN** — clears the gate. **Zero fail-level defects.** All four prior FAILs are genuinely repaired, two of them better than the fixes I proposed. Nine warn-level flags remain, seven of which are carried over from the "should fix" tier that the word budget could not fund. **Cleared for TTS at the principal's discretion.**
 
-**Checks (counts = FLAG hits):** _pending_
+**Checks (counts = FLAG hits):** L1 **4** / L2 **2** / L3 **0** / L4 **2** / L5 **0** / L6 **0** / S1 **1**  — down from L1 9 / L2 3 / L4 2 / L6 2 / S1 2.
+
+**What changed since pass 1:** every fail-level item is gone. The episode's central number is now in a unit the listener already holds and can derive by subtraction; the unparseable oil-paragraph closer is replaced by a sentence that closes the logic; the cohort claim matches the brief's grading exactly, contradiction and all; and the one name that would have been voiced as "junk" on air is respelled and glossed. The script is 699 narrated words — the budget was held to the word.
+
+**The one thing the rewrite made worse:** cutting "Fear was bid up on an up day." was correct, but the whole nine-word saving was banked. The VIX beat is now an orphaned one-sentence paragraph that states a number and never says why it is odd. Warn-level, principal's call, ruling below.
 
 _Cold-read discipline: the per-sentence ledger below was rebuilt from a fresh full read of the current `script.md`, with `briefs/public/2026-08-03.md` withheld. The brief was opened only after the ledger was complete, for the S1 source spot-check. The prior report was read first, as instructed, so this pass is not naive about the four repairs — but every sentence was re-read as a listener hears it, changed or not._
 
@@ -153,12 +157,102 @@ Re-ran the machine check independently on the spoken body (post-SAY-strip). **Ev
 
 ## Rulings requested
 
-_pending_
+### 1. Leaving SEBI unrespelled — **RIGHT OUTCOME, WRONG REASON. Leave it as written.**
+
+The writer's argument was consistency: SEBI also appears inside the verbatim firebreak, so respelling it in the body alone would make the episode internally inconsistent. That is true but secondary, and if consistency were the only argument it would be the weaker case — the firebreak is standing legal text that nobody edits, and an inconsistency between body and boilerplate is not something a listener perceives.
+
+The load-bearing reason is simpler: **respelling SEBI would make the audio worse, not better.** SEBI is an acronym pronounced as a word in Indian usage — "SEE-bee". A TTS engine handed the string `SEBI` will read it as a word, which is the correct pronunciation. The inert hint asked for exactly what the default already produces. Respelling it "S-E-B-I" would *introduce* an error where none exists.
+
+That is also the general rule this episode should establish, and it explains the asymmetry with JNK cleanly:
+
+> **Respell in-body only where the engine's default word-reading is WRONG.** `JNK` reads as "junk" — wrong, so respell. `SEBI` reads as "see-bee" — right, so leave it. The test is not "is it an acronym", it is "would the default be an on-air error".
+
+By that test the writer's five remaining hints are correctly *left* as documentation, and no further in-body respelling is needed anywhere in this script.
+
+### 2. Cutting "Fear was bid up on an up day." — **CORRECT TO CUT, BUT THE SAVING SHOULD NOT HAVE BEEN BANKED IN FULL.**
+
+The cut itself is right. That sentence carried two defects I flagged: "bid up" is trader usage, and it restated the number without adding a so-what. Removing it removes both.
+
+But **the beat is now inert.** What remains is a standalone one-sentence paragraph that states a number and stops. And the sentence's own trailing clause works against it: "on a rising market two days before a rate decision" bundles one genuinely odd condition — fear rising while the market rose — with one entirely normal one — fear rising ahead of a rate decision — and adjudicates neither. A listener who catches the oddity is handed a reason to dismiss it in the same breath. The exemplar's VIX beat earns its place in eight words by doing precisely what this one does not: *"Normally fear rises into a big decision; today it fell."*
+
+**Was the fact worth keeping?** Yes — it is the one genuinely strange observation in the session and it fits the episode's thesis (the honest answer is not the headline number). It survives, but only as data.
+
+**Recommendation, principal's call, not a gate:** spend eight of the nine recovered words. Either
+
+> "India VIX, the fear gauge, rose one point four percent to eleven point nine three. Fear normally falls when the market rises. Today it did the opposite."
+
+or, cheaper, fold the line into the end of the breadth paragraph so it does not sit orphaned. Neither is required to ship.
+
+### 3. "Nobody can tell you why those moved, and anyone who says otherwise is guessing." — **KEEP, unchanged ruling.**
+
+Byte-identical, confirmed against the prior version. It is stronger now than when I first ruled on it, because the sentence it rests on — the J-N-K line — went from the script's weakest to one of its cleanest. Still the best trust-building line in the episode.
 
 ## Punch list
 
-_pending_
+**Nothing here blocks TTS.** Zero fail-level items. This is a menu for the principal's read, ordered by what a listener actually loses.
+
+### Worth the words if he wants to spend eight of them
+
+- **[L4, sentence 21] The VIX beat has no so-what.** Add the reason it is odd, or fold the line into the breadth paragraph so it is not orphaned. Suggested: *"India VIX, the fear gauge, rose one point four percent to eleven point nine three. Fear normally falls when the market rises. Today it did the opposite."* (Net +8 words; the script is at 699 of ~700, so something small has to give — "That forty-three percent is flattered by a weak base" is the cheapest donor.)
+
+### One-word fixes, zero budget cost
+
+- **[L1, sentence 53]** "the language" → **"the Governor's language"** (+1 word). An institution has no tone of voice; a person does. The exemplar does it this way.
+- **[S1b, sentence 12]** "brokers say" → **"one brokerage says"** (0 net). Matches the brief's actual sourcing exactly.
+
+### Carried over, still unfixed, all warn-level and all cost words the budget does not have
+
+- **[L1, sentence 12]** "heavyweight Nifty names" — "names" is desk-shorthand for stocks. Inherited from the brief's own phrasing, so not an embellishment, but the listener cannot re-read.
+- **[L1, sentence 16]** "The honest answer is the breadth" — trade vocabulary landing one sentence before it is defined. Self-recovers.
+- **[L1, sentence 40]** "flattered by a weak base" — analyst compression, semi-guessable.
+- **[L2, sentence 30]** Hormuz is still not placed as the lane that carries much of the world's oil. Downgraded on re-read: the sentence self-carries more than I first credited (a strait, ships, Iranian permission, inside an oil paragraph). What is lost is the scale, not the meaning.
+- **[L2, sentence 33]** Zee gets no what-it-does, and it is the only mover without one. The four sentences that follow make the situation unmistakable, so the listener is under-served rather than lost.
+- **[L4, sentence 13]** "day-one plumbing" is a metaphor, but it labels a mechanism that was just explained in full across four sentences. Tolerated, unchanged ruling.
+
+### Optional polish
+
+- **[sentence 48]** The listener is left holding an unaccounted sixth faller at sentence 45 and closes the loop by inference three sentences later. Two words would state it: *"Neither does the sixth, J-N-K India, an industrial equipment maker…"*. Works either way; no contradiction arises on either reading.
+
+### Playback watch, not a rewrite
+
+- **"toroIQ"** (sentence 2) — the only real mangle risk left in the body. No hint can fix it; it needs a standing decision on in-body spelling, since it opens every episode. Not grounds to hold this script.
+- **"J-N-K India"** — confirm the engine reads the letters rather than inserting three hard pauses. Fallback is "J N K India" with spaces.
+
+### Word budget
+
+**699 of a ~700 ceiling — held exactly.** Every remaining fix except the VIX so-what is free or one word. The VIX fix needs a donor sentence; "That forty-three percent is flattered by a weak base" is the one to cut, since it is also a standing L1 flag.
 
 ## Source spot-check (S1)
 
-_pending_
+Opened `briefs/public/2026-08-03.md` only at this point, after the ledger was complete. **No number is wrong, no direction is reversed, no wrong-day figure.** I re-checked every figure the rewrite touched, plus the standing "do not regress" list.
+
+| Figure in script | Brief | Tie |
+|---|---|---|
+| "nine tenths of one percent" gap | "disagreed about the size of the day's rally by 90 basis points"; 1.60 − 0.70 = 0.90 | ✅ exact, and internally derivable |
+| "It is the second widest gap since twenty ten" | "a 90 basis-point gap between the Sensex and the Nifty, the second widest since 2010" | ✅ |
+| Sensex +0.70 / Nifty +1.60, neither called wrong | "neither number is wrong" | ✅ |
+| auction 15:15-15:30; previous method = average of last thirty minutes | identical | ✅ |
+| "about one and three quarter percentage points over the year" | "down 174 basis points on the year" (1.74pp); the 297bps sequential figure is correctly **not** used | ✅ |
+| "profit was lower than the previous quarter" | "profit was 16.9% lower than that quarter" | ✅ |
+| "Five of those six had a private reason, a regulator's order, a set of results, a margin" | 6 fallers: Zee (SEBI order), Muthoot (margin), Blue Jet (results, pre-close), LatentView (results), Narayana Health (margin), **JNK India `[Cause not established]`** | ✅ **exact — 5 of 6, and the script's three-item list maps to all five** |
+| "five of the ten biggest gainers have no explanation" | Indo Borax, Balrampur, Pine Labs, Deep Industries, Aegis — exactly five `[Cause not established]`, all inside the ten largest | ✅ |
+| J-N-K India down six percent while its capital-goods sector rose | "fell 6% while its own capital-goods group rose 2.19%" | ✅ |
+| 534 rose / 144 fell / 680 tracked / typical stock 1.35% / Nifty 24,774 | identical | ✅ |
+| Technology up 3.3%, no dateable cause | Nifty IT +3.28%, "no catalyst dated to Monday was established" | ✅ |
+| India VIX 11.93, up 1.40%, rising market, two days before the decision | identical | ✅ |
+| Brent −7.30%, ninety dollars twelve → eighty-three fifty-four | $83.54, −7.30% (Friday $90.12, arithmetic exact) | ✅ |
+| Hormuz still restricted; Iran's denial travels with the claim, dated today | "said on Monday"; "passage requiring Iranian permission" | ✅ |
+| Zee −14.33%, two months / one year each, 2016 land pledge, issue at 126, close at 98 | identical | ✅ |
+| Urban Company +12.98%, revenue +44%, still loss-making | identical | ✅ |
+| RBI Wednesday, 5.25% across three meetings, no change expected | identical, and forward-framed | ✅ |
+
+**One grading residual — warn-level, down from two.**
+
+- **S1a (the six fallers) is fully resolved.** The brief grades exactly five of six with a cause and JNK India `[Cause not established at primary source]`. The script now says five. The internal contradiction is gone, and the three-item list — "a regulator's order, a set of results, a margin" — maps cleanly onto Zee, Blue Jet/LatentView, and Muthoot/Narayana Health. This is a better fix than the one I proposed.
+- **S1b (the auction order flow) is 90% resolved.** The hedge is present and the claim is now attributed rather than asserted, which is the material point. Residual: the brief sources this to **"one brokerage official rather than… an exchange"**, and *"brokers say"* pluralises a single source. The force of the hedge is right; the implied source count is a shade generous. A one-word fix if the principal wants it: **"one brokerage says"**. Not worth a re-verify cycle on its own.
+
+**On "heavyweight Nifty names":** the brief uses the same construction ("heavily weighted Nifty names"), so this is inherited vocabulary, not an embellishment the writer added. It is still shorthand *for audio* — the print reader can re-read, the listener cannot — but it does not misrepresent the source.
+
+**One gloss is the writer's, not the brief's:** "J-N-K India, **an industrial equipment maker**". The brief gives no what-it-does, only the capital-goods classification. The descriptor is accurate and consistent with that classification, and a generic sector descriptor is the ordinary way to meet the name-on-mention rule. Noted for transparency, not as a defect.
+
+Everything the script omits from the brief — GST and PMI, the Connections beats, the bond-feed failure, CAMS, Persistent, Dhanuka, Narayana Health, Blue Jet, LatentView, the FII/DII figures — is omitted cleanly, with no residue that would mislead a listener.
