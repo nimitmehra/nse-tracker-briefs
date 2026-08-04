@@ -40,7 +40,7 @@ Lead inherited in substance: the Reserve Bank decides at ten tomorrow, its 5.1% 
 
 Good evening. This is India Markets Brief from toro I-Q. Your read on today's session.
 
-The Reserve Bank of India decides on interest rates at ten tomorrow morning, and the number to watch is not the rate. It is the Bank's inflation forecast of five point one percent, built on crude oil at about ninety-five dollars a barrel. Oil has traded nowhere near that all week. But the monsoon has just moved the other way, so this is not the easy call it sounds like.
+The Reserve Bank of India decides on interest rates at ten tomorrow morning, and the number to watch is not the rate. It is the Bank's inflation forecast of five point one percent, built on oil at about ninety-five dollars a barrel. Oil has been much cheaper than that all week. Cheaper oil argues for a lower forecast. But the weather office has just cut its August rain forecast, and less rain pushes food prices up. So the two inputs point in opposite directions.
 
 Indian shares fell into that decision. The Nifty fifty closed down zero point six four percent, the Sensex down zero point two seven percent, and the fear gauge rose two point one eight percent to a one-week high. So the market fell and fear rose together. Two hundred and seventy-nine shares rose and three hundred and ninety-two fell, out of six hundred and eighty.
 
