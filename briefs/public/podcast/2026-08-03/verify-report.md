@@ -1,7 +1,16 @@
 # Verify Podcast Script — 2026-08-03
 
-**Verdict:** _pending_
-**Checks:** _pending_
+**Verdict:** **FAIL** — 4 fail-level defects, all one-line fixes. Rewrite once and re-verify before TTS. Gates the podcast only; the brief and Twitter have shipped and are untouched by this.
+
+**Checks (counts = FLAG hits):** L1 **9** / L2 **3** / L3 **0** / L4 **2** (both overlap L1) / L5 **0** / L6 **2** / S1 **2**
+
+**The four fail-level items:**
+1. **[S1a]** "Each of those six had its own private reason" asserts a cause for JNK India, which the brief grades `cause not established` — and the script contradicts itself two sentences later.
+2. **[L2]** "JNK India, down six percent while its own group rose" — the name is unglossed and "its own group" is undefined; the brief's own word, *capital-goods*, was dropped.
+3. **[L1]** "this ninety basis point gap" — the episode's central number stated in a unit never defined for the listener, with "the second widest since twenty ten" left dangling two clauses from its noun.
+4. **[L1]** "The market bought the claimed half" — does not parse on one hearing; "bought" reads as a purchase inside an oil paragraph.
+
+**This is a good script with localised jargon leakage, not a bad one.** The spine is strong, the auction mechanism is explained in genuinely plain English, the oil transmission is exemplar-grade, the time discipline is perfect, and the honesty beat is the best thing in it. Four sentences let it down and all four are single-line repairs.
 
 _Cold-read discipline: the per-sentence ledger below was built with `briefs/public/2026-08-03.md` withheld. The brief was opened only after the ledger was complete, for the S1 source spot-check._
 
@@ -141,8 +150,65 @@ The deviation is disclosed in the composition note, which is the standard being 
 
 ## Punch list
 
-_pending_
+### Must fix before TTS (the four that make this a FAIL)
+
+- **[S1a, sentence 45] The script says all six big fallers had a reason, then says one of them did not.** The brief grades JNK India `cause not established`. Rewrite: *"Five of those six had a private reason of its own, a regulator's order, a set of results, a margin. None was about the market."* This also sets up sentence 47 instead of colliding with it.
+- **[L2, sentence 47] "JNK India, down six percent while its own group rose" — an unexplained name and an undefined group.** The listener is told neither what the company does nor what "its own group" means. The brief has the missing word: it is the **capital-goods** group. Rewrite: *"…and neither does JNK India, an industrial equipment maker, which fell six percent while the rest of its engineering sector rose."*
+- **[L1, sentence 13] "ninety basis point gap" — the episode's central number in a unit the listener does not know**, and *"the second widest since twenty ten"* left dangling two clauses from its noun. Split it: *"So that gap, nine tenths of one percent, is day-one plumbing and not a signal. It is the second widest gap between the two indices since twenty ten."* (Same fix needed at sentence 39: "one hundred and seventy-four basis points" → *"about one and three quarter percentage points"*.)
+- **[L1, sentence 31] "The market bought the claimed half" — cut.** Replace with *"So the market priced in a deal that has not been agreed."* Full reasoning in the ruling above.
+
+### Should fix — cheap, and each one removes a stumble
+
+- **[S1b, sentence 12]** Add the brief's hedge: *"Brokers say some participants bid above the going price in a few of the biggest companies in the Nifty."* This fixes the certainty upgrade and the "names" shorthand in one edit.
+- **[L1, sentence 21] "Fear was bid up on an up day"** asserts an oddity without saying why it is odd, and "bid up" is trader usage. The exemplar's version of this beat earns its place by explaining: *"Normally fear falls when the market rises. Two days before a rate decision, it did the opposite."*
+- **[L2, sentence 30] Place Hormuz on mention:** *"the Strait of Hormuz, the narrow lane that carries much of the world's oil, is still restricted."*
+- **[L2, sentence 33] Give Zee its one-line what-it-does:** *"Zee Entertainment, the television broadcaster, down more than fourteen percent."*
+- **[L1, sentence 19] "the strongest part of the board"** → *"the strongest sector"*.
+- **[L1, sentence 15] "The honest answer is the breadth"** → *"The honest answer is how many stocks actually rose."*
+- **[L1, sentence 40] "flattered by a weak base"** → *"measured against an unusually weak quarter a year ago."*
+- **[L6, sentence 4] "disagreed about by how much"** → *"disagreed about how much."*
+- **[L1, sentence 52] "the language"** → *"the Governor's language"* (as the exemplar has it).
+
+### Watch on playback, not a rewrite
+
+- **"JNK India" will probably be voiced as "junk India."** The `[SAY: J-N-K India]` hint is deleted before the audio engine ever sees it (`tts-podcast-nse.py:100`). If the name survives the rewrite, respell it in the body as *"J N K India"*.
+- **"toroIQ"** has no hint and cannot be fixed by one. Worth a standing decision on how it should be spelled in the body, since it opens every episode.
+
+### Word budget
+
+The body is at **699 of a ~700 ceiling**. Every fix above except the Hormuz gloss and the Zee gloss is either neutral or shortens the script; those two add about fifteen words. Cutting the redundant second half of sentence 21 covers it. No structural cut is needed.
 
 ## Source spot-check (S1)
 
-_pending_
+Opened `briefs/public/2026-08-03.md` only at this point. **No number is wrong, no direction is reversed, and nothing is a wrong-day figure.** Every headline figure ties:
+
+| Figure in script | Brief | Tie |
+|---|---|---|
+| Sensex zero point seven zero percent | +0.70% | ✅ |
+| Nifty one point six zero percent | +1.60% | ✅ |
+| "neither is wrong" | "neither number is wrong" | ✅ |
+| ninety basis point gap, second widest since twenty ten | 90 bps, second widest since 2010 | ✅ |
+| auction quarter past three to half past three | 15:15–15:30 | ✅ |
+| previous method: average of the last half hour | "averaging the last thirty minutes" | ✅ |
+| 534 rose / 144 fell / 680 tracked / typical stock 1.35% | identical | ✅ |
+| Nifty at twenty-four thousand seven hundred and seventy-four | 24,774.30 | ✅ |
+| Technology up three point three percent, no dateable cause | Nifty IT +3.28%, "no catalyst dated to Monday was established" | ✅ |
+| India VIX eleven point nine three, up one point four percent | 11.93, +1.40% | ✅ |
+| Brent −7.30%, ninety dollars twelve cents → eighty-three fifty-four | $83.54, −7.30% (implies $90.12 Friday — arithmetic exact) | ✅ |
+| India buys about eighty-five percent of its oil | "roughly 85%" | ✅ |
+| Iran's foreign ministry denial, today; strait still restricted | "said on Monday"; "passage requiring Iranian permission" | ✅ |
+| Zee down more than fourteen percent; two months / one year each; 2016 land pledge; issue at 126; close at 98 | −14.33%; identical terms; ₹126; ₹98.14 | ✅ |
+| Muthoot over seven percent; profit +43%; margin −174 bps; below previous quarter; weak base | −7.33%; +43%; −174 bps YoY; −16.9% QoQ; "flattered by a weak year-ago base" | ✅ |
+| Urban Company almost thirteen percent, revenue up forty-four, still loss-making | +12.98%, +44%, ₹92 cr loss | ✅ |
+| six fell five percent or more against 534 up | identical | ✅ |
+| five of the ten biggest gainers unexplained | Indo Borax, Balrampur, Pine Labs, Deep Industries, Aegis — exactly five `[cause not established]` | ✅ |
+| JNK India down six percent while its own group rose | −6.10% vs capital goods +2.19% | ✅ |
+| RBI Wednesday; 5.25% for three meetings; no change expected | 05-Aug; 5.25% for three meetings; polls unanimous for a hold | ✅ |
+
+Two **grading** discrepancies, though — both cases of the script stating with more certainty than the brief allows:
+
+**S1a — the six fallers (fail-level, and it is also an internal contradiction).** Sentence 45 says *"Each of those six had its own private reason, a regulator's order, a set of results, a margin."* The brief grades only five of the six that way; **JNK India is `[Cause not established at primary source]`** — the brief says so explicitly and calls it "the most watchable unexplained divergence of the session". So the script asserts, at cohort level, a cause the brief refused to assert. Worse, it then contradicts itself two sentences later ("neither does JNK India"). A listener paying attention hears the script say all six were explained and then, within one breath, that one of them was not. Fix: *"Five of those six had a private reason of its own, a regulator's order, a set of results, a margin. None was about the market."*
+
+**S1b — the auction order flow (warn-level).** The script states flatly that *"some participants bid above the going price in a few heavyweight Nifty names."* The brief carries the caveat the script drops: *"That explanation comes from one brokerage official rather than from an exchange, so the mechanism is established while the specific order flow is only reported."* This is the load-bearing explanation of the entire lead, and it is currently single-sourced and unhedged in the audio. Fix costs three words: *"Brokers say some participants bid above the going price…"*
+
+Everything else in the brief that the script chose to omit — the GST and PMI detail, the Connections beats, the late-filing timing note, CAMS, Persistent and Dhanuka — is omitted cleanly, with no residue that would mislead.
