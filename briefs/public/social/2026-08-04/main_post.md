@@ -1,6 +1,6 @@
 # Twitter Main Post — 2026-08-04
 
-**Character count:** TBD
+**Character count:** 1,035 chars (body + firebreak) · 179 words excluding bullet dashes. Trio total 475 words, under the 500 cap.
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post first
@@ -18,7 +18,7 @@ The Reserve Bank's rate decision comes at 10:00 on Wednesday, but the number to 
 
 - Nobody is publicly expecting the Bank to mark that assumption down, and the analysts who publish a path see rates rising from October.
 
-- One input moved the other way anyway: the weather office now sees August rain at 94% of normal, and the monsoon was one of the Bank's own reasons for raising that forecast.
+- One input moved the other way anyway: the weather office now sees August rain at 94% of normal, and the monsoon was one of the Bank's own reasons for raising it.
 
 - Shares fell into the decision, the Nifty by 0.64%, with 392 of 680 stocks down and the fear gauge up 2.18%.
 
