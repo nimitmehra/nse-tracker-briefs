@@ -27,8 +27,8 @@ Hook inherits the brief's Lead: the closing-auction switch went live this mornin
 **Continuity vs the 30-July script:** that spine was the index rising while two of three stocks fell, with a wedge on *where* a profit came from rather than how big it was. Today's is structurally distinct — the index number itself is the thing that cannot be trusted, and breadth is the honest answer. No repeated mover (30 July: Balkrishna, Redington, PCBL, Hexaware, KPIT; today: Zee, Muthoot Finance, Urban Company). Oil has flipped again, from the standing support just under ninety dollars to a seven percent collapse, and the rate meeting has arrived rather than looming.
 
 **Two lines most likely to need the principal's eye:**
-1. "The market bought the claimed half." — compressed judgement closing the Hormuz paragraph. It is the brief's own conclusion, but check that it lands as analysis rather than as a verdict on the diplomacy.
-2. "Nobody can tell you why those moved, and anyone who says otherwise is guessing." — deliberately blunt honesty about the seven unexplained moves. Check the tone is confident rather than defensive.
+1. "So the market priced in a deal that has not been agreed." — replaces "The market bought the claimed half.", which the verifier ruled unparseable on one hearing ("bought" reads as a purchase inside an oil paragraph). Same judgement, no back-reference, and the object is the market's behaviour rather than the diplomacy.
+2. "Nobody can tell you why those moved, and anyone who says otherwise is guessing." — deliberately blunt honesty about the seven unexplained moves, and kept verbatim on the verifier's ruling (candour, not abdication). Check the tone is confident rather than defensive.
 
 **Audio status:** NOT generated. Awaiting principal review per the TTS gate.
 ---
