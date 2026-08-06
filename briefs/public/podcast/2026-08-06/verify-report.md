@@ -186,4 +186,54 @@ Both were sound in v1 and neither was disturbed. Recording them so the fix pass 
 
 ## Source spot-check (S1)
 
+**Result: PASS. Zero number or direction mismatches.** Re-run from scratch against `briefs/public/2026-08-06.md`, not carried over from the v1 report. Every figure surviving the fix pass reconciles, and the two genuinely new items (State Bank of India, the breadth denominator) both check out.
+
+### New in v2 — checked first
+
+| Script says | Brief says | Verdict |
+|---|---|---|
+| "One was State Bank of India." (no size spoken) | "The index finished positive on two stocks… State Bank of India (SBIN) rose 2.84%" | **match.** SBIN is genuinely the second index-carrying stock, and it is genuinely the smaller of the two. Speaking no size introduces no error. |
+| "out of the nearly seven hundred we track" | "683 names in the universe, 682 with a usable move" | **match.** "Nearly seven hundred" is the honest rounding of 683. |
+| "Anything above fifty means the sector is still growing" | not stated in the brief | **not a figure claim.** This is the standard definition of a diffusion index, added as a decodability gloss. It asserts no data the brief does not carry, and it corrects a reading the brief's own phrasing invited. |
+| "growth at its slowest in more than four years" | "a 53-month low… services momentum at a four-and-a-half-year low" | **match.** 53 months is four years and five months. |
+| descriptors: RateGain "pricing software to hotels and airlines"; Garware "industrial plastic film"; Motherson "the car parts maker" | brief carries no business descriptions | **not brief-sourced, and correct.** All three are accurate to what these companies do. Garware Hi-Tech Films makes polyester and industrial films; Samvardhana Motherson International is an auto-components maker; RateGain sells travel and hospitality pricing software. |
+
+### Retained figures — re-reconciled
+
+| Script says | Brief says | Verdict |
+|---|---|---|
+| Nifty fifty 24,636, up zero point zero five percent | 24,636.00 (+0.05%) | match |
+| Sensex and Bank Nifty each about half a percent | +0.48% / +0.56% | match |
+| 302 rose, 371 fell; middle stock lower | 302 / 371 / 9 unchanged; median −0.22% | match |
+| Reliance three and a half percent, roughly eight percent of index, worth more than the whole day's gain | +3.52%, ~8% weight, ~0.28pp against an index +0.05% | match, arithmetic holds |
+| Korea four and a half percent, on AI-hardware return doubts | KOSPI −4.58%, same stated cause | match |
+| RBI held Wednesday at five point two five; inflation to five percent; growth to six point seven | 5.25% hold, 5.0%, 6.7% | match |
+| Services survey fifty three point three; fifty five percent of output | 53.3; roughly 55% | match |
+| Firstsource down thirteen; revenue almost twenty three; profit backwards on a one-off; cash minus seventy two | −13.40%, +22.9%, −2.0% on a ₹72 crore charge, OCF −72% | match |
+| Blue Star down five and a half; revenue thirteen; profit fell fifteen; cooling margin halved | −5.65%, +13.3%, −15.2%, segment 5.8% to 2.9% | match |
+| Navin revenue forty four; profit more than doubled; margin over thirty four; lifetime high | +44.1%, +107.7%, 34.2%, lifetime high | match (size correctly omitted) |
+| RateGain revenue one hundred and eighty eight, shares fell | +188%, −3.42% | match |
+| Garware best quarter in its history, shares fell | best quarter ever, −0.96% | match |
+| Motherson profit almost eighty percent, shares did not move | +77.5%, +0.42% | match |
+| Shriram up eleven on the week, Bajaj Finance over eight | +11.08%, +8.67% | match |
+| Lodha down almost six on the week, DLF and Oberoi Realty also lower | −5.68% on the week; DLF, Oberoi, Prestige, Godrej Properties all lower | match (two of five named) |
+| Strip out the fourth of August, foreign investors net sellers for the month | "strip out the single 04-August session and August-to-date foreign flow is minus ₹40 crore" | match |
+| Tomorrow more than two hundred filing, including LIC and Hindustan Petroleum | 233 filers, LICI and HPCL named | match |
+
+**No wrong-day leakage.** Every dated item carries the brief's own date: Wednesday for the rate decision and the services survey, today for the close, tomorrow for the results calendar.
+
+**One residual drift, unchanged from v1 and still acceptable.** The brief attributes the rate-signal response to **non-bank** lenders (Shriram, Cholamandalam, Bajaj Finance); the script says "Lenders", which a listener will hear as including banks. This was a deliberate trade to avoid saying "N-B-F-C" aloud, and Bank Nifty rose 0.56%, so nothing is contradicted. "The finance companies" would keep the precision at the same syllable cost, if the principal ever wants it.
+
 ## Would I put this in a listener's ears
+
+**Yes.**
+
+Not "yes, with reservations" and not "yes because it is the last attempt". The two things that failed in v1 were the two places a listener would have finished the episode holding a false belief — that Garware is a film studio, and that India's services economy is shrinking. Both are gone, and both were fixed by adding the missing information rather than by deleting the sentence that exposed the gap, which is the harder and better fix.
+
+The rest of the episode is what it was, and what it was is good. One spine, stated in the hook and paid off in the last line before the disclaimer. Every company placed. Every causal claim run to its end. Time discipline clean. The hedge on Reliance — the day's live trap, a three-and-a-half-percent move nobody could source — is handled better than most desks handle it in print: the doubt arrives before the name, the number arrives without a verb that would explain it, and the beat closes on a refusal to invent a reason. That line survives the fix pass verbatim and is still the best thing in the episode.
+
+The one WARN is a pronoun. "The index" lost its anchor when the Nifty-50 line was cut to make room for the descriptors, and the fix is to say "The Nifty" instead. It is free in word count. I would apply it, and I would ship whether or not it is applied.
+
+The honest cost of the fix pass, stated plainly: the podcast no longer carries the brief's correction of outlets that headlined buying in tech. That was a real integrity beat in print. At 699 of 700 words, something had to go, and decodability beats a correction the listener never asked for. Worth logging so that if the band is ever raised, that line is the first thing to come back.
+
+**Recommendation: proceed to the principal's TTS approval gate.** The script is TTS-clean by machine check, inside the band, and free of anything that would leave a listener misinformed.
