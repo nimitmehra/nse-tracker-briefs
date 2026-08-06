@@ -1,7 +1,14 @@
 # Verify Podcast Script — 2026-08-06
 
-**Verdict:** _(pending)_
-**Checks:** _(pending)_
+**Verdict:** FAIL (narrow — two decodability fixes, roughly five minutes of editing, then re-verify)
+**Checks:** L1 6 / L2 4 / L3 0 / L4 0 / L5 0 / L6 0 / S1 0  (counts = FLAG hits)
+
+**Read this before the punch list.** This is a good script, and it fails on decodability, not on craft. The hedge discipline — the single thing most likely to go wrong today — is the best-executed part of the episode and must not be touched in the fix. Structure, spine, time discipline, TTS mechanics and every sourced figure are clean. It fails because two lines will leave a listener holding a *wrong* belief, not a missing one:
+
+- **"Garware Hi-Tech Films had the best quarter in its history"** — a listener with no descriptor hears a movie studio. It makes industrial plastic film. The hook's credibility rests on three companies, and one of them is misidentified in the ear.
+- **"the July services survey landed at fifty three point three, the weakest reading in more than four years"** — with no scale spoken, "weakest in four years" is heard as the sector shrinking. It is still growing; fifty is the line. The brief inherited this gap and the script is the last place to close it before someone's ears.
+
+A FAIL here means: fix, re-verify, then TTS. It does not touch the brief or Twitter, both already shipped.
 
 ## Per-sentence ledger
 
@@ -114,8 +121,70 @@ Ordered by how much a listener loses. None of these is an audio-breaker; all are
 
 ## Writer judgment calls
 
-_(pending)_
+### 1. Dropping S.J.S. Enterprises, substituting Samvardhana Motherson — CORRECT, and better-founded than the writer claimed
+
+The writer's reasoning holds, and the brief supports it more strongly than the composition note argues.
+
+- The brief's Earnings section states outright that ₹24 crore of S.J.S.'s +115% profit was a one-off gain on selling the old factory, underlying growth was +45%, "and the shares traded on that." S.J.S. is therefore the one name in the lead's list that is **not** an unexplained non-reaction — it is an explained one. Narrating it as a puzzle would have asserted, in the listener's ear, a mystery the brief had already dissolved. In audio there is no room to append the caveat without spending twenty-five words and killing the hook's rhythm.
+- Samvardhana Motherson is not an outside substitution. It is already **inside the brief's own Lead** ("Emcure Pharmaceuticals and Samvardhana Motherson International also grew profits sharply and went nowhere"). The writer promoted a name from the lead's second rank into its first rank. That is a reordering, not a departure.
+- Figures check: profit +77.5% rendered as "almost eighty percent"; +0.42% rendered as "the shares did not move". Both accurate, and "did not move" is a fairer audio rendering of +0.42% than a spoken decimal would be.
+
+**The Lead survives intact.** The script's opening sentence is the brief's opening sentence in substance ("Five Indian companies filed strong results today and the market bought none of them"), the count of five is the brief's own, and all three examples now spoken are genuine strong-result / no-buying cases with no competing explanation on the record. The substitution removed the one example that would have been wrong to use.
+
+One residual: the script says five and names three, without telling the listener the other two exist unnamed. That is normal audio compression and the exemplar does the same. Not a flag.
+
+### 2. Speaking no size figure for Navin Fluorine — CORRECT
+
+The brief flags "+13.67% sits above every intraday high reported elsewhere: direction solid, size not corroborated." The options were (a) speak the uncorroborated number, (b) speak it with a caveat, (c) omit it.
+
+- (a) is out — it publishes a figure the desk does not stand behind.
+- (b) is worse in audio than in print. "We measured thirteen point six seven percent but could not corroborate the size" is unspeakable, and worse, it makes the show sound like it is doubting itself out loud. Print can carry that caveat in a clause; the ear hears only hesitation.
+- (c) is what was done, and it works because the writer did not simply delete — he **substituted an equally concrete, fully corroborated fact**: "It closed at a lifetime high." That is a stronger claim than any percentage and it is corroborated in the brief.
+
+**Is the listener left with a gap?** No. The paragraph carries three corroborated numbers already — revenue up forty four percent, profit more than doubled, operating margin over thirty four percent — so the listener experiences a paragraph about *why* the company was bought rather than a paragraph missing its price. There is a faint asymmetry (the two falls each carry a size, the one gain does not), but it does not register as an omission in the ear; it registers as a change of subject from price to fundamentals. Given the section's thesis is "the market paid for margins", ending on margin rather than on price is arguably the better construction anyway.
+
+**Verdict on both: sound. Neither should be reversed in the fix pass.**
 
 ## Source spot-check (S1)
 
-_(pending)_
+**Result: PASS. Zero number or direction mismatches.** Twenty-nine figures checked against the brief; every one reconciles. No wrong-day leakage — every dated item in the script carries the brief's own date (Wednesday for the rate decision and the services survey, today for the close, tomorrow for results).
+
+| Script says | Brief says | Verdict |
+|---|---|---|
+| Nifty fifty twenty four thousand six hundred and thirty six, up zero point zero five percent | 24,636.00 (+0.05%) | match |
+| Sensex and Bank Nifty each about half a percent | +0.48% / +0.56% | match |
+| Nifty IT worst sector we could measure, down about one percent | −0.95%, "the day's worst measurable sector" | match |
+| Three hundred and two rose, three hundred and seventy one fell, middle stock lower | 302 / 371, median −0.22% | match |
+| Nifty fifty weakest group, thirty members down | 30 of 41 down, median −0.57% | match (script wisely omits the brief's odd "41 members") |
+| Index closed green on two stocks | "finished positive on two stocks" | match |
+| Reliance rose three and a half percent, roughly eight percent of index, worth more than the whole day's gain | +3.52%, ~8% weight, worth ~0.28pp vs index +0.05% | match, and the arithmetic holds |
+| Price corroborated, reason not | "the close is corroborated, the reason is not" | match, near-verbatim |
+| Korea down four and a half percent, mid-morning halt, AI-hardware return doubts | KOSPI −4.58%, mid-morning circuit breaker, same cause | match |
+| RBI held Wednesday at five point two five, inflation forecast to five percent, growth to six point seven | 5.25% hold, 5.0%, 6.7% | match |
+| Services survey fifty three point three, weakest in more than four years, fifty five percent of output | 53.3, 53-month low, ~55% | match |
+| Firstsource down thirteen percent, revenue almost twenty three, profit backwards on one-off, cash minus seventy two | −13.40%, +22.9%, −2.0% on ₹72cr charge, OCF −72% | match |
+| Blue Star down five and a half, revenue thirteen, profit fell fifteen, cooling margin halved | −5.65%, +13.3%, −15.2%, segment 5.8% to 2.9% | match |
+| Navin revenue forty four, profit more than doubled, margin over thirty four, lifetime high | +44.1%, +107.7%, 34.2%, lifetime high | match |
+| RateGain revenue one hundred and eighty eight, shares fell | +188%, −3.42% | match |
+| Garware best quarter in history, shares fell | best quarter ever, −0.96% | match |
+| Motherson profit almost eighty percent, shares did not move | +77.5%, +0.42% | match |
+| Shriram up eleven on the week, Bajaj over eight | +11.08%, +8.67% | match |
+| Lodha down almost six on the week, DLF / Oberoi / Godrej Properties lower | −5.68% week, all lower | match |
+| Same signal, opposite outcomes, reason not established | "Same signal, opposite outcomes, reason not established" | match, verbatim |
+| Strip out fourth of August, foreign investors net sellers for the month | strip out 04-Aug, August-to-date flow −₹40 crore | match |
+| Tomorrow more than two hundred filing, incl. LIC and HPCL | 233 filers, LICI and HPCL named | match |
+
+### Hedge-integrity audit (the thing most likely to go wrong, checked line by line)
+
+**Clean. This is the strongest part of the script.**
+
+- **Reliance:** no causal verb anywhere. Not "on", not "because", not "driven by", not "which is why", not "carried by". The hedge is front-loaded ("I have to be careful about the bigger one, because we could not establish any reason dated to today for its move") and the number arrives *after* it. It does land in the ear — the doubt is planted before the figure, so the figure cannot escape the qualifier. The beat then closes on "The reason is not, and I am not going to invent one," which is the best-written line in the episode.
+- **Lenders-versus-property wedge:** carries the brief's exact "reason not established" and attaches no cause. "Lenders got the message" is a description of behaviour, not an attribution.
+- **Defence cluster:** omitted entirely rather than narrated around. Correct — the brief could source no cause, and there is no way to say "cause not established" five times about five state-owned shipyards without the audio becoming a disclaimer.
+- **Cantabil / Inventurus:** omitted. The brief explicitly declines to infer causation for their fall sizes; omitting them is consistent.
+- **VIX / rupee / Brent / bond curve:** omitted, and the brief's own caveats vindicate this — the bond curve failed on all seven tenors, the Brent mark was struck after the close and disagrees with Indian-hours quotes, and the gold quote is a futures contract 1.8% above spot. Narrating any of those requires narrating its caveat. Correct call.
+
+### Two small drifts worth noting (neither is an S1 mismatch)
+
+1. The brief says India's flat close "is non-participation, **not outperformance**." The script says "not **strength**." "Strength" is a broader claim than "outperformance" — it upgrades a relative statement into an absolute one. Minor, and the punch-list rewrite of that sentence resolves it anyway.
+2. The brief attributes the rate-signal response to **non-bank** lenders specifically (Shriram, Chola, Bajaj Finance). The script says "Lenders", which a listener will hear as including banks. The skill's own respelling note shows this was a deliberate trade to avoid saying "N-B-F-C", and Bank Nifty rose 0.56% so nothing is contradicted. Acceptable, but "the finance companies" would keep the precision at the same syllable cost.
