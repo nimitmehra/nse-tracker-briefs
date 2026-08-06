@@ -1,6 +1,6 @@
 # Twitter Main Post — 2026-08-06
 
-**Character count:** 1,065 chars (body + firebreak) · 177 words excluding bullet dashes. Trio total 475 words, under the 500 cap.
+**Character count:** 1,066 chars (body + firebreak) · 177 words excluding bullet dashes. Trio total 475 words, under the 500 cap.
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post first
