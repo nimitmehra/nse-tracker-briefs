@@ -159,7 +159,7 @@ Built cold: script + exemplar only, brief unopened. 61 sentences, all quoted.
 13. "The Sensex fell more, zero point five eight percent." — OK
 14. "But that is only because it holds more financial companies, and financials were where the damage was." — OK. See the escalated-lines section: this self-glosses ("financial companies" then "financials") and the comparison base is carried by the preceding "fell more". It lands as mechanical.
 15. "It is not a second piece of bad news." — OK. Explicitly forecloses the misreading. Good.
-16. "Across the whole market, three hundred and twenty shares rose and three hundred and sixty two fell." — OK. The universe is stated.
+16. "Across the whole market, three hundred and twenty shares rose and three hundred and sixty two fell." — OK. The universe is stated. — **SUPERSEDED (v4):** now "Across the stocks we track…". My OK was the weaker call; see PASS 2, S3.
 17. "The selling was concentrated, not broad." — **FLAG (L4, minor):** the conclusion is asserted but the one-clause mechanism is missing. A naive listener hears near-even counts and is not told why that implies concentration (index weighting). One clause would close it.
 18. "Two things I could not check tonight." — OK. First-person and listener-facing; this frame governs sentences 19-20 and is load-bearing for both.
 19. "Most sector indices gave no usable reading." — OK. Under the sentence-18 frame this reads as "I could not see how the sectors did". "No usable reading" is thin but comprehensible.
@@ -204,7 +204,7 @@ Built cold: script + exemplar only, brief unopened. 61 sentences, all quoted.
 46. "Oil and Natural Gas Corporation sits on the other side." — OK. Full name, no initialism.
 47. "It pumps crude rather than buying it, so a cheaper barrel cuts what it earns." — OK. The mechanism is stated in plain words, in the right direction, before the number arrives.
 48. "It closed up zero point four percent." — OK
-49. "So the three that stood to gain did nothing with it, and the one that stood to lose closed higher, not lower." — **FLAG (L4, substantive — the strongest finding in this pass):** the payoff line contradicts its own numbers. Indian Oil at up half a percent is filed under "did nothing", while Oil and Natural Gas Corporation at up zero point four percent is filed under "closed higher, not lower". The smaller rise is the one called a rise. The numbers are three sentences apart, so this is audible in one pass, and it undercuts sentence 50, which states the honest version (nobody moved much). The author's note claims the v2 fix resolved this; it did not — it relocated the same asymmetry into the payoff.
+49. "So the three that stood to gain did nothing with it, and the one that stood to lose closed higher, not lower." — **FLAG (L4, substantive — the strongest finding in this pass):** the payoff line contradicts its own numbers. Indian Oil at up half a percent is filed under "did nothing", while Oil and Natural Gas Corporation at up zero point four percent is filed under "closed higher, not lower". The smaller rise is the one called a rise. The numbers are three sentences apart, so this is audible in one pass, and it undercuts sentence 50, which states the honest version (nobody moved much). The author's note claims the v2 fix resolved this; it did not — it relocated the same asymmetry into the payoff. — **SUPERSEDED (v4): RESOLVED.** Now "…barely moved, and the one that stood to lose did not fall at all." Re-tested for relocation; the asymmetry is gone, not moved. See PASS 2.
 50. "That is two sessions where neither side of India's oil chain has priced a big move in crude, and I cannot tell you why." — OK. This is the accurate framing. Twenty-four words, single thread, speakable in one breath.
 
 **Forward look and close**
@@ -219,7 +219,7 @@ Built cold: script + exemplar only, brief unopened. 61 sentences, all quoted.
 58. "Before I sign off: this has been general market commentary, not investment advice." — OK
 59. "For investment advice tailored to your situation, consult a SEBI-registered Investment Adviser." — OK. Exemplar wording.
 60. "Markets are risky; you may lose money; act with care." — OK. Exemplar wording.
-61. "See you tomorrow." — **FLAG (L3):** this is a Friday evening recap. "Tomorrow" is Saturday, and the script has itself just told the listener the next market news is Monday's. The sign-off promises an episode that will not exist and contradicts sentence 53 four lines earlier. The exemplar's "See you tomorrow" is correct because that episode was a Thursday.
+61. "See you tomorrow." — **FLAG (L3):** this is a Friday evening recap. "Tomorrow" is Saturday, and the script has itself just told the listener the next market news is Monday's. The sign-off promises an episode that will not exist and contradicts sentence 53 four lines earlier. The exemplar's "See you tomorrow" is correct because that episode was a Thursday. — **SUPERSEDED (v4): RESOLVED.** Now "See you Monday.", consistent with sentence 53.
 
 ## The four escalated lines
 
@@ -314,7 +314,7 @@ The inversion the earlier draft had is gone. A listener is told the company is h
 
 ## Punch list
 
-### MUST FIX before TTS (2) — both are single-sentence swaps
+### MUST FIX before TTS (2) — both are single-sentence swaps — **BOTH RESOLVED in v4, verified in PASS 2**
 
 **M1. [L3] Sentence 61 — "See you tomorrow." is wrong for a Friday.**
 2026-08-07 is a Friday. "Tomorrow" is Saturday, when there is no session and no episode, and the script has itself told the listener four sentences earlier that the next news is Monday's. The exemplar's identical sign-off is correct only because that episode ran on a Thursday; it was copied without re-anchoring to the day. Replace with:
