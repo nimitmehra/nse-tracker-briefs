@@ -74,9 +74,9 @@ The oddest was Shivalik Bimetal Controls, a small industrial company. It rose tw
 
 Five other shares rose more than seven percent and I could not establish why any of them moved. We checked everything we normally check and came back empty.
 
-Here is what struck me most about today. The Indian companies that buy crude did nothing with that weekly fall. Bharat Petroleum finished slightly lower, Indian Oil up half a percent, Reliance Industries up under one percent. Oil and Natural Gas Corporation sits on the other side. It pumps crude rather than buying it, so a cheaper barrel cuts what it earns. It closed up zero point four percent. So the three that stood to gain did nothing with it, and the one that stood to lose closed higher, not lower. That is two sessions where neither side of India's oil chain has priced a big move in crude, and I cannot tell you why.
+Here is what struck me most about today. The Indian companies that buy crude did nothing with that weekly fall. Bharat Petroleum finished slightly lower, Indian Oil up half a percent, Reliance Industries up under one percent. Oil and Natural Gas Corporation sits on the other side. It pumps crude rather than buying it, so a cheaper barrel cuts what it earns. It closed up zero point four percent. So the three that stood to gain barely moved, and the one that stood to lose did not fall at all. That is two sessions where neither side of India's oil chain has priced a big move in crude, and I cannot tell you why.
 
 What to watch. Several companies filed their quarters after the close today, Titan among them. Those are Monday's news, not today's cause. Wednesday brings July inflation. The date that matters most is the twenty eighth of August, when comments close on that draft. Whether the ban survives at all is still open.
 
-That's your brief. Before I sign off: this has been general market commentary, not investment advice. For investment advice tailored to your situation, consult a SEBI-registered Investment Adviser. Markets are risky; you may lose money; act with care. See you tomorrow.
+That's your brief. Before I sign off: this has been general market commentary, not investment advice. For investment advice tailored to your situation, consult a SEBI-registered Investment Adviser. Markets are risky; you may lose money; act with care. See you Monday.
 
