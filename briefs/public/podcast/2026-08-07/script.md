@@ -18,7 +18,7 @@
 
 **Brent direction, front-loaded and magnitude-safe.** Spoken as "fell again, and is down roughly nine point four percent over the week." No daily magnitude anywhere, because the brief withholds it (our feed and an independent read disagree on size, agree on direction).
 
-**ONGC direction.** Said in full as Oil and Natural Gas Corporation and explained in plain words before the number: "It pumps crude rather than buying it, so a cheaper barrel cuts what it earns. It closed up zero point four percent." The payoff line is the inversion, stated so it cannot contradict its own numbers: "the three that stood to gain barely moved, and the one that stood to lose did not fall at all." (Both earlier phrasings failed the cold read. v1 called Indian Oil "sat still" while calling ONGC "went up". v3 called the smaller rise a rise while filing the two larger rises under "did nothing".)
+**ONGC direction.** Said in full as Oil and Natural Gas Corporation and explained in plain words before the number: "It pumps crude rather than buying it, so a cheaper barrel cuts what it earns. It closed up zero point four percent." The payoff line is the inversion, worded so it cannot contradict its own numbers. Both earlier attempts failed the cold read. The shipping wording and its history sit in Fix pass v4 below.
 
 **Hormuz is omitted entirely.** The brief carries two separate instruments (the Iran-Oman in-principle arrangement, and a separate Iranian parliamentary measure on American and Israeli vessels) that are actively being conflated in the press. Narrating them apart correctly costs about eighty words and neither has a causal role in today's Indian session. Omitting is safer than compressing, and it bought the oil wedge its full length.
 

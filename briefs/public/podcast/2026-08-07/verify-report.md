@@ -1,9 +1,103 @@
 # Verify Podcast Script — 2026-08-07
 
-**Verdict: FAIL** — two single-sentence fixes, then re-verify. Do not run TTS on this version.
+**Verdict: WARN — TTS CLEARED.** (Supersedes the FAIL below. Fix pass v4 resolved both blockers; the remaining items are the knowingly-unactioned carry-overs.)
+**Checks after v4 (FLAG hits):** L1 4 / L2 0 / L3 **0** / L4 1 / L5 0 / L6 0 / S1 0
+**Checks before v4 (v3, retained):** L1 4 / L2 0 / L3 1 / L4 2 / L5 0 / L6 0 / S1 0
+
+*This file holds two passes. The v4 scoped re-verification is first; the full v3 cold read is retained below it, unedited except where a line is marked SUPERSEDED, so the audit trail stays intact.*
+
+---
+
+# PASS 2 — Scoped re-verification, fix pass v4
+
+**Scope granted:** three sentence-level swaps only. **Independently verified, not taken on trust** — word-level diff of the spoken body against `backups/2026-08-07/podcast-script_2026-08-07_v3.md` returns exactly four hunks belonging to the three declared swaps and nothing else. The three-swap claim is true; no widening was warranted.
+
+**One correction to the orchestrator's numbers:** the body is **696 words, not 697** — before and after. The swaps net to zero (+1 scope, −2 then +1 oil). Both my count and the script header say 696. Immaterial, well inside the 500-700 band, but the 697 figure should not propagate.
+
+## Delta ledger — the three swaps
+
+| # | Sentence | Ruling |
+|---|---|---|
+| **S1** (was L3 blocker) | 61: "See you Monday." | **RESOLVED.** Friday close, next session Monday. Consistent with sentence 53, "Those are Monday's news, not today's cause" — the two Monday references now agree instead of contradicting. No new flag. |
+| **S2** (was L4 blocker) | 49: "So the three that stood to gain barely moved, and the one that stood to lose did not fall at all." | **RESOLVED.** The false contrast is gone. IOC at +0.5% and RELIANCE at +0.74% are now "barely moved" — a claim about the *size* of the move, which is true of all three buyers including BPCL's small decline — and ONGC at +0.44% is characterised only by the *absence of a fall*, never as the larger move. The two clauses no longer compete on magnitude, so nothing is mis-ranked. It also stops undercutting sentence 50 ("neither side of India's oil chain has priced a big move"): three barely moved, one did not fall, neither side priced it — one consistent claim across three sentences. |
+| **S3** (scope override) | 16: "Across the stocks we track, three hundred and twenty shares rose and three hundred and sixty two fell." | **SOUND, and better than my PASS.** See the honest read below. Did not make anything worse. |
+
+## S3 — my honest read, having been overridden
+
+**The override was right and my PASS was the weaker call.** I cleared "Across the whole market" on the reasoning that 687 is the full *priced* universe, so the label was fair. That confuses our universe with the market's. NSE lists on the order of two thousand names; a listener hearing "the whole market" hears all of them, and 320 + 362 covers 687. The brief itself scopes the figure — "across 687 priced stocks", "across the priced universe" (brief lines 14, 53) — so the script was the only artifact making the wider claim. Fixing it was a precision gain, not a cosmetic one.
+
+**Did it make anything worse?** No, on the two risks worth testing:
+
+- **Evasive or vague spoken aloud** — no. "The stocks we track" is a concrete, checkable claim about who is speaking; "the whole market" was the vaguer of the two because it named no universe the desk can stand behind. Naming your own coverage reads as candour, not hedging, and it is the same register as "Two things I could not check tonight" and "We checked everything we normally check", which the episode already uses.
+- **Voice** — it adds one more desk-"we" to a body that already oscillates between "I" (18, 41, 43, 50) and "we" (24, 42). That oscillation is an existing WARN carried from the v3 pass and knowingly not actioned; this swap sits inside it rather than creating anything new. **Not escalated.**
+
+**One knock-on worth logging, WARN-grade, not actioned:** with the universe narrowed, the next sentence — "The selling was concentrated, not broad" — now draws a market-wide conclusion from an explicitly partial sample. That is a real but small logical loosening, and it lands in territory already covered by the standing WARN on sentence 17 (conclusion asserted without its mechanism). Ship as is.
+
+## Introduced-nothing-new check
+
+Re-measured on the current spoken body, independently:
+
+| Check | Result |
+|---|---|
+| Body word count | 696 (v3: 696) — in band |
+| Sentence count | 61 (unchanged) |
+| Digits | 0 |
+| ₹ / % symbols | 0 |
+| Em-dashes / en-dashes | 0 |
+| `[SAY:]` hints | 0 |
+| Exclamation points | 0 |
+| "See you tomorrow" | 0 occurrences |
+| Longest sentence | 24 words — "That is two sessions where…", unchanged; the new oil payoff is 21 words, single thread, one breath |
+| Recommendation words | only "buy crude" and "products it might be allowed to sell" — both benign, no advice language |
+
+No new L1/L2/L4/L5/L6 flag arises from any of the three swaps.
+
+## Regression checks — all intact
+
+| Item | Status |
+|---|---|
+| RBI draft framing — "It is not law", 28-August comments, five status carriers (would / not law / comments open / might be allowed / that draft) | **INTACT**, untouched by the diff |
+| Brent — fell, ~9.4% weekly, no daily magnitude anywhere | **INTACT** |
+| ONGC — rises, explained as a producer hurt by cheap crude, buyers are the beneficiaries | **INTACT**; the mechanism sentence (47) and the number (48) were not edited, only the payoff after them |
+| Shivalik — "The market priced the results and ignored the resignation." | **INTACT and undisturbed**; still an observation about investors, not an allegation. Ruling from PASS 1 stands |
+| **No clause added explaining why an auditor resigning matters** | **CONFIRMED ABSENT.** The recommendation against it was respected; sentence 39-40 are byte-identical to v3 |
+| No Hero MotoCorp rate (name not spoken at all) | **CONFIRMED** — zero occurrences |
+| No tips, no predictions | **CONFIRMED** — "Whether the ban survives at all is still open" is an open question, not a forecast; "Wednesday brings July inflation" is a calendar fact |
+
+## Source spot-check (S1) — still PASS
+
+Only the two swapped factual-adjacent lines needed re-tracing; the full v3 trace below is unaffected.
+
+- **Oil payoff** — brief line 131 now reads "the three that stood to gain barely moved, and the one that stood to lose did not fall at all", and brief line 15 carries an explicit post-publication wording correction recording the change and confirming **no number moved**. Script and brief agree verbatim. The cross-artifact drift risk this pass existed to catch is closed.
+- **Breadth scope** — brief line 14: "320 rose, 362 fell, 5 unchanged across 687 priced stocks." "Across the stocks we track" is consistent with the brief's own scoping; "the whole market" was not. The swap moved the script *toward* the source.
+
+**No mismatch. S1 = 0.**
+
+## Verdict and carried WARNs
+
+**WARN. TTS is cleared.** Both blockers are genuinely resolved — not relocated, which is the failure mode the v3 pass caught in the previous fix attempt, and which I specifically re-tested here by checking that the new payoff cannot mis-rank the four oil numbers. No blocker remains.
+
+Carried WARNs, logged and knowingly not actioned, none escalating:
+
+1. **[L4] Sentence 17** — "The selling was concentrated, not broad" still asserts the conclusion without deriving it from the 320/362 counts, now against an explicitly narrower universe.
+2. **[L1/L2] Sentence 52** — "filed their quarters" is desk shorthand and Titan carries no what-it-does.
+3. **[L1] Sentence 42** — I/we voice slip.
+4. **[L1] "came back empty"-family phrasing** used twice (sentences 20, 42).
+5. **[L1] Sentence 56** — "the ban", definite article on an instrument that does not exist, in the last substantive line.
+6. **[L1] Sentences 10, 24** — hanging subjunctive "as though it already were"; "made in India" colliding with the national slogan.
+
+None of these garbles audio or misstates a fact. Ship.
+
+---
+
+# PASS 1 — Full cold read of v3 (retained audit trail)
+
+**Verdict at the time: FAIL** — two single-sentence fixes, then re-verify. Do not run TTS on this version.
 **Checks (FLAG hits):** L1 4 / L2 0 / L3 **1** / L4 2 / L5 0 / L6 0 / S1 0
 
 *Independent cold-read pass. Target: `script.md` spoken body only (lines 59-81, 61 sentences). The brief was not opened until the ledger was complete; the author's self-verify was not opened until after that. Verdict formed before either.*
+
+> **Reading note (added in PASS 2):** everything below describes the **v3** file. Three sentences — 16, 49 and 61 — have since been replaced and are marked SUPERSEDED inline. Every other finding still applies to the file on disk.
 
 ## Headline
 
