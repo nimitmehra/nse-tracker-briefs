@@ -1,6 +1,6 @@
 # Twitter Main Post — 2026-08-07
 
-**Character count:** 1,086 chars (body + firebreak) · 179 words excluding bullet dashes. Trio total 490 words, under the 500 cap.
+**Character count:** 1,064 chars (body + firebreak) · 178 words excluding bullet dashes. Trio total 489 words, under the 500 cap.
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post first
@@ -22,11 +22,11 @@ The Reserve Bank published a draft on Thursday that would bar non-bank lenders f
 
 - Bajaj Finance fell 5.84% to ₹1,078, the worst in both benchmarks, with Bajaj Finserv down 3.70% and Jio Financial 2.39%.
 
-- The Nifty closed 0.27% lower at 24,570.65 while the Sensex fell 0.58%, since it carries more financial weight, and 320 stocks rose against 362 that fell.
+- The Nifty closed 0.27% lower at 24,570.65 while the Sensex fell 0.58% on its heavier financial weight, and 320 stocks rose against 362 that fell.
 
 - Brent crude fell and is down about 9.4% on the week, which an oil importer should welcome, but the rupee weakened 0.13% to 95.198 against a dollar that itself fell 0.54%.
 
-- Titan and Ola Electric filed after Friday's close, one with profit up 62.87% and the other with revenue down 45%, while the American jobs report showed payrolls down 23,000 against an expected gain of 83,000, so Monday prices them all.
+- Titan and Ola Electric filed after Friday's close, one with profit up 62.87% and the other with revenue down 45%, while the American jobs report showed payrolls down 23,000 against an expected gain of 83,000, so Monday prices them.
 
 - Wednesday brings July inflation and MSCI's index review.
 

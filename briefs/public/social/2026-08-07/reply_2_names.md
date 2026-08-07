@@ -1,6 +1,6 @@
 # Names Reply — 2026-08-07
 
-**Character count:** 886 chars (body) · 150 words
+**Character count:** 885 chars (body) · 150 words
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post as reply to connections_reply.md
