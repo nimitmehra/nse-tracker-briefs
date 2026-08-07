@@ -1,7 +1,7 @@
 # Show Notes — 2026-08-07
 
-**Word count:** 702 words (script)
-**Estimated duration:** 4.25 minutes at 165 WPM
+**Word count:** 696 words (script)
+**Estimated duration:** 4.22 minutes at 165 WPM
 **Self-verify:** PASS (checks 7, 8, 11 — zero banned jargon, zero recommendation language, every claim traced to the 2026-08-07 public brief)
 **Skill version:** podcast-script-public-nse v1.7
 **TTS-ready:** N/A (written asset — Spotify episode page)

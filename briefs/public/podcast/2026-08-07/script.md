@@ -1,9 +1,10 @@
 # Podcast Script — 2026-08-07 (evening recap: a draft rule that is not law moved a large-cap almost six percent)
 
-**Word count:** 702 words narrated (spoken body only)
-**Estimated duration:** 4.25 minutes at 165 WPM
-**Self-verify:** PASS. Machine-checked on the spoken body: zero digits, zero currency or percent symbols, zero em-dashes or en-dashes, zero `[SAY:]` hints, zero exclamation points, zero banned trader jargon, zero recommendation words before the firebreak. Longest sentence 25 words. Word count 702, two words over the 700 band ceiling after the fix pass, which I judged the right trade against the cold read's FAILs.
-**Revision:** fix pass v2, after cold-read verifier FAIL. Backup of v1 at `backups/2026-08-07/podcast-script_2026-08-07_v1.md`. Report at `verify-report.md`.
+**Word count:** 696 words narrated (spoken body only)
+**Estimated duration:** 4.22 minutes at 165 WPM
+**Self-verify:** PASS. Machine-checked on the spoken body: zero digits, zero currency or percent symbols, zero em-dashes or en-dashes, zero `[SAY:]` hints, zero exclamation points, zero banned trader jargon, zero recommendation words before the firebreak. Longest sentence 24 words. Word count 696, inside the 500-700 band.
+**Revision:** fix pass v3. v1 FAILed the cold read; v2 cleared all nine FAIL hits (verdict WARN); v3 applies the two issues the v2 fix pass itself introduced, both flagged by the verifier. Backup of v1 at `backups/2026-08-07/podcast-script_2026-08-07_v1.md`. Report at `verify-report.md`.
+**Cold-read verifier (`verify-podcast-script-nse`):** v1 FAIL (L1 4 / L2 5 / L4 3 / L6 1) → v2 **WARN**, all nine FAILs cleared, L2 and L6 to zero. v3 is v2 plus the verifier's own two v2 punch-list items, so the report's residual WARNs are already spent.
 **Skill version:** podcast-script-public-nse v1.7 (evening recap model)
 **TTS-ready:** YES
 
@@ -43,6 +44,10 @@
 
 **Paid for out of the word band:** the rupee macro beat (thirty four words, no causal role in today's story) and the emerging-market funds' after-our-close caveat (the script never claims they caused anything, so the caveat was insuring against a claim not made). No sourced figure was altered.
 
+**v3, the two the verifier's v2 pass asked for:**
+1. "the government bond market ... came back empty for a fourth day running" made the market the grammatical subject, so a listener could hear it as *no trading in bonds* rather than *we could not get the data*. Now: "for a fourth day running, nothing came back from the government bond market, where borrowing costs are set."
+2. "Growth and margins moving together." was a verbless analyst fragment with "margins" unglossed. Now: "so profit grew faster than sales."
+
 **Two lines most likely to need the principal's eye:**
 1. "The Sensex fell more, zero point five eight percent. But that is only because it holds more financial companies, and financials were where the damage was." — check the composition effect lands as mechanical rather than as a second cause.
 2. "The market priced the results and ignored the resignation." — Shivalik. It is the brief's own framing, but check it does not sound like an allegation when spoken.
@@ -55,7 +60,7 @@ Good evening. This is India Markets Brief from toro I-Q. Your read on today's se
 
 What moved the Indian market today was not oil, and not earnings. It was a draft. The Reserve Bank of India published a proposal on Thursday. It would stop lenders who are not banks from offering revolving credit, the kind of limit you can repay and draw again. It is not law. Comments are open until the twenty eighth of August. The market priced it today as though it already were.
 
-Here is the close. The Nifty fifty finished at twenty four thousand five hundred and seventy, down zero point two seven percent. The Sensex fell more, zero point five eight percent. But that is only because it holds more financial companies, and financials were where the damage was. It is not a second piece of bad news. Across the whole market, three hundred and twenty shares rose and three hundred and sixty two fell. The selling was concentrated, not broad. Two things I could not check for you tonight. Most sector indices gave no usable reading. And the government bond market, where borrowing costs are set, came back empty for a fourth day running. On a day about credit, that is the one number you would want.
+Here is the close. The Nifty fifty finished at twenty four thousand five hundred and seventy, down zero point two seven percent. The Sensex fell more, zero point five eight percent. But that is only because it holds more financial companies, and financials were where the damage was. It is not a second piece of bad news. Across the whole market, three hundred and twenty shares rose and three hundred and sixty two fell. The selling was concentrated, not broad. Two things I could not check tonight. Most sector indices gave no usable reading. And for a fourth day running, nothing came back from the government bond market, where borrowing costs are set. On a day about credit, that is the one number you would want.
 
 Emerging markets went the other way today. Four exchange traded funds that track emerging market shares and bonds all rose while India fell. That is the cleanest evidence we have that today was made in India.
 
@@ -63,15 +68,15 @@ One thing did go India's way this week. Brent crude fell again today, and is dow
 
 Now the movers. The biggest fall was Bajaj Finance, one of the lenders that draft is aimed at. It fell almost six percent, the worst share in both benchmarks. It had touched a fresh fifty two week high a week earlier, on a quarter with profit up twenty nine percent. Nothing about its earnings changed in seven days. What changed was the list of products it might be allowed to sell.
 
-The biggest gain among the large companies was Siemens Energy India, which makes power equipment. It rose twelve percent, on revenue up thirty nine percent and operating profit up almost seventy four percent. Growth and margins moving together.
+The biggest gain among the large companies was Siemens Energy India, which makes power equipment. It rose twelve percent. Revenue was up thirty nine percent and operating profit almost seventy four percent, so profit grew faster than sales.
 
 The oddest was Shivalik Bimetal Controls, a small industrial company. It rose twenty percent and locked at its daily price limit, on revenue up a third and profit up forty five percent. In the same twenty four hours it disclosed that its outside auditor had resigned, from it and from both its subsidiaries. The market priced the results and ignored the resignation.
 
-Five other shares rose more than seven percent today and I could not establish why any of them moved. We checked everything we normally check and came back empty.
+Five other shares rose more than seven percent and I could not establish why any of them moved. We checked everything we normally check and came back empty.
 
-Here is what struck me most about today. The Indian companies that buy crude did nothing with that weekly fall. Bharat Petroleum finished slightly lower, Indian Oil up half a percent, Reliance Industries up under one percent. Oil and Natural Gas Corporation sits on the other side. It pumps crude rather than buying it, so a cheaper barrel cuts what it earns. It closed up zero point four percent. So the three that stood to gain did nothing with it, and the one that stood to lose closed higher, not lower. That is two sessions running where neither side of India's oil chain has priced a big move in crude, and I cannot tell you why.
+Here is what struck me most about today. The Indian companies that buy crude did nothing with that weekly fall. Bharat Petroleum finished slightly lower, Indian Oil up half a percent, Reliance Industries up under one percent. Oil and Natural Gas Corporation sits on the other side. It pumps crude rather than buying it, so a cheaper barrel cuts what it earns. It closed up zero point four percent. So the three that stood to gain did nothing with it, and the one that stood to lose closed higher, not lower. That is two sessions where neither side of India's oil chain has priced a big move in crude, and I cannot tell you why.
 
-What to watch. Several companies filed their quarters after the close today, Titan among them. Those are Monday's news, not today's cause. Wednesday brings July inflation. The date that matters most for today's story is the twenty eighth of August, when comments close on that draft. Whether the ban survives at all is still open.
+What to watch. Several companies filed their quarters after the close today, Titan among them. Those are Monday's news, not today's cause. Wednesday brings July inflation. The date that matters most is the twenty eighth of August, when comments close on that draft. Whether the ban survives at all is still open.
 
 That's your brief. Before I sign off: this has been general market commentary, not investment advice. For investment advice tailored to your situation, consult a SEBI-registered Investment Adviser. Markets are risky; you may lose money; act with care. See you tomorrow.
 
