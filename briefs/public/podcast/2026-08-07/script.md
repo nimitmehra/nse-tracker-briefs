@@ -23,6 +23,8 @@
 
 **No Hero MotoCorp growth rate** — the name is not spoken at all. The brief publishes levels only because the comparison base is broken, and a level with no growth rate is not audio material.
 
+**Two descriptors are not in the brief, by necessity.** "Siemens Energy India, which makes power equipment" and "Shivalik Bimetal Controls, a small industrial company" — the brief carries neither company's line of business, but the cold read failed both names as unplaceable by ear. Both descriptors are the minimum that makes the name hearable, carry no causal or valuation weight, and are consistent with what the brief does state (an order backlog for the first, a market value of five thousand three hundred crore rupees for the second). Every number in both beats is the brief's.
+
 **Five, not seven, unexplained names.** The brief's "cause not established" gainers above seven percent number five (Sapphire Foods, Pearl Global, Avalon, Devyani, Techno Electric). The script says five.
 
 **Deliberate omissions, all for the word band:** the rupee level, India VIX, the two additional Reserve Bank capital consultations, the market regulator's inspection rewrite, the gold retailers-versus-fabricators wedge, the IT large-cap-versus-mid-cap wedge, EIH and Tata Technologies. One wedge only, per the skill.

@@ -1,7 +1,7 @@
 # Show Notes — 2026-08-07
 
-**Word count:** 700 words (script)
-**Estimated duration:** 4.24 minutes at 165 WPM
+**Word count:** 702 words (script)
+**Estimated duration:** 4.25 minutes at 165 WPM
 **Self-verify:** PASS (checks 7, 8, 11 — zero banned jargon, zero recommendation language, every claim traced to the 2026-08-07 public brief)
 **Skill version:** podcast-script-public-nse v1.7
 **TTS-ready:** N/A (written asset — Spotify episode page)
@@ -27,7 +27,7 @@ The Reserve Bank of India published a proposal on Thursday that would stop lende
 
 ## Mentioned in this episode
 
-Bajaj Finance · Siemens Energy India · Shivalik Bimetal Controls · Bharat Petroleum · Indian Oil · Reliance Industries · Oil and Natural Gas Corporation · Titan · Ola Electric · Hitachi Energy India
+Bajaj Finance · Siemens Energy India · Shivalik Bimetal Controls · Bharat Petroleum · Indian Oil · Reliance Industries · Oil and Natural Gas Corporation · Titan
 
 ## Next session
 
