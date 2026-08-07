@@ -1,7 +1,20 @@
 # Verify Podcast Script — 2026-08-07
 
-**Verdict:** _pending_
-**Checks:** _pending_
+**Verdict: FAIL** — two single-sentence fixes, then re-verify. Do not run TTS on this version.
+**Checks (FLAG hits):** L1 4 / L2 0 / L3 **1** / L4 2 / L5 0 / L6 0 / S1 0
+
+*Independent cold-read pass. Target: `script.md` spoken body only (lines 59-81, 61 sentences). The brief was not opened until the ledger was complete; the author's self-verify was not opened until after that. Verdict formed before either.*
+
+## Headline
+
+**The script is close, and the three absolute factual rules all hold.** The draft rule is never spoken as enacted policy — its status is carried five separate times, and "It is not law" is four words long and unmissable. Brent's direction is right with the weekly figure only and no daily magnitude anywhere. Oil and Natural Gas Corporation rises, is correctly explained as a producer hurt by a cheaper barrel, and the beneficiaries are correctly the buyers. The earlier inversion is gone. Mechanically it is clean: 696 words, zero digits, zero symbols, zero em-dashes, no unhandled initialism, longest sentence 24 words. The source spot-check passes with no mismatch.
+
+**It fails on two lines, both cheap to fix, neither factual.**
+
+1. **[L3] "See you tomorrow." on a Friday.** The next session is Monday and the script says so itself four sentences earlier. The sign-off promises an episode that will not exist. Copied from the exemplar, which was a Thursday, without re-anchoring.
+2. **[L4] The oil wedge's payoff contradicts its own numbers.** A listener is told Indian Oil closed up half a percent, then that Oil and Natural Gas Corporation closed up zero point four percent, then that "the three that stood to gain did nothing with it, and the one that stood to lose closed higher, not lower." The smaller rise is the one called a rise. This is the analytical high point of the episode, and the author's self-verify marks it CLEARED and calls it the strongest passage.
+
+The remaining eight flags are WARN-grade and none blocks audio. **Fix the two, re-verify, then TTS.** The cost of the block is one round trip and zero Sarvam credits; the cost of shipping is a listener catching the desk contradicting itself in the passage the episode is built around.
 
 ## Mechanical checks (independently re-run)
 
@@ -274,6 +287,27 @@ Brief opened only after the ledger was complete. Every figure in the spoken body
 
 First, **sentence 49's contradiction is inherited from the brief, not invented by the script.** The brief's own line is "the three that stood to gain sat still, and the one that stood to lose rose" — the same asymmetry, with Indian Oil at +0.50% called "sat still" and ONGC at +0.44% called "rose". So this is not an S1 mismatch and the script did not fabricate anything. It is a listenability failure: in text the reader can see all four numbers in one paragraph and forgive the shorthand; in audio the numbers arrive sequentially and the payoff arrives last, which is where the contradiction bites. **The brief may want the same fix.**
 
+**The two labels the author flagged as load-bearing and uncheckable in a cold read — both clear.**
+
+- **"Across the whole market"** against the breadth count: the brief's universe is 687 priced stocks (320 + 362 + 5 unchanged). The author guessed 682 and worried the label overstated. It does not — 682 was an arithmetic slip in the self-check, and "the whole market" is a fair spoken label for the full priced universe.
+- **"one of the lenders that draft is aimed at"** (Bajaj Finance): confirmed. The brief's lead states the draft binds non-bank lenders, and names Bajaj Finance as the worst stock in both benchmarks on it, alongside Bajaj Finserv and Jio Financial. The scope claim is sound.
+
 Second, **the Hormuz omission hides nothing.** The brief confines Hormuz to Macro & Policy, attributes no role in the session to it, and reaches its oil-wedge conclusion ("we cannot tell you why") without invoking it. So "I cannot tell you why" is an honest non-explanation, not a hole created by the cut. The question I raised above resolves in the script's favour.
 
 ## Disagreements with the author's self-assessment
+
+Read only after my ledger was complete. We agree on most of it — and the two places we diverge are both places where the author had the fact in hand and drew the wrong conclusion from it. That is the characteristic failure of self-critique, and it is why this pass exists.
+
+**Disagreement 1 — sentence 49. The author marked it CLEARED and called it "the strongest passage in the episode". It is the weakest.**
+
+The self-verify disposition table records the v1 FAIL as "Oil punchline contradicted its own numbers" and rules that "direction-only framing removes the contradiction". It does not. The v2/v3 line still files Indian Oil at +0.5% under "did nothing" and Oil and Natural Gas Corporation at +0.4% under "closed higher, not lower". Direction-only framing did not remove the contradiction; it moved it from the adjectives into the payoff, where it is now the punchline rather than a detail. The author graded the *edit* it had made rather than the *sentence* it had produced — precisely what an author cannot see about its own fix. This is must-fix M2.
+
+**Disagreement 2 — sentence 61. The author wrote "OK (boilerplate; note only that this is a Friday)."**
+
+The author established the correct fact in two separate places — the ledger note on sentence 53 ("Friday close, so Monday is right") and the calendar check in Section 4 — and then declined to apply it one sentence later. "See you tomorrow" on a Friday evening promises a Saturday episode and contradicts sentence 53. Marking it "boilerplate" is the tell: the line was inherited from the exemplar and inspected as furniture rather than as content. Nine sentences of the episode were time-anchored correctly and the last one was not.
+
+**Where the author was right and I confirm it.** Both v3 escalations were correctly diagnosed and are now correctly fixed — the bond-market subject slip (its "one line I would change before TTS" was a good catch, and the v3 rewrite plus the sentence-18 frame resolves it) and the "Growth and margins" fragment. Its ruling that "The market priced the results and ignored the resignation" reads as observation and not allegation matches mine independently.
+
+**Where the author was harder on the script than I am.** It carried sentence 39 as an unfixed L4, wanting an added clause explaining why an auditor resigning matters. I disagree: adding "an auditor leaving usually raises questions about the accounts" would introduce exactly the interpretive weight the desk's stated position wants kept out, and would move the line closer to an allegation, not further from it. The current neutral statement is the right call. I also do not carry its L4 on sentence 19.
+
+**The gap this pass closes.** The author's S1 was never run — its own report says so twice and flags it as mandatory before TTS. It is now run, against the brief, and it **passes with no mismatch**. The two labels it could not check are both clean.
