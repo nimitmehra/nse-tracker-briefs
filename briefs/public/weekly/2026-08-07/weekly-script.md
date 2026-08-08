@@ -6,9 +6,13 @@
 
 **Spine:** a document's legal force tells you what is binding, not what is new, and prices move on what is new. All three rungs landed inside five sessions.
 
+**Word count:** 578 spoken words. **Estimated runtime:** ~3.9 minutes at 150 words per minute, inside the skill's 2-4 minute target. (Above the skill's 350-550 word band by 28 words; the week's mandatory content — three document rungs, the counter-argument, the counter-evidence, the full numbers block and three accountability disclosures — does not compress below this without dropping a required fact.)
+
+**Self-verify (machine-checked on the spoken body):** the draft is named as a draft seven times and never called a law, a ban or a new rule — the only occurrences of "law" and "rule" are the negation "Not a rule. Not a law." Brent is stated as **falling**, weekly figure only, no daily magnitude. The four-briefs-not-five disclosure, the eight-week weekly gap and the nine-of-22-sourced-movers count are all spoken. Zero recommendation words, zero exclamation points, zero emojis, zero private-pipeline vocabulary. Longest sentence 20 words. Disclaimer spoken in the cold open.
+
 **Delivery notes:**
 - Line breaks are breath marks. One thought per line. Pause at every full stop.
-- The word **draft** carries the video. It is said six times, and it is stressed every time.
+- The word **draft** carries the video. It is said seven times, and it is stressed every time.
 - Slow through the numbers block. Quicker through the counter-argument.
 - Never say the draft is a law, a ban, or a new rule. It is out for comment until 28 August.
 
@@ -34,15 +38,15 @@ Bajaj Finance fell 5.84% in a single session.
 
 ## 2. THE BINDING ONE
 
-Now hold that against the document that actually was binding.
+Now the one that actually was binding.
 
 On Wednesday the Bank held the repo rate at 5.25%. A fourth straight hold.
 
-Non-bank lenders ran up on that over several days, 9 to 11 percent across the week. Bajaj Finance was up 8.67% by Thursday.
+Non-bank lenders ran up 9 to 11 percent across the week on it. Bajaj Finance was up 8.67% by Thursday.
 
 One session of the draft took about two-thirds of it back.
 
-The third document was the only one that was final and enforceable. SEBI's order on Zee. Zee fell 17.77% on the week, and it moved nothing else.
+The third document was the only final, enforceable one. SEBI's order on Zee. Zee fell 17.77% on the week, and moved nothing else.
 
 ## 3. ONE THING, EXPLAINED
 
@@ -56,7 +60,7 @@ So don't ask first how binding a headline is. Ask what was already assumed, then
 
 ## 4. THE PART THAT DOESN'T HOLD UP
 
-Pricing a draft is not madness. It is the market doing its job. If a proposal would remove a product line, the expected cost is real money today.
+Pricing a draft is not madness. A proposal that would remove a product line costs real money today.
 
 What I can't defend is where the selling went.
 
@@ -76,7 +80,7 @@ So it read company paper for what it says, and official paper for what it might 
 
 ## 6. THE WEEK IN NUMBERS
 
-The week itself was quieter than any of that sounds.
+The week itself was quieter than that sounds.
 
 Nifty up 0.77%. Monday's 1.6% was more than the whole of it. Friday down 0.27%.
 
@@ -90,20 +94,20 @@ Three things about how this was built.
 
 We published four daily briefs this week, not five. Wednesday the 5th was a trading day and it was rate-decision day, and our pipeline did not run.
 
-This is also the first weekly brief since the 12th of June. An eight-week gap. The accountability baseline restarts here.
+This is also the first weekly brief since the 12th of June. An eight-week gap, and the accountability baseline restarts here.
 
-And of 22 movers that cleared our size floors, nine have a sourced cause and thirteen do not. I am not going to invent the other thirteen.
+And of 22 movers that cleared our size floors, nine have a sourced cause and thirteen do not. I'm not inventing the other thirteen.
 
 ## 8. WHAT TO WATCH
 
 July inflation on Wednesday the 12th, the first reading against the Bank's new 5% forecast.
 
-And the date that matters most is Friday the 28th of August, when the comment window on that **draft** closes. Until then the biggest open question in Indian finance stays open.
+The date that matters most is Friday the 28th of August, when the comment window on that **draft** closes. Until then, the sector's biggest question stays open.
 
 ## 9. CLOSE
 
 That's the week.
 
-The full written brief is on Substack, and the audio version is on the podcast. Links below.
+Full brief on Substack, audio on the podcast. Links below.
 
-See you next Saturday.
+See you next week.
