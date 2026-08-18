@@ -117,7 +117,8 @@ Ordered by severity. The first three are the ones the principal's eye should go 
 **FAIL-level**
 
 1. **[L2, sentence 8] Jyoti C N C Automation is never told what it does.** It is named twice — as an eight point three percent gainer, and again on the Monday-night disclosure — and a listener finishes the episode not knowing it makes machine tools. "C N C" is unglossed jargon carrying the weight.
-   *Rewrite:* "Paras Defence and Space Technologies, which builds optics and systems for the armed forces, gained ten percent. Jyoti C N C Automation, which makes the machines that cut metal parts, gained eight point three percent."
+   *Rewrite (source-bound — see S1 constraint 2 below):* "Paras Defence and Space Technologies gained ten percent. Jyoti C N C Automation, one of the companies in that electronics batch, gained eight point three percent."
+   *Note added after the source spot-check:* the brief carries NO description of Jyoti's business, so the fix cannot import one. Place the company by its role in the story instead. A real what-it-does line has to be added to the brief first.
 
 2. **[L1, sentence 21] "Brent" is used unexplained, and the entire oil beat rests on it.** Compounded at sentence 48, where the correction that Brent did not move is the spine of the episode.
    *Rewrite (first use):* "Brent crude, the world benchmark oil price, is about nine percent higher than on the seventh of August."
@@ -149,6 +150,13 @@ Ordered by severity. The first three are the ones the principal's eye should go 
 13. **[L1, sentence 5] The electronics figure is a bare appositive.** Nearly seven thousand nine hundred crore rupees *of what*? Give the noun.
 14. **[L4, sentence 10] "But the index fell and the market did not."** The epigram arrives before the mechanism that earns it. Consider inverting: state the eight-up, thirty-three-down split first, then land the line.
 15. **[sentence 56] "Three of its regional presidents voted for a rate increase"** has no time anchor and briefly reads as present tense. Add "at that July meeting".
+16. **[S1, sentence 34] Restore "public-sector".** The brief says the three thousand and seventy crore is spread across the entire defence *public-sector* supply chain; the script drops the qualifier and widens the scope. One word, free to fix.
+
+**Do NOT touch during the fix pass**
+
+- Sentences 25 to 29 (the factory-gate versus shop-price beat). The plain phrasing is load-bearing for accuracy, not just for style — see S1 constraint 1.
+- The withheld Tube Investments profit figure (sentence 44). The brief refuses to publish one on purpose.
+- The "reportedly" hedge (sentence 20) and "is due to publish" (sentence 55). Both mirror real hedges in the brief and must survive.
 
 **What the script gets right (do not lose these in the fix)**
 
@@ -159,4 +167,35 @@ Ordered by severity. The first three are the ones the principal's eye should go 
 
 ## Source spot-check (S1)
 
-_pending_
+**S1 PASS — no number or direction mismatch against the brief.** Run after the ledger was written to disk, and delegated to a separate reader so the brief never entered the cold-read context.
+
+Twenty-three checkable claims reconciled. All resolve to a line in `briefs/public/2026-08-18.md`. **No wrong-day leakage** — the 2026-06-04 failure mode (a prior session's numbers landing on the wrong script) does not recur here. The two date-bearing figures, the nine percent crude move since the seventh of August and the Monday-night Jyoti filing, are both correctly carried as dated rather than as today's. **No causal reversals.**
+
+Confirmed against the brief: Nifty fifty at twenty four thousand one hundred and fifty four point nine, down zero point five five percent; eight up and thirty three down inside the index; smallcap the only green headline index; six of eleven biggest movers at fifty two week highs; Nifty IT down one point nine three percent with all eleven members down; Paras plus ten point zero zero percent; Jyoti plus eight point three zero percent; Ahluwalia minus ten point eight five percent with sales up twelve point zero three percent and profit down seventy nine point seven one percent; Tube Investments plus seven point nine four percent with revenue up seventeen percent; Brent at ninety point eight six dollars, minus zero point zero one percent on the day and roughly nine percent above the seventh of August; retail inflation four point four five percent; the twelve nineteen defence announcement; the three thousand and seventy crore figure with its "not an order book, nothing awarded" caveat; Paras at roughly four times it (market cap twelve thousand three hundred and eight crore divided by three thousand and seventy equals four point zero one); the Fed minutes on Wednesday the nineteenth at about twenty three thirty India time with three regional presidents dissenting for an increase, and India trading them Thursday.
+
+Also confirmed correct: **the Jyoti timestamp.** The brief says twenty two twenty two on Monday night; the script's "ten twenty two on Monday night" is the correct twelve-hour rendering, not an error.
+
+Also confirmed correct: **the withheld Tube Investments profit figure.** The brief explicitly refuses to publish one, because two public versions exist showing profit down three percent and down forty three percent. Omitting it is mandatory, not stylistic. **Do not let a rewrite pass restore a profit number.**
+
+### Three sourcing constraints the fix pass must respect
+
+1. **The eight point two nine percent is NOT headline wholesale inflation.** The brief's headline July wholesale figure is nine point seven eight percent; eight point two nine percent is the factory-gate component. The script's phrasing — "what factories charged for their goods" — tracks the brief exactly and is the reason the number stays correct. **Do not "clarify" this to "wholesale prices" or "producer prices" during the rewrite.** That single word swap would attach the right sentence to the wrong number and would be the one place a listener could carry away a false figure. This is the strongest argument for leaving sentences 25 to 29 exactly as they are.
+
+2. **The brief contains no description of what Jyoti C N C Automation does.** It carries only the Rajkot plant and the one thousand and twenty point six five crore rupee five-year investment under the electronics scheme. So the L2 fix in punch item 1 cannot import a business descriptor from outside the source — the script is source-bound to the brief and does no independent reporting. Fix it from inside the source instead: place Jyoti by its role in the story that is already being told, for example "Jyoti C N C Automation, one of the companies in that electronics batch, gained eight point three percent." If the principal wants a real what-it-does line, it has to be added to the BRIEF first, not invented at the script stage. The L2 flag stands either way — a company named twice and never placed is still a listener failure.
+
+3. **Scope widening on the defence supply chain.** Brief: "the entire defence **public-sector** supply chain." Script (sentence 34): "the entire defence supply chain." Dropping "public-sector" widens who the three thousand and seventy crore is spread across. Not a number error and not an S1 mismatch, but it is a free fix — restore the word.
+
+### Minor, non-blocking
+
+- Sentence 15 says the technology index fell "more than three times the benchmark"; the brief says three and a half times. The script understates, which is the safe direction. No action needed beyond the L1 wording fix already listed.
+- Sentence 16 says emerging market funds "barely moved"; the brief says "mildly weaker". The script drops a direction rather than contradicting one. If the L1 rewrite of that sentence happens anyway, restore "slightly weaker".
+- Sentence 6's "to be bought from Indian suppliers" is true by definition of an indigenisation list but is not spelled out in the brief. Acceptable as a gloss of the instrument; noted for completeness.
+- Sentence 20's "reportedly" hedge and sentence 55's "is due to publish" hedge both correspond to real hedges in the brief. **Both must survive the rewrite.** The brief flags that the Hormuz transit counts trace to a single shipping-data read, and that the Fed date comes from one markets desk rather than the Fed's own calendar.
+
+---
+
+## Verdict rationale
+
+FAIL is driven entirely by the cold read, not the sourcing. The episode is factually clean, correctly timed, mechanically TTS-ready and inside the word band. It fails on listener vocabulary: twelve L1 desk-shorthand hits and two L2 name-placement misses. Every fix is a phrase swap that leaves the reporting untouched, and the word budget has room only at the margin — the body is at six hundred and ninety eight of a seven hundred word ceiling, so the fix pass will need to trade the gloss words in against something. The eight L1 items in the FAIL block are the ones that must clear before TTS.
+
+Per the skill's honest-constraints note: sentences 46 to 54, the press correction and the refusal to invent a reason for the technology fall, are better than any passage in the current canonical exemplar. Raising it with the principal rather than letting it drift silently — this may be exemplar-refresh material once the vocabulary is fixed.
