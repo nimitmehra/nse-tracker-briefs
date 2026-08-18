@@ -1,7 +1,9 @@
 # Verify Podcast Script — 2026-08-18
 
-**Verdict:** _pending_
-**Checks:** _pending_
+**Verdict:** FAIL — fix and re-verify before TTS. Do not spend Sarvam credits on this cut.
+**Checks:** L1 12 / L2 2 / L3 1 / L4 1 / L5 0 / L6 0 / S1 _pending_  (counts = FLAG hits)
+
+**One-line read:** the reporting, the structure and the mechanics are all sound — this is a well-built episode that fails on vocabulary. Twelve L1 hits are not twelve different problems; they are one habit, the desk register leaking into the narration ("green", "the benchmark", "on the board", "the call", "we track", "Brent", "the next session is entitled to price that"). The two L2 hits are the serious ones: a company named twice and never placed, and a cohort referenced a sentence before its members. Every fix below is a phrase swap. None of them touches the reporting or the word band.
 
 **Isolation note:** the ledger below was built cold — script plus canonical exemplar only. The brief was never opened in this verifier's context; the Step 2 source spot-check was delegated to a separate reader after the ledger was written to disk.
 
@@ -110,7 +112,50 @@
 
 ## Punch list
 
-_pending_
+Ordered by severity. The first three are the ones the principal's eye should go to.
+
+**FAIL-level**
+
+1. **[L2, sentence 8] Jyoti C N C Automation is never told what it does.** It is named twice — as an eight point three percent gainer, and again on the Monday-night disclosure — and a listener finishes the episode not knowing it makes machine tools. "C N C" is unglossed jargon carrying the weight.
+   *Rewrite:* "Paras Defence and Space Technologies, which builds optics and systems for the armed forces, gained ten percent. Jyoti C N C Automation, which makes the machines that cut metal parts, gained eight point three percent."
+
+2. **[L1, sentence 21] "Brent" is used unexplained, and the entire oil beat rests on it.** Compounded at sentence 48, where the correction that Brent did not move is the spine of the episode.
+   *Rewrite (first use):* "Brent crude, the world benchmark oil price, is about nine percent higher than on the seventh of August."
+
+3. **[L1, sentence 12] "the only green headline index" plus "the eleven biggest movers we track".** Two hits in one sentence: "green" is trader shorthand, and "we track" exposes the desk's internal universe — the producer-view failure the exemplar names first.
+   *Rewrite:* "The smallcap index was the only major index to finish higher, and six of the biggest movers of the day closed at their highest level in a year."
+
+4. **[L1, sentence 20] The Strait of Hormuz is used unplaced.** The exemplar glosses it every time for exactly this reason.
+   *Rewrite:* "Tanker attacks have resumed near the Strait of Hormuz, the narrow lane that carries much of the world's oil, and weekend traffic through it reportedly nearly stopped."
+
+5. **[L3 + L1, sentence 37] "The next session is entitled to price that."** Desk shorthand, and it strands the listener in time — Monday night plus "the next session" means today, the session being recapped, but on one hearing it sounds like a claim about tomorrow.
+   *Rewrite:* "That landed overnight, so today was the first session that could react to it."
+
+6. **[L1, sentences 41-42] "the call" is never introduced.** It appears in the sentence carrying the whole timestamp lesson.
+   *Rewrite:* "The results came out after Friday's close. The company took questions from analysts after Monday's close. Today the market gave its verdict, and those questions had made things worse, not better."
+
+7. **[L1, sentence 36] "Jyoti disclosed its own approval" has no recoverable referent.** Approval of what, by whom — the electronics scheme from the opening beat is never linked back.
+   *Rewrite:* "Jyoti told the exchange at ten twenty two on Monday night that it had won a place in that same electronics scheme."
+
+8. **[L1, sentence 16] "Asia split in two today and emerging market funds barely moved."** Split how, and which way? Both halves are desk vocabulary.
+   *Rewrite:* "Some Asian markets rose today and others fell, with no common direction, and foreign money moving across emerging markets barely shifted."
+
+**WARN-level**
+
+9. **[L1, sentence 15] "the benchmark" and "members".** Say "more than three times the fall in the Nifty fifty, with every one of its eleven companies down."
+10. **[L1, sentence 35] "Paras alone is worth about four times that."** "Worth" silently means stock-market value; a listener will hear revenue or assets. Say "Paras on its own is valued on the stock market at about four times that."
+11. **[L1, sentence 32] "the cleanest explanation on the board."** "On the board" is desk shorthand and the phrase is the analyst's view of the story. Say "That timing is the clearest link we have between news and price today."
+12. **[L1, sentence 57] "India trades them on Thursday."** Say "Indian markets get their first chance to react on Thursday."
+13. **[L1, sentence 5] The electronics figure is a bare appositive.** Nearly seven thousand nine hundred crore rupees *of what*? Give the noun.
+14. **[L4, sentence 10] "But the index fell and the market did not."** The epigram arrives before the mechanism that earns it. Consider inverting: state the eight-up, thirty-three-down split first, then land the line.
+15. **[sentence 56] "Three of its regional presidents voted for a rate increase"** has no time anchor and briefly reads as present tense. Add "at that July meeting".
+
+**What the script gets right (do not lose these in the fix)**
+
+- Sentences 25 to 29 are exemplar-grade: wholesale versus retail inflation rendered with zero jargon, then the so-what named in one line.
+- Sentences 46 to 54 — the press correction and the honest admission of not knowing why technology fell — are the strongest passage in the episode and better than anything in the current exemplar. Flagging for the principal: this is the "script improves on the exemplar" signal the skill says to raise rather than let drift.
+- Ahluwalia and Tube Investments both get a proper what-it-does on first mention (sentences 38 and 43). The fix for Paras and Jyoti is to match what the script already does correctly twice.
+- L5 and L6 are fully clean; nothing here requires a re-run of the mechanical checks.
 
 ## Source spot-check (S1)
 
