@@ -1,7 +1,17 @@
 # Verify Podcast Script — 2026-08-18 (fix pass v3 — REVERIFY)
 
-**Verdict:** _pending_
-**Checks:** _pending_
+**Verdict:** **WARN** — clear to ship at the principal's discretion. TTS may proceed; the punch list is optional polish, not a gate.
+**Checks:** L1 2 / L2 1 / L3 0 / L4 1 / L5 0 / L6 0 / **S1 PASS** (0)  (counts = FLAG hits)
+
+**One-line read:** the v2 failure was a vocabulary habit and the habit is gone. Twelve L1 hits went to two, both mild and neither flagrant; both L2 blockers are resolved as name-placement; the L3 time error is fixed; mechanics and sourcing are clean. What is left is one loose pronoun, one ambiguous word ("dated"), and one compressed causal phrase — three single-clause swaps, none of which a listener would fail on.
+
+**Why WARN and not FAIL.** The skill's Step 3 says any L1/L2/L3 match fails, but each check defines its own trigger. L1 fails "on any flagrant line" — neither remaining hit is desk shorthand or producer meta, they are an unglossed common term and one ambiguous adjective. L2 fails on "a deferred or unexplained name" — every company in this script is named and placed in the same breath; the sentence 34 flag is a pronoun referent, and the source check confirms it resolves to the correct fact. L4 is a single isolated slip, which the skill scores as WARN. So: no flagrant line, no unplaced company, no time error, no audio-breaker, no source mismatch.
+
+**Isolation note:** the ledger was built cold from the spoken body, script plus canonical exemplar only. The brief was opened only after the ledger was on disk. The script's own metadata header and the v2 report were read (both are about the script, not the source), and the previous report was recovered from git after this file was overwritten.
+
+**Accepted override:** "the biggest movers we follow" (sentence 11) is recorded as an accepted orchestrator decision, not re-flagged. The source check independently confirms the scope reasoning — the brief's count belongs to a roughly seven-hundred-stock screened universe.
+
+**Raised, not acted on:** sentences 43 to 49 are stronger than the current canonical exemplar's closing insight. Exemplar-refresh candidate for the principal.
 
 ## Per-sentence ledger
 
@@ -69,7 +79,7 @@ Built cold, before the brief was opened. Fifty-seven sentences in the spoken bod
 
 None of these is a blocker. All three are single-clause swaps that cost no words.
 
-- **[L2 referent, sentence 34]** "It disclosed that approval at ten twenty two on Monday night" — "that approval" has no antecedent and can attach to the electronics ministry approval from sentence five. Rewrite: **"It announced that investment at ten twenty two on Monday night, so today was the first session that could react."**
+- **[L2 referent, sentence 34]** "It disclosed that approval at ten twenty two on Monday night" — "that approval" has no antecedent in its own beat. The nearest thing the listener has heard is the Rajkot spend, which is not an approval; the last "approval" was the electronics ministry's, eleven sentences earlier. *The source spot-check confirms the true referent IS the electronics-scheme approval*, so the ambiguity resolves to a correct fact either way — this is a wording flag, not a factual risk. The rewrite that closes the referent and places Jyoti in the story at the same time: **"It disclosed its place in that electronics batch at ten twenty two on Monday night, so today was the first session that could react."**
 - **[L1, sentence 47]** "a dated reason" reads as "an out-of-date reason" on one hearing. Rewrite: **"I could not find a piece of news today that explains the technology fall, and I am not going to invent one."**
 - **[L4, sentence 40]** "ran the same sequence the other way" asserts a chain the script never shows for Tube Investments (no timestamp, no call, no verdict). Rewrite: **"Tube Investments of India, an engineering group, went the other way, up almost eight percent, on results the market liked."**
 - **[L1, advisory, sentence 10]** "the smallcap index" is unglossed. Optional swap: **"the index of smaller companies was the only major index to rise."** Note this one adds two words against a body already at the seven-hundred ceiling, so it trades against the fixes above.

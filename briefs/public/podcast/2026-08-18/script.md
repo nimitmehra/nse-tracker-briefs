@@ -3,8 +3,10 @@
 **Word count:** 700 words (spoken body only)
 **Estimated duration:** 4.24 minutes at 165 WPM
 **Self-verify:** PASS. Machine-checked on the spoken body: zero digits, zero currency or percent symbols, zero em-dashes or en-dashes, zero `[SAY:]` hints, zero exclamation points, zero banned trader jargon, zero recommendation language before the firebreak. Longest sentence 25 words, single-thread. Word count 700, at the ceiling of the 500-700 band.
-**Revision:** fix pass v3. v1 was 1,088 words (over band). v2 (698 words) FAILed the cold read on vocabulary. v3 applies every FAIL-level item plus all six WARNs, with one orchestrator override (below). Backups at `backups/2026-08-18/podcast-script_2026-08-18_v1.md` and `_v2.md`.
-**Cold-read verifier (`verify-podcast-script-nse`):** v2 **FAIL** — L1 12 / L2 2 / L3 1 / L4 1 / L5 0 / L6 0, **S1 PASS** (source spot-check found no number or direction mismatch across 23 claims). Mechanics and reporting were clean; the failure was desk vocabulary leaking into narration. Report at `verify-report.md`. **v3 has not been re-verified — re-run the verifier before TTS.**
+**Revision:** fix pass v4. v1 was 1,088 words (over band). v2 (698 words) FAILed the cold read on vocabulary. v3 applied every FAIL-level item plus all six WARNs. v4 applies the re-verify's three optional clauses plus its scope item. Backups at `backups/2026-08-18/podcast-script_2026-08-18_v1.md`, `_v2.md`, `_v3.md`.
+**Cold-read verifier (`verify-podcast-script-nse`):** v2 **FAIL** — L1 12 / L2 2 / L3 1 / L4 1 / L5 0 / L6 0, S1 PASS. v3 re-verified cold: **WARN** — L1 2 / L2 1 / L3 0 / L4 1 / L5 0 / L6 0, **S1 PASS** (20+ claims reconciled, zero number or direction mismatches), all eight FAIL items cleared, no blockers. Report at `verify-report.md`; the v2 report is at `backups/2026-08-18/podcast-verify-report_2026-08-18_v2.md`.
+
+**v4 applies all four residual items from the re-verify:** "that approval" given its antecedent ("its place in that electronics batch"); "a dated reason" changed to "a same-day reason", because in speech "dated" reads as *out of date*, the opposite meaning; the Tube Investments link softened from "ran the same sequence the other way" to "went the other way", since its call was Monday morning while Ahluwalia's recording went up after Monday's close, so the sequences are not identical; and the defence figure re-scoped to "the defence public-sector supply chain", matching the brief. Paid for by "most of the market" becoming "most shares".
 **Skill version:** podcast-script-public-nse v1.7 (evening recap model)
 **TTS-ready:** YES
 **Source:** `briefs/public/2026-08-18.md` only. No independent reporting.
@@ -26,9 +28,9 @@
 
 ## Composition notes — the accuracy decisions
 
-**The spine is the crude correction paired with our own limit.** "Brent moved one hundredth of one percent today. It did not move." is followed inside the same beat by "I could not find a dated reason for the technology fall, and I am not going to invent one." The episode never implies we know why technology fell. The verifier flagged this passage as stronger than the current canonical exemplar — principal's call whether it becomes the new exemplar.
+**The spine is the crude correction paired with our own limit.** "Brent moved one hundredth of one percent today. It did not move." is followed inside the same beat by "I could not find a same-day reason for the technology fall, and I am not going to invent one." The episode never implies we know why technology fell. The verifier flagged this passage as stronger than the current canonical exemplar — principal's call whether it becomes the new exemplar.
 
-**The defence number travels with its caveat.** Three thousand and seventy crore rupees is spoken as "business, spread over years and the whole supply chain", immediately followed by "Paras on its own is valued on the stock market at about four times that". No order, no award, no contract implied.
+**The defence number travels with its caveat.** Three thousand and seventy crore rupees is spoken as "business, spread over years across the defence public-sector supply chain", immediately followed by "Paras on its own is valued on the stock market at about four times that". No order, no award, no contract implied.
 
 **The factory-gate figure is not headline wholesale inflation.** Eight point two nine percent is what factories charge at their own gate, said as "what factories charged for their goods" against "what households paid in the shops". The roles are not inverted and the 9.78% headline is deliberately absent.
 
@@ -48,7 +50,7 @@ Good evening. This is India Markets Brief from toro I-Q. Your read on today's se
 
 Two government notifications organised today's session, and neither was a market event. The electronics ministry approved its first batch of component-making projects, worth nearly seven thousand nine hundred crore rupees. The defence ministry published a sixth list of four hundred and five items to be bought from Indian suppliers, not imported. Shares in both groups rose while the market fell.
 
-The Nifty fifty closed down zero point five five percent, at twenty four thousand one hundred and fifty four. Eight of its shares rose and thirty three fell. The smallcap index was the only major index to rise. Six of the biggest movers we follow closed at their highest level in a year. So the average fell and most of the market did not. Almost all the damage came from technology. That index fell one point nine three percent, more than three times the fall in the Nifty fifty, with all eleven of its companies down.
+The Nifty fifty closed down zero point five five percent, at twenty four thousand one hundred and fifty four. Eight of its shares rose and thirty three fell. The smallcap index was the only major index to rise. Six of the biggest movers we follow closed at their highest level in a year. So the average fell and most shares did not. Almost all the damage came from technology. That index fell one point nine three percent, more than three times the fall in the Nifty fifty, with all eleven of its companies down.
 
 Asian markets went in different directions today, and foreign money across emerging markets barely moved. Nothing outside India explains today's fall, which was made at home.
 
@@ -56,13 +58,13 @@ The worrying story is oil, and not because of today. Tanker attacks have resumed
 
 Another thing gets missed. What factories charged for their goods rose eight point two nine percent in July. What households paid in the shops rose four point four five percent. That gap gets absorbed by whoever sits in between and cannot raise prices. It is a margin story, not an inflation story.
 
-Now the movers. Paras Defence and Space Technologies rose ten percent. The defence list was announced at twelve nineteen, during trading hours, the clearest link between news and price today. The whole list, though, is an estimated three thousand and seventy crore rupees of business, spread over years and the whole supply chain. Paras on its own is valued on the stock market at about four times that. Jyoti C N C Automation, which is putting over a thousand crore rupees into its Rajkot plant, gained eight point three percent. It disclosed that approval at ten twenty two on Monday night, so today was the first session that could react.
+Now the movers. Paras Defence and Space Technologies rose ten percent. The defence list was announced at twelve nineteen, during trading hours, the clearest link between news and price today. The whole list, though, is an estimated three thousand and seventy crore rupees of business, spread over years across the defence public-sector supply chain. Paras on its own is valued on the stock market at about four times that. Jyoti C N C Automation, which is putting over a thousand crore rupees into its Rajkot plant, gained eight point three percent. It disclosed its place in that electronics batch at ten twenty two on Monday night, so today was the first session that could react.
 
 The one real fall was Ahluwalia Contracts, a construction company, down almost eleven percent. June quarter sales rose twelve percent and net profit fell almost eighty percent. That is a cost problem, not a demand problem. The results came out after Friday's close, the management call recording after Monday's close, and today the market gave its verdict. The call had made things worse, not better.
 
-Tube Investments of India, an engineering group, ran the same sequence the other way, up almost eight percent. June quarter revenue rose seventeen percent, with double digit growth in every segment.
+Tube Investments of India, an engineering group, went the other way, up almost eight percent. June quarter revenue rose seventeen percent, with double digit growth in every segment.
 
-Here is what struck me most today. The papers explained the fall with high crude and rising American bond yields. Brent moved one hundredth of one percent today. It did not move. Crude is at a high level and American yields are rising, but a level is not an event. I could not find a dated reason for the technology fall, and I am not going to invent one. I can tell you what the press got wrong. I cannot tell you why technology fell.
+Here is what struck me most today. The papers explained the fall with high crude and rising American bond yields. Brent moved one hundredth of one percent today. It did not move. Crude is at a high level and American yields are rising, but a level is not an event. I could not find a same-day reason for the technology fall, and I am not going to invent one. I can tell you what the press got wrong. I cannot tell you why technology fell.
 
 Tomorrow night, around half past eleven our time, the American Federal Reserve is due to publish the minutes of its July meeting. Three of its regional presidents voted there for a rate increase. Indian markets get their first chance to react on Thursday.
 
