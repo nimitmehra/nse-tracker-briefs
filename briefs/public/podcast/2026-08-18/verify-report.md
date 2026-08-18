@@ -80,12 +80,89 @@ None of these is a blocker. All three are single-clause swaps that cost no words
 
 ## Previous FAIL items — cleared?
 
-_pending_
+The v2 report carried sixteen numbered punch items (eight FAIL-level, eight WARN-level) plus three sourcing constraints. Checked one by one against the v3 body. **Fifteen of sixteen cleared. One not taken (item 16), and it is a scope wording residual, not a blocker.**
+
+**FAIL-level block — all eight cleared:**
+
+1. **Jyoti never placed** — CLEARED. Now "Jyoti C N C Automation, which is putting over a thousand crore rupees into its Rajkot plant". Placement by sourced fact rather than a business descriptor, which is the honest ceiling given the brief carries none. The fix pass correctly declined to invent one.
+2. **"Brent" unexplained** — CLEARED. First use is now "Brent crude, the global oil price".
+3. **"green" and "we track"** — CLEARED on "green" ("the only major index to rise"). "We track" became "we follow" under the accepted orchestrator override.
+4. **Strait of Hormuz unplaced** — CLEARED. The exemplar's own gloss is now carried verbatim.
+5. **"The next session is entitled to price that"** — CLEARED. Now "so today was the first session that could react". The L3 time error is gone.
+6. **"the call" never introduced** — CLEARED. Now "the management call recording".
+7. **"its own approval" has no referent** — PARTIALLY CLEARED. See the punch list. The v3 line reads "It disclosed that approval", which is better than v2 but still leans on a noun the listener has not heard in this beat.
+8. **"Asia split in two" / "emerging market funds"** — CLEARED. Now "Asian markets went in different directions today, and foreign money across emerging markets barely moved".
+
+**WARN-level block — seven of eight cleared:**
+
+9. **"the benchmark" / "members"** — CLEARED ("the fall in the Nifty fifty" / "its companies").
+10. **"worth about four times that"** — CLEARED ("valued on the stock market at about four times that").
+11. **"the cleanest explanation on the board"** — CLEARED ("the clearest link between news and price today").
+12. **"India trades them on Thursday"** — CLEARED ("Indian markets get their first chance to react on Thursday").
+13. **Electronics figure a bare appositive** — CLEARED. The noun is supplied: "component-making projects, worth nearly seven thousand nine hundred crore rupees".
+14. **L4 epigram before its mechanism** — CLEARED. The breadth split now comes first and "So the average fell and most of the market did not" lands after it.
+15. **Fed dissent had no time anchor** — CLEARED ("voted there", anchored to the July meeting named in the previous sentence).
+16. **Restore "public-sector" on the defence supply chain** — **NOT TAKEN.** v3 still says "spread over years and the whole supply chain"; the brief says "spread across the entire defence **public-sector** supply chain". One hyphenated word. Not an S1 mismatch and not a blocker — see the source spot-check — but it is the one carried-over item.
+
+**The three sourcing constraints — all respected:**
+
+- The factory-gate beat is untouched and still says "what factories charged for their goods". The nine point seven eight percent headline stays out. Correct.
+- No business descriptor was invented for Jyoti.
+- No Tube Investments profit figure was restored. The two hedges ("reportedly", "is due to publish") both survive.
+
+**Net:** the v2 failure mode — desk register leaking into narration — is gone. Twelve L1 hits went to two, both mild and neither flagrant. The two L2 blockers are both resolved as name-placement; what remains at sentence 34 is a pronoun, not an unplaced company.
 
 ## Mechanical checks (L5 / L6)
 
-_pending_
+Re-run independently on the spoken body (everything from "Good evening" to "See you tomorrow"), not taken from the script's self-verify header.
+
+| Check | Result |
+|---|---|
+| Digits | zero |
+| Currency or percent symbols | zero |
+| Em-dashes or en-dashes | zero |
+| `[SAY:]` hints or square brackets | zero |
+| Exclamation points | zero |
+| Colons / semicolons | only inside the standard closing disclaimer, same as the exemplar |
+| Word count | 700 — inside the 500 to 700 band, at the ceiling |
+| Longest sentence | 25 words (sentence 14), single-thread and comma-segmented, sayable in one breath |
+| Sentences over 30 words | zero |
+
+**L5: 0. L6: 0.** No audio-breakers. The word budget has no headroom, which is the real constraint on the punch list: the three recommended rewrites are close to word-neutral, but any added gloss has to trade against an existing clause.
+
+Mangle-risk spellings hold: "toro I-Q", "Jyoti C N C Automation", "the Reserve Bank of India" said in full, and "the technology index" in place of "Nifty I-T". The one initialism left in the body is "SEBI" in the fixed disclaimer, which is unchanged from the exemplar.
 
 ## Source spot-check (S1)
 
-_pending_
+**S1 PASS — no number or direction mismatch against `briefs/public/2026-08-18.md`.** Run only after the ledger above was written to disk.
+
+Reconciled, all resolving to a line in the brief:
+
+- Nifty fifty down zero point five five percent at twenty four thousand one hundred and fifty four — brief 24,154.90, −0.55%. Correct.
+- Eight rose, thirty three fell inside the index — brief identical. The nine-name residual is the brief's own arithmetic, not a script error.
+- Smallcap the only major index to rise — brief: Nifty Smallcap 250 +0.19%, "the only green headline index". Correct.
+- Six of the biggest movers at year highs — brief: six of the eleven biggest movers in the screened universe, "roughly 700 stocks above a ₹1,000 crore market-cap floor", at 52-week highs. **This confirms the orchestrator override**: the count is genuinely scoped to the screened universe, and an unscoped "biggest movers of the day" would have over-claimed to the whole exchange.
+- Technology down one point nine three percent, all eleven companies down — brief: Nifty IT −1.93%, all eleven measurable members down, "three and a half times the benchmark". The script's "more than three times" understates, which is the safe direction.
+- Electronics: nearly seven thousand nine hundred crore — brief ₹7,877 crore across 31 projects, letters dated 17 August. Correct.
+- Defence: sixth list, four hundred and five items — brief identical, notified 18 August. Announced at 12:19, intra-session — correct, and the brief calls it "the cleanest attribution on the board today", which the script renders as "the clearest link between news and price today".
+- Three thousand and seventy crore, not an order book — brief identical, with the caveat travelling in the same breath. Correct.
+- Paras plus ten percent, valued at about four times that — brief +10.00%, market cap ₹12,308 crore; 12,308 divided by 3,070 is 4.01. Correct.
+- Jyoti plus eight point three percent, over a thousand crore into Rajkot, disclosed ten twenty two Monday night — brief +8.30%, ₹1,020.65 crore over five years at the Rajkot plant, filed 22:22 Monday. The twelve-hour rendering is right.
+- Ahluwalia minus almost eleven percent, sales up twelve, profit down almost eighty — brief −10.85%, +12.03%, −79.71%. Sequence (results after Friday's close, call recording after Monday's close, verdict Tuesday) matches the brief line for line, including "the call made it worse, not better".
+- Tube Investments up almost eight percent, revenue up seventeen, double-digit in every segment — brief +7.94%, +17%, engineering +21% / mobility +26% / metal-formed +12%. No profit figure published, as the brief requires.
+- Brent moved one hundredth of one percent, about nine percent above the seventh of August — brief −0.01%, $90.86, roughly 9% above 07 August. The press correction (Business Standard, The Tribune, the wires) and "a level is not an event" are the brief's own.
+- Factory gate eight point two nine percent versus shops four point four five percent — brief identical, and the headline 9.78% is correctly absent.
+- Reserve Bank cut its forecast this month explicitly because crude was cheap; that reason has reversed inside a fortnight — brief: cut on 05 August, "Its stated reason has reversed inside a fortnight". Correct.
+- Hormuz attacks resumed, weekend traffic reportedly nearly stopped — brief: a third ADNOC ship attacked inside 48 hours; five transits Saturday, none Sunday, against 31 the previous weekend. The hedge survives.
+- Fed minutes tomorrow night around half past eleven, three regional presidents voted for an increase, India reacts Thursday — brief: Wednesday 19 August, about 23:30 India time, minutes of the 28-29 July meeting, three dissents for an increase, "India trades them on Thursday". The "is due to publish" hedge survives, matching the brief's own note that the date comes from one markets desk.
+
+**No wrong-day leakage.** The 2026-06-04 failure mode does not recur: both date-bearing figures (the nine percent crude move since 07 August, the Monday-night Jyoti filing) are carried as dated, not as today's. Day-of-week arithmetic is internally consistent throughout — Friday results, Monday call, Tuesday verdict, Wednesday-night Fed release, Thursday reaction.
+
+### Residual scope and hedge notes (none blocking, none an S1 mismatch)
+
+1. **"the whole supply chain" is still missing "public-sector"** (carried over from v2 punch item 16). The brief scopes the three thousand and seventy crore to the defence public-sector supply chain. Dropping the qualifier widens who the money is spread across. One hyphenated word.
+2. **"foreign money across emerging markets barely moved"** — the brief says emerging-market funds were "mildly weaker". The script drops a direction rather than reversing one. Non-blocking.
+3. **The brief's hedge "The forecast is not wrong yet" is not carried.** The script says only "That reason has reversed inside a fortnight". No claim is made that the forecast is wrong, so this is a dropped hedge, not a contradiction — but it is the sentence where a listener is most likely to over-read.
+4. **"all eleven of its companies down"** drops the brief's "measurable". Immaterial for audio.
+5. **Jyoti's "over five years" is compressed out** of the Rajkot figure. Not a contradiction; the number is a five-year commitment stated as a present investment.
+6. **"ran the same sequence the other way" is loose against the source.** Ahluwalia's call recording went up after Monday's close; Tube's earnings call was Monday morning. Same shape, not the same sequence. This is the sourcing half of the L4 flag in the ledger and argues for the plain rewrite rather than the compressed phrase.
