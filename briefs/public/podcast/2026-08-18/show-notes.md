@@ -10,7 +10,7 @@
 
 **Description**
 
-Two dated government notifications, not the index, organised Tuesday's session. The electronics ministry cleared its first tranche of component projects, ₹7,877 crore across 31 projects, and the defence ministry notified a sixth indigenisation list of 405 items. Both cohorts rose while the Nifty 50 fell 0.55% to 24,154.90, a sixth straight down session. Inside the Nifty 50, 8 members rose and 33 fell, and the Smallcap 250 was the only green headline index. The press explained the fall with high crude and rising US yields. Brent moved −0.01%. A level is not an event.
+Two dated government notifications, not the index, organised Tuesday's session. The electronics ministry cleared its first tranche of component projects, ₹7,877 crore across 31 projects, and the defence ministry notified a sixth indigenisation list of 405 items. Both cohorts rose while the Nifty 50 fell 0.55% to 24,154.90, a sixth straight down session. Inside the Nifty 50, 8 members rose and 33 fell, and the Smallcap 250 was the only headline index to close higher. The press explained the fall with high crude and rising US yields. Brent moved −0.01%. A level is not an event.
 
 **Key points**
 
