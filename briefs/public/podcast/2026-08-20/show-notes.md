@@ -3,7 +3,7 @@
 **Word count:** 651 words (title, description, key points, disclaimer, byline)
 **Estimated duration:** n/a (written notes, not narrated)
 **Self-verify:** PASS — no trader jargon, no recommendation language, every claim traced to `briefs/public/2026-08-20.md`.
-**Revision:** v2, aligned to the script's fix pass — the Gupta hike case corrected to the current financial year, the 52% premium given its comparator (the price the buyer paid for control, not the market price), the 30-year yield given its unit, the oil mechanism added, and the Indo Borax beat marked as brief-only since it is no longer in the audio. v1 backed up at `backups/2026-08-21/podcast-show-notes_2026-08-20_v1.md`.
+**Revision:** v2, aligned to the script's fix pass — the Gupta hike case corrected to the current financial year, the 52% premium given its comparator (the price the buyer paid for control, not the market price), the 30-year yield given its unit, the oil mechanism added, and the Indo Borax beat marked as brief-only since it is no longer in the audio. v1 backed up at `backups/2026-08-21/podcast-show-notes_2026-08-20_v1.md`. **Unchanged at the script's v3 micro-fix pass** — W1 and W2 were audio-clarity repairs with no fact, figure or hedge consequence for the written notes, which already carried the breadth hedge.
 **Skill version:** podcast-script-public-nse v1.7
 **TTS-ready:** n/a (written)
 
