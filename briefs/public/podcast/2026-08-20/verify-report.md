@@ -1,5 +1,18 @@
 # Verify Podcast Script — 2026-08-20
 
+> ## ⟶ CURRENT VERDICT (fix pass v2, re-verified 2026-08-21): **WARN — audio UNLOCKED, held for principal approval**
+>
+> All six v1 blockers cleared, both S1 mismatches fixed, the missing unit removed with its sentence.
+> **L1 16 → 2 · L2 1 → 0 · L3 1 → 0 · L4 2 → 0 · S1 2 → 0.** Zero FAIL triggers remain.
+> WARN rather than PASS because the fix pass bought its words by cutting three signposts, one of which
+> carried a load-bearing comparison. All seven WARNs are optional. **Full v2 pass at the end of this file.**
+>
+> The v1 record below is retained unedited, as the audit trail.
+
+---
+
+# v1 — first pass (FAIL)
+
 **Verdict:** **FAIL** — 6 blockers, all single-sentence fixes. Script edited and re-verified before TTS.
 **Checks (counts = FLAG hits):** L1 **16** / L2 **1** / L3 **1** / L4 **2** / L5 **0** / L6 **0** / S1 **2**
 **Blockers:** B1 unsupported "nobody has" · B2 desk shorthand "killed three stories" · B3 the word "either" · B4 the oil cause · B5 "next financial year" (S1) · B6 the fifty two percent comparator (S1)
