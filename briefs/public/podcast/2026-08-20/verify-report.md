@@ -420,3 +420,101 @@ B1 ("Nobody has set the two documents side by side") and B2 ("killed three stori
 carried almost verbatim from `briefs/public/2026-08-20.md` lines 121 and 125, and the "either" tension in B3 exists
 there too. This gate does not touch the brief. But an unsupportable "nobody has" is worth a look upstream, since
 every downstream surface inherits it.
+
+---
+
+# Re-verify — fix pass v2 (2026-08-21)
+
+**Verdict:** **WARN** — audio generation **UNLOCKED**, held for the principal's approval per the TTS gate.
+**Checks (counts = FLAG hits):** L1 **2** (was 16) / L2 **0** (was 1) / L3 **0** (was 1) / L4 **0** (was 2) / L5 **0** / L6 **0** / S1 **0** (was 2)
+**Blockers cleared:** B1 ✓ B2 ✓ B3 ✓ B4 ✓ B5 ✓ B6 ✓ · missing unit ✓
+**Open items:** 7 WARNs, none blocking. Three are regressions introduced by the fix pass.
+**Backup check:** `backups/2026-08-21/podcast-script_2026-08-20_v1.md` exists (8,218 bytes, 11:08). File-management rule honoured.
+
+## Honest limitation on this pass
+
+**This could not be a true cold read and I am not going to claim it was.** I hold the brief from the v1 pass and
+cannot un-know it. Mitigation: I ran the listenability ledger on the new body first and only re-opened the brief
+to re-check changed figures and the guarded omissions. The naive-listener judgments below are therefore weaker
+evidence than v1's, and that limitation is structural, not a lapse — it is the reason the skill puts the cold read
+first and once. Where a v2 judgment depends on not knowing the story, I have said so.
+
+## Ledger — v2 body, 54 sentences (was 59)
+
+Sentences carried over unchanged from v1 and marked OK there are not re-argued; they are listed as **carried**.
+Every changed, new, or newly-adjacent sentence is judged fresh.
+
+**Open (1-3)** — carried OK. "Good evening" flag **withdrawn**, see the ruling below.
+
+4. "The Nifty rose on Thursday, ending a seven session losing run." — carried OK
+5. "The reason was not Indian." — OK. Terser than v1's "was not made in India"; "not Indian" as a predicate is slightly clipped but parses first time.
+6. "It was made in Washington, and India got the smallest share of the rally it set off." — **FIXED.** Both pronouns now point at the same antecedent (the reason), and "the rally" is a real noun the second "it" can hang off. The v1 referent-switch is gone.
+7-8. Close sentences — carried OK
+9. "About three and a half shares rose for every one that fell." — **FLAG (W2, hedge attrition — and partly my fault).** I suggested cutting "on a count taken during the session" as a nice-to-have. It went, and so did the rest: the brief hedges this number **twice**, "from one live report and measured during the session." The script now states a single-sourced intraday ratio flat. "About" carries some softening and the figure is right (2,148:600 = 3.58), so this is not an S1 mismatch — but the audio is more confident than the source.
+10. "Korea's Kospi gained roughly five and a half to six percent, and Japan and Hong Kong each rose a little over one percent." — **FLAG (W1, the one real regression).** The sentence is unchanged; what changed is that **"Asia rallied and India rallied least" was deleted above it.** That cut cost three things at once: the paragraph's topic sentence, the transition into it, and — the expensive one — the explicit comparison that the very next sentence depends on. See W1.
+11. "The likely reason India lagged is oil." — **FIXED (B4, confidence half).** "The likely reason" marks the inference correctly. "Lagged" now leans on an unstated comparison, which is W1, not this sentence's fault.
+12. "Brent crude rose for a fifth straight session, to ninety three dollars and eighty seven cents a barrel." — carried OK
+13. "India buys almost all of its oil from abroad, so a dearer barrel feeds straight into Indian inflation, and inflation is what the Reserve Bank is already worried about." — **FIXED (B4, mechanism half). Ruling below: the loop closes.** 29 words, three clauses, but a single forward chain (A so B and C), comma-segmented, no nesting — passes L6. Minor: "a dearer barrel" is faintly literary; a listener still gets it. Separately flagged as **W5** for provenance.
+14. "The Strait of Hormuz, which carries much of the world's oil, has been shut since February." — FLAG (W7, carried from v1: the brief says "**effectively** shut since 28 February". Minor, unchanged.)
+15-16. "The rally came from Washington. / The brake came from Hormuz." — carried OK
+17. "On Wednesday the American Treasury said it will at least double its buybacks..." — carried OK. Newly the paragraph's first sentence, since "So, Washington." was cut — see W3.
+18. "A bond's yield is what it pays whoever holds it." — **NEW, and well placed.** The gloss lands immediately *before* the first use of "yield", which is the correct order. Accurate enough for lay audio. Clears the v1 L1 hit.
+19. "Long term American yields fell the same session, the ten year by five point seven basis points, to about four point six five percent." — **LARGELY FIXED.** Three decimals gone (4.647 → "about four point six five", correct rounding). "The ten year" still has no noun, but it now sits in apposition inside a sentence that opens "Long term American yields", so the listener can assemble it. Residual, minor.
+20. "A basis point is one hundredth of one percent." — **FLAG (W4, minor).** The gloss is right, but it lands **one sentence after** first use, unlike the yield gloss which correctly precedes. The listener meets "five point seven basis points" cold, then gets the definition. Recoverable, and the level in the same sentence cushions it.
+21. "Here is the key part." — **FIXED.** The exemplar's own claim-free signpost replaces "Now the part the headlines skipped", retiring the unsupported claim about other outlets.
+22-24. Buyback caveat block — carried OK. Still the strongest beat in the script.
+25. "The biggest gain was a sugar producer, Balrampur Chini Mills, up seventeen point eight seven percent, and sugar shares rose up to eighteen percent industry wide." — OK (two v1 sentences merged, 26 words, single-thread). Newly paragraph-initial since "Now what moved." was cut — see W3.
+26. "On Wednesday the government capped bulk buyers of sugar at fifteen days of stock." — carried OK
+27. "The order binds buyers, not mills, and it is meant to bring sugar prices down, not push them up." — **IMPROVED.** "The order" replaces a bare "It"; "bring down / push up" replaces "cool / support". Plainer than v1 and the direction still leads the number, as designed.
+28. "But a government only rations stock when the price has already run hard." — **NEW. This is the missing link, now spoken.**
+29. "Spot sugar touched five thousand five hundred and thirty rupees for a hundred kilos, reported as a sixteen year high." — carried OK
+30. "Which is good for the mills that sell it, and that is what lifted the shares." — **FIXED (my second-highest v1 finding).** The chain now runs complete and in order: rationing implies a high price → here is the high price → high prices are good for mills → that is what moved the shares. Nothing left for the listener to reconstruct. Sentence-initial "Which" is informal but natural in speech.
+31. "Only one stock in the seven hundred we cover fell more than five percent." — **FIXED.** Universe defined, matches the brief's 707-name set, and the faint portfolio reading is gone.
+32. "Himadri Speciality Chemical, down six point one four percent." — carried OK
+33. "I cannot tell you why, because we did not look into that one." — **FIXED.** Same honesty, zero workflow register.
+34. "Eight of the ten biggest risers have no cause anyone can point to." — **FIXED (B3).** "Either" gone. The brief's own wording, and "no cause anyone can point to" is meaningfully softer than v1's "have no cause" — it claims nobody can point to one, not that none exists.
+35. "We did go looking there, fifteen times over." — **FIXED (B6), and better than a fix.** v1 left the Himadri/risers contrast implied; "We did go looking **there**" now states it affirmatively, so the listener actively hears *we skipped one and worked the others*. **This is better than v1 was before the flag.** Minor: "fifteen times over" can read as an intensifier rather than a literal count of fifteen.
+36. "Three of the explanations we found turned out to be old stories with the wrong date." — **FIXED.** Newsroom register gone, meaning preserved exactly.
+37. "Here is what struck me this week." — carried OK
+38. "Two central banks published their meeting minutes seven hours apart on Wednesday..." — **IMPROVED.** "Their meeting minutes" quietly glosses "minutes".
+39. "At the Reserve Bank of India, Deputy Governor Poonam Gupta says there is no room left to cut." — **FIXED.** "Easing" and "records that" both gone.
+40. "She argues a case for a rate rise may emerge in this financial year, and she has inflation peaking at five point nine percent in the December quarter." — **FIXED (B5).** Period corrected, modal restored, and the forecast now has an explicit owner, resolving the v1 ambiguity.
+41. "India's rate itself is unchanged at five point two five percent, held unanimously." — **IMPROVED.** "India's" pre-disambiguates from the Fed sentence that follows.
+42. "The American Federal Reserve's minutes followed that night." — carried OK
+43. "Its rate setters voted nine to three to hold, and the three who dissented wanted a rise." — **FIXED.** Verb and subject supplied; "three regional presidents" traded away, which loses colour but removes jargon the listener could not place. Good trade.
+44. "Set those two documents side by side." — **FIXED (B1).** The rhetorical turn survives intact with no claim about anyone's commentary. "Documents" pairs cleanly with "minutes" in both halves and the imperative sits right after the Fed sentence, so the antecedent is closer than in v1.
+45. "The irony is that Thursday's relief came from a debt operation, not from any change in rates." — **IMPROVED** ("the rate path" → "in rates").
+46. "Both are arguing about the same direction, and it is not down." — carried OK. Still the best line in the script.
+47-48. "One date to keep. / The Reserve Bank of India next meets..." — OK, "of India" added.
+49. "Its August minutes just made that meeting a lot more interesting." — **FIXED.** Owner supplied; no longer pulls toward the Fed's minutes.
+50-54. Firebreak — carried OK, verbatim.
+
+## Mechanical re-check (L5 / L6)
+
+700 words, at the ceiling and inside the band. **Zero** digits, currency/percent symbols, em- or en-dashes,
+`[SAY:]` hints, exclamations, ampersands, slashes. Hyphens: `toro I-Q` and `SEBI-registered` only. Longest
+sentence **29 words** (two of them, both single-thread and comma-segmented). **L5 = 0, L6 = 0.**
+
+## Source spot-check (S1) — changed figures only
+
+| Changed claim | Brief | Verdict |
+|---|---|---|
+| "may emerge in **this** financial year" | "may emerge in 2026-27" — and 20 Aug 2026 falls inside FY 2026-27 | **S1-1 RESOLVED** — period and modal both correct |
+| "about four point six five percent" | 4.647% | ✓ correct rounding |
+| "she has inflation peaking at five point nine percent in the December quarter" | 5.9% in the October–December quarter | ✓ |
+| "Its rate setters voted nine to three to hold, and the three who dissented wanted a rise" | 9–3 hold, three regional presidents dissenting for a higher rate | ✓ |
+| "no cause anyone can point to" | brief line 125, verbatim | ✓ |
+| "fifteen times over… old stories with the wrong date" | fifteen checks, three killed, all wrongly dated | ✓ |
+| "the seven hundred we cover" | 707-stock universe | ✓ |
+| "Its August minutes" | RBI minutes of the 3–5 Aug meeting, published 19 Aug | ✓ |
+| The fifty two percent comparator | — | **S1-2 RESOLVED by deletion of the beat** |
+
+**S1 = 0. Both v1 mismatches are gone and the fix pass introduced no new ones.**
+
+**Guarded omissions — re-verified by grep on the spoken body, not taken on trust.** Zero hits for: VIX, fear
+gauge, 52-week / lowest-since / one-year-low, Suven, Genus, Netweb, MMTC, CEAT, Sensex, Bank Nifty, midcap,
+smallcap, year-to-date, institutional flows, sector, Indo Borax, Kronox. The single "rupee" hit is the sugar
+price in rupees, not the currency. **The India ten-year guard holds**: the only "ten year" in the script sits
+inside "Long term **American** yields fell the same session", so it cannot be misheard as the withheld Indian
+figure. Kospi is still a range; the Reserve Bank is still 5.25% held unanimously; Himadri still carries our own
+limit; the fifteen checks are still scoped to the risers by the word "there". **All hold.**
