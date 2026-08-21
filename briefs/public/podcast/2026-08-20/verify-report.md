@@ -153,8 +153,11 @@ Ordered by severity. The four blockers are all single-sentence edits — **no re
   → Gloss once and cut the second bond: **"That pushed down what America pays to borrow. The rate on its ten year
   government debt fell to about four point six five percent."** Drops the thirty-year line and the basis points
   entirely, which the listener cannot use.
-- **[sentence 35] "at about fifty two percent more."** Supply the comparator: **"at about fifty two percent above
-  where the shares were trading."**
+- **[sentence 35] "at about fifty two percent more."** *(Promoted to a blocker by the S1 pass — see S1-2. My first
+  suggested comparator here was "above where the shares were trading", and checking the brief showed that is
+  **wrong**: the fifty two percent is above the price the sellers negotiated, and the brief says the market price
+  is above the deal price, not below it.)* Correct fix: **"at about fifty two percent more than the sellers
+  themselves got."**
 - **[sentence 6] "India got the smallest share of it."** The pronoun changes referent mid-sentence.
   → **"It was made in Washington, and India got the smallest share of the gain."**
 - **[sentence 37] "Only one share we follow fell more than five percent."** Undefined universe, faint portfolio
@@ -228,6 +231,131 @@ in the punch list.
 
 ## Sanctioned-deviation execution check
 
+Judging execution only, not permission. The day-name substitution for "today" is sanctioned; so is keeping
+"See you tomorrow".
+
+Every time-word in the body:
+
+| # | Phrase | Verdict |
+|---|---|---|
+| 3 | "Thursday's session" | Correct |
+| 4 | "The Nifty rose on Thursday" | Correct |
+| 9 | "during the session" | Correct (relative, unambiguous) |
+| 17 | "On Wednesday the American Treasury" | Correct |
+| 18 | "fell the same session" | Correct (relative) |
+| 23 | "the ninth of September" | Correct (absolute date, no drift) |
+| 28 | "On Wednesday the government capped" | Correct |
+| 42 | "what struck me this week" | Correct — properly re-scoped from the exemplar's "about today" |
+| 43 | "seven hours apart on Wednesday" | Correct |
+| 47 | "followed that night" | Correct (relative to Wednesday) |
+| 50 | "Thursday's relief" | Correct |
+| 53 | "the fifth to the seventh of October" | Correct |
+| 59 | "See you tomorrow" | Sanctioned |
+
+**Zero instances of "today", "yesterday", "this morning", or "in a few hours".** The substitution is executed
+cleanly and consistently across all thirteen time-words. On its own terms this is the best-executed part of the
+script — no L3 hits of the kind the check is built for.
+
+**One inconsistency in the deviation's own logic, flagged not as a fact error but because the principal should
+decide it consciously.** The script's stated reason for dropping "today" is that *"saying today would be wrong at
+the moment of listening."* **"Good evening" (sentence 1) is wrong in exactly the same way** on a Friday-daytime
+publish — and unlike "See you tomorrow", it was not named as a kept standing element. Either it is a fixed show
+open, in which case the deviation note should say so alongside the sign-off, or the same reasoning that removed
+"today" removes it too. Two consistent positions exist; the script is currently holding half of each.
+
 ## Source spot-check (S1)
+
+Opened `briefs/public/2026-08-20.md` only at this point. **Two mismatches found, one of them material.**
+
+### Figures that match — clean
+
+| Claim in script | Brief | Match |
+|---|---|---|
+| Nifty twenty four thousand two hundred and thirty one, up zero point six four percent | 24,231.85 (+0.64%) | ✓ |
+| Ending a seven session losing run | "first rise after seven straight falls" | ✓ |
+| Three and a half risers per faller, counted during the session | 2,148 to 600 (= 3.58), "measured during the session" | ✓ |
+| Kospi roughly five and a half to six percent | 5.5%–6% | ✓ |
+| Japan and Hong Kong each a little over one percent | Nikkei 1.16–1.3%, Hang Seng 1.1–1.19% | ✓ |
+| Brent ninety three dollars eighty seven, fifth straight session | $93.87, "a fifth straight session" | ✓ |
+| Treasury doubling buybacks, two billion to at least four billion an operation, announced Wednesday | identical | ✓ |
+| Ten year fell five point seven basis points to four point six four seven percent | identical | ✓ |
+| Thirty year fell nine, to five point one nine six percent | identical | ✓ |
+| Buybacks begin ninth of September | 9 September | ✓ |
+| "Not new money and not stimulus" | verbatim | ✓ |
+| Balrampur Chini Mills up seventeen point eight seven percent, biggest gain | +17.87%, "the day's biggest move" | ✓ |
+| Sugar shares up to eighteen percent | "up to 18% across the industry" | ✓ |
+| Stock cap set Wednesday, fifteen days, binds buyers not mills, meant to cool | 19 Aug (= Wednesday), identical framing | ✓ |
+| Spot sugar five thousand five hundred and thirty rupees for a hundred kilos, sixteen year high | ₹5,530 a quintal (a quintal *is* 100 kg), "reported as a 16-year high" | ✓ |
+| Indo Borax almost fifteen percent | +14.82% | ✓ |
+| Sixty four point two six percent of Kronox for two hundred and forty six crore | 64.26%, ₹246.12 crore | ✓ |
+| Himadri down six point one four percent, no search run | −6.14%, "we ran no search on it" | ✓ |
+| Fifteen checks, three stories killed, all wrongly dated | verbatim from the brief | ✓ |
+| Minutes seven hours apart Wednesday; Fed's followed that night | 17:00 and ~23:30 on 19 Aug | ✓ |
+| Nine to three hold, three regional presidents wanting higher | identical | ✓ |
+| Rate unchanged five point two five percent, held unanimously | identical | ✓ |
+| Inflation peaking at five point nine percent in the December quarter | 5.9% in Oct–Dec | ✓ |
+| Reserve Bank meets fifth to seventh of October | 5–7 October | ✓ |
+| Hormuz shut since February | "effectively shut since 28 February" | ✓ (hedge softened, see below) |
+
+**Guarded-omission check — all honoured.** No India VIX, no India ten-year yield, no sector ranking, no
+institutional flows, no year-to-date figures, no Indo Borax per-share price, Kospi kept as a range. Every
+suppression the brief demands is respected in the script.
+
+### S1-1 — MISMATCH (material): "next financial year"
+
+> Script, sentence 45: "She sees a case for a rate increase emerging **next financial year**."
+> Brief, line 35: "a case for a rate *increase* may emerge in **2026-27**."
+
+The Indian financial year 2026-27 runs from April 2026 to March 2027. The session covered is **20 August 2026** —
+we are *inside* 2026-27 right now. The source's window is **the current financial year**; the script relocates it
+to the next one, pushing the rate-hike case roughly twelve months further out than the brief says.
+
+The internal evidence agrees with the brief and against the script: the same sentence has inflation peaking in the
+October–December quarter, which is this financial year. A hike case that emerges *after* that peak is a
+this-year story.
+
+The script also drops the brief's modal — "**may** emerge" becomes "she **sees** a case ... emerging" — so the
+line simultaneously hardens the claim and mis-dates it.
+
+→ Fix: **"She sees a case for a rate increase possibly emerging later this financial year."**
+
+### S1-2 — MISMATCH (misleading as heard): the fifty two percent
+
+> Script, sentence 35: "That forces a compulsory offer to Kronox's public shareholders, **at about fifty two percent more**."
+> Brief, line 66: "the public offer sits about 52% **above what the sellers negotiated** ... the takeover code doing its job **when the market price is well above the deal price**."
+
+The number is right; the missing comparator makes it wrong in the ear. With no reference stated, a listener
+supplies the obvious default — fifty two percent above the market price — and the brief says explicitly that the
+market price sits *above* the deal price, so the default reading points the wrong way. The brief's 52% is
+₹157.27 against a negotiated ₹103.22, a deal-price comparison, not a market one.
+
+This is the finding I would have got wrong from the cold read alone: my ledger flagged only "more than what?", and
+my first suggested repair supplied the wrong comparator. The S1 pass caught it. Corrected fix is in the punch list.
+
+### S1-3 — Hedge attrition (pattern, WARN)
+
+Not mismatches, but the script is consistently one notch more confident than its source:
+
+- "effectively shut since 28 February" → "**has been shut** since February"
+- "may emerge in 2026-27" → "**she sees** a case ... emerging" (also S1-1)
+- "no cause anyone can point to" → "**have no cause**", with the brief's own governing caveat dropped: *"Large-deal
+  data is not wired in at all, which weakens every 'cause not established' above — that is a hole, not a clean negative."*
+- breadth: the brief hedges twice, "from **one live report** and measured during the session"; the script keeps the
+  weaker half of the hedge and drops the single-source half.
+
+Individually small. Together they mean the audio asserts more than the brief is willing to.
+
+### Two inherited items — flag upstream, fix here anyway
+
+**"Nobody has set those two side by side"** (B1) and **"killed three stories that would have shipped"** (B2) both
+come from the brief nearly verbatim (lines 121 and 125). The script did not invent them, and B2's numbers are
+correct. That does not make either shippable as audio: "nobody has" is still an unsupportable universal claim, and
+newsroom register still fails a listener. **This gate covers the podcast only and never blocks the brief** — so
+fix both in the script, and raise "Nobody has set the two documents side by side" with the principal as a brief-side
+claim that cannot be sourced.
+
+Likewise, the **"either" problem (B3) exists in the brief too** — line 125 groups Himadri with the risers as having
+"no cause anyone can point to", while line 85 says of the same stock "we ran no search on it". A reader can hold
+both statements and see the difference. A listener cannot.
 
 ## Verdict rationale
