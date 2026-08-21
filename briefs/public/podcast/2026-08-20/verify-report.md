@@ -518,3 +518,139 @@ price in rupees, not the currency. **The India ten-year guard holds**: the only 
 inside "Long term **American** yields fell the same session", so it cannot be misheard as the withheld Indian
 figure. Kospi is still a range; the Reserve Bank is still 5.25% held unanimously; Himadri still carries our own
 limit; the fifteen checks are still scoped to the risers by the word "there". **All hold.**
+
+## The four rulings requested
+
+### Ruling 1 — the oil sentence: **the loop closes. The writer was right to override the instruction.**
+
+The orchestrator specified "India imports almost all of its oil." The writer refused that as insufficient and it
+was correct to. The self-refutation I flagged in v1 is not cured by the importer clause, because **Japan and Korea
+are also near-total crude importers** — a listener who follows the argument would still hit the contradiction.
+
+What actually separates India in the delivered sentence is the last clause: *"and inflation is what the Reserve
+Bank is already worried about."* That does not claim India imports more oil than its neighbours. It claims India's
+**central bank has no headroom**, which is a fact about India alone, and it is the thing that turns a shared input
+cost into an India-specific drag. The chain a listener can now follow is: oil up → Indian inflation up → the one
+central bank in this story that cannot absorb more inflation. That closes.
+
+Two honest caveats. **(a) It is a forward reference.** At the moment it is spoken, "already worried" is an
+assertion the listener must accept on trust; the proof arrives two beats later in the minutes wedge. That is a
+legitimate plant-and-pay-off, and the pay-off does land — but it means the sentence is not self-supporting in
+isolation, which is the standard this gate normally applies. I accept it because the pay-off is inside the same
+episode and only ninety seconds away. **(b) It is not a logical proof** — Japan and Korea have central banks too.
+It is a plausible, non-contradictory, plainly-stated mechanism, which is the bar for audio. v1 failed that bar; v2
+clears it.
+
+**And it is brief-sourced, which I checked rather than assumed.** Brief line 35 heads its worrying-side paragraph
+"and it is domestic", puts Gupta's hawkish minutes and the 5.9% Oct–Dec inflation peak in it, and then says
+*"Crude feeds the same quarter."* The script's inflation link is that sentence, unpacked for a listener. It is not
+an invention.
+
+### Ruling 2 — the nine unprompted L1 fixes: **improvements, with one small new surface and three collateral costs.**
+
+Assessed individually in the ledger. Verdict by item:
+
+| Fix | Ruling |
+|---|---|
+| Sugar chain spelled out (sentences 28, 30) | **The best fix in the pass.** My v1 #2 finding, fully closed — nothing left to reconstruct |
+| "We did go looking there" (35) | **Better than v1 ever was.** Turns an implied contrast into an affirmative one |
+| "seven hundred we cover" (31) | Clean. Defines the universe and retires the portfolio reading in one move |
+| Yield gloss (18) | Correct content, correct placement — immediately before first use |
+| "about four point six five percent" (19) | Right call. Three spoken decimals were unusable |
+| Hook pronoun → "the rally it set off" (6) | Resolves the referent switch properly |
+| "Here is the key part" (21) | Retires an unsupported claim and restores the exemplar's own signpost |
+| "no room left to cut" / "says" (39) | Plain English, no loss of meaning |
+| Fed sentence given verb + subject (43) | Clear improvement; trading away "regional presidents" is the right price |
+| "Its August minutes" (49) | Fixes the antecedent |
+| Basis-point gloss (20) | **New surface, minor (W4)** — lands one sentence *after* first use, unlike the yield gloss |
+
+The nine were worth taking. The reasoning behind them was also sound: with L1 at 16, clearing only the six
+blockers would have left a script that was factually correct and still hard to listen to.
+
+**But they were not free, and the invoice is W1/W2/W3 below.** All three regressions come from the same place —
+the 700-word ceiling was paid down by deleting short connective sentences, which are the cheapest words per line
+but the most load-bearing per *minute* in audio. That is the trade to watch if there is ever a v3.
+
+### Ruling 3 — dropping Indo Borax: **sound. It is more template-compliant than v1, not less.**
+
+I went in expecting to call this the weakest judgment of the pass. Checking the writer skill reversed that.
+
+`hive-mind/skills/podcast-script-public-nse.md` line 58 defines Section 5 as **"1 winner + 1 loser + 1 momentum
+reversal"** — three *slots*, not three arbitrary names. The brief's Big Movers section reports **"Momentum
+reversals: None."** So the available set was winner + loser, and v2 fills exactly that: Balrampur as the clear
+winner, Himadri as the loser. **Indo Borax was a second winner — a name with no slot.** Line 340 then says
+explicitly: *"better to cut Movers down to 2 names than rush."*
+
+So v1 was the non-compliant version (two winners, no reversal), and the cut brings the episode onto the template
+while retiring both of that beat's own flags. The word arithmetic also holds: a proper Indo Borax beat needs
+roughly forty words (name, what-it-does, the stake, the comparator, the so-what), and there is no clean forty to
+find in a 700-word script without cutting something load-bearing.
+
+**Does the episode under-cover the day's corporate news?** Marginally, and knowingly. It is the day's second
+biggest mover and the most concrete story available. Retaining it in the show notes marked brief-only is the right
+mitigation. **One thing is missing, though:** skill line 98 asks the script to say *once*, in the audio, that the
+written brief carries more — *"The written brief carries the full mover table."* That line is not in the spoken
+body, and dropping a whole beat to the brief makes it more warranted, not less. It is the highest-value ten words
+available if anything frees up. Logged as **W6**.
+
+### Ruling 4 — "Good evening": **resolved. I withdraw the v1 flag.**
+
+I checked the claim rather than accepting it. Skill line 53 defines Section 0 as **"Standard verbatim... (consistent
+every day for brand recognition; NOT a per-day variation)"**. So "Good evening. This is India Markets Brief from
+toroIQ" is a brand element, on the same footing as "See you tomorrow" at the close — not a claim about the hour.
+
+My v1 objection was not that keeping it was wrong; it was that the script held **half of two positions** without
+saying which. Declaring it in the header alongside the sign-off fixes exactly that. The position now held is
+coherent and I can state it cleanly: **the brand words in Section 0 are fixed; the one factual time-word inside it
+follows the day-name deviation** — which is why "your read on *today's* session" correctly became "your read on
+*Thursday's* session" while the greeting did not move. Consistent both ways. **L3 = 0.**
+
+## Open WARNs — all optional, none blocking
+
+- **W1 — the deleted comparison (the one I would actually fix).** Cutting *"Asia rallied and India rallied least"*
+  removed the topic sentence, the transition, **and the comparison that the following sentence leans on.** A
+  listener now hears three foreign index moves, then "The likely reason India **lagged** is oil" — with the
+  lagging never stated, only implied by arithmetic across four numbers, one of which (India's 0.64%) was spoken
+  five sentences earlier. The lede's "smallest share of the rally" is the only support, and it is far away. This
+  also drops the skill's Section 3 spec, which asks for the divergence **stated**: *"EM rallied X%, India stayed
+  back."* → Cheapest repair, six words, restore ahead of the Kospi sentence: **"Asia rallied, and India rallied least."**
+- **W2 — breadth hedge fully stripped** (sentence 9). The brief hedges twice; the script now hedges zero times.
+  My own v1 nice-to-have contributed and I own that. → **"…for every one that fell, on one count during the session."**
+- **W3 — three signposts cut** ("Asia rallied…", "So, Washington.", "Now what moved."). The exemplar runs five
+  signposts across a comparable length; v2 runs four, and two paragraph transitions are now abrupt — into the
+  Treasury beat and into the sugar beat. In audio, signposts are how a listener tracks structure without a page.
+  Not severe on its own; noted because it is the *pattern* behind W1.
+- **W4 — basis-point gloss lands after first use** (sentence 20), and the Washington paragraph now carries two
+  consecutive definitional sentences, which reads faintly like a glossary. Minor rhythm cost of a good fix.
+- **W5 — provenance.** *"India buys almost all of its oil from abroad"* is **not in the brief** (I grepped it;
+  the brief never states import dependence). The fact is correct and uncontroversial — India imports roughly
+  85-88% of its crude, so "almost all" is fair — but the script's own header claims *"Source: the brief only. No
+  independent reporting."* Either the claim in the header wants a carve-out for common-knowledge background, or
+  the sentence wants a source. Not blocking; worth a principal decision once, since this will recur.
+- **W6 — no pointer to the written brief** in the audio (skill line 98), now that a whole beat is brief-only.
+- **W7 — "effectively shut" → "shut"** (sentence 14), carried unchanged from v1. Minor.
+
+## Verdict rationale — v2
+
+**WARN. Audio is unlocked, subject to the principal's approval.**
+
+Every FAIL trigger the skill defines is now absent, and I checked each rather than inferring from the fix list:
+no L1 flagrant line, no L2 deferred or unplaced name, no L3 time-word error, **zero** L4 mechanism gaps (both
+causal chains are now spoken end to end), no L5 audio-breaker, no L6 nested sentence, and **no S1 mismatch** —
+both v1 factual errors are gone and the pass introduced none. Guard scan re-run and clean: no tips, no
+buy/sell/hold, no targets, no recommendation, and the one faint portfolio reading has been deliberately retired.
+All guarded omissions verified by grep on the delivered body, not taken on trust.
+
+**Why WARN and not PASS.** The skill reserves PASS for "all clean". W1 is a genuine listenability regression that
+did not exist in v1: a comparison the next sentence depends on was deleted, and the skill's own Section 3 asks for
+that comparison to be stated. W2 strips a double hedge the brief carries. Neither is a factual error, neither
+blocks audio, and both are repairable in about ten words — but calling this PASS would misreport a thing the fix
+pass broke, and the ledger exists precisely to stop that.
+
+**Why not FAIL.** Because nothing here meets the bar, and inventing one to look rigorous would be its own failure.
+The six blockers are genuinely fixed — not patched. Two of the fixes (the sugar chain, "We did go looking there")
+leave the script better than it was before the flags were raised. One judgment I expected to overturn — the Indo
+Borax cut — survived checking and turned out to be more template-compliant than the version I first verified.
+
+**Recommendation to the principal:** ship it. If ten spare words appear, spend six on W1 and four on W2, in that
+order. W6 is the next best ten. Everything else is taste.
