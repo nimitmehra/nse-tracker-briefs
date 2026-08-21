@@ -1,7 +1,11 @@
 # Verify Podcast Script — 2026-08-20
 
-**Verdict:** PENDING
-**Checks:** PENDING
+**Verdict:** **FAIL** — 6 blockers, all single-sentence fixes. Script edited and re-verified before TTS.
+**Checks (counts = FLAG hits):** L1 **16** / L2 **1** / L3 **1** / L4 **2** / L5 **0** / L6 **0** / S1 **2**
+**Blockers:** B1 unsupported "nobody has" · B2 desk shorthand "killed three stories" · B3 the word "either" · B4 the oil cause · B5 "next financial year" (S1) · B6 the fifty two percent comparator (S1)
+**Guard scan:** PASS — no tips, no buy/sell/hold, no targets, no portfolio language, no recommendation.
+**Audio mechanics:** PASS — 700 words, zero digits, zero symbols, zero em-dashes, longest sentence 29 words unnested.
+**Reviewed:** script.md (59 sentences, all ledgered) vs canonical exemplar; brief opened last, for S1 only.
 
 ## Method / isolation
 
@@ -142,6 +146,17 @@ Ordered by severity. The four blockers are all single-sentence edits — **no re
   → Mark the inference and close the chain: **"The most likely brake on India was oil. Brent crude rose for a fifth
   straight session, to ninety three dollars and eighty seven cents a barrel, and India buys almost all of its oil
   from abroad."**
+
+- **[B5 — sentence 45, added by the S1 pass] "She sees a case for a rate increase emerging next financial year."**
+  The brief says **2026-27**, which is the financial year we are currently in. "Next financial year" moves the
+  rate-hike case about twelve months further out than the source supports, and the sentence also drops the brief's
+  "may". See S1-1.
+  → **"She sees a case for a rate increase possibly emerging later this financial year."**
+
+- **[B6 — sentence 35, added by the S1 pass] "at about fifty two percent more."** With no comparator spoken, the
+  listener supplies "more than the market price" — and the brief says the market price is *above* the deal price,
+  so the default reading inverts the fact. See S1-2.
+  → **"at about fifty two percent more than the sellers themselves got."**
 
 ### Should fix
 
@@ -359,3 +374,36 @@ Likewise, the **"either" problem (B3) exists in the brief too** — line 125 gro
 both statements and see the difference. A listener cannot.
 
 ## Verdict rationale
+
+**FAIL.** Six blockers, on three independent grounds. Stating the grounds separately because each would fail on its own.
+
+1. **A source mismatch (S1-1).** "Next financial year" mis-dates the brief's 2026-27, which is the year we are in.
+   This is the wrong-period class of error the S1 check exists to catch — the direct descendant of the 2026-06-04
+   wrong-day leak. It sits in the episode's one analytical set-piece, where the whole point is *when* rates turn.
+2. **A figure that inverts as heard (S1-2).** "Fifty two percent more" with the comparator missing sends the
+   listener to the market price; the brief's comparison is to the negotiated deal price, and the brief states the
+   market price runs the other way.
+3. **Unsupportable claims and desk register (L1).** "Nobody has set those two side by side" asserts a survey of all
+   commentary that nobody ran. "Killed three stories that would have shipped" is the producer-view shorthand L1
+   names by example. "Have no cause **either**" converts an admitted non-search into a factual negative, three
+   sentences after the script correctly refuses to make that claim.
+
+Add two L4 mechanism gaps — the oil sentence, whose stated logic argues against itself once you notice Japan and
+Korea also import oil, and "the price the order confirms", which asks the listener to reconstruct three unspoken
+links — and the case is not close.
+
+**What this verdict is not.** This is not a bad script, and none of the six blockers is structural. The spine is
+strong and genuinely original, the buyback caveat is the best-executed beat of any recent episode, the sugar
+direction correction lands before the number exactly as designed, the day-name deviation is executed cleanly across
+all thirteen time-words, every guarded omission is honoured, the guard scan is clean, and L5/L6 are mechanically
+perfect. **All six blockers are single-sentence edits.** The word budget absorbs them if sentence 20 (the thirty
+year yield) and the sentence 9 hedge are cut, both of which improve the audio regardless.
+
+Re-verify after the edits, then TTS. Do not burn Sarvam credits on the current draft.
+
+### Note for the principal — two of the blockers came in from the brief
+
+B1 ("Nobody has set the two documents side by side") and B2 ("killed three stories that would have shipped") are
+carried almost verbatim from `briefs/public/2026-08-20.md` lines 121 and 125, and the "either" tension in B3 exists
+there too. This gate does not touch the brief. But an unsupportable "nobody has" is worth a look upstream, since
+every downstream surface inherits it.
