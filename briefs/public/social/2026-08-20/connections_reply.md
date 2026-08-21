@@ -1,11 +1,21 @@
 # Connections Reply — 2026-08-20
 
-**Character count:** TBD
-**Self-verify:** TBD
+**Character count:** 953 chars (body) · 160 words
+**Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post as reply to main_post.md after it goes live
 
-NOTES_PLACEHOLDER
+**Note:** No firebreak (the main post carries it). Three cross-currents from the brief's Connections section, none repeating a name, number or fact used in the other two posts. No company or stock is named here.
+
+**The wedge is the two sets of minutes, seven hours apart.** The Reserve Bank's 3–5 August minutes published about 17:00 India time on 19 August, the US Federal Reserve's 28–29 July minutes about 23:30 the same night. Both are Tier-0 primary documents and nobody has set them side by side, which is why this leads.
+
+**The RBI guard is written into the sentence.** Deputy Governor Poonam Gupta's case for a future increase is attributed to her, and the bullet states in the same breath that the August decision left the rate at 5.25% and was unanimous, so no reader can come away thinking a hike happened or that the vote was split. The stance is neutral. The inflation-peak figure was cut for the word cap, not for doubt.
+
+**The Fed line avoids the word "hold"** so no mechanical recommendation-language gate misfires on a central-bank decision. It is written as a 9 to 3 decision to leave rates unchanged with three regional presidents dissenting in favour of a higher rate.
+
+**Bullet 3 is the irony, stated once.** Thursday's relief came from a debt-management operation rather than from any change in the rate path. It does not restate the buyback mechanics from the main post; it draws the consequence, which is that both curves are now debating the same direction and October is where it gets tested.
+
+Zero em-dashes. Day names throughout. No flow figures, no yields we do not hold, no recommendation language.
 
 ---
 
