@@ -124,6 +124,46 @@ This is the highest-stakes item in the episode and I read the six sentences alou
 
 ## Declared cuts — did any remove a hedge?
 
+Three of the four declared cuts are clean. One degraded a surviving claim. Two **undeclared** cuts did more damage than any declared one.
+
+### Declared cut 1 — the FCNR(B) sub-total. **WARN: this one did degrade a surviving claim.**
+
+The brief reads: "total inflows under the facility at US$72.85 billion, **of which US$65.4 billion is those deposits**." The facility total covers the deposit leg plus an overseas-borrowing leg; the deposits are the smaller number.
+
+The script sets up "a window open for **dollar deposits** from Indians living abroad" and then says "puts **the money raised** at seventy two point eight five billion dollars." With the split gone, the listener attaches the whole facility total to the deposit window they were just told about, and over-counts the deposits by roughly seven and a half billion dollars. The brief's own What to Watch uses the correct figure for this window: "US$65.4 billion was in by 21 August."
+
+Cutting for time is sanctioned; this cut changed what a surviving number refers to. **Fix costs three words and no restructuring:** "Its own release on Saturday puts total inflows under the facility at seventy two point eight five billion dollars." "Total inflows under the facility" signals the wider scope without spending the sub-total.
+
+### Declared cut 2 — the withheld-sector-ranking note. **Minor.**
+
+The script makes no sector-ranking claim, so the withholding note is not needed. One small consequence: "on the day state owned banks led the market lower" is stated bare, where the brief adopts it explicitly on a named outside source (Business Standard, Nifty PSU Bank −0.93%) after checking it against its own constituent reading. The brief did adopt it as its own conclusion, so the script is entitled to it. Noted, not flagged.
+
+### Declared cut 3 — the Aegis Logistics beat. **Clean.**
+
+Pure beat drop. No hedge attached to any surviving claim, and the "five of the twelve" count is unaffected. The skill sanctions cutting a mover rather than rushing the rest.
+
+### Declared cut 4 — the realty-versus-house-prices connection. **Clean.**
+
+This removed a tension, not a hedge. The surviving house-price sentences are brief-faithful, including "falling in real money" verbatim. Nothing in the script now asserts anything the brief qualified.
+
+### Undeclared cut A — the scaffolding on the Asia paragraph. **This is the FAIL.**
+
+The brief reads: "the pattern **this desk has flagged for weeks**, of money leaving India for the North Asian artificial-intelligence trade, ran backwards on Monday."
+
+The script keeps the pattern and drops "this desk has flagged for weeks" — which is precisely the clause that tells the audience the pattern exists and is a recurring theme they have heard before. What survives presupposes the pattern with a definite article and never establishes it. On the page the reader can hold it; in audio it is the premise the whole sentence rests on, and it is gone. This cut is not in the declared list.
+
+### Undeclared cut B — the reserves verification caveat. **WARN, and the one to look at after the FAIL.**
+
+The brief hedges the swap-funding link twice and then forbids it outright: "**We have not verified how much of the build is swap-related**, because the weekly supplement does not break it out, so that is **a question to test against the next three weekly releases and not something to state as cause**."
+
+The script: "a third straight build, **but** a build funded by that window's dollars stops when the window stops."
+
+Read on the page, "a build funded by…" is generic and mirrors the brief's counterfactual. Heard aloud, the contrastive "but" plus the immediate context collapses the generic into the specific: the listener takes it that *this* build was funded by that window's dollars, which is exactly the causal claim the brief refuses to make. No verification caveat appears anywhere in the spoken body.
+
+In fairness the brief is itself in tension here — its Lead says "the plumbing sitting under three consecutive weekly builds," which is the confident version the script picked up. But the Macro section is the more careful statement and it governs.
+
+**Fix costs one word.** "but a build funded by that window's dollars **would** stop when the window stops." The conditional mood restores the hedge with no length penalty.
+
 ## Mechanical (L5) and length
 
 ## Continuity with 2026-08-20
