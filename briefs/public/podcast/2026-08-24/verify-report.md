@@ -1,6 +1,16 @@
 # Verify Podcast Script — 2026-08-24 (pass 2, post-fix)
 
-**Verdict:** PENDING
+**Verdict:** **WARN** — zero FAIL. The blocker is repaired. Clears to the principal for TTS approval.
+
+**Checks (counts = FLAG hits):** L1 8 / L2 2 / L3 0 / L4 0 / L5 0 / L6 0 / S1 0 / residual-and-new 1
+
+**FAIL count: 0 (was 1). WARN count: 11 (was 12).**
+
+All seven edits did what they were meant to do. The FAIL is fixed at the root: the Asia paragraph now states its premise before it uses it, as its own short sentence, and a listener can follow it cold. Five accuracy fixes all landed, three of them by going back to the brief and taking the more careful of the two formulations it carried. The B-L-S block survives the split intact and does not name the company twice — the one identified backfire did not occur. **No hedge, gloss, guard or causal chain was cut to pay for the fourteen words; verified by word-level diff, not taken on trust.** Four of the seven edits added epistemic protection.
+
+One new WARN entered, minor: the pronoun in "We could not find one" reaches three sentences back for its antecedent. It is a better sentence than the overclaim it replaced.
+
+The 713-word body is not an L5 breaker at under two percent over the band, and the accounting below shows all fourteen words went to named fixes rather than to content. **The overage bought accuracy.**
 
 ## Method and constraints
 
@@ -184,6 +194,93 @@ Every one of the fourteen is traceable to a named fix. **Not one went to new con
 
 ## Mechanical (L5) and length
 
+**L5: zero hits. Independently machine-checked on the spoken body, not taken from the header.**
+
+| Check | Result |
+|---|---|
+| Digits | none |
+| Currency / percent symbols | none |
+| Em-dashes / en-dashes | none |
+| Brackets, parentheses, `[SAY:]` hints, exclamation marks | none |
+| Word count | **713** |
+| Sentence count | 49 (was 47; the two splits added one each) |
+| Longest sentence | 33 words (S38), single-thread with an inline gloss — unchanged from v1 |
+
+The header's self-report is accurate in every particular.
+
+**713 against a 500–700 band is not an L5 audio-breaker.** The skill's FAIL condition is a body "well outside" the band; 713 is under two percent over, the producer authorised the overage in advance, and the accounting above shows every extra word bought a named accuracy fix. At 165 words per minute the overage is five seconds.
+
+**The +14 pushed no sentence into L6 territory.** Only one edit lengthened a sentence that was already long: S18 went from 31 to 32 words with "would stop". It remains a comma-segmented single thread with no nesting, so per L6 it is not flagged — the rule is long *and* nested, never word count alone. The B-L-S split moved in the opposite direction, replacing a 30-word sentence with a 22 and a 16, which retires last pass's only L6 flag. **L6: zero hits, down from one.**
+
+Respellings remain correct for TTS: toro I-Q, B-L-S International, I-D-B-I Bank, and the Reserve Bank of India always said in full.
+
 ## Source spot-check (S1)
 
+**Zero mismatches. S1 passes.**
+
+The diff makes this pass cheap and conclusive: since only seven sites changed, every other figure in the script is byte-identical to the v1 that already spot-checked clean against `briefs/public/2026-08-24.md` with zero mismatches. That table carries over by construction. Only the seven touched sites needed re-checking, and all seven were re-checked against the brief directly.
+
+| Changed line | Brief | Match |
+|---|---|---|
+| "total inflows under the facility at seventy two point eight five billion dollars" | line 19: "puts total inflows under the facility at US$72.85 billion, of which US$65.4 billion is those deposits" | ✓ **script now brief-verbatim on the scope phrase** |
+| "We have dropped it" | line 41: "The 30 September date is retired" | ✓ same claim, correctly attributed to us |
+| "For weeks now, money has been leaving India for artificial intelligence shares in North Asia. On Monday that ran backwards." | line 29: "the pattern this desk has flagged for weeks, of money leaving India for the North Asian artificial-intelligence trade, ran backwards on Monday" | ✓ direction and duration faithful; magnitudes still correctly omitted per the brief's own refusal |
+| "Asia sold technology, Korea hardest, and India barely moved" | line 29: "Korea sold off hard and India barely moved" | ✓ |
+| "a build funded by that window's dollars would stop when the window stops" | line 35: generic "it stops when the window stops" + "not something to state as cause" | ✓ conditional is faithful and restores the governing hedge |
+| "Those same reports say the court is now also looking at the company's document handling role" | line 79: "Reports say Spain's National Court has widened an investigation... to examine BLS's own administrative and document-processing role" | ✓ attribution made explicit rather than inherited |
+| "no cause we could establish" | line 109: "Five of the twelve have no cause we could establish" | ✓ **brief-verbatim**; the script moved off the brief's looser line-146 wording onto its tighter line-109 wording |
+| "We could not find one, and that is the accurate answer" | line 146: "'Nobody knows' is the accurate answer" | ✓ not a mismatch — a claim narrowed relative to source, i.e. a hedge added |
+
+Two notes, neither a mismatch:
+
+1. **Three of the five accuracy fixes landed on the brief's own words.** "Total inflows under the facility" and "no cause we could establish" are brief-verbatim, and "would stop" restores the brief's governing caution. The fix pass did not invent language; it went back to the source and took the more careful of the two formulations the brief carried. That is the right instinct and worth recording.
+2. **"For several runs" is itself brief-verbatim** (line 41). That explains why the writer was comfortable with it and does not excuse it: "runs" is fine in a written brief a reader can re-scan and is production vocabulary in audio. W1 below stands.
+
 ## Punch list
+
+### FAIL — none (0)
+
+**The prior blocker F1 is repaired.** No new FAIL was introduced by any of the seven edits.
+
+### WARN — 11. Principal may ship without any of these.
+
+Of last pass's twelve WARNs, **five are closed** (the FCNR scope, the swap hedge, the "it is retired now" referent, both overclaims, and the B-L-S sentence). Seven carry over unchanged, three are residuals sitting inside repaired lines, and one is new and minor.
+
+**Carried over, unchanged, not re-argued:**
+
+**W1 [L1, S11] — "for several runs" is production vocabulary.** Deliberately left in place, outside the authorised fix list. Still stands as a listener defect; **not new, and not grounds for FAIL.** → "in brief after brief" or "for several editions".
+
+**W2 [L1, S14] — "more fallers than risers under a flat index"** restates in desk vocabulary what the plain numbers just said.
+
+**W3 [L1, S18] — "a build" used twice as a noun.**
+
+**W4 [L1, S20] — "below its own inflation path" has an ambiguous owner by ear.** → "the bank's own inflation path".
+
+**W5 [L2 near-miss, S22] — Ratnamani gets no what-it-does.** The thinnest company placement in the episode. → "the pipe maker Ratnamani Metals and Tubes" (+3).
+
+**W6 [L1, S40] — "Brent" is unglossed.** → "Brent crude" (+1).
+
+**W7 [L2-flavoured, S42] — "the American sanctions announcement"** arrives with a definite article and no referent.
+
+**Residuals inside repaired lines:**
+
+**W8 [L1, S7] — "the facility" is an unglossed definite noun.** The accuracy defect is closed; the ear defect is partly open, because a listener will map "the facility" back onto "the window". → "under the whole scheme".
+
+**W9 [S15–17] — the Asia paragraph still ends without an explicit so-what.** The blocker was the missing premise and it is fixed; this strand survives and is not FAIL-grade.
+
+**W10 [S33] — the listener still has not been told there is a list of twelve** before "five of the twelve" is used.
+
+**New this pass:**
+
+**W11 [L1, S36] — "We could not find one" reaches three sentences back for its antecedent.** Introduced by the overclaim fix, which was the right trade. Resolves in context for almost any listener. → "We could not find a reason" (+1).
+
+### What is right, and must not be touched
+
+Unchanged from last pass, and all four verified byte-identical in the diff:
+
+- **Sentence 10, "And we got it wrong too."** Still adjacent to sentence 9, still the reason sentence 9 is publishable.
+- **The B-L-S hedge architecture**, and sentence 31 in particular. Verified intact after the split.
+- **The Hormuz block.** Exemplar-grade, untouched.
+- **The day-name time convention and the absolute forward date.**
+
+Add to that list: **the Asia paragraph as now written.** It went from the episode's only FAIL to one of its cleaner passages, and its three-short-sentences shape is the pattern to reuse the next time a premise needs establishing.
