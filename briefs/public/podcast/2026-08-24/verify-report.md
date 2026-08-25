@@ -1,7 +1,14 @@
 # Verify Podcast Script — 2026-08-24
 
-**Verdict:** _pending_
-**Checks:** _pending_
+**Verdict:** **FAIL** — one flagrant L1 line. One fix pass, then re-verify before TTS.
+
+**Checks (counts = FLAG hits):** L1 8 (one of them FAIL-grade) / L2 1 (near-miss, WARN-grade) / L3 0 / L4 0 / L5 0 / L6 1 / S1 0 / accuracy-and-hedge 2
+
+**FAIL count: 1. WARN count: 12.**
+
+The single blocker is sentence 16, "That runs backwards to the pattern of money leaving India for North Asia's artificial intelligence trade" — it presupposes a pattern the listener has never been told exists, because the brief's own scaffolding clause was cut to hold 699 words.
+
+This is a close FAIL and the reasoning is set out in full in the punch list rather than buried. Everything else in the episode is WARN-grade or better, the source spot-check is completely clean, the mechanical checks are completely clean, and three of the four passages the producer flagged came back stronger than expected. **The fix is two words net on one paragraph.**
 
 ## Method and constraints
 
@@ -166,8 +173,118 @@ In fairness the brief is itself in tension here — its Lead says "the plumbing 
 
 ## Mechanical (L5) and length
 
+**L5: zero hits. Independently machine-checked on the spoken body, not taken from the header.**
+
+| Check | Result |
+|---|---|
+| Digits | none |
+| Currency / percent symbols | none |
+| Em-dashes / en-dashes | none |
+| `[SAY:]` hints, brackets, parentheses, exclamation marks | none |
+| Word count | 699, inside the 500–700 band |
+| Longest sentence | 33 words (S36), single-thread with an inline gloss |
+
+The header's self-report is accurate in every particular. Four sentences run 30 to 33 words (S9, S14, S17, S36); all four are comma-segmented single threads and speakable in one breath, so per L6 none is flagged on length alone. Only S26 draws an L6 flag, and for its trailing purpose clause rather than its count.
+
+The respellings are correct for TTS: **toro I-Q**, **B-L-S International**, **I-D-B-I Bank**, and the Reserve Bank of India always said in full. "Ratnamani Metals and Tubes" is spelled with "and" rather than an ampersand.
+
+**Does 699 feel padded or earned?** Earned. There is no filler sentence in the episode and no throat-clearing anywhere — the open is three words of brand and then straight into the window. The density is in fact the opposite problem: three of the flags above (S14, S16, S17) are compression artefacts, sentences squeezed to buy room rather than sentences spending room they did not need. Being one word under the ceiling is why the Asia paragraph lost its premise. That is worth saying plainly: **this script is not too long, it is too tight in three specific places**, and the fixes below are costed so they can be paid for.
+
 ## Continuity with 2026-08-20
+
+**Voice: continuous and correct.** Identical open and identical sign-off, the same "Here is what struck me about Monday" signpost in the same slot, the same first-person-plural desk voice, the same practice of naming what we could not establish. A listener hears the same programme.
+
+**The gap is handled correctly.** There was no episode on 21 August, so Friday's session is unseen. The script never references Friday, never assumes it, and pins its one forward date absolutely rather than relatively. The day-name convention carried over from 20 August is the right call for a backfilled episode and actively defuses the L3 risk rather than creating one.
+
+**One regression against a previously adjudicated finding, and it matters.** The 20-August episode failed its cold read and was fixed; its v3 header records W1: cutting "Asia rallied and India rallied least" to pay down the word ceiling removed the comparison the next sentence depended on, leaving the listener to infer the premise. It was restored verbatim as its own short sentence.
+
+**The same defect has recurred, in the same paragraph slot, one episode later, from the same cause.** The Asia paragraph again drops the clause that establishes the premise, again to pay down the ceiling, and again the following sentence is left with nothing stated to stand on. That precedent is the single strongest reason I am not downgrading the S16 flag to a WARN: this exact trade-off has already been adjudicated once and the ruling was that the premise sentence is load-bearing and must be paid for elsewhere.
+
+The 20-August fix pass also established *where* the words should come from: "not one of them from a connective sentence, a gloss, a guard or the sugar causal chain… the words came out of the interiors of long sentences." That method is the one to reuse here, and the costed fixes below follow it.
 
 ## Source spot-check (S1)
 
+**Zero mismatches. S1 passes.** Every figure and every causal direction traced to `briefs/public/2026-08-24.md`.
+
+| Script | Brief | Match |
+|---|---|---|
+| Nifty fifty 24,219, down 0.14% | 24,219.05, −0.14% | ✓ |
+| 302 rose, 400 fell, of 705 | 302 / 400 / 705 | ✓ |
+| Second straight session of more fallers than risers | "second consecutive session of negative breadth under a flat headline" | ✓ |
+| Window closes 31 Aug not 30 Sep; seven days on Monday | "closes on 31 August rather than 30 September, and Monday left seven days of it" | ✓ |
+| Date moved forward on the 14th | "brought the date forward on 14 August" | ✓ |
+| Saturday release, US$72.85bn | "release on Saturday 22 August… US$72.85 billion" | ✓ figure; see scope note in Declared cut 1 |
+| FAQ still shows the retired 30 Sep date | brief, Lead sourcing note | ✓ |
+| Reserves up almost US$10bn, week to the 14th, third straight build | US$9.905bn to US$716.907bn, week to 14 Aug, third consecutive | ✓ |
+| House price index annual growth 3.6% from 4.5%, below the inflation path, falling in real money | 3.6% from 4.5%, "below the bank's own projected inflation path… falling in real money" | ✓ |
+| Ratnamani +14.55%, orders ~₹2,700 crore, filed intraday, buyer unnamed, partly sub-contracted | +14.55%, US$286mn ≈ ₹2,700 crore, filed 14:13, "International Customers", partly sub-contracted | ✓ |
+| B-L-S down almost 11%, biggest fall | −10.98%, largest fall in the 705-name universe | ✓ |
+| Spanish court, Algiers consulate, document-handling role, denial filed intraday | Spain's National Court, Algiers, "administrative and document-processing role", denial filed 13:04 | ✓ |
+| Five of the twelve movers unexplained | "Five of the twelve" | ✓ |
+| I-D-B-I +6.92%, nothing filed, PSU banks led the market lower | +6.92% to ₹87.93, "no exchange filing dated Monday", Nifty PSU Bank −0.93% | ✓ |
+| Brent −1.81%; Indian Oil +1.91%; sanctions landed after the close | −1.81%; IOC +1.91%; 17:30–19:00 IST, after the 15:30 close | ✓ |
+| Deposit window shuts Monday 31 August | What to Watch, 31 August | ✓ |
+
+Three notes, none of them mismatches:
+
+1. **Hedges correctly honoured by omission.** The brief adopts the Asian direction but explicitly refuses the magnitudes ("we adopt the direction… and not the magnitudes, which we could not verify"). The script gives Korea's direction and no number. That is exactly right.
+2. **One hedge is stronger in the script than in the brief.** "Or whether it is accused at all" goes further than the brief's "not enough to characterise the legal exposure." A hedge added, not removed — credit where due, and it is the line that saves the B-L-S block.
+3. **"Nobody knows, and that is the accurate answer" is brief-verbatim** (The Connections: "'Nobody knows' is the accurate answer, and it is a better one than something plausible"). The overclaim originates upstream, not with the script writer. It still warrants the audio fix, because the brief carries a table showing "searched 3 lanes" and a dead block-deal feed in the same eyeful, and audio carries none of that context.
+
 ## Punch list
+
+### FAIL — must fix before TTS (1)
+
+**F1 [L1, S16] — "That runs backwards to the pattern of money leaving India for North Asia's artificial intelligence trade."**
+
+The sentence presupposes a pattern it never establishes. "The pattern" arrives with a definite article, "the artificial intelligence trade" is a desk noun, "runs backwards to" is not the idiom ("runs counter to" is), and the paragraph closes without a so-what — twenty-seven words spent and nothing concluded. The brief's own scaffolding, "this desk has flagged for weeks," was dropped in the squeeze to 699.
+
+**Fix (+2 words), which also restores the premise as its own short sentence per the 20-August ruling:**
+
+> For weeks now, money has been leaving India for artificial intelligence shares in North Asia. On Monday that ran backwards. Asia sold technology, Korea hardest, and India barely moved.
+
+**Honest statement of the counterargument, since it is a close call.** The sentence does describe the pattern inline — "money leaving India for North Asia's artificial intelligence trade" is a gloss as well as an object. A listener may well extract "this is the opposite of normal" without knowing the pattern, and that is roughly the intended takeaway. If the principal reads it as adequately self-glossing, this drops to WARN and the episode ships as written. I am holding it at FAIL for three reasons: the nine-word noun phrase is doing gloss duty and object duty simultaneously, which is one nesting too many for the ear; the non-idiomatic "runs backwards to" costs a beat exactly where the listener cannot afford one; and this is the second consecutive episode in which the Asia paragraph's premise sentence was cut to pay the word ceiling, having already been adjudicated once as load-bearing. The precedent, more than the sentence, is what decides it.
+
+### WARN — recommended, principal may ship without (12)
+
+**W1 [accuracy, S7] — the FCNR figure now covers more than the window described.** "Puts the money raised at seventy two point eight five billion dollars" → **"puts total inflows under the facility at seventy two point eight five billion dollars."** (+2)
+
+**W2 [accuracy, S17] — the swap-funding hedge is gone.** "…but a build funded by that window's dollars **stops** when the window stops" → **"…would stop when the window stops."** (+1) Restores the brief's refusal to state this as cause, at a cost of one word.
+
+**W3 [L1, S11] — "for several runs" is production vocabulary.** → **"in brief after brief"** or **"for several editions."** (−3 as written below, and this is the offset that pays for F1, W1 and W2.)
+
+> We carried that old date in brief after brief and never went back to check it.
+
+**W4 [L1, S12] — "It is retired now" has the wrong referent by ear**, and can be heard as "the central bank has now fixed its page," which is false. → **"We have dropped it."** (−1)
+
+**W5 [overclaim, S31 and S34] — the flagged "Nobody knows" line.** Confirmed as an overclaim: it is a claim about the world where the defensible claim is about our search, and the spoken evidence for it is a single negative check. Two one-word fixes, no length cost:
+- S31 → "Five of the twelve biggest movers have no cause **we could establish**."
+- S34 → "**We could not find one**, and that is the accurate answer."
+
+**W6 [L6, S26] — the B-L-S sentence carries every sticky noun with its hedge twenty-five words upstream.** Recommended hardening, splitting so the company clause carries its own attribution:
+
+> Reports say a Spanish court has widened an investigation into an alleged visa fraud network at the Spanish consulate in Algiers. Those same reports say the court is now also looking at the company's document handling role.
+
+**W7 [L1, S40] — "the American sanctions announcement" is introduced with a definite article and no referent.** The listener has never heard of it. → **"And an American sanctions announcement that much of the coverage blamed for Monday landed after our market shut."** (+3)
+
+**W8 [L1, S14] — "more fallers than risers under a flat index" restates in desk vocabulary what the plain numbers just said.** → **"That is the second session in a row where more fell than rose."** (level)
+
+**W9 [L1, S17] — "a build" used twice as a noun.** Covered by the W2 rewrite if that phrasing is adopted; otherwise "a third straight rise."
+
+**W10 [L1, S19] — "below its own inflation path" has an ambiguous owner by ear.** → **"below the bank's own inflation path."** (+1)
+
+**W11 [L2 near-miss, S21] — Ratnamani gets no what-it-does.** Downgraded from FAIL only because the company name states the business: a listener hearing "Metals and Tubes" plus "won export orders" knows enough. It is the thinnest company placement in the episode and the one place I came closest to a second FAIL — the skeptical point in S23 about margin mix asks the listener to evaluate a business they have not been told about. If a word becomes available, "the pipe maker Ratnamani Metals and Tubes" costs three and closes it.
+
+**W12 [L1, S38] — "Brent" is unglossed.** The exemplar says "crude oil." Context carries it, barely. Optional: "and Brent crude fell one point eight one percent." (+1)
+
+### Word budget
+
+F1 +2, W1 +2, W2 +1, W7 +3, W10 +1 = **+9**. W3 −3 and W4 −1 return four. The remaining five come out of sentence interiors, per the method the 20-August fix pass established — never from a connective sentence, a gloss, a guard or a causal chain. S23 offers two ("does not name the buyer" for "names the buyer only as international customers") and S24's "and here the limits matter more than the number" offers eight if the principal will spend it, though it is a good signpost and I would look elsewhere first.
+
+### What is right, and should not be touched in the fix pass
+
+- **Sentence 10, "And we got it wrong too."** The best line in the episode, and the sentence that makes the central-bank criticism fair rather than cheap. Do not trim the correction paragraph to pay for anything.
+- **The whole B-L-S hedge architecture**, and sentence 29 in particular. It goes further than the brief and it is correctly placed.
+- **The Hormuz block.** A full counter-argument with evidence, stated as cause and effect, closing on "we are not giving it one." This is exemplar-grade and is the strongest passage in the episode.
+- **The day-name time convention and the absolute forward date.** Correct handling of the backfill.
+
