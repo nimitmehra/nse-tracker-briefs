@@ -93,7 +93,94 @@ Every sentence of the spoken body, re-read cold, as a listener hears it: no sour
 
 ## The seven edits — per-edit verdict
 
+### Edit 1 — the FAIL fix, Asia paragraph. **FIXED.**
+
+> For weeks now, money has been leaving India for artificial intelligence shares in North Asia. On Monday that ran backwards. Asia sold technology, Korea hardest, and India barely moved.
+
+The defect was a premise presupposed with a definite article and never established. It is now stated first, plainly, as its own short sentence — the identical repair the 20-August episode used for the identical defect in the identical slot, which is the precedent that made this a FAIL rather than a WARN. **A listener can now follow it cold**, and I tested it by reading the three sentences aloud without the surrounding script: normal state → reversal → what the reversal looked like. Three short sentences, one idea each, no nested clause anywhere.
+
+Three secondary improvements came with it, none of them asked for. "Artificial intelligence shares" is a concrete object where "the artificial intelligence trade" was a desk noun. The non-idiomatic "runs backwards to" is gone. And "On Monday" moved from a mid-sentence adverbial into the sentence that needs it.
+
+**On the choice of "For weeks now" over the brief's "this desk has flagged for weeks":** the right call, and it holds. It carries the recurring-theme scaffolding — this is not new, you have heard it before — without asking the listener to know what a desk is or care what it flags. The one thing it shifts is whose duration is being claimed: the brief times the *flagging*, the script times the *pattern*. Those are near-equivalent, since a pattern cannot be flagged for weeks without persisting for weeks, and the brief's own sentence only parses if the pattern was ongoing. Not a mismatch. Noted for completeness because it is the single place the script states something the brief states obliquely.
+
+**Residual, non-blocking:** the paragraph still ends without an explicit so-what. That was one strand of the original FAIL reasoning and it survives. It is not FAIL-grade on its own and never was — the blocker was the missing premise, and the premise is now there.
+
+### Edit 2 — "It is retired now" → "We have dropped it". **FIXED.**
+
+The failure mode was that "it" could attach to the FAQ page and be heard as the central bank having fixed its website, which is false and the opposite of the point. The new sentence opens with "We", so the subject is unambiguously the desk from the first syllable, and the sentence cannot be heard as a statement about the central bank at all. Costless: four words for four.
+
+### Edit 3 — "the money raised" → "total inflows under the facility". **FIXED, with a residual ear-note.**
+
+Verified against the brief, which reads: "Its own release on Saturday 22 August puts **total inflows under the facility** at US$72.85 billion, of which US$65.4 billion is those deposits." **The script now uses the brief's own phrasing verbatim.** The over-count against a deposits-only mental model is closed as a matter of fact: the sentence no longer claims the seventy two point eight five is the deposit leg.
+
+The residual is a listening problem rather than an accuracy one, and I am recording it as a WARN, not as a failure of the edit. The listener has been told about "a window", and "the facility" arrives as a new, unglossed, definite noun; by ear most listeners will simply map it back onto the window they were just told about, which recovers some of the over-count the edit was meant to remove. The fix is correct and is the best available at zero structural cost. If a word ever becomes free, "under the whole scheme" would close it by ear as well as on the page.
+
+### Edit 4 — "stops" → "would stop". **FIXED.**
+
+The brief hedges this twice and then forbids it: "We have not verified how much of the build is swap-related... so that is a question to test against the next three weekly releases **and not something to state as cause**." The brief's own sentence uses a present tense — "A reserve build funded by swapping in FCNR(B) dollars... stops when the window stops" — but its subject is an indefinite class, so the present tense is safe there. In the script the same words sat behind "a third straight build, **but**", and the contrastive collapsed the generic into the specific: *this* build was swap-funded. The conditional mood breaks that collapse and returns the sentence to a general proposition. One word, hedge restored, no contradiction with the brief.
+
+### Edit 5 — the two overclaim narrowings. **BOTH FIXED.**
+
+"No cause we could establish" is, again, **the brief's own line 109 verbatim** — the brief carries both formulations and the script has moved from the loose one to the tight one. "We could not find one" departs from the brief's "'Nobody knows' is the accurate answer" in the direction of a narrower claim, which is a hedge added rather than removed, and so is not an S1 mismatch. Both now claim about our search rather than about the world, which was the whole point.
+
+**One new minor WARN arrived with the second of these**, and I am reporting it rather than smoothing it: "We could not find one" reaches back three sentences for its antecedent, "cause" in sentence 33, with "Nothing was filed" in between. "Nobody knows" needed no antecedent. In practice the paragraph is entirely about missing explanations and "Nothing was filed" primes exactly the right reading, so it resolves for almost any listener. Minor, non-blocking, and a strictly better trade than the overclaim it replaced. "We could not find a reason" would close it for one word.
+
+### Edit 6 — the B-L-S sentence split. **FIXED, and the feared backfire did not occur.**
+
+Covered in full in the next section.
+
+### Edit 7 — nothing else. **CONFIRMED.**
+
+The word-level diff of the two spoken bodies returns seven edit sites and no eighth. No time-word, no figure, no gloss and no guard outside those seven was touched.
+
+## Does the B-L-S block still hold by ear after the split?
+
+**Yes. Read aloud at speaking pace three times, the block holds, and it is marginally stronger than it was.**
+
+**The company is not named twice.** This was the one identified way the fix could have backfired and it did not happen. The new second sentence says "**the company's** document handling role", not "B-L-S". Across the whole block the name is spoken exactly three times, unchanged from v1: once to identify the fall, once for the what-it-does, and once for the denial. **Neither of the two sentences describing the allegation says the company's name.** Sentence 27, which carries the sticky nouns — court, investigation, fraud, consulate — does not name the company at all.
+
+**The order is intact.** what-it-does → hedged report → hedged report continued → epistemic limit → what we can say → what we cannot say → denial. "Or whether it is accused at all" is still the penultimate sentence, still immediately before the denial, still where recency protects it. Its ordinal moved from five-of-six to six-of-seven only because the split added a sentence; **its position relative to the denial, which is what makes it work, is unchanged.**
+
+**The split reduced accusatory force rather than raising it.** The defect it fixed was real: in v1 the clause naming the company's role sat twenty-five words downstream of "Reports say", and at speaking pace a hedge that far back does less work than it does on the page. Now each of the two allegation sentences carries its own attribution, so a listener who catches only the second one still hears "Those same reports say" before anything about the company. That is the correct direction.
+
+The one genuine counter-pressure, stated honestly: a standalone sentence carries more prosodic weight than a trailing clause, so the company-implicating material is now slightly more emphasised than it was. That is the trade the fix consciously made, and it is the right trade — emphasis carrying its own attribution beats de-emphasis leaning on someone else's. The material is immediately followed by "We have not read the court's order", and the block still ends where it must.
+
 ## Did the fix pass cut a hedge to buy words?
+
+**No. Verified mechanically, not taken on trust.**
+
+The word-level diff of the v1 and v2 spoken bodies shows deletions at exactly seven sites, each one inside a named edit. Nothing was removed from a connective sentence, a gloss, a guard, or a causal chain anywhere else in the script. The four passages flagged last pass as untouchable are byte-identical: sentence 10 ("And we got it wrong too"), the B-L-S hedge architecture including sentence 31, the entire Hormuz block, and the time convention with its absolute forward date.
+
+Every individual deletion is replaced by equal or stronger language:
+
+| Deleted | Replaced by | Net effect on epistemics |
+|---|---|---|
+| "the money raised" | "total inflows under the facility" | scope corrected, brief-verbatim |
+| "It is retired now." | "We have dropped it." | referent corrected |
+| the old Asia sentence | two sentences stating strictly more | premise now stated, not presupposed |
+| "stops" | "would stop" | **hedge added** |
+| "to look" / "own" | a full repeated attribution clause | **hedge added** |
+| "anyone can point to" | "we could establish" | **claim narrowed** |
+| "Nobody knows," | "We could not find one," | **claim narrowed** |
+
+**Four of the seven edits added epistemic protection. None removed any.** This is the failure mode that caused the original FAIL and it did not recur.
+
+### Where the fourteen words went
+
+| Edit | Net words |
+|---|---|
+| FCNR scope | +2 |
+| "We have dropped it" | 0 |
+| Asia FAIL fix | **+2** |
+| "would stop" | +1 |
+| B-L-S split | **+7** |
+| "we could establish" | −1 |
+| "We could not find one" | +3 |
+| **Total** | **+14** |
+
+Every one of the fourteen is traceable to a named fix. **Not one went to new content, a new claim, or a flourish.** The FAIL fix — the one the overage was authorised for — cost two net words, because the writer paid for it largely by deleting the broken sentence it replaced. Half the overage went to a single edit, the B-L-S split, which is the most defensive change in the pass. Two of the seven edits were free or net-negative.
+
+**Judgment on the overage: the words bought accuracy, not length.** Last pass I said this script was not too long but too tight in three specific places, and that three of its defects were compression artefacts. All three of those places have now been paid for, and the payment went where the compression damage was.
 
 ## Mechanical (L5) and length
 
