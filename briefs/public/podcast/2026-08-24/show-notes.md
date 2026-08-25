@@ -1,6 +1,6 @@
 # Show Notes — 2026-08-24
 
-**Word count:** 698 words (script body)
+**Word count:** 699 words (script body)
 **Estimated duration:** 4.24 minutes at 165 WPM
 **Self-verify:** PASS (checks 7, 8, 11 — no banned jargon, no recommendation language, every claim traced to `briefs/public/2026-08-24.md`)
 **Skill version:** podcast-script-public-nse v1.7
