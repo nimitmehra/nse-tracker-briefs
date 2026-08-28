@@ -92,3 +92,61 @@ _(appended in batches below)_
 53. "Markets are risky; you may lose money; act with care." — OK
 54. "See you tomorrow." — **OK — resolved.** Tested as heard: sentence 44 says the speech lands "after India has closed", which presupposes an Indian session tomorrow; sentence 46 then tells the listener India reacts on Monday. So the listener now knows Friday exists as a trading day, and "see you tomorrow" promises a Friday episode about a Friday session. That is no longer a contradiction. It also does not conflict with "Monday the thirty first is the date to keep" — a quiet Friday and a big Monday are compatible, and the exemplar's close is preserved verbatim.
 
+---
+
+## Source spot-check (S1) — brief opened only now
+
+### Figures that match
+
+| Script | Brief | |
+|---|---|---|
+| Nifty fifty closed at 24,090 | 24,090.85 | match |
+| a decline of 0.48% | Nifty 50 −0.48% | match |
+| HDFC Bank down 2.23%, ~13% of the index, "most of" the fall | −2.23%, "roughly 13% of the index... about 0.29pp out of a 0.48% decline"; lead reads "Over half of Thursday's fall was one stock" | match |
+| NIM record low / low-cost deposits 38 to 32 / foreign holding down a fifth quarter | 3.26% record-low NIM, 32% vs 38%, fifth straight quarter | match |
+| 253 rose, 449 fell, roughly 700 shares | 253 / 449 of 707 priced | match |
+| Not one of eleven cement companies rose | "Not one of eleven cement names rose" | match |
+| Metals and state-owned banks next | metals −1.12% typical, PSU banks −0.90%, "next... after them" | match |
+| Pharma +0.84%, the one clean positive | Nifty Pharma +0.84%, "the one clean positive" | match |
+| Korea/Shanghai/Taiwan up, Japan/Hong Kong down | KOSPI +1.53, Shanghai +1.13, TAIEX +0.31, Nikkei −0.20, Hang Seng −0.34 | match |
+| RBI August bulletin, exports and imports double digits in July, cuts against the 18% tariff idea | verbatim in Macro & Policy | match |
+| Rainfall through 26 August 13% below normal | 577.8mm vs 664.7mm, 13% below | match |
+| 26 shares fell 3% or more | "26 stocks fell 3% or more on the day" | match |
+| Bombay Burmah +13%, ₹4,655 crore, 41%, order a week old, filing after Wednesday's close | +13.14%, ₹4,655.24 cr, 41.3%, order dated 19-Aug, filed 15:59:29 on 26-Aug | match |
+| Nine of the ten risers, no cause established | verbatim | match |
+| Ramco Cements −5.11%, cause not established | −5.11%, "we could not establish a cause for it" | match |
+| Nvidia revenue +106%, guidance ahead of expectations | US$96.2bn, +106%, guidance US$108bn vs US$104.2bn expected | match |
+| Korea sold off sharply on Monday, India barely moved | verbatim, no magnitude in the brief either | match — **guardrail 3 satisfied** |
+| Warsh, first Jackson Hole speech, tomorrow evening after India closes, lands Monday | Friday 28-Aug ~19:30 IST, "lands after India has closed, so it is Monday's input rather than Friday's" | match |
+| GDP ~7.1% against 7.8%, MSCI review effective at Monday's close | consensus ~7.1% vs 7.8%; MSCI takes effect at the close | match |
+| Screen rule: outside the Nifty fifty a share must fall ten percent | "Anything outside the Nifty 50 has to fall 10%, not 5%, to show up at all" | match — **guardrail 1 satisfied, no size floor invented** |
+| September American rate-rise odds | brief flags single-source and refuses them; script does not carry them | correctly omitted |
+
+### S1 MISMATCH — FAIL
+
+> **Script, sentence 33: "The biggest fall was Ramco Cements, a cement maker, down five point one one percent…"**
+>
+> **Brief, Big Movers preamble:** *"Only three names fell 5% or more on Thursday — Ramco Cements (RAMCOCEM) −5.11%, and two smaller names trading under the tickers MODIS (−5.05%) and **SHANTIGOLD (−7.52%)** — and none of the three made the screen's cut."*
+
+Ramco was **not** the biggest fall. SHANTIGOLD fell 7.52%, nearly half again as far, and it sits four lines above the very sentence the script paraphrased for "twenty six shares fell three percent or more." The brief also publishes **zero** fallers on its table and explicitly declines to rank fallers at all.
+
+The listener takeaway from the script is "the worst any share did on Thursday was fall about five percent." That is false against the desk's own source. The number attached to Ramco is right and the cause-not-established hedge is right; the **superlative is invented**, and it is invented in the one section where this desk's published standard is strictest about superlatives — the same brief refuses to print a 52-week superlative on the volatility index because two data vendors disagree about a low.
+
+It also collides with the script's own sentence 23: the listener is told the screen only catches a sub-Nifty-fifty share once it has fallen ten percent, and is then handed a ranked "biggest fall" of five point one one percent — a name that, per the brief, did not make the screen either. There is no frame in which both sentences are true for the listener.
+
+**This is not new in v2 — it was in v1, and the attempt-1 report matched only the −5.11% figure and missed the superlative.** That is a miss in the previous verification, not a regression by the writer. It is still a live factual error, and it is still in the script.
+
+**Fix (one clause, no word-count cost):** drop the superlative.
+> "Ramco Cements, a cement maker, fell five point one one percent, and we could not establish a cause there either."
+
+### S1 secondary — attribution drift (WARN)
+
+> **Script, sentence 45:** "**He** has been talking about American interest rates going up, not down…"
+> **Brief:** "The read that matters: **this is currently a conversation** about whether American rates go up, not down…"
+
+The brief describes the ambient debate around the appointment; the script puts the position in Kevin Warsh's own mouth. The brief nowhere attributes that view to him. Fix: "The conversation around him is about American interest rates going up, not down, the opposite of what Indian markets have priced all year."
+
+### S1 note — an inherited arithmetic wobble (low priority, upstream)
+
+Script sentence 42, "twice in three sessions," is **faithful to the brief**, which says "Twice inverted in three sessions." But the brief elsewhere states that the NSE's monthly Nifty expiry "had already gone on **Tuesday 25 August**" — so Tuesday traded, and Monday-24 to Thursday-27 is four sessions, not three. Not an S1 mismatch (the script copies the source correctly) and not a podcast gate item; flagging it back to the brief side. If the line is being touched anyway, "twice in four sessions" is the safe read.
+
