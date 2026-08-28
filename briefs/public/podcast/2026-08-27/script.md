@@ -18,9 +18,9 @@ Good evening. This is India Markets Brief from toro I-Q. Your read on Thursday's
 
 More than half of Thursday's fall in the Nifty was one share. H-D-F-C Bank closed down two point two three percent, and on about thirteen percent of the index that is most of a decline of zero point four eight percent.
 
-So this is not a banking story. What is wearing H-D-F-C Bank down is its own arithmetic. Its lending margin is at a record low, its cheap deposits have shrunk from thirty eight percent of the book to thirty two, and foreign investors have cut their holding for a fifth straight quarter.
+This is a problem specific to that one bank. Its lending margin is at a record low, its cheap deposits have shrunk from thirty eight percent of the book to thirty two, and foreign investors have cut their holding for a fifth straight quarter.
 
-The Nifty fifty closed at twenty four thousand and ninety. Underneath it, of seven hundred and seven shares we could price, two hundred and fifty three rose and four hundred and forty nine fell.
+The Nifty fifty closed at twenty four thousand and ninety. Underneath it, across roughly seven hundred shares, two hundred and fifty three rose and four hundred and forty nine fell.
 
 The selling was concentrated rather than general. Not one of eleven cement companies rose. Metals and state owned banks were next. Pharmaceuticals were the one clean positive, up zero point eight four percent.
 
