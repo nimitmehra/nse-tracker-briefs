@@ -22,24 +22,26 @@ This is a problem specific to that one bank. Its lending margin is at a record l
 
 The Nifty fifty closed at twenty four thousand and ninety. Underneath it, across roughly seven hundred shares, two hundred and fifty three rose and four hundred and forty nine fell.
 
-The selling was concentrated rather than general. Not one of eleven cement companies rose. Metals and state owned banks were next. Pharmaceuticals were the one clean positive, up zero point eight four percent.
+Not one of eleven cement companies rose. Metals and state owned banks were next. Pharmaceuticals were the one clean positive, up zero point eight four percent.
 
 Asia split on Thursday and India went with the weaker half. Korea, Shanghai and Taiwan rose. Japan and Hong Kong fell.
 
-Two things sit over this market and they disagree. The Reserve Bank of India's August bulletin reads the June quarter as resilient, with exports and imports both growing in double digits in July, which cuts against the idea that the eighteen percent American tariff is crushing exports. But rainfall through the twenty sixth of August is thirteen percent below normal, and that shortfall has widened since early August.
+Two things sit over this market and they disagree. The Reserve Bank of India's August bulletin reads the June quarter as resilient, with exports and imports both growing in double digits in July, which cuts against the idea that the eighteen percent American tariff is crushing exports. But rainfall through the twenty sixth of August is thirteen percent below normal.
 
-Both are true. The bulletin describes July, when sowing had recovered, and the deficit widened after that. Thursday's market sided with the rain, with fertiliser, agrochemical and rural facing names lower, though we are not calling it the cause.
+Both are true. The bulletin describes July, when sowing had recovered, and the rain shortfall widened after that. Thursday's market moved with the rain, with fertiliser, agrochemical and rural facing shares lower.
 
-Now the movers, and our own list is wrong about the day. It surfaced ten risers and no fallers, on a session in which four hundred and forty nine of seven hundred and seven shares fell. That is our screen's own rule and not the market. Outside the Nifty fifty a share has to fall ten percent, not five, to show up at all. Twenty six shares fell three percent or more on Thursday.
+Now the movers, and no big faller appears among them, because outside the Nifty fifty our list only catches a share once it has dropped ten percent. Twenty six shares fell three percent or more on Thursday.
 
-The biggest riser was Bombay Burmah Trading Corporation, up thirteen percent, and it is the one name with a document behind it. The Supreme Court withdrew an observation it had made in May, that four thousand six hundred and fifty five crore rupees of lease rent was recoverable from it over a former tea estate in Tamil Nadu. That is about forty one percent of what the company is worth. It withdrew the observation on procedure though. It did not rule that nothing is owed. And what moved the share was not the order, which is a week old, but the company's own filing after Wednesday's close.
+The biggest riser was Bombay Burmah Trading Corporation, up thirteen percent. It is an old plantations and holding company, and it owns the Wadia family's stake in Britannia, the biscuit maker. It is also the one riser with a filing behind it. The Supreme Court withdrew an observation it had made in May, that four thousand six hundred and fifty five crore rupees of lease rent was recoverable from it over a former tea estate in Tamil Nadu. That is about forty one percent of what the company is worth. It withdrew the observation on procedure though. It did not rule that nothing is owed. And what moved the share was not the order, which is a week old, but the company's own filing after Wednesday's close.
 
-Nine of the other ten risers have no cause we could establish. Four stale stories were caught and thrown out along the way, each of which would have read as Thursday's news unchecked. The biggest fall was Ramco Cements, down five point one one percent, and we could not establish a cause for that one either.
+Nine of the ten risers have no cause we could establish. The biggest fall was Ramco Cements, a cement maker, down five point one one percent, and we could not establish a cause for that one either.
 
 Here is what struck me about Thursday. Nvidia reported after Wednesday's American close, with revenue up one hundred and six percent on the year and guidance ahead of expectations. The chip makers of North Asia rose on it. Indian software services fell anyway.
 
-This next part is our reasoning and not a sourced finding. Korea and Taiwan build the memory and the chips that a bigger chip forecast mechanically orders more of. Indian technology companies sell people's time, and no order for chips turns into an Indian services contract. The same pattern ran backwards on Monday, when Korea sold off sharply and India barely moved. Twice inverted in three sessions is something to describe, not a trend.
+This next part is our reasoning and not a sourced finding. Korea and Taiwan build the memory and the chips that a bigger chip forecast mechanically orders more of. Indian technology companies sell people's time, and no order for chips turns into an Indian services contract. The same pattern ran backwards on Monday, when Korea sold off sharply and India barely moved. It has now run backwards twice in three sessions. That is worth noticing, not yet a trend.
 
-The date to keep is Monday the thirty first. India's June quarter growth figure lands, expected around seven point one percent against seven point eight. And the M-S-C-I index review takes effect at that close, so funds tracking it must trade whatever they think.
+Tomorrow evening, after India has closed, America's new central bank chief, Kevin Warsh, gives his first Jackson Hole speech as Chair. He has been talking about American interest rates going up, not down, which is the opposite of what Indian markets have priced all year. It lands on Monday.
+
+And Monday the thirty first is the date to keep. India's June quarter growth figure lands, expected around seven point one percent against seven point eight. And the M-S-C-I index review takes effect at that close, so funds tracking it must trade whatever they think.
 
 That's your brief. Before I sign off: this has been general market commentary, not investment advice. For investment advice tailored to your situation, consult a SEBI-registered Investment Adviser. Markets are risky; you may lose money; act with care. See you tomorrow.
