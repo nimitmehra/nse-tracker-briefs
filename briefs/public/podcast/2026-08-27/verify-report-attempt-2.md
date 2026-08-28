@@ -1,7 +1,7 @@
 # Verify Podcast Script — 2026-08-27 (ATTEMPT 2 / cold read of v2)
 
-**Verdict:** _pending_
-**Checks:** L1 _ / L2 _ / L3 _ / L4 _ / L5 _ / L6 _ / S1 _   (counts = FLAG hits)
+**Verdict:** FAIL (S1, one clause — correctable without re-composition)
+**Checks:** L1 8 / L2 1 / L3 0 / L4 3 / L5 0 / L6 4 / S1 1 (blocking)   (counts = FLAG hits)
 **Cycle:** second and final verification. v1 FAILED; this judges the rewrite on its own merits.
 **Isolation:** ledger built from the script alone. The brief (`briefs/public/2026-08-27.md`) was NOT opened until the ledger below was complete and flushed to disk.
 
@@ -149,4 +149,73 @@ The brief describes the ambient debate around the appointment; the script puts t
 ### S1 note — an inherited arithmetic wobble (low priority, upstream)
 
 Script sentence 42, "twice in three sessions," is **faithful to the brief**, which says "Twice inverted in three sessions." But the brief elsewhere states that the NSE's monthly Nifty expiry "had already gone on **Tuesday 25 August**" — so Tuesday traded, and Monday-24 to Thursday-27 is four sessions, not three. Not an S1 mismatch (the script copies the source correctly) and not a podcast gate item; flagging it back to the brief side. If the line is being touched anyway, "twice in four sessions" is the safe read.
+
+---
+
+## Attempt-1 punch list — resolution status
+
+| # | Attempt-1 item | Status in v2 |
+|---|---|---|
+| 1 | Process narration (four sentences of desk-tool talk) | **PARTIAL.** Four sentences to one. The stale-stories line and "shares we could price" are gone and not missed. The survivor — "outside the Nifty fifty our list only catches a share once it has dropped ten percent" — still narrates our screen, still answers a question the listener has not asked, and now conflicts with sentence 33. **Recommend deletion, not rewording**; sentence 24 already carries the market fact. Downgraded FAIL to WARN. |
+| 2 | Bombay Burmah and Ramco unexplained | **RESOLVED.** "An old plantations and holding company… it owns the Wadia family's stake in Britannia, the biscuit maker" lands cleanly for a listener — "the biscuit maker" is the anchor that does it. Ramco's "a cement maker" is minimal but sufficient, and it now ties back to the eleven-cement-names line. (Business description is declared out-of-brief, sourced from one web check; the Wadia/Britannia link is uncontroversial and correctly held to that core.) |
+| 3 | Missing forward-look bridge | **RESOLVED.** Friday's Jackson Hole is restored, its after-close timing is stated, the stakes are given in plain English, and "It lands on Monday" supplies Monday its cause. Two residual nits, both minor: "Jackson Hole" is never glossed for a listener who has never heard of it, and "It lands on Monday" has a loose referent. |
+| 4 | Sign-off contradicted the forward look | **RESOLVED — tested as heard.** "After India has closed" presupposes a Friday session; "It lands on Monday" tells the listener India reacts on Monday. So Friday now exists in the listener's head as a trading day, and "See you tomorrow" promises a Friday episode about a Friday session. No contradiction remains, and "Monday is the date to keep" does not fight it — a quiet Friday and a big Monday coexist fine. The exemplar's verbatim close is preserved. The writer's argument holds. |
+| 5 | "Selling was concentrated rather than general" | **RESOLVED on the flagged line — replacement is milder but not clean.** "This is a problem specific to that one bank" no longer denies a sector story outright, and the brief supports it (Kotak +1.80%, ICICI +0.91%, Axis +0.08% all rose). But the script cut that supporting evidence, so five sentences later the listener hears "Metals and state owned banks were next" with nothing to reconcile it. **No new contradiction introduced; the old one is softened, not eliminated.** Eight words fix it for good: "Kotak, I-C-I-C-I and Axis all rose." |
+| 6 | "Inverted" | **RESOLVED.** Jargon gone. "It has now run backwards twice in three sessions. That is worth noticing, not yet a trend." is plainer than the brief's own phrasing and correctly sizes a two-point observation. Two small residuals: what "backwards" reverses is ambiguous (it is the direction of the chip news, not the disconnect), and the "three sessions" count is inherited from the brief and looks like it should be four. |
+
+## The self-initiated cuts — what was lost
+
+The rewrite cut roughly twenty-five words beyond the binding punch list to hold 700. Most of it was free: "the other" from the risers count, the stale-stories sentence, "shares we could price." Those are pure gain — the script is tighter and nothing died with them.
+
+**One cut was not free, and it is the single most important line in this report after the S1 failure.**
+
+v1: *"Thursday's market moved with the rain, though we are not calling it the cause…"*
+v2: *"Thursday's market moved with the rain, with fertiliser, agrochemical and rural facing shares lower."*
+
+That hedge was not a writer's flourish the editor could trade for word count. It is the brief's own explicit editorial position, stated in bold: **"We record that the direction lines up and we do not claim the cause, because the rainfall figure is Wednesday's cumulative data rather than a Thursday release."**
+
+Strictly, "moved with" states co-movement and not causation, so the sentence is not false. But it arrives immediately after two sentences building the monsoon-shortfall case, and *as heard* the listener takes "Thursday's market moved with the rain" as "the rain moved the market." Every other uncertain claim in this script is hedged out loud and unmistakably — "no cause we could establish," "our reasoning and not a sourced finding." This is the only one where the hedge is carried by a preposition, and it is the most causally loaded of the three.
+
+**Restore the five words.** Fund them from sentence 23, which should go anyway.
+
+---
+
+## Punch list
+
+**Blocking (must be fixed before TTS):**
+
+- **[S1] Sentence 33 — delete the invented superlative.** → "Ramco Cements, a cement maker, fell five point one one percent, and we could not establish a cause there either." (SHANTIGOLD fell 7.52%; the brief publishes no faller ranking at all.)
+
+**Strongly recommended, same edit pass (all cheap, all improve the listen):**
+
+- **[L4] Sentence 21 — restore the monsoon hedge.** → "Thursday's market moved with the rain, though we are not calling it the cause, with fertiliser, agrochemical and rural facing shares lower."
+- **[L1] Sentence 23 — delete it.** Funds the two additions above and removes the last piece of desk-tool narration. Sentence 24 stands alone.
+- **[L1] Sentence 6 — add the counter-evidence.** → "This is a problem specific to that one bank. Kotak, I-C-I-C-I and Axis all rose." Kills the tension with "state owned banks were next" outright.
+- **[S1] Sentence 45 — de-personalise.** → "The conversation around him is about American interest rates going up, not down, the opposite of what Indian markets have priced all year."
+- **[L1/L2] Sentence 49 — the weakest line in the script.** → "And M-S-C-I, which builds the indexes that big foreign funds follow, changes its India list at that close, so those funds have to buy and sell to match it, whatever their own view."
+
+**Optional polish (ship-with is fine):**
+
+- [L4/L6] Sentence 5 — walk the weight arithmetic instead of asserting it.
+- [L6] Sentence 39 — "…so a bigger forecast from Nvidia means bigger orders for them." (the current sentence ends on a stranded "of" three clauses from its subject).
+- [L6] Sentence 17 — split into two.
+- [L1] Sentence 29 — "It did so on a technical point about how the case was handled."
+- [L2] Sentence 44 — gloss Jackson Hole in four words.
+- [L1] Sentences 11, 31, 32, 46, 47 — small referent and idiom fixes listed in the ledger.
+
+---
+
+## Verdict
+
+**FAIL — on S1 only, on one clause, and everything else in this rewrite is genuinely better.**
+
+**Checks:** L1 8 / L2 1 / L3 0 / L4 3 / L5 0 / L6 4 / **S1 1 (blocking)**
+
+The honest summary: v2 fixed five of six attempt-1 items outright and materially improved the sixth. It is tighter, plainer, better hedged, and TTS-clean at exactly 700 words. Judged as a listen, it is the best version of this episode. **It is not the meta-quality that fails it — it is a false statement of fact that would be spoken aloud.** The script tells listeners the biggest fall on Thursday was about five percent when the desk's own brief records one at 7.52%, and it does so in the section where this desk is proudest of its discipline about superlatives.
+
+That error is not the writer's regression; it survived v1 because the attempt-1 spot-check matched the number and never questioned the superlative. It is nonetheless in the script now.
+
+**Is this fit to spend TTS credits on? Not as it stands — but it is one clause away.** The blocking fix is a five-word deletion that costs no word count and touches nothing else. This is not a rewrite; it is a correction.
+
+**Escalation note for the principal.** Under the pipeline rule as stated, a second FAIL kills the episode for this date. I am recording the classification the evidence supports, not the consequence. Whether a single-clause factual correction — with no structural change and no re-composition — should trigger the kill rule rather than a correct-and-ship is a principal call, not a verifier call. If the correction is applied, the remaining ledger is WARN-level throughout and the episode is airworthy.
 
