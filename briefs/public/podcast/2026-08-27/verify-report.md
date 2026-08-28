@@ -1,7 +1,15 @@
 # Verify Podcast Script — 2026-08-27
 
-**Verdict:** _pending_
-**Checks:** _pending_
+**Verdict:** **FAIL**
+**Checks (counts = FLAG hits):** L1 **18** / L2 **2** / L3 **2** / L4 **2** / L5 **0 audio-breakers** (word-count overrun noted) / L6 **3** / S1 **1 real + 2 minor**
+
+**Why FAIL, in one line each.** Two independent FAIL-class grounds, neither of which is a judgment call under the skill's own wording:
+
+1. **L1 — flagrant desk-process narration, in three separate clusters.** Four consecutive sentences on the desk's own screening tool ("our own list is wrong about the day" / "that is our screen's own rule and not the market" / the ten-percent threshold), plus "Four stale stories were caught and thrown out along the way", plus "This next part is our reasoning and not a sourced finding." L1 FAILs on *any* flagrant line; there are six.
+2. **L2 — the day's biggest riser is never placed.** Bombay Burmah Trading Corporation gets thirteen percent, a court order and a market-value comparison, and no plain "what it does" anywhere in the episode. L2 is explicit that every company gets one, and it is FAIL-class.
+
+**What is NOT driving the FAIL, so the rewrite does not overcorrect.** TTS mechanics are clean — machine-checked, zero digits, zero currency or percent symbols, zero dashes of any kind in the spoken body. The word count at seven hundred and forty two is six percent over the band, not "well outside" it, and the required cuts recover more than the overrun. No wrong-day figure. The time-word discipline is internally consistent. The Nvidia-versus-Indian-software passage contains the best writing in the episode. **This is a good script carrying about ninety words of desk-facing material that has to come out, and one missing clause per company.** It is one focused edit from PASS, not a rebuild.
+
 
 ## Per-sentence ledger
 
@@ -128,6 +136,13 @@ This is not a strict L3 hit under the skill's letter — nothing is mislabelled,
 
 Suggested insert before the Monday line: *"Before that, two things land on Friday. The head of the American central bank speaks at Jackson Hole in the evening, India time, and the Reserve Bank publishes its weekly figures. Neither usually moves the market on its own, but Jackson Hole sets the tone for the following week."*
 
+
+> **Revised after the source spot-check — and I was partly wrong above.** The brief states that Jackson Hole lands around 19:30 India time, *after* the Indian close, and says so explicitly: "it is Monday's input rather than Friday's." The Reserve Bank's weekly statistics land around 17:00, also after the close. The bond sale and the comment deadline are not intraday market events. So the writer's core claim — that none of the Friday items is tradeable inside Friday's Indian session — **is correct**, and my "the rationale does not survive its own evidence" line above is too strong. I am leaving it visible rather than deleting it, because the correction sharpens the actual defect rather than dissolving it.
+>
+> **The real defect is not the skipped day. It is that the script dropped the one item that explains why Monday matters.** The brief's Jackson Hole entry carries the most consequential forward sentence in the document: the new American central bank chief is opening a conversation about whether American rates go *up*, "which is the opposite of the setting Indian markets have been pricing all year." That is Friday evening's event feeding directly into Monday's open. The script names Monday as "the date to keep" and then gives the listener only two of Monday's three inputs — growth and the index review — while removing the one that connects the two days and the one with the largest potential consequence.
+>
+> So the revised answer to question one: **pointing at Monday was right; arriving there with nothing between here and Monday is what fails.** The fix is one sentence, and it is not a list of four Friday items — it is the bridge: *"Tomorrow evening, after India closes, the new head of America's central bank speaks for the first time at Jackson Hole. He has been talking about American interest rates going up, not down, which is the opposite of what Indian markets have assumed all year. Whatever he says lands on Monday's open."* That restores the day the listener is in, restores the causal spine of the forward-look, and costs about fifty words — roughly what comes back from cutting the screen-mechanics paragraph.
+
 ### 2. Is "Four stale stories were caught and thrown out along the way, each of which would have read as Thursday's news unchecked" earning its place?
 
 **No. It is the desk talking about itself, and it should be cut.**
@@ -152,8 +167,50 @@ The fix is not a beat of support, it is a word swap: *"It ran backwards twice in
 
 ## Source spot-check (S1)
 
-_pending_
+*Opened only after the ledger above was complete and flushed to disk.*
+
+**Figures checked — all match.**
+
+| Script | Brief | |
+|---|---|---|
+| Nifty closed twenty four thousand and ninety | 24,090.85 | match |
+| a decline of zero point four eight percent | Nifty 50 −0.48% | match |
+| H-D-F-C Bank down two point two three percent | HDFCBANK −2.23% | match |
+| about thirteen percent of the index | "roughly 13% of the index" | match |
+| more than half of the fall was one share | "Over half of Thursday's fall in the Nifty was one stock" (0.29pp of 0.48%) | match |
+| seven hundred and seven priced, two fifty three up, four forty nine down | 707 / 253 / 449 | match |
+| not one of eleven cement companies rose | "Not one of eleven cement names rose" | match |
+| pharmaceuticals up zero point eight four percent | Nifty Pharma +0.84% | match |
+| Korea, Shanghai, Taiwan up; Japan, Hong Kong down | KOSPI +1.53, Shanghai +1.13, TAIEX +0.31, Nikkei −0.20, Hang Seng −0.34 | match |
+| rainfall thirteen percent below normal through the twenty sixth | 13% below par, widened from ~11% in early August | match |
+| twenty six shares fell three percent or more | "26 stocks fell 3% or more" | match |
+| Bombay Burmah up thirteen percent | +13.14% | match |
+| four thousand six hundred and fifty five crore rupees | ₹4,655.24 crore | match |
+| about forty one percent of what the company is worth | 41.3% of ₹11,258 crore | match |
+| filing after Wednesday's close | 15:59:29 on 26 August | match |
+| order is a week old | dated 19 August | match |
+| Ramco Cements down five point one one percent | RAMCOCEM −5.11% | match |
+| Nvidia revenue up one hundred and six percent | +106% on the year | match |
+| growth expected seven point one against seven point eight | consensus ~7.1% vs 7.8% | match |
+| M-S-C-I review takes effect at that close | MSCI August review effective at Monday's close | match |
+
+**No wrong-day number, no direction reversal on any figure.** The 2026-06-04 failure mode is absent.
+
+**Three S1 findings, one of them real.**
+
+- **S1-1 — characterisation reversed (real).** Script sentence 11: "The selling was concentrated rather than general." The brief says the opposite, twice and emphatically: "This was a down day across the market, not only in the index" and "So the breadth is genuine." The brief's actual formulation is "broad but not uniform" — broad *and* sector-tilted. The script kept the tilt and dropped the breadth, which inverts the claim. This is not a number error, but it is a causal-characterisation contradiction against the source, and it is the flag I raised cold at sentence 11 before opening the brief.
+- **S1-2 — a count that does not add up (minor).** Script sentence 35: "Nine of the **other** ten risers have no cause we could establish." There are ten risers in total, of which Bombay Burmah is one. The brief says "nine of these ten." As spoken, the script implies eleven risers. One word: delete "other".
+- **S1-3 — a dropped timeframe (minor).** Script sentence 8 says cheap deposits "have shrunk from thirty eight percent of the book to thirty two." The brief attaches the period: 32% now "against 38% **two years ago**." Direction is right; the two-year frame is lost, which makes a slow structural drift sound like a recent collapse.
+
+**One thing the brief has that the episode dropped, which I flag as a completeness note rather than a mismatch.** The brief's volatility read — India VIX up 4.71% to 11.07, its first up-day after two sessions of collapse, "and this time it agrees with the index" — is a declared cut. The exemplar carries the fear gauge, and the brief's framing here is unusually listenable: fear rose on a day the market fell, which is the normal pairing that the two prior sessions did not have. Cutting it to save words while spending four sentences on screen mechanics is the wrong trade. Worth restoring if the process lines come out.
 
 ## Before any TTS spend
 
-_pending_
+**1. It fails on process narration, not on accuracy — and the fix is subtraction.** Six sentences in this script are the desk talking about its own screen, its own rejected stories and its own confidence levels. Cut those and roughly ninety words come back, which is more than the word-count overrun. Nothing true is lost: the one honest line that *is* a listener fact — "nine of the ten risers have no cause we could establish" — stays.
+
+**2. The forward-look points at Monday and gives the listener nothing between here and there, and it drops the single most consequential item in the brief.** A new American central bank chief opening a conversation about rates going *up*, against everything India has priced this year, is not a Friday footnote — it is why Monday matters. One sentence restores both the missing day and the causal link.
+
+**3. Bombay Burmah is the day's biggest riser and the listener never learns what the company is.** One clause fixes it. The same clause is missing for Ramco Cements and, arguably, Nvidia.
+
+Everything else is punch-list. The TTS mechanics are clean, no figure contradicts the brief, and the Nvidia passage is exemplar-grade. **Do not spend Sarvam credits on this cut** — the edit is short, and the second half of the episode is worth protecting.
+
