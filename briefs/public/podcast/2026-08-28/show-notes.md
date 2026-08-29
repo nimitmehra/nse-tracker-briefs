@@ -1,7 +1,7 @@
 # Show Notes — 2026-08-28
 
-**Word count:** 730 words (script body)
-**Estimated duration:** 4.42 minutes at 165 WPM
+**Word count:** 735 words (script body)
+**Estimated duration:** 4.45 minutes at 165 WPM
 **Self-verify:** PASS (checks 7, 8, 11 — no banned jargon, no recommendation language, every claim traced to `briefs/public/2026-08-28.md`)
 **Skill version:** podcast-script-public-nse v1.7
 **TTS-ready:** N/A (written notes, not narrated)
@@ -23,7 +23,7 @@ Friday's Nifty 50 closed up 0.35% at 24,175.65, and almost all of that came from
 - **It is beta, not business.** Four things argue against "chip demand becomes Indian software revenue": participation was uniform including names with no AI story (Wipro +2.58%, Mphasis +1.72%); the leaders were high-beta mid-caps while Infosys lagged its own sector; the rupee moved the wrong way for a dollar earner; and no brokerage published an Indian IT sector note all day.
 - **Mastek +17.98%**, the day's biggest gainer. A brokerage note holding a positive view was re-circulated intraday, but the note is dated 24 August, so it does not explain Friday's timing. Sector beta covers roughly 3.5 of the 18 points; the rest has no dated trigger.
 - **Ather Energy +8.09%** to a genuine new 52-week high on a ₹1,758 crore block deal in which Hero MotoCorp, already the largest shareholder, bought shares from an existing holder — taking it to about 32.8% fully diluted. **This is secondary: no new money entered Ather.** Completion expected 3 September. Separately, **Ola Electric launched the S1Z at ₹79,999** during Friday's session, below the bracket the market expected Ather's next scooter to occupy.
-- **Zero big fallers.** Not one stock in the universe fell 5% or more; the worst close anywhere was −4.66%, against 24 stocks up 5% or more. India VIX 10.68, 1.04% above its 52-week low.
+- **Zero big fallers.** Not one stock in the universe fell 5% or more; the worst close anywhere was −4.66%, against 55 stocks up 3% or more. India VIX 10.68, 1.04% above its 52-week low.
 - **Flows:** FIIs sold ₹5,039.80 crore, DIIs bought ₹5,183.93 crore — foreign money selling into a rising index.
 - **Monday 31 August is a four-way collision:** India's June-quarter GDP (forecasts spanning roughly 6.9% to 8.0%), the MSCI index review transacting in the closing auction, the RBI's foreign-currency deposit window shutting, and India's first chance to price Friday night's Jackson Hole speech — in which Fed chairman Kevin Warsh said inflation is still too high and the Fed may have to raise rates.
 
