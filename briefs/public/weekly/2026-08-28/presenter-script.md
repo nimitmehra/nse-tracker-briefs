@@ -28,15 +28,13 @@ And the third force, which nobody named. Companies that sell to Indian household
 
 Monday: down a seventh of a per cent, four hundred shares falling, and the named cause pointed the wrong way. Washington announced what it called the greatest financial offensive ever mounted against Iran, Brent fell nearly two per cent — and that announcement landed after our market had shut.
 
-Tuesday: the week's high, while three hundred and eighty-six shares fell. Monthly derivatives expiry, and that demand lands on the very large companies an index weights most.
+Tuesday and Wednesday inverted each other. Tuesday made the week's high while three hundred and eighty-six shares fell — monthly derivatives expiry, whose demand lands on the very large companies an index weights most. Wednesday the index fell half a per cent while three hundred and eighty-three shares rose: the United States paused visa appointments worldwide, so Nifty IT fell about one and a half per cent, though the middle share in it fell only four tenths.
 
-Wednesday, the exact reverse. Down half a per cent, three hundred and eighty-three shares up. The United States paused visa appointments worldwide, so Nifty IT fell about one and a half per cent — though the middle share in it fell only four tenths.
+Thursday, the one session where the index told the truth. Four hundred and forty-nine shares fell, and most of it was one company: HDFC Bank down 2.2 per cent, over half the fall on a thirteen per cent weight. The other large private banks rose, so this was not banks selling off.
 
-Thursday, the one session where the index told the truth. Four hundred and forty-nine shares fell, and most of that was one company: HDFC Bank down 2.2 per cent, and on a thirteen per cent weight, over half the fall. The other large private banks rose, so this was not banks selling off.
+Friday, a green headline on a flat market: up a third of a per cent, three hundred and sixty-one shares down, and Nifty IT up three and a half was the whole gain.
 
-Friday, a green headline on a flat market. Up a third of a per cent, three hundred and sixty-one shares down, Nifty IT up three and a half. That one sector was the whole gain.
-
-And two of those sessions never got a public write-up: none for Tuesday, none for Wednesday. Our public feed went from Monday evening to Thursday morning with nothing.
+And two of those sessions never got a public write-up — none for Tuesday, none for Wednesday. Our feed went from Monday evening to Thursday morning with nothing.
 
 ## 5. The earnings week that was not one
 
@@ -46,15 +44,13 @@ Our own scan said fifteen, and the file named for financial results contained no
 
 ## 6. Two things worth understanding properly
 
-First. A market can only react when it is open, and the clock is not the one you assume. Indian trading ends at quarter past three, and the closing auction that sets the official closing price ends at twenty-five to four. Nothing published after that moved that day's close.
+First: a market can only react when it is open, and the clock is not the one you assume. Trading ends at quarter past three; the closing auction that sets the official close ends at twenty-five to four. Nothing published after that moved that day's close.
 
-The proof is a mistake we made and then corrected. Nvidia reported after the American close on Wednesday. Indian traders had it all before Thursday's open and India did nothing with it, and Thursday's brief read that as India sitting out the biggest company result in the world. Then on Friday it inverted. The American session that actually voted closed at half past one on Friday morning India time, with Nvidia up nearly nine per cent. India opened against that close and Nifty IT gained three and a half. There was never a lag. We had measured India against a press release, when the clock those shares track is the American close.
+The proof is a mistake we made and corrected. Nvidia reported after the American close on Wednesday. India had it before Thursday's open and did nothing with it, and Thursday's brief read that as India sitting out the biggest company result in the world. Friday inverted it: the session that actually voted closed at half past one on Friday morning India time, Nvidia up nearly nine per cent, India opened against that close, and Nifty IT gained three and a half. There was never a lag. We had measured India against a press release, when the clock those shares track is the American close.
 
-So before believing any sentence of the form "shares fell because of X", check whether X happened while the market was open.
+Second: "nobody established why" is a finding. Exchange filings are timestamped, so a filing can be matched to a move — but not everything that moves a share is a filing. The biggest exception is a block deal: a large pre-arranged trade, one holder selling a big parcel straight to a buyer, away from the ordinary order book. The exchange's record of those was missing from our feed all week.
 
-Second. "Nobody established why" is a finding. Filings to the exchange are timestamped, so a filing can be matched to a move. But not everything that moves a share is a filing. The biggest thing that is not is a block deal, a large pre-arranged trade where one holder sells a big parcel of shares straight to a buyer, away from the ordinary order book. The exchange's record of those has been missing from our feed all week.
-
-The one case we recovered by hand proves the point. Ather Energy, the electric two-wheeler maker, rose about eight per cent on Friday to a fifty-two week closing high, on a block deal. Hero MotoCorp lifted its fully diluted holding to about thirty-three per cent, buying one thousand seven hundred and fifty-eight crore rupees of stock from an existing holder. No new money entered the company. Where that record could not be recovered, the likeliest explanation sits in a file nobody could open.
+The one case we recovered by hand proves the point. Ather Energy, the electric two-wheeler maker, rose about eight per cent on Friday to a fifty-two week closing high, on a block deal: Hero MotoCorp lifted its fully diluted holding to about thirty-three per cent, buying one thousand seven hundred and fifty-eight crore rupees of stock from an existing holder. No new money entered the company. Where that record could not be recovered, the likeliest explanation sits in a file nobody could open.
 
 ## 7. The movers, and the ones we never looked at
 
