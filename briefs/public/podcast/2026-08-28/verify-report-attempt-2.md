@@ -1,6 +1,10 @@
 # Verify Podcast Script — 2026-08-28 — ATTEMPT 2 (final cycle)
 
-**Verdict:** _pending_
+**Verdict: WARN — the three FAILs are cleared. This episode is fit for TTS.**
+
+**Checks (FLAG hits):** L1 4 · L2 2 (both soft) · L3 0 · L4 1 · L5 1 (word count, §3) · L6 4 · **S1 0 hard**, 2 soft
+
+**Said plainly, because the parent asked for it plainly: all three pass-1 FAILs are cleared, and cleared properly rather than papered over.** The false ordinal is gone by removing the ranking frame rather than correcting the rank — which is the fix that survives the fact that *my* rank was also wrong. The unsourced count is now traceable to the brief and I re-derived both numbers from the raw universe file. The desk-process line is replaced by the brief's own sanctioned sentence, and the narrow-rally point reads better than it did in v1. Every remaining flag is a pass-1 WARN carried forward unfixed; none of them was a gate then and I am not making any of them a gate now.
 
 _Second and final cold read. Target: `briefs/public/podcast/2026-08-28/script.md` (v2). Pass-1 report at `verify-report.md` is preserved untouched._
 
@@ -22,7 +26,7 @@ Full re-ledger of the v2 body. Verdicts are re-derived, not copied; where pass 1
 10. "Three hundred and forty three were up, three hundred and sixty one were down." — FLAG (L6, carried from pass 1, unfixed): no scope marker; the listener is not told this is the whole market.
 11. "Set the technology shares aside and the Nifty fifty was flat, eighteen up and eighteen down." — FLAG (L6, carried from pass 1, unfixed): second up/down pair, second universe, no marker.
 12. "The banks did not join in, with Nifty Bank closing level." — OK
-13. ▲ "And eight of the nine sectors we can see were flat to down." — **The L1 producer-view FAIL is CLEARED.** Fresh read: this is now a market fact with a direction, not a statement about our data feed. "Usable" is gone; "published no usable move" — the phrase that described our screen rather than the market — is gone. What replaces it is arithmetic a listener can actually hold: nine sectors, eight flat-to-down, one up, and the one that was up is the technology sector named in sentence 5. The narrow-rally point does not merely survive, it lands harder than v1, because v1 gave no direction at all. **One residual, new, minor (L6):** "the nine sectors" arrives thirty words after "every one of the *nine* in that index" — the same number attached to two different denominators (IT index constituents, then sector count). A listener half-attending can hear it as the same nine. One word fixes it if the principal wants: "eight of the nine *other* sectors". Not a gate. **"we can see"** — I looked hard at this, because it is the residue of the confession. It reads as ordinary spoken hedging ("as far as we can see"), not as desk plumbing: it makes no claim about a feed, a table, or a fifth session of failure, and a listener does not stop on it. It stays on the right side of L1.
+13. ▲ "And eight of the nine sectors we can see were flat to down." — **The L1 producer-view FAIL is CLEARED.** Fresh read: this is now a market fact with a direction, not a statement about our data feed. "Usable" is gone; "published no usable move" — the phrase that described our screen rather than the market — is gone. What replaces it is a market fact with a direction: nine sectors, eight of them flat to down. The narrow-rally point does not merely survive, it lands harder than v1, because v1 gave no direction at all. **Correction to my own first draft of this line, caught at the source pass:** I initially wrote that the ninth, non-down sector is technology. It is not. Per the brief, the "nine we can see" are the nine sectors reconstructed from constituents, of which **Metal +0.79% is the only one up**; Nifty IT and Nifty Pharma are the two live exchange indices and sit *outside* that nine. The script is verbatim the brief's own sanctioned sentence, so this is not a source mismatch — but a listener will naturally take the unnamed ninth to be the software sector, and that inference is false. It is a small, benign falsehood (the takeaway "tech led, nothing else did" is true) and it is inherited from the brief rather than introduced by the script, so it does not gate. Recording it because it is exactly the kind of thing that becomes a real error the next time someone reuses the line. **One residual, new, minor (L6):** "the nine sectors" arrives thirty words after "every one of the *nine* in that index" — the same number attached to two different denominators (IT index constituents, then sector count). A listener half-attending can hear it as the same nine. One word fixes it if the principal wants: "eight of the nine *other* sectors". Not a gate. **"we can see"** — I looked hard at this, because it is the residue of the confession. It reads as ordinary spoken hedging ("as far as we can see"), not as desk plumbing: it makes no claim about a feed, a table, or a fifth session of failure, and a listener does not stop on it. It stays on the right side of L1.
 
 ### The causal chain (14-18) — byte-identical to v1
 
@@ -139,19 +143,111 @@ That is **735 → 725**. Getting from 725 to 700 does require cutting into the c
 
 ## 4. Show-notes edit — in scope or not
 
-_pending_
+**In scope. Keep it. The writer was right to make it and right to flag it.**
+
+The change: `show-notes.md` "against 24 stocks up 5% or more" → "against 55 stocks up 3% or more" (confirmed against `backups/2026-08-29/show-notes_v2.md`, which carries the old wording).
+
+Three reasons it is in scope, in ascending order of force:
+
+1. **This gate's mandate is the episode, not the file.** The skill gates "the podcast" before TTS. Show notes are the episode's published page on Spotify — the same artefact, read by the same listener, under the same byline.
+2. **Leaving it would have created a contradiction inside one episode.** The narrator says fifty-five rose three percent; the episode page under it says twenty-four rose five percent. A listener who checks the page sees two different claims about the same day. That is worse than either number alone.
+3. **The decisive one: the defect was never located in the script.** The 24-figure was a provenance defect — a hard count that cannot be reached from the declared source. It had the identical defect in both files. Fixing it in one and leaving it in the other would have fixed the *symptom in the audited file* rather than the defect, which is the exact patch behaviour the engineering protocol tells us to stop and restart on. The correct scope of a provenance fix is every place the unsourced number appears.
+
+**One thing the writer should know, and it does not change the answer:** I independently ranked all 706 priced names from `hive-mind/staging/2026-08-28/market-data.json` and **exactly 24 rose 5% or more.** The figure it removed from both files was true. It was still right to remove it, because a gate cannot distinguish true-and-undeclared from wrong, and the script's own header promises brief-only sourcing. If the desk wants the sharper 5%-versus-5% contrast back, the fix is to put the count in the brief, not to put it back in the script.
 
 ## 5. Regression check on everything passed at pass 1
 
-_pending_
+**Zero regressions.** Every item below was verified mechanically (diff or grep), not by reading:
+
+| Passed at pass 1 | Status in v2 | How verified |
+|---|---|---|
+| Causal timing chain (sentences 14-18) | **Byte-identical** | diff |
+| The wedge (19-26) | **Byte-identical** | diff |
+| Wedge placement immediately after the chain | **Unchanged** | diff (no paragraph reordering) |
+| "borrowed share price movement, not borrowed business" | **Present, verbatim** | grep |
+| Brokerage-note paraphrase (35) | **Byte-identical** | diff |
+| Mastek four-day-old-note point (36) | **Present, verbatim** ("four days old") | grep |
+| Ola S1Z line (44) | **Byte-identical** | diff |
+| Konarc / Community Day claim | **Absent** — 0 hits for "Konarc", 0 for "Community" | grep |
+| Infosys as laggard, not driver (23) | **Byte-identical** | diff |
+| Jackson Hole as Monday's input, no odds figure | **Byte-identical**; 0 hits for odds/probability/basis point | diff + grep |
+| Disclaimer block (51-53) | **All three present, verbatim, in order** | grep |
+| "See you Monday" | **Present, verbatim** | grep |
+| Ather passage integrity | "No new money went into Ather" present; "thirty two point eight percent" present; **no before-figure anywhere** | grep |
+
+The three changed clauses are confined to sentences 13, 33 and 39. Nothing else in the spoken body moved.
+
+**What was NOT fixed, and legitimately so.** Every pass-1 WARN survives untouched: sentences 10/11 (scope markers), 30 ("Foreigners were selling into a rising market", no so-what), 32 ("no fallers to speak of"), 37 ("points"), 39 ("genuine"), 40 (Hero undescribed), 47 ("transacts in the closing auction"), plus source-side S1-c and S1-d in §7. None of these were gates and the writer was told to fix three things. I am not escalating any of them now — moving a declared WARN into a gate at the final cycle would be changing the rules after the play.
 
 ## 6. Superlative re-check
 
-_pending_
+This is the failure mode that has bitten twice, so I did not check it against the brief's tables. **I re-ranked all 706 priced names directly from `hive-mind/staging/2026-08-28/market-data.json` and re-derived every count.** My own results, not the parent's:
+
+```
+1 MASTEK      +17.98      7  TEJASNET    +7.63
+2 SONAMLTD    +15.70      8  REMSONSIND  +7.49
+3 JGCHEM      +11.24      9  SPAL        +7.25
+4 NSLNISP      +8.96     10  PTCIL       +7.22
+5 NEWGEN       +8.43     11  INFOBEAN    +7.13
+6 ATHERENERG   +8.09     12  IFCI        +6.75
+
+universe 707 (706 priced) · >=+3%: 55 · >=+5%: 24 · <=-5%: 0 · worst -4.66% (DEEDEV)
+```
+
+**Ather is sixth. My pass-1 "fifth" was wrong** — the brief's screen table omits SONAMLTD (+15.70), and I ranked off the table instead of the universe. That is the second time on this episode I asserted a number I had not derived. The script no longer makes any rank claim, so the error is now harmless to the episode; it was not harmless to my report.
+
+**Also derived independently: the v1 figure was true.** Exactly 24 names rose 5% or more. The parent's account is confirmed from source — that fix corrected provenance, not accuracy.
+
+**Every remaining superlative and near-superlative in the spoken body, checked:**
+
+| Claim | Verdict |
+|---|---|
+| "One sector carried Friday's entire market" | ✅ brief lead, "whole market" |
+| "every one of the nine in that index higher" | ✅ — brief says nine *priced* constituents; "priced" dropped (S1-e, carried WARN) |
+| "The biggest gainer was Mastek" | ✅ **re-derived: rank 1 of 706** |
+| "eight of the nine sectors we can see were flat to down" | ✅ verbatim from the brief's own sanctioned sentence (see ledger 13 for the inference caveat) |
+| "The banks did not join in… closing level" | ✅ Nifty Bank −0.02% |
+| "Not one share fell five percent on Friday" | ✅ **re-derived: 0 names ≤ −5%, worst −4.66%** |
+| "fifty five rose three percent or more" | ✅ **re-derived: exactly 55** |
+| "there were no fallers to speak of" | ✅ true of *large* fallers; carried L1/L6 listenability flag, not a truth flag |
+| "Infosys… lagged its own sector" | ✅ brief, "lagged its own sector by half a percentage point" |
+| "no brokerage published a note on the sector all day" | ✅ brief |
+| VIX "closed near its lowest level in a year" | ✅ 10.68, 1.04% above the 52-week low |
+| 10-year yield "a two month high" | ✅ brief (hedge stripped — S1-d) |
+| Ather "a genuine new fifty two week high" | ✅ — and note **"genuine" is the brief's own word**, not desk residue as I assumed at pass 1. It remains a listenability nit; it is not a sourcing one. |
+| Hero "already Ather's largest shareholder" | ✅ brief |
+| S1Z "below where the market expected Ather's next scooter to sit" | ✅ brief, 20-35% below the ₹1-1.25 lakh bracket |
+| GDP forecasts "an unusually wide spread" | ✅ brief, "the spread itself is the finding" |
+| "Friday morning was India's first chance to react" | ✅ brief |
+| "Monday is India's first chance to price… Jackson Hole" | ✅ brief |
+| "Also worth your time" (Ather) | ✅ **not a superlative and not an ordinal** — the fix |
+
+**No unchecked superlative remains in the spoken body.**
 
 ## 7. Source spot-check (S1) — run LAST
 
-_pending_
+Run only after the ledger above was written and flushed. Checked against `briefs/public/2026-08-28.md`, and for the counts, against `hive-mind/staging/2026-08-28/market-data.json` directly.
+
+### The two fixes that had to trace — both trace
+
+- **Fix 3** is not a paraphrase of the brief, it is the brief: *"So the honest sentence is 'technology led, and eight of the nine sectors we can see were flat to down'"*. The script uses the second clause word for word. The plumbing that surrounded it in the brief — *"What we cannot show you, for a fifth session: the official sector table"* — is entirely absent from the spoken body. **Confession gone, fact kept.**
+- **Fix 2** traces to *"Fifty-five stocks rose 3% or more"* in Big Movers, and independently to the raw file (exactly 55). The zero-faller half traces to *"Not one stock in the 707-name universe fell 5% or more"* and to the raw file (zero, worst −4.66%).
+
+### Clean, re-checked
+
+Nifty 24,175.65 / +0.35% · Nifty IT +3.51%, nine constituents higher · 343 up / 361 down · ex-technology 18/18 · Nifty Bank −0.02% · FII −₹5,039.80 cr, DII +₹5,183.93 cr · VIX 10.68 near the 52-week low · 10-year ~6.9%, two-month high · Nifty IT fell 0.32% on Thursday · US close ~01:30 IST · India shuts 3.5 hours before Wall Street opens · Mastek +17.98%, note dated 24 August, sector ≈3.5 of 18 points · Ather +8.09%, 52-week high, ₹1,758 cr, existing holder, ~32.8%, no new money, completion 3 September · Ola S1Z ₹79,999 during Friday's session · GDP spread 6.9-8.0% · MSCI transacts in the closing auction · RBI deposit window shuts Monday · Warsh, inflation still too high, Fed may have to raise · speech landed after the close · **no odds figure, matching the brief's explicit refusal to print one**.
+
+**Zero hard S1 mismatches.** Both pass-1 FAILs are cleared at source.
+
+### Two soft transfers, both carried forward from pass 1, both unfixed
+
+**S1-c — sentence 15, "reported results on Wednesday evening American time." UNSOURCED, and it is now the last one in the script.** I re-read the brief for this specifically. The brief never dates Nvidia's report: it says only *"Nvidia's results and the American software rally that followed on Thursday."* Wednesday evening is a sound inference from that sequencing and is almost certainly correct, but it is a hard calendar fact spoken to air from a script whose own header says "Source: `briefs/public/2026-08-28.md` only."
+
+Consistency demands I say this plainly: **by the exact standard I just applied to the 24-figure, this is the same defect.** I am not escalating it to FAIL, for two reasons I want on the record rather than assumed. First, I graded it WARN at pass 1 and the writer was given three fixes; converting a declared WARN into a gate on the final cycle would be moving the goalposts, and would cost the episode its TTS slot for something I chose not to gate a cycle ago. Second, the magnitude genuinely differs — the 24-figure was a statistic about the day's own market, computable only from our feed and spoken as a hard count; this is a public calendar date about a foreign company whose only job in the sentence is ordering. **But it is the one remaining thing in the script that cannot be traced to the declared source, and the principal should make that call, not me.** Two-word fix if he wants it gone: "reported results midweek in America."
+
+**S1-d — sentence 28, the bond-yield hedge is still stripped.** The brief carries *"(Reported, single source; our own bond feed has failed for 24 straight sessions, so we cannot check it.)"* The script states 6.9% and the two-month high as plain fact. Sourcing parentheticals do not belong on air — but this is a "we could not check this" caveat, not a citation. One word restores it: "sat **reportedly** near six point nine percent."
+
+**S1-e — sentence 5, "nine priced constituents" → "the nine in that index."** Unchanged, low risk, no listener will catch it.
 
 ## 8. For the principal, before TTS
 
