@@ -251,4 +251,8 @@ Consistency demands I say this plainly: **by the exact standard I just applied t
 
 ## 8. For the principal, before TTS
 
-_pending_
+**Ship it.** The three FAILs are gone, no regression anywhere else — the causal chain, the wedge, the Ather protection line and the disclaimer block are byte-identical to the version you already read — and I re-derived every surviving superlative and count straight from the 706-name universe file rather than off the brief's table, which is where I went wrong last time.
+
+**Two optional calls, neither a gate.** One: the script still says Nvidia "reported results on Wednesday evening American time", and the brief never dates it — that is now the only spoken fact not traceable to the declared source, and "midweek in America" retires it in two words. Two: the episode is 735 words / 4.45 min, about eight words inside the 4.5-minute ceiling at an *assumed* 165 WPM that I could not calibrate (no Sarvam audio on disk for any recent episode). Cutting "Foreigners were selling into a rising market" (−7 words, and it is a claim with no consequence attached anyway) plus "genuine" (−1) buys back that margin for free.
+
+**One thing to know about the process, not the episode.** The writer refused my 700-word instruction and was right to: my "~25 words of slack" was a number I asserted without counting, and my own punch list actually nets to about *minus two*. It also declared the overage rather than paying for it by cutting a hedge. That is the behaviour you want. I made two uncounted-number errors on this episode (that one, and ranking Ather fifth); the script made none that survived.
