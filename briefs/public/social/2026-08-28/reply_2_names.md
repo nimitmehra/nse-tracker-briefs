@@ -1,6 +1,6 @@
 # Names Reply — 2026-08-28
 
-**Character count:** (computed below)
+**Character count:** 934 chars (body) · 163 words
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post as reply to connections_reply.md
@@ -24,8 +24,8 @@ Zero name overlap with the other two posts. Zero em-dashes. Day names throughout
 
 The names worth knowing from Friday.
 
-- Mastek rose 17.98% to ₹1,901.40, the day's biggest move, after a brokerage note calling it a possible turnaround was re-circulated during the session, citing a US$310 million order backlog, but the note is dated 24 August, so it gives the reason without explaining the timing, and the sector's 3.51% jump covers only about a fifth of the move.
+- Mastek rose 17.98% to ₹1,901.40, the day's biggest move, after a brokerage note citing a US$310 million order backlog was re-circulated during the session, but the note is dated 24 August, so it gives the reason without explaining the timing, and the sector's 3.51% jump covers only about a fifth of the move.
 
-- Ather Energy rose 8.09% to ₹1,616.30, a new 52-week high, after Hero MotoCorp bought ₹1,758 crore of its shares from existing holders to reach about 32.8%, which is a purchase from another owner and not new capital, while Tejas Networks rose 7.63% on a ₹1,537 crore letter of intent from Tata Consultancy Services filed on Thursday evening, and NMDC Steel rose 8.96% after telling the exchange that nothing new had happened.
+- Ather Energy rose 8.09% to ₹1,616.30, a new 52-week high, after Hero MotoCorp bought ₹1,758 crore of its shares from existing holders to reach about 32.8%, a purchase from another owner and not new capital, while Tejas Networks rose 7.63% on a ₹1,537 crore letter of intent from Tata Consultancy Services filed on Thursday evening, and NMDC Steel rose 8.96% after telling the exchange that nothing new had happened.
 
 - Not one share in the 707-name universe fell 5% or more, the worst close anywhere was 4.66% lower, and 24 rose 5% or more, which is the session and not our screen.

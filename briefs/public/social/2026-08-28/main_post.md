@@ -1,6 +1,6 @@
 # Twitter Main Post — 2026-08-28
 
-**Character count:** (computed below)
+**Character count:** 1,013 chars (body + firebreak) · 173 words. Trio total 498 words, under the 500 cap.
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post first
@@ -21,7 +21,7 @@
 ---
 
 
-One sector carried Friday's whole market. Nifty IT rose 3.51% with all nine members higher, effectively the whole of the Nifty 50's 0.35% gain.
+One sector carried Friday's whole market. Nifty IT rose 3.51% with all nine members higher, effectively the Nifty 50's whole 0.35% gain.
 
 - Underneath it 343 shares rose and 361 fell, and inside the Nifty 50 excluding technology, 18 rose, 18 fell and the typical one moved 0.00%, while India VIX fell to 10.68, near its 52-week low.
 

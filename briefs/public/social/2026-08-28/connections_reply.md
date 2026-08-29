@@ -1,6 +1,6 @@
 # Connections Reply — 2026-08-28
 
-**Character count:** (computed below)
+**Character count:** 1,030 chars (body) · 162 words
 **Self-verify:** PASS
 **Skill version:** twitter-public-nse v2.7
 **Posting order:** post as reply to main_post.md after it goes live
@@ -24,6 +24,6 @@ A few cross-currents from Friday.
 
 - Friday's technology rally looks like borrowed price movement rather than borrowed business, since participation was uniform and included companies with no artificial-intelligence story, Wipro up 2.58% and Mphasis 1.72%, the leaders were mid-sized names that swing hardest in any move while Infosys lagged its own sector, and the rupee did not weaken, which is what helps a company that earns dollars and spends rupees.
 
-- Foreign investors sold ₹5,039.80 crore while domestic institutions bought ₹5,183.93 crore, but Nifty Bank, the usual home for domestic money, closed 0.02% lower, so either that money went elsewhere or someone else was selling the same shares.
+- Foreign investors sold ₹5,039.80 crore while domestic institutions bought ₹5,183.93 crore, but Nifty Bank, the usual home for domestic money, closed 0.02% lower, so either that money went elsewhere or other holders were unloading the same shares.
 
-- The Reserve Bank's August minutes had flagged that it might consider raising rates, and India's 10-year bond yield sat near 6.9% on Friday, a two-month high, which matters because a higher risk-free yield makes distant future profits worth less now and bites hardest on the shares priced for growth far out, which is the corner that rallied.
+- The Reserve Bank's August minutes had flagged that it might consider raising rates, and India's 10-year bond yield sat near 6.9% on Friday, a two-month high, which matters because a higher risk-free yield makes distant profits worth less now and bites hardest on shares priced for growth far out, the corner that rallied.
