@@ -1,7 +1,9 @@
 # Verify Podcast Script — 2026-08-28
 
-**Verdict:** _pending_
-**Checks:** _pending_
+**Verdict:** FAIL — two source mismatches and one producer-view line. The fix is roughly four sentences, not a rewrite.
+**Checks (FLAG hits):** L1 5 / L2 2 (both soft) / L3 0 / L4 1 / L5 0 / L6 2 / S1 2 hard, 3 soft
+
+**In one line:** this is a strong episode — the best causal-timing writing the show has produced, and it handles the two traps in the file (the Ather event that had not happened, the Jackson Hole speech that explains nothing) correctly. It fails on a false ordinal, an unsourced count, and one sentence of desk-talk.
 
 _Cold read performed against `script.md` + `canonical_voice_example/README.md` only. The brief was NOT opened until the ledger below was complete._
 
@@ -71,7 +73,36 @@ The band exists to protect duration, and 4.42 minutes sits inside the 3.5-4.5 ta
 
 ## Source spot-check (S1)
 
-_pending_
+Run only after the ledger above was complete and flushed. Checked against `briefs/public/2026-08-28.md`.
+
+### Clean — matches the brief exactly
+
+Nifty 24,175.65 / +0.35% · Nifty IT +3.51%, nine constituents higher · breadth 343 up, 361 down · ex-technology Nifty 50 18 up, 18 down · Nifty Bank −0.02% · worst close −4.66%, zero 5% fallers · FII −₹5,039.80 cr, DII +₹5,183.93 cr · VIX 10.68 near its 52-week low · 10-year yield ~6.9%, two-month high, heavy supply plus RBI minutes · Nifty IT fell 0.32% on Thursday · US close lands ~01:30 IST · India shuts 3.5 hours before Wall Street opens · Mastek +17.98%, the day's biggest move, broker note dated 24 August, sector explains ~3.5 of 18 points · Ather +8.09%, new 52-week high, ₹1,758 cr, existing holders, ~32.8% fully diluted, no new money, completion 3 September · Ola S1Z ₹79,999 launched during Friday's session, below the ₹1–1.25 lakh bracket expected of Ather's next · GDP forecast spread 6.9–8.0% · MSCI review transacts in the closing auction · RBI foreign-currency deposit window shuts Monday · Warsh said inflation still too high and the Fed may have to raise · speech landed after the close and explains nothing about Friday · no hike-odds figure printed, matching the brief's explicit refusal.
+
+**Also confirmed correct by omission:** the Ather Konarc / Community Day event is nowhere in the spoken body. The brief is emphatic that it had not happened as of writing and that search summaries will falsely report it in the past tense. The script does not touch it. This was the single highest-risk fact in the file and it was handled correctly.
+
+### FAIL — two mismatches
+
+**S1-a. Sentence 39: "Second, Ather Energy..." — Ather was not the second-biggest gainer. It was fifth.**
+The brief's own table ranks Friday's one-day moves: Mastek +17.98%, J.G. Chemicals +11.24%, NMDC Steel +8.96%, Newgen +8.43%, then Ather +8.09%. The script establishes an explicit ranking frame one sentence earlier ("The biggest gainer was Mastek"), so "Second," is heard as second-largest and is false. This is the 27-August unchecked-superlative failure in a new shape: it was *created* by the decision to cut the intervening names, and cutting names is exactly when ordinals need re-checking. **Fix is one clause:** "The other move worth your time was Ather Energy, the electric scooter maker, up eight percent..." The ordinal adds nothing; deleting it removes the claim.
+
+**S1-b. Sentence 33: "while twenty four rose five percent or more" — this figure is not in the brief.**
+The brief's only comparable count is "Fifty-five stocks rose 3% or more, fifty-two of them clearing our ₹1,000 crore market-capitalisation floor." There is no 5%-gainer count anywhere in the file, and the script's own header declares "Source: `briefs/public/2026-08-28.md` only. No independent reporting." So the number is either sourced from something the header says was not used, or it was derived and not disclosed. It may well be true — but it cannot be confirmed from the declared source, and it is spoken as a hard figure. **Resolve or replace before air.** The safe replacement needs no new number and loses nothing: "Not one share fell five percent on Friday, while dozens rose more than three."
+
+### WARN — three softer transfers
+
+**S1-c. Sentence 15: "reported results on Wednesday evening American time."** The brief never dates Nvidia's report. It says only that the American software rally "followed on Thursday" and that Thursday's close was Friday's overnight input. The Wednesday-evening timestamp is a reasonable inference from that, and it is almost certainly right, but it is an addition to a brief-only script. Confirm it, or say "reported results midweek in America" — the sentence's job is sequencing, not precision.
+
+**S1-d. Sentence 28: the bond-yield hedge was stripped in transfer.** The brief carries "(Reported, single source; our own bond feed has failed for 24 straight sessions, so we cannot check it.)" The script states 6.9% and the two-month high as plain fact. Sourcing parentheticals do not belong on air, agreed — but this is a "we could not check this number" caveat, not a citation. Two words restore it: "reported near six point nine percent."
+
+**S1-e. Sentence 5: "every one of the nine in that index higher."** The brief says nine *priced* constituents, which is not the same as the index having nine members. The script drops "priced" and hands the listener a membership count. Low risk, and no listener will catch it, but it is a precision drift away from the source. "with every software share in the index higher" says the true thing and is easier to hear.
+
+### On the three checks the parent asked to be run against the brief
+
+- **Desk-process narration:** one hit, sentence 13, and the brief confirms the diagnosis — that line sits in the brief under the heading "**What we cannot show you**, for a fifth session: the official sector table." It is a data-availability confession, lifted into the spoken body without the context that made it meaningful. The brief even supplies the sayable version: "technology led, and eight of the nine sectors we can see were flat to down."
+- **Companies unnamed:** no repeat. Every company that carries a move is named on first mention with a plain what-it-does. Two names (Hero, Infosys) get relational rather than functional placement; Hero is the one worth fixing.
+- **Unchecked superlative:** it recurred. See S1-a. "The biggest gainer was Mastek" is correct; "Second, Ather" is not.
+- **Hedge placement:** clean throughout the argumentative sections. Sentence 20 pre-labels the claim it is about to refute ("the tempting sentence is"), which is the hardest version of this to get right and the script gets it right. The only hedge problem is one that was dropped entirely rather than misplaced (S1-d).
 ### The Connections wedge — the refutation (19-26)
 
 19. "Here is what struck me." — OK (exemplar's own move)
