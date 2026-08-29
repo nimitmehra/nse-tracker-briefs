@@ -26,17 +26,17 @@ And the third force, which nobody named. Companies that sell to Indian household
 
 ## 4. How the five days moved
 
-Monday. The index lost a seventh of a per cent while four hundred shares fell, and the named cause pointed the wrong way. Washington announced what it called the greatest financial offensive ever mounted against Iran, and Brent fell nearly two per cent that day. That announcement also landed after our market had shut.
+Monday: down a seventh of a per cent, four hundred shares falling, and the named cause pointed the wrong way. Washington announced what it called the greatest financial offensive ever mounted against Iran, Brent fell nearly two per cent — and that announcement landed after our market had shut.
 
-Tuesday. The index rose to the week's high while three hundred and eighty-six shares fell. It was the monthly derivatives expiry, when the month's futures and options contracts settle, and that demand lands on the handful of very large companies an index weights most.
+Tuesday: the week's high, while three hundred and eighty-six shares fell. Monthly derivatives expiry, and that demand lands on the very large companies an index weights most.
 
-Wednesday. The exact reverse a day later. The index fell half a per cent while three hundred and eighty-three shares rose. The United States paused visa appointments at its embassies worldwide, which is why Nifty IT fell about one and a half per cent, though the index overstates that badly. The middle share in it fell only four tenths of a per cent.
+Wednesday, the exact reverse. Down half a per cent, three hundred and eighty-three shares up. The United States paused visa appointments worldwide, so Nifty IT fell about one and a half per cent — though the middle share in it fell only four tenths.
 
-Thursday. The one session where the index told the truth. Four hundred and forty-nine shares fell, and the middle share fell about as much as the index. Most of that was one company. HDFC Bank fell 2.2 per cent, and on a thirteen per cent weight that one share is over half the fall. The other large private banks rose, so this was not banks selling off.
+Thursday, the one session where the index told the truth. Four hundred and forty-nine shares fell, and most of that was one company: HDFC Bank down 2.2 per cent, and on a thirteen per cent weight, over half the fall. The other large private banks rose, so this was not banks selling off.
 
-Friday. A green headline on a flat market. The index rose a third of a per cent while three hundred and sixty-one shares fell. Nifty IT rose three and a half per cent, and that one sector was effectively the whole gain.
+Friday, a green headline on a flat market. Up a third of a per cent, three hundred and sixty-one shares down, Nifty IT up three and a half. That one sector was the whole gain.
 
-And one thing you are owed about our own record. Two of this week's sessions never got a public write-up: none for Tuesday, none for Wednesday. Anyone following our public feed went from Monday evening to Thursday morning with nothing.
+And two of those sessions never got a public write-up: none for Tuesday, none for Wednesday. Our public feed went from Monday evening to Thursday morning with nothing.
 
 ## 5. The earnings week that was not one
 
