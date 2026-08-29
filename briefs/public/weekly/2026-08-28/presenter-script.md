@@ -54,11 +54,11 @@ The one case we recovered by hand proves the point. Ather Energy, the electric t
 
 ## 7. The movers, and the ones we never looked at
 
-Where we established a cause, Cyient, an engineering services company, rose twenty-four per cent, with its biggest day on its Investor Day. Where we could not, IDBI Bank rose nearly thirteen per cent with nothing dated to the day it moved, and a decision window running out is not an event. The largest faller was BLS International, down twelve per cent on reports that Spain's National Court has widened a visa-fraud investigation to examine its document-processing role, which the company rejected in a filing while the market was open. That denial is confirmed from the filing. The allegation is reported only.
+Where we established a cause, Cyient, an engineering services company, rose twenty-four per cent, its biggest day on its Investor Day. Where we could not, IDBI Bank rose nearly thirteen per cent with nothing dated to the day it moved. The largest faller was BLS International, down twelve per cent on reports that Spain's National Court has widened a visa-fraud investigation to its document-processing role. The company rejected that in a filing while the market was open: the denial is confirmed, the allegation reported only.
 
-And six of the week's twenty-two biggest movers appear in none of our seven briefs at all. That is a different failure. For IDBI we looked and found nothing. For these six we did not look, because Tuesday's run died mid-execution and nothing here sends anybody back to a dead session.
+And six of the week's twenty-two biggest movers appear in none of our seven briefs. That is a different failure. For IDBI we looked and found nothing. For these six we did not look, because Tuesday's run died mid-execution and nothing here sends anybody back to a dead session.
 
-One competitive event with a date on it. Ola Electric launched the S1Z scooter at seventy-nine thousand nine hundred and ninety-nine rupees during Friday's session, well below the bracket the market expected a rival launch to occupy. I am not framing that as a war on prices, because our sources disagree about what the rival scooter will cost. The launch, the price and the timing are facts. What they add up to is not yet one.
+One competitive event with a date on it. Ola Electric launched the S1Z scooter at seventy-nine thousand nine hundred and ninety-nine rupees during Friday's session, below the bracket the market expected a rival launch to occupy. Our sources disagree about what the rival scooter will cost. The launch, the price and the timing are facts. What they add up to is not yet one.
 
 ## 8. What to watch
 
