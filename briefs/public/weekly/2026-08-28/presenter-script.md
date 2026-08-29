@@ -62,15 +62,15 @@ One competitive event with a date on it. Ola Electric launched the S1Z scooter a
 
 ## 8. What to watch
 
-Monday the thirty-first is four things landing in one session, and it is worth saying so in advance because it will be much harder to say afterwards. A growth number before the open. An index reshuffle transacting in the closing auction, where funds that must hold exactly what an index holds buy the joiners and sell the leavers, which is mechanical buying by people with no view. A foreign-currency deposit window shutting. And the first chance to price a product event held over the weekend. Nobody will be able to say which of the four moved the market.
+Monday the thirty-first is four things landing in one session, worth saying in advance because it will be much harder to say afterwards. A growth number before the open. An index reshuffle transacting in the closing auction, where funds that must hold exactly what an index holds buy the joiners and sell the leavers — mechanical buying by people with no view. A foreign-currency deposit window shutting. And the first chance to price a product event held over the weekend. Nobody will be able to say which of the four moved the market.
 
-The growth number is India's national accounts for April to June, against 7.8 per cent in the March quarter. Carry the forecasts as a spread, because there is no consensus to collapse them into. They run from 6.9 per cent at one house to eight at another, most clustered between 6.9 and 7.3. That cluster would be a four-quarter low, the eight an acceleration, and no published median reconciles them.
+The growth number is India's national accounts for April to June, against 7.8 per cent in the March quarter. Carry the forecasts as a spread: 6.9 per cent at one house to eight at another, most clustered between 6.9 and 7.3. No published median reconciles them.
 
-One imported input for Monday. The American central bank's Jackson Hole keynote landed on Friday evening India time, after our market had closed, so it explains nothing about last week. And we print no probability figure for an American rate rise, because the number in circulation could not be checked at source.
+Jackson Hole landed on Friday evening India time, after our market had closed, so it explains nothing about last week. And we print no probability figure for an American rate rise, because the number in circulation could not be checked at source.
 
-The comment window on the Reserve Bank's draft rules for non-bank lenders closed on Friday. Say the word draft. A closed comment window is the end of consultation, not the start of obligation. Nothing was enacted.
+The comment window on the Reserve Bank's draft rules for non-bank lenders closed on Friday. Say the word draft. A closed window is the end of consultation, not the start of obligation. Nothing was enacted.
 
-And one event I deliberately cannot report. Ather Energy's Community Day was scheduled for Saturday the twenty-ninth, after every brief this week was written, with a new scooter expected. No dated report of the outcome exists in anything we can reach, and the maker's own page says the scooter has not been launched and no price announced. Any search summary telling you confidently that it launched at a price is pre-event copy rewritten in the past tense. And Friday's move in Ather was the block deal, not the scooter.
+And one event I deliberately cannot report. Ather Energy's Community Day was Saturday the twenty-ninth, after every brief this week was written, with a new scooter expected. No dated report of the outcome exists in anything we can reach, and the maker's own page says the scooter has not been launched and no price announced. Any summary telling you confidently that it launched is pre-event copy rewritten in the past tense. Friday's move in Ather was the block deal.
 
 ## 9. Where we got it wrong
 
