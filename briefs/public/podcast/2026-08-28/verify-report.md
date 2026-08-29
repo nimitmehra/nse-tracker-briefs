@@ -35,7 +35,10 @@ _Cold read performed against `script.md` + `canonical_voice_example/README.md` o
 
 ## Punch list
 
-Ordered by cost of leaving it in. Items 1-3 are the ones that make the verdict.
+Ordered by cost of leaving it in. The first two are the FAIL and were found in the source pass; they are stated here so the whole fix list is in one place.
+
+0a. **[S1] Sentence 39 — "Second, Ather Energy..."** Ather was the fifth-biggest gainer, not the second. Delete the ordinal: "The other move worth your time was Ather Energy, the electric scooter maker, up eight percent..."
+0b. **[S1] Sentence 33 — "twenty four rose five percent or more."** That count is not in the brief. Confirm it or replace with "while dozens rose more than three."
 
 1. **[L1] Sentence 13 — "And nine of the eleven sector indices published no usable move."** Delete, or rewrite to "and most of the other sector indices barely moved." This is the desk describing its own data feed. It is the same class of error the 27-August episode was failed for, and it is the only sentence in the script that gives the listener nothing.
 2. **[L1/L6] Sentence 32 — "there were no fallers to speak of."** Change to "no big fallers." As written it reads as a contradiction of sentence 9 ("more shares fell than rose") to a listener who cannot scroll back.
@@ -46,7 +49,7 @@ Ordered by cost of leaving it in. Items 1-3 are the ones that make the verdict.
 7. **[L1] Sentence 47 — "transacts in the closing auction"** to "takes effect at Monday's close."
 8. **[L4] Sentence 30 — "Foreigners were selling into a rising market"** has no so-what. Give it one or cut it.
 
-Items 1-3 and 5 together return roughly twenty-five words, which also settles the word-count overage on its own.
+Items 1-3 and 5 together return roughly twenty-five words, which also settles the word-count overage on its own. Nothing on this list requires new reporting except confirming 0b.
 
 ## The three self-flagged lines — independent judgment
 
