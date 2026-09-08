@@ -2,7 +2,15 @@
 
 **VERDICT: FAIL**
 
-**Checks:** L1 0 / L2 0 / L3 0 / L4 2 / L5 1 / L6 0 / S1 (pending)  (counts = FLAG hits)
+**Checks:** L1 0 / L2 0 / L3 0 / L4 3 / L5 1 / L6 0 / S1 1  (counts = FLAG hits)
+
+**Blockers: 2** (S1 inflation inversion; L5 word count)
+**Should-fix: 4**
+**Sentences ledgered: 57 of 57**
+
+**FAIL drivers:** (1) **S1** — the script asserts the opposite of the brief on the August inflation print, and contradicts its own second paragraph doing it. (2) **L5** — 877-word body against the 500-700 band.
+
+**Clean on every automatic-FAIL check except those two:** L1 naive-listener 0 hits, L2 name-on-mention 0 hits, L3 listener-moment time 0 hits. TTS mechanics machine-verified clean (0 digits, 0 percent/rupee/dollar symbols, 0 em- or en-dashes, 0 `[SAY:]` hints). HEG absent. Sector scope held to Nifty IT alone.
 
 > **Independence note.** This is a fresh cold read of the CURRENT `script.md`, run in a separate context. The prior `verify-report.md` (which described a pre-fix 857-word draft and returned FAIL) was NOT read before this ledger was built, and none of its findings were inherited. The brief (`briefs/public/2026-09-07.md`) was opened only AFTER the ledger below was complete, for the Step 2 source spot-check.
 
@@ -125,12 +133,94 @@ Cutting both plus B1's beat lands around 790, still over. Getting to 700 means g
 
 ## Punch list
 
-_(filled below)_
+**Blockers — must be fixed and re-verified before TTS (2)**
+
+- **[B1 / S1] Sentence 52 — the August inflation line.** The script asserts what the brief twice denies in bold. Rewrite to the brief's own position: *"Before that, India's August inflation figure arrives mid month. It measures August prices, so none of this oil move is in it. The first reading that can carry it is September's, out in mid-October."* That is 34 words against the current 24 — ten words to convert a false statement into the episode's sharpest forward-looking beat, because it tells the listener the big story is deliberately invisible for another five weeks. Worth every word.
+- **[B2 / L5] Body is 877 words against a 500-700 band.** See Blockers above for the recommended cut order (Syrma first, IndiGo only if forced). Mechanically the script is otherwise spotless: machine-checked at zero digits, zero percent or rupee or dollar symbols, zero em-dashes or en-dashes, zero `[SAY:]` hints, zero exclamation marks. Word count is the single L5 breach.
+
+**Should fix — high value, cheap (4)**
+
+- **[S1 discipline] Sentence 39 — label the flow figures as reported.** The brief marks them explicitly: "provisional cash-segment figures, **reported** from two flow aggregators that agree to the decimal, because the depository's and the exchange's own pages both failed when we tried them." The brief's own methodology rule (line 159) is "anything reported rather than confirmed carries that word in the same sentence as the claim." The script honours that rule for Brent and drops it here — on the two numbers the entire centrepiece rests on. If the flows are unconfirmed, then "nobody large was selling" is an unconfirmed claim, and the episode's most striking moment is standing on unlabelled ground. Four words fix it: *"Foreign investors are reported to have bought a net two hundred and eighty crore rupees..."*
+- **[L4] Sentence 45 — restore the gold-lender mechanism.** The brief supplies it in one clause (line 139): "Their loan books are secured against gold, so a higher gold price normally raises what they can lend against." The script cut exactly that sentence, leaving the only non-move in the block with no stated reason it is a non-move. Add: *"...fell while gold itself rose one percent. Their loans are backed by that gold, so a higher gold price should have helped them."*
+- **[L4 / listener-trip] Sentence 27 — attach the universe to "only one fell sharply."** Currently it reads as a claim about the whole market and collides with "453 of 710 fell" two paragraphs later. The brief is explicit that this is a screen of twelve candidates. Fix: *"Ten shares rose three percent or more, and only one big faller, and just one of those moves has an official company announcement to explain it."*
+- **[S1 framing] Sentences 30-31 — TBZ's move is continuation, not news.** The brief says so twice in bold: "The deal is dated 31 August, not Monday, and Monday's rise is continuation, not news," and the stock is up 74.20% in a week. The script presents the deal as the explanation for Monday's ten percent with no date attached, so a listener hears "deal announced, stock up ten percent today." Six words fix it: *"...up ten percent, on a fifth session of climbing since the deal was filed on the thirty first of August."* Strictly this is an omitted qualifier rather than an inverted claim, which is why it sits here and not in Blockers — but a strict reading would promote it.
+
+**Observations — no action required**
+
+- **India VIX is absent from the episode.** The brief calls it "the largest proportional move in the day's headline set" (11.16, +4.49%) and reads it as the market charging almost nothing to insure against a coin-flip rate decision a week out. The exemplar always gives the fear gauge a line. Cutting it is a defensible call at 877 words, and I would not add it back before B2 is resolved — but it is the most interesting thing the episode chose not to say.
+- **The "which market you look at" phrasing** (sentence 50) is a genuine improvement on the brief's "depending on which venue you read." Venue is desk vocabulary; market is not.
+- **Sentence 19, the Labor Day comparison caveat, should stay.** The prior verifier wanted it trimmed as producer-view meta and the author declined. I side with the author. Re-aimed as "if you see Monday's Nifty compared with American markets this week," it is a direct service to a listener who will encounter exactly that comparison. It is not meta; it is a warning about what he is about to read elsewhere.
+- **No L1, L2 or L3 hits anywhere in the episode.** Every named entity is placed on first mention in the same breath, including S-K hynix and Samsung, which the prior draft reportedly failed. Every company gets a plain what-it-does: Syrma "an electronics manufacturer", TBZ "a hundred and sixty year old Mumbai jeweller", Ram Ratna "which makes copper winding wire", IndiGo "the airline", gold lenders "the companies that lend against your jewellery". Time-words are consistent throughout — day names, no "today", future events framed as future. On the three checks that carry an automatic FAIL, this script is clean.
 
 ## Source spot-check (S1)
 
-_(filled below)_
+Run against `briefs/public/2026-09-07.md` only after the ledger above was finished.
+
+### S1 MISMATCH — the script says the opposite of its own brief on the inflation print
+
+This is the finding that converts B1 from "a factual impossibility the script inherited" into an outright source contradiction. **The brief is already correct.** Line 151:
+
+> "**This print cannot carry crude going from US$89 to US$97 — an August number measures August prices, and that leg came in September**; the first print that can carry it is September's, released in mid-October."
+
+And line 137 again, independently:
+
+> "**Oil will show up in the September inflation print released in mid-October, not in Monday's chart**"
+
+The script says:
+
+> "It is the first reading that starts to pick up oil moving from eighty nine dollars to ninety seven."
+
+The brief states in bold that the August print **cannot** carry this move and names the September print as the first that can. The script tells the listener the August print **is** the first reading that picks it up. That is a direct inversion of a source claim the brief makes twice, in bold, both times. The script's own metadata describes "softening" the brief's wording — but the brief's current wording is not the claim being softened; it is the correction. The script is not a softened version of its source, it is the negation of it.
+
+**S1 count: 1 mismatch. This alone is a FAIL under Step 2.**
+
+### Everything else traced clean
+
+| Claim in script | Brief | Verdict |
+|---|---|---|
+| Nifty fifty at 23,779, down half a percent | 23,779.15, −0.50% | OK |
+| Software index down two point three percent | Nifty IT −2.28% | OK |
+| "a fourth losing session in a row" | "a fourth consecutive down session" | OK |
+| "every company in it was lower" | "every constituent we can price in the red" | OK (drops "we can price"; immaterial aloud) |
+| Brent near ninety seven, about nine percent above 28 August, **reported** | identical, and labelled reported | OK — hedge correctly carried |
+| Heaviest tanker strikes yet, over a weekend India was shut | line 36 | OK |
+| Payrolls about 162,000 vs expectations near 53,000 | 162,000 vs consensus near 53,000 | OK |
+| Link jobs → Indian software is "an interpretation, not a confirmed fact" | "reported rather than confirmed — the read every carrier ran" | OK |
+| Korea's index +4.6%, Samsung and S-K hynix, Japan about 2% | KOSPI +4.61% at 6,995.39, Samsung +5.68%, SK hynix +8.26%, Nikkei +2.07% | OK |
+| "the two Korean chipmakers that supply artificial intelligence servers" | "North Asia sells the physical equipment for AI buildouts" | OK — no market-share claim invented |
+| Ten shares up three percent or more, one genuine faller, one with documents | "ten stocks up 3% or more and exactly one genuine faller"; one of eleven sourced to primary documents | OK on the numbers (universe issue is a listenability flag, not S1) |
+| Syrma, electronics manufacturer, up twelve percent, nothing on the record | SYRMA +12.18%, cause not established, EMS cohort explanation ruled out | OK |
+| TBZ, 160-year-old Mumbai jeweller, up ten percent | TBZ +9.99% | OK |
+| GRT taking just over seventy four percent; offer about 250 rupees; close about 529 | 74.12%; ₹249.61; ₹528.90 | OK |
+| "the market is not pricing the offer, it is pricing the business under a new owner" | near-verbatim from line 72 | OK |
+| Ram Ratna Wires, copper winding wire, down about six percent | RAMRAT −5.97% | OK |
+| Promoters sixty nine percent, zero pledged, no forced selling | 69.30%, zero pledged, checklist empty | OK |
+| 453 of 710 fell | 453 of 710, 254 rose, 3 unchanged | OK |
+| FII +280 crore, DII about 567 crore, neither selling | +₹280.1 cr, +₹566.8 cr, both net buyers | OK on figures — see punch list on the missing "reported" label |
+| IndiGo rose slightly; fuel "one of an airline's biggest costs" | INDIGO +0.48%; "fuel-cost arithmetic" | OK — superlative correctly avoided |
+| Gold lenders fell while gold rose one percent | Muthoot −1.16%, Manappuram −4.15%, gold +1.06% | OK on facts — mechanism dropped, see punch list |
+| Rupee finished unchanged; dollar weak explains only part | USDINR 94.485, −0.01%; dollar index −0.23%; "a partial account, not a complete one" | OK |
+| Fed on fifteenth and sixteenth; odds fifty two to sixty five percent | 52%–65%, 15–16 September | OK |
+| Labor Day, New York shut, Monday's India vs Friday's America | line 24 | OK |
+
+**Scope compliance:** the script names exactly one sector index — "the index of Indian software shares." Nifty Pharma was cut. No other sector move is asserted anywhere. Matches the brief's own standing restriction (line 127: "no other sector move appears anywhere in this brief"). **PASS.**
+
+**HEG:** does not appear in the script in any form. The brief excludes it from the movers count as a demerger record-date price reset (lines 77, 83, 109). The script's "only one fell sharply" is therefore consistent with the brief's own eleven-name table, not a silent inclusion. **PASS — the trap was avoided.**
+
+**One place the script improves on the brief:** the brief calls the day "almost featureless" outside IT (line 54) four paragraphs before reporting that 453 of 710 stocks fell (line 58). That tension is in the source. The script's "Outside software there was no single story, but the weakness was wide, and I will come back to that" resolves it and sets up the centrepiece. That is a real editorial gain, and it should be noted rather than buried.
 
 ## For the principal
 
-_(filled below)_
+**Three lines before you approve the TTS spend:**
+
+1. **The script tells the listener the opposite of what your brief says, on the inflation print.** The brief states twice, in bold, that an August number cannot carry the crude move from eighty-nine to ninety-seven and that the September print in mid-October is the first that can. The script says the August reading "starts to pick up" that move. It is impossible on its face, it contradicts the script's own second paragraph, and the two numbers appear verbatim in both places, so an attentive listener is holding exactly what he needs to catch it. **One sentence, ten words to fix.**
+2. **Everything else in this episode is in good shape, and better than the length debate suggests.** No unplaced entities, no desk-register, no time-word errors, mechanically spotless for TTS, every figure traced to the brief, HEG correctly kept out, sector scope correctly held to software alone. The 877 words are 177 over the band and that is a real breach of the skill — but the overage bought comprehension, not padding, and it is the one thing here you can simply overrule. **The inflation line is not.**
+3. **Two cheap honesty fixes I would take before recording.** The foreign and domestic flow numbers are labelled "reported" in your brief and stated as flat fact in the script — on the two figures the episode's centrepiece rests on. And the gold lenders are the only non-move in the block with no reason attached; the brief hands you the missing clause ready-made. Together they cost about fifteen words and they hold the reported-versus-confirmed discipline that is otherwise the best thing in this episode.
+
+**On the sign-off you flagged.** "See you tomorrow" after "it has been ten days since I last spoke to you" does ring slightly hollow, but the skill mandates that closing verbatim and a verifier cannot penalise compliance with a mandate. If it bothers you, the cheaper repair is at the top, not the bottom: the opening does not need to say ten days out loud. "The biggest thing that changed since I last spoke to you is the price of oil" carries the same information without starting a clock the sign-off then has to answer for. Your call, not a flag.
+
+**On self-verification.** The prior report in this folder was produced inside the author's own context and is not an independent check. Its verdict was not inherited here. Where I can see its findings through the author's metadata, I agree with most of them, and I explicitly disagree with one: it wanted the Labor Day caveat cut, and the author was right to keep it. Note that neither the author's self-verify nor the prior report caught the inflation inversion — the self-verify pass actually recorded it as *fixed*. That is precisely the failure mode an independent read exists to catch, and it is the argument for keeping this gate outside the writer's context.
+
+---
+
+*Cold read completed before the brief was opened. Ledger built from `script.md` and `canonical_voice_example/README.md` only. Source spot-check run last, against `briefs/public/2026-09-07.md`.*
