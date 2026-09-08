@@ -1,7 +1,7 @@
 # Show Notes — 2026-09-07
 
 **Word count:** ~230 words (description + key points)
-**Estimated duration of episode:** 5.0 minutes at 165 WPM
+**Estimated duration of episode:** 5.19 minutes at 165 WPM
 **Self-verify:** PASS (checks 7, 8, 11 — no banned jargon, no recommendation language, every claim traced to `briefs/public/2026-09-07.md`)
 **Skill version:** podcast-script-public-nse v1.7
 **TTS-ready:** N/A (written notes, not narrated)
