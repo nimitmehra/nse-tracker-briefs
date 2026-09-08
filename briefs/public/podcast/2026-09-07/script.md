@@ -15,7 +15,7 @@
 
 Good evening. This is India Markets Brief from toro I-Q. Your read on Monday's session.
 
-It has been ten days since I last spoke to you, and the biggest thing that changed is the price of oil. Brent crude is reported to have settled near ninety seven dollars a barrel on Monday, about nine percent above where it sat on the twenty eighth of August. That followed the heaviest strikes on oil tankers yet in the American war with Iran, over a weekend when India was shut. India buys nearly all the oil it burns and has no say in that price. Our own data file could not give a clean oil number, so treat the ninety seven dollars as reported, not confirmed.
+It has been ten days since I last spoke to you, and the biggest thing that changed is the price of oil. Brent crude is reported to have settled near ninety seven dollars a barrel on Monday, about nine percent above where it sat on the twenty eighth of August. That followed the heaviest strikes on oil tankers yet in the American war with Iran, over a weekend when India was shut. India buys nearly all the oil it burns and has no say in that price. That figure comes from press reports rather than from data I could confirm myself, so treat it as reported, not confirmed.
 
 But oil is not what moved share prices here. America's jobs number landed on Friday evening India time, after we had closed. American employers added about a hundred and sixty two thousand jobs, against expectations near fifty three thousand, which pushed up the odds of an American rate rise this month. Indian software shares fell on Monday. Every news outlet linked those two, and I want to be straight with you that the link is a read, not a confirmed fact.
 
