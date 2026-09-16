@@ -1,7 +1,9 @@
 # Verify Podcast Script — 2026-09-15
 
-**Verdict:** (pending — cold read in progress)
-**Checks:** L1 – / L2 – / L3 – / L4 – / L5 – / L6 – / S1 –  (counts = FLAG hits)
+**Verdict:** WARN
+**Checks:** L1 3 / L2 1 / L3 0 / L4 3 / L5 1 / L6 0 / S1 0  (counts = FLAG hits; all L1/L2 hits are borderline, none flagrant; L5 hit is length only — body is symbol-, digit- and dash-clean)
+
+**One line:** No FAIL. Numbers, directions and the evening-model time-words all check against the brief; the script is 100 words over the ceiling and carries seven ear-level phrasings (three inherited verbatim from the brief) that a listener would stumble on once. Principal may ship as-is or take the punch list; nothing needs a re-verify.
 
 ## Mechanical (L5) pre-scan
 
@@ -80,8 +82,53 @@ Read cold: script + exemplar only; brief not opened. Verdict per sentence, check
 
 ## Punch list
 
-(pending)
+No FAIL. Nothing blocks TTS on correctness. Items in the order I would take them:
+
+- **[L5-length] 800 words → 700.** Take the writer's own cut menu: (b) Solar's defence-index sentence 26 (20 words), (c) "stocks that ran hardest" sentence 10 (11 words), (d) Tata Sons stake-value sentence 29 (30 words) → ~739. I would NOT take (a), the Asia sentence 14: it is the "why India, specifically" line and the only comparative anchor a listener gets. If the principal wants 700 flat, cut sentence 40 ("It lands after our close…", 17 words) and trim sentence 24's "about twelve thousand nine hundred and fifty-one" to "about thirteen thousand" (−4 words) before touching sentence 14.
+- **[L1] Sentence 18 — place the Fed on first mention, drop "priced":** "...and markets put the odds of the American central bank, the Fed, raising rates tomorrow at about ninety-two in a hundred." Sentence 39 then inherits the placement.
+- **[L1] Sentence 28 — say what registration:** "...that it cannot hand back its registration as an investment company, and should move towards a stock-market listing." (The brief has "core investment company"; "investment company" is enough for the ear.)
+- **[L1] Sentence 13 — give "read as" an agent:** "...for a slower pace of AI development, which investors took to mean Indian software firms get more time to adapt."
+- **[L4] Sentences 25 and 36 — the "X is what sold Y" habit, twice:** 25 → "and that uncertainty over funding is why the shares were sold." 36 → "That, in my reading, is what pushed property shares down just over four percent, and lenders like Shriram Finance down four point seven four percent."
+- **[L4] Sentence 37 — mechanism for the image:** "The policy rate is unchanged, so this is not a rate rise. But property developers and lenders run on borrowed money, so a higher bond yield hits them the way a rate rise would."
+- **[L2-lite] Sentence 27 — three words:** "Tata Chemicals, the soda-ash and salt maker, up nineteen point nine nine percent..."
+- **[borderline, after S1] Sentence 4 — "turned" → "stacked":** "after a long weekend that left three things stacked against India at once." Fixes the Friday-announcement looseness without losing the hook.
+- **Not flagged, noted:** "AI" is TTS-safe (read as A-I, which is how it is said); sentence 19's "five percent on a safe dollar asset pulls foreign money out" is a plainly stated mechanism and matches the brief's own causal line — keep, or soften to "gives foreign investors less reason to keep money in riskier markets like India" if the principal wants it as a tendency rather than a law; "in my reading" (36) is the correct hedge for a desk inference and is not meta-commentary.
 
 ## Source spot-check (S1)
 
-(pending — brief NOT opened until the ledger above is complete)
+Brief `briefs/public/2026-09-15.md` opened only after the ledger above was written. Result: **PASS — 0 mismatches.** Every figure and every causal direction in the script is in the brief, on the right day.
+
+| Script | Brief | |
+|---|---|---|
+| Nifty 23,118.6, −1.19%, five-month closing low | 23,118.60 (−1.19%), five-month closing low | ✓ |
+| Bank Nifty −1.43% | Nifty Bank −1.43% | ✓ |
+| Smallcap −2.44%, "twice as hard" | Nifty Smallcap 250 −2.44%; brief says "twice as hard as the index" | ✓ |
+| Software +2.19%, "up more than five percent in the morning" | Nifty IT +2.19%, +5.2% at morning high | ✓ |
+| Anthropic head's weekend call, "reported reason" | "reported catalyst… Anthropic chief executive Dario Amodei… primary was not opened" | ✓ hedge matches |
+| Asia "mixed rather than crushed", India fell more than all of it | verbatim in the brief, with Nikkei/KOSPI/HSI/ASX ranges | ✓ |
+| Saudi pipeline shut since drone strike "last Thursday" | East–West pipeline shut since Thursday 10 September | ✓ |
+| Brent above 107 dollars while India was open | "Brent traded above US$107 during Indian hours" | ✓ |
+| Rupee 95.945, seven-week low | USD/INR 95.945, seven-week low | ✓ |
+| US 10-year touched five percent on Monday | 5.01% intraday Monday | ✓ |
+| Fed **rise** tomorrow priced ~92% | "Fed rate rise this Wednesday… about 92% on the CME's tracker" | ✓ direction correct |
+| FII net sold 2,977.9 cr, fifth straight day | ₹2,977.90 crore, fifth straight session | ✓ |
+| DII bought 2,686 cr, absorbed ~90%, orderly not panic | ₹2,686.00 crore, "about 90%", "orderly way, not one that panicked" | ✓ |
+| Solar Industries −13.64%, explosives maker | −13.64% | ✓ |
+| Omnia, South African explosives + farm-chemicals, ~12,951 cr cash, "over the holiday" | ₹12,951 crore all-cash, filed Monday 14 September (holiday) | ✓ |
+| Filing silent on funding; "that open question is what got sold" | "that open question is what was sold" (brief wording inherited) | ✓ |
+| Solar = 12% of defence index; defence fell almost six percent | 12% of Nifty India Defence; −5.96% | ✓ |
+| Tata Chemicals +19.99%, locked at upper limit | +19.99%, locked at upper price band | ✓ |
+| RBI told Tata Sons it cannot give up registration, should list; "reported" | "cannot surrender its registration as a core investment company… letter itself is not public" | ✓ — see punch list: the brief supplies the "what registration" the script drops |
+| Tata Chem owns 2.53% of Tata Sons; stake worth more than Tata Chem | 2.53%; US$200 bn valuation → more than ₹18,722 cr market value (arithmetic: ~₹48,000 cr) | ✓ |
+| No listing announced, no date | verbatim | ✓ |
+| Banks took dollar deposits from Indians abroad, swapped with RBI for rupees; ~10.5 trn surplus | US$136 bn, "mostly foreign-currency deposits from Indians abroad"; ₹10.5 trillion surplus | ✓ |
+| RBI to sell 1 trn of bonds starting Thursday; first tranche 50,000 cr Thursday | ₹1 trillion; ₹50,000 crore Thursday 17 September, then ₹25,000 crore each on 21 and 28 September | ✓ |
+| 10-year ~7.1%, four-month high, "reported" | about 7.1%, four-month high, press-reported level only | ✓ |
+| Realty "just over four percent", Shriram Finance −4.74% | Nifty Realty −4.04%; SHRIRAMFIN −4.74% | ✓ |
+| "Not a rate rise, the policy rate is unchanged" | "liquidity management, not a rate rise; the repo rate is unchanged" | ✓ |
+| Fed decision tomorrow ~23:30 IST; Thursday first session to trade it | Wednesday 16 September ~23:30 India time; "Thursday is the first Indian session that can trade it" | ✓ |
+| Nothing from the 16 September session | script carries no Wednesday data; brief's own global file rows dated Wednesday were rejected and are not in the script | ✓ |
+
+**Hook timing (sentence 4), resolved against the brief:** the brief's own lead says "after a holiday weekend in which oil, American interest rates and the cost of money at home all turned against India at once", so the script matches its source — not an S1 mismatch. But the brief also dates the RBI bond-sale announcement to **11 September, a Friday trading day**. "Three things turned against India" over the long weekend is therefore loose for the third item (the announcement pre-dates the weekend; what happened over the weekend is that it sat there waiting for a session). One-word fix, no re-verify needed: "after a long weekend that left three things **stacked** against India at once." The brief's wording carries the same looseness; that is the brief verifier's business, not this gate's.
+
+**Inherited phrasings worth knowing:** three of the ledger's WARN lines are the brief's sentences carried over verbatim — "read as giving Indian services firms more time to adapt" (13), "that open question is what was/got sold" (25), "a business that is really a bet on the cost of money" (37). They read fine on a page and less well in the ear; the podcast rewrite should diverge from the brief here.
