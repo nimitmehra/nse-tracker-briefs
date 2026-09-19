@@ -31,7 +31,7 @@
 18. **Do not call the reserves fall "intervention".** Reserves fell $4.93 billion in the week to 11 September; our own pre-set test was $5 billion; the fall came $70 million short and the split between currency sales and gold revaluation was not published. "Consistent with, not proof of" defence is the line.
 19. **Do not give a Nifty weekly figure of −0.56%.** That is the vendor's five-bars-back number and it is wrong for a holiday week. Ours is −0.22%, Friday to Friday, and matches the press.
 20. **Do not read Thursday's bond sale as "banks selling".** In a Reserve Bank sale of bonds, banks are the buyers. The verifiable facts are the bids (₹66,590 crore for ₹50,000 crore), the full sale and the flat yield.
-21. **Do not attach a cause to Tuesday's last-hour reversal.** Our private record reads it as positioning ahead of the Fed; our public daily read it as expiry noise. Neither is established. "We could not establish it, and neither could anyone else" is the answer.
+21. **Do not attach a cause to Tuesday's last-hour reversal.** Our private record reads it as positioning ahead of the Fed; our public daily read it as expiry noise. Neither is established. "We could not establish it, and no Indian outlet located a cause either" is the answer.
 
 ---
 
