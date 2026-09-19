@@ -18,3 +18,51 @@ That is the week. Let me take you through why.
 
 Before we begin: this is general market commentary, not investment advice. I am not a SEBI-registered Research Analyst.
 
+## 3. The week in one minute
+
+The Nifty 50 closed the week at 23,346, down about a fifth of a per cent. The Sensex did worse, down about two thirds of a per cent. The press counted that as the Sensex's sixth losing week in a row, the longest run since 2020. On our own record the Nifty has fallen five weeks running. Those are two counts of two different indices, and I am not going to blend them into one number.
+
+All of the week's damage was Tuesday. The Nifty fell 1.19 per cent that day. The three sessions after it recovered nearly all of that, without quite finishing the job.
+
+One honesty note that applies to everything you hear today. This was a four-session week. Monday was Ganesh Chaturthi and the exchange was closed. We observed Tuesday, Wednesday and Friday with our own process. Thursday was a real trading day, the busiest of the week, and our daily process did not run. So everything I say about Thursday is second-hand, taken from Friday's account or worked backwards from Friday's numbers. I will not repeat that warning every time. Please carry it with you.
+
+## 4. How each day moved
+
+Tuesday first, because Tuesday was the week. The Nifty opened three quarters of a per cent higher on a bid for IT shares, then fell all day and closed at its low, down 1.19 per cent. Of the 712 shares we track, 83 rose and 629 fell. That is a crowd leaving, not 629 separate stories.
+
+The cause was the long weekend. While the exchange was shut, oil rose to a four-month high, the American ten-year yield touched five per cent, and the Reserve Bank's bond-sale plan pushed our own ten-year yield to about 7.1 per cent. Tuesday was the first session anyone could trade any of that.
+
+One sector rose. IT closed up about two per cent, on a weekend essay by the chief executive of Anthropic urging AI laboratories to slow down, which some read as buying Indian software firms time. Nothing was enacted. Every other sector fell, and the order tells you the cause. Realty fell hardest, over four per cent, then consumer durables, public-sector banks and autos, the sectors most exposed to dearer money and dearer oil. Metal fell too, but on a fall in copper prices, not Indian rates.
+
+Why the fall came in the last hour rather than at the open, when all of this was already known, we could not establish. Nobody could.
+
+Wednesday rose 0.43 per cent, and most shares did not rise with it. More shares fell than rose. It was a big-company, financials-led day, the last session before the American rate decision. Bond yields eased a little ahead of Thursday's sale, so the rate-sensitive sectors hit on Tuesday rose first: public-sector banks, realty and life insurers. And demand for the NSE's own share sale was so large that the exchange cut the portion sold to big institutions, which lifted the companies selling NSE shares, State Bank of India among them.
+
+Thursday, the day we did not see. On Friday's account the Nifty rose about a fifth of a per cent and every wire report used the same words: little changed. The Federal Reserve raised its rate by a quarter point, the first rise since 2023, by a unanimous vote. The Bank of Japan raised to 1.25 per cent, the highest since 1995. And the Reserve Bank sold its first 50,000 crore rupees of bonds into more than 66,000 crore of bids, with the yield essentially flat. Three feared events. No accident.
+
+Friday. The Nifty rose a third of a per cent and the Sensex fell slightly. The gap is one stock. TCS fell nearly four per cent on the Tata Sons dispute, which I will come to, and TCS is heavier in the thirty-share Sensex than in the fifty-share Nifty. Underneath, it was the best day of the week for smaller companies. The Smallcap 250 rose 1.5 per cent and 364 of the 500 shares in the Nifty 500 rose.
+
+The reason was mechanical, not news. A global index publisher, FTSE, put its September membership changes into effect at Friday's close. Every fund that copies those indices had to buy the added companies, at the closing price, that afternoon. That buyer is gone on Monday, and Monday is the honest test of whether Friday's rise was real.
+
+## 5. Earnings: nobody reported, and that is the calendar
+
+No company of any size reported quarterly results this week. The quarter now running ends on 30 September, and nobody can report it before it ends. Mid-September is the trough between two seasons. The first big marker of the next one is Infosys, on 22 and 23 October.
+
+What fills the gap is annual general meetings, and one was worth reading properly. Engineers India, the state-owned engineering consultancy, restated a record year on Friday: revenue up 27 per cent, profit up 37 per cent. Those are old numbers. The story was what was not said. In August the company promised 8,000 crore rupees of new orders this year, at least ten per cent growth and a sixteen per cent margin. The speech repeated none of the three and withdrew none of them. And institutional shareholders voted sixty per cent against re-appointing one director. It passed anyway, because the government holds 51 per cent and voted for.
+
+One more company document moved a price. KPI Green Energy filed a credit-rating note on Wednesday evening that put its own standalone rating four notches below its guaranteed bonds, recorded plans to borrow about 2,750 crore rupees more, and measured its interest cover, operating profit divided by the interest bill, at five and a half times, down from seven. The stock made a new 52-week low on Wednesday.
+
+## 6. Three things worth understanding properly
+
+**First, why a record foreign-reserves number and a five-month low in property shares are the same story.** Over the summer Indian banks raised about 136 billion dollars, mostly deposits from Indians abroad, and swapped those dollars with the Reserve Bank for rupees. So India's reserves jumped a record 45 billion dollars in one week. That looks like strength. It is a loan, because the Reserve Bank has to hand the dollars back later.
+
+The rupee side of that swap is a cash flood, roughly ten trillion rupees of surplus in the banking system. Too much cash pushed the overnight rate between banks below the Reserve Bank's 5.25 per cent policy rate. Money was looser in practice than on paper, with consumer inflation up ten months in a row. So the Reserve Bank is taking the cash back by selling a trillion rupees of bonds: 50,000 crore on Thursday, then 25,000 crore on each of the next two Mondays.
+
+More bonds for sale means bond prices fall, and when a bond's price falls its yield rises. That ten-year yield is the risk-free rupee rate, and every other investment is compared against it. When it rises, a property developer's future sales are worth less today and a lender's cost of money goes up. That is why realty fell four per cent on Tuesday, rose on Wednesday when yields eased, and rose again on Friday after the sale cleared. The policy rate has not moved. Nobody at the Reserve Bank has said the word hike, and I am not saying it for them.
+
+**Second, Tata Sons, in two acts.** Tata Sons is the unlisted company at the top of the Tata group. Nobody can buy its shares. Act one: the Reserve Bank told it, in a letter dated 11 September, that it cannot give up its registration as a core investment company and should proceed to a stock-market listing. On Tuesday, Tata Chemicals rose twenty per cent and locked at its upper price limit. Why? It owns two and a half per cent of Tata Sons, and at the private valuations quoted in the press, that stake alone is worth more than all of Tata Chemicals. A listing would make it visible and sellable.
+
+Act two: on Thursday evening the Tata Sons board re-appointed N. Chandrasekaran as executive chairman for five years, four votes to one. The same evening Tata Trusts, which owns about two thirds of Tata Sons, called the vote a legal nullity. That is an assertion. No court or regulator has ruled. A wire report that the board also approved a listing came from a single anonymous source and was denied the same day, so that is a claim, not a fact. On Friday, Tata Chemicals fell eleven per cent and TCS fell nearly four. Tuesday's rise and Friday's fall are the same story read in opposite directions.
+
+**Third, UPI gets its first merchant fee.** From 15 October, when you pay a shop more than 2,000 rupees by UPI, the shop's bank will charge the shop 0.4 per cent, capped at 300 rupees. Paying a friend changes nothing. Paying a shop 2,000 or less changes nothing. Why it matters: payments above 2,000 were only four per cent of transactions last year but two thirds of the money moved. Whether shops pass it on, nobody has established. An estimate of a 17,000 crore rupee annual fee pool came from unnamed analysts in one outlet, and it is a claim, not a fact.
+
