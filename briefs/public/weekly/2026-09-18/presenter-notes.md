@@ -171,3 +171,82 @@
 
 ---
 
+## Block 8: what to watch
+
+**Why five full sessions is stated with a caveat.** The exchange's own holiday page timed out, so this rests on the calendar we published on 4 September, which was right about the 14th.
+
+**Monday 21 September.** NSE offer closes: ₹22,561.57 crore at ₹1,700 to ₹1,785 a share, covered 1.04 times by the end of day two (retail 0.69 times, wealthy individuals 1.46, institutions excluding anchors 1.32, on figures relayed by brokers). The retail line matters because a retail book under one times on the largest listing of the year, a week after a five-month low, is a plain measure of household appetite. Reserve Bank second sale, ₹25,000 crore, confirmed at its own press release; the cut-off yield (the highest yield the Reserve Bank agreed to sell at) is the number, because a rising cut-off across the three sales is the market charging more to absorb the paper. FTSE changes take effect at the open and the passive buyer is gone: a name that holds Friday's price had real demand; one that gives it back was a mechanical event. Also Apar Industries' AGM at 14:30, the first of a cluster; the vote count, filed within two working days, is the document.
+
+**Tuesday 22 September.** NSE share allotment; the basis-of-allotment document is where the anchor-book claims get checked. Nifty weekly options expiry on the NSE, on the public daily's Tuesday calendar. Dividend record dates for IRCTC and KPI Green among others: each share trades without its dividend from that day, the price drops by roughly the dividend, and it is not selling.
+
+**Wednesday 23 September, not in the script.** Waaree Renewable Technologies AGM at 11:00 and Garware Hi-Tech Films at 11:30; the question for both is whether management repeats a promise made earlier in the year or lets it go silent. Hero Motors lists (not Hero MotoCorp; see do-not-say entry 2). HSBC flash PMIs for September, a survey in which a reading above 50 means more firms reported growth than contraction; the exact date is from our own calendar, not verified at the compiler; the lines to read are input costs and output prices, because August's wholesale inflation ran five points above consumer inflation.
+
+**Thursday 24 September, not in the script.** The NSE lists on the BSE; the price against the ₹1,785 top of the band, and what it does to New India Assurance, IFCI and GIC Re. Last Thursday of the month, so the monthly expiry for BSE's Sensex contracts. KPI Green's ₹6,500 crore related-party ballot closes with no external opinion on record; the institutional for-and-against split, due within two working days, is the only opinion there will be. Acutaas Chemicals AGM; Engineers India dividend record date.
+
+**Friday 25 September.** Linjemontage, Kalpataru Projects' Swedish subsidiary, lists in Stockholm at SEK 46, about ₹700 crore to the parent for roughly 30%, reported. Reserve Bank weekly statistics at about 17:00 for the week to 18 September: a second fall of about US$5 billion with the currency component identified would be the first time the swap story could no longer hide genuine rupee defence; a rise says nothing about defence either way. We could not verify the US data calendar from any dated 2026 source, so we list no US releases.
+
+**Just beyond.** Monday 28 September, third and last bond sale, ₹25,000 crore. Tuesday 29 September, Nifty monthly expiry on the NSE, KPI Green's and IRCTC's AGMs, and the deadline for a competing offer for Tribhovandas Bhimji Zaveri. 5 to 7 October, the Reserve Bank's rate meeting announcing on the 7th with the GST Council the same day; the policy rate going in is 5.25%. 15 October, the UPI fee takes effect, and Yatharth and Rossell shareholders vote on their capital raises. 22 and 23 October, Infosys's second-quarter board meeting, the first large-company results of the season.
+
+**How the 4 September list did.** Fourteen items: eight held as written, three held on the read with the date moved, three could not be graded and restart. The three ungradable: Infosys's finance chief at a fireside chat on Monday 7 (Infosys fell 3.76% that day with 1.48 points unexplained and the event was never checked as a cause), the NSE offer dates (fell in the unwritten week; the size came in at ₹22,561.57 crore against the "about ₹30,000 crore" we carried), and the expiry-weekday question, still unresolved. The falsified read: the two listed NSE holders would rise on the listing clearance; New India Assurance made a 52-week high on Monday 7, reversed 7.5% in the day, then fell about 20% from that high by 15 September when the offer was cut in size. Four items the 4 September weekly admitted dropping (a sugar stockholding limit, the Reserve Bank's draft rules for non-bank lenders, three companies flagged as reactions to watch): three are still dropped, appearing in zero briefs. The fortnight's largest items (the Saudi pipeline strike, the Fed's first rise, the ₹1 trillion bond sale, the Tata Sons split, Solar's acquisition, the FTSE rebalance) were on nobody's list because they were not knowable on 4 September.
+
+**Likely question: "what should I do before Monday?"** Nothing from us. We list what is scheduled and what number to read. Anything beyond that is a recommendation, and we do not make them.
+
+---
+
+## Block 9: the honest gaps
+
+**Thursday 17 September.** No breadth count, no sector table, no movers list, no observed close. Several of the week's biggest single-stock moves (Yatharth, TEGA, Birla Cable, Tata Chemicals' Thursday leg) happened that day, and for each we can say the size and not the session's texture. One thing we can measure across it: from Wednesday's close to Friday's close, 557 of 713 shares rose and 155 fell, with the middle share up 1.96%, so the two sessions together were strongly positive for the typical share.
+
+**The week of 8 to 11 September.** No weekly, no dailies, a Nifty fall of about 2.1% on our arithmetic, larger than any of the observed weekly falls around it. Why it fell: cause not established, because no brief exists for any of its sessions. That is also why the watch list is graded against a fortnight and why "fourth measured week in a row" of fallers beating risers (313/385 to 21 August, 316/388 to 28 August, 258/446 to 4 September, 319/393 now) says "measured".
+
+**Wednesday's flows.** No figure for 16 September was published by anyone, on any day, and still had not been by Friday evening. The same hole existed for 2 September in the previous weekly. It is now structural.
+
+**Only one public daily exists for this week, Tuesday's.** Wednesday and Friday were written for the private record only. A reader who follows only the public feed had one day of a four-day week explained; the Wednesday, Thursday and Friday material in the weekly is being published for the first time.
+
+**The expiry contradiction.** Public daily: Tuesday. Private record: Thursday 17 weekly, Thursday 24 monthly, in the same week. Both cannot describe the same NSE contract. A government broadcaster's 2025 report and every broker calendar we could open say NSE Nifty contracts expire on Tuesdays and BSE Sensex contracts on Thursdays, which would mean the private record was describing the other exchange without saying so. It is a scheduled, published, checkable date, and for a second fortnight nobody on the desk opened it. Say that plainly if asked; it is our lapse.
+
+**The bond feed.** Every Indian government bond yield in the brief is a single-source web reading; our own feed has failed on 33 consecutive runs. The exchange's own bond indices corroborate the Wednesday direction.
+
+**Data rejected, if a viewer quotes a different number.** The vendor's Nifty −0.56% (five-bars-back). Two Brent bars, Tuesday's $102.24 and Friday's $100.00 (the first contradicted three sources and its own sister contract; the second is a contract-roll artefact whose high is below its open), and the vendor's weekly oil figure of −4.41% built on the second. The vendor's Friday breadth count covers 404 names, not 712, because about 310 shares had no Friday bar; we used the exchange's own counts. Friday's Brent had no settlement price when the brief was written; it traded roughly $103 to $105.
+
+**Two small self-contradictions the brief admits.** The rupee file records 95.945 on both Tuesday and Wednesday yet records a 0.11% daily change; not reconciled, the level was used. Friday's private brief described Thursday's bond result as banks selling "without demanding a concession", which has the sides reversed; the desk did not use it.
+
+**HDFC Bank.** +2.52% on Friday on ₹2,880 crore of turnover, most of Bank Nifty's rise. Not established. Also unexplained and outside the mover screen: Tuesday's last-hour reversal, Patanjali Foods +7.81% Wednesday, Media +1.34% Friday, Adani Total Gas and Bombay Burmah on Friday, Nifty Pharma's Thursday, the reserves fall's cause.
+
+---
+
+## Block 10: the close
+
+The full brief is on Substack (the skill's standing close; the brief's masthead itself links Spotify, Instagram and X). The podcast is on Spotify. Markets reopen on Monday 21 September. It is a weekend recording: "see you next weekend", never "see you tomorrow".
+
+**If the read runs long.** The script is 1,918 spoken words, about 12 minutes at 160 words a minute, so there is no slack. Cut in this order without breaking a chain: (1) the UPI explainer in Block 6, (2) the "Beyond that" calendar line in Block 8, (3) the last-watch-list grading paragraph in Block 8, (4) the Engineers India vote sentence pair in Block 5. Do not cut the Thursday honesty note, the disclaimer, or any "not established" line.
+
+---
+
+## Pronunciation and number reading
+
+- **eMudhra**: "ee-MOO-dra". Not "e-mud-ra".
+- **Yatharth**: "YUH-tharth", the "th" as in "thin".
+- **Tribhovandas Bhimji Zaveri**: "tri-BHO-van-das BHEEM-jee ZA-veh-ree". Not in the script; if used, say the full name once, then "the jeweller".
+- **N. Chandrasekaran**: "CHUN-dra-SAY-kuh-run".
+- **Omnia**: "OM-nee-uh".
+- **HMA Agro**: say the letters, H-M-A.
+- **TEGA**: "TAY-ga" (the brief gives no company name behind the symbol; say "TEGA" and no more).
+- **Avalon Technologies**: "AV-uh-lon".
+- **Ganesh Chaturthi**: "guh-NAYSH chuh-TOOR-thee".
+- **Nifty 500 count**: "three hundred and sixty-four of the five hundred".
+- **712 shares**: "seven hundred and twelve".
+- **83 rose and 629 fell**: "eighty-three rose and six hundred and twenty-nine fell".
+- **23,346**: "twenty-three thousand three hundred and forty-six".
+- **12,951 crore**: "twelve thousand nine hundred and fifty-one crore". Or "about thirteen thousand crore" if it trips.
+- **3,150 crore**: "three thousand one hundred and fifty crore".
+- **136 billion dollars / 45 billion dollars**: "a hundred and thirty-six billion" / "forty-five billion".
+- **5.25 per cent**: "five point two five per cent".
+- **7.1 per cent**: "seven point one".
+- **0.43 per cent**: "nought point four three", or "just under half a per cent".
+- **1.19 per cent**: "one point one nine".
+- **0.4 per cent (UPI)**: "nought point four per cent".
+- **50,000 crore / 66,000 crore / 25,000 crore**: "fifty thousand crore", "sixty-six thousand crore", "twenty-five thousand crore".
+- **Sensex 30 / Nifty 50**: "the thirty-share Sensex", "the fifty-share Nifty".
+- **Four votes to one**: as written.
+- **Dates**: "the eleventh of September", "the fifteenth of October", "the twenty-second and twenty-third of October", "Monday the twenty-first".

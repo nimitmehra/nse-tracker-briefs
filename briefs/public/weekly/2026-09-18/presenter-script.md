@@ -66,7 +66,7 @@ Twenty-two companies worth more than 1,000 crore rupees moved more than six per 
 
 Risers. eMudhra rose 24 per cent after being appointed to issue and renew the corporate identity codes that regulators require of large borrowers. Yatharth Hospital rose 18 per cent after a Thursday filing that the private-equity firm Advent will put in 3,150 crore rupees of new money. Most of that rise came on Thursday, the day we did not see. Avalon Technologies rose 14 per cent, almost all of it Friday, because it was added to a FTSE index and index funds bought it at the close. HMA Agro, Birla Cable and TEGA rose 12 to 19 per cent with no cause we could find.
 
-Fallers. Solar Industries fell 17 per cent. It agreed to buy South Africa's Omnia for about 12,951 crore rupees in cash, and the filing said nothing about how that would be paid for. That silence is what was sold. On Thursday's call the company said all of it will be borrowed, and the stock kept falling. Chennai Petroleum fell ten per cent in a week oil hit a four-month high, which should help a refiner, and we cannot explain it.
+Fallers. Solar Industries fell 17 per cent. It agreed to buy South Africa's Omnia for about 12,951 crore rupees in cash, and the filing said nothing about how that would be paid for. That silence is what was sold. On Thursday's call the company said all of it will be borrowed, and the stock kept falling. Chennai Petroleum fell ten per cent in a week oil hit a four-month high, which was supposed to help a refiner, and we cannot explain it.
 
 ## 8. What to watch next week
 
