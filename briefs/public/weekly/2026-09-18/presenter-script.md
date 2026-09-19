@@ -20,11 +20,11 @@ Before we begin: this is general market commentary, not investment advice. I am 
 
 The Nifty 50 closed the week at 23,346, down about a fifth of a per cent. The Sensex did worse, down about two thirds of a per cent, which the press counted as its sixth losing week in a row. On our own record the Nifty has fallen five weeks running. Two different indices, two different counts.
 
-One honesty note for everything that follows. This was a four-session week. Monday was Ganesh Chaturthi and the exchange was closed. We observed Tuesday, Wednesday and Friday with our own process. Thursday was a real trading day, the busiest of the week, and our daily process did not run. So everything I say about Thursday is second-hand, taken from Friday's account or worked backwards from Friday's numbers. I will say that once.
+One honesty note for everything that follows. This was a four-session week. Monday was Ganesh Chaturthi and the exchange was closed. We observed Tuesday, Wednesday and Friday. Thursday was a real trading day, the busiest of the week, and our daily process did not run. So everything I say about Thursday is second-hand, taken from Friday's account or worked backwards from Friday's numbers.
 
 ## 4. How each day moved
 
-Tuesday was the week. The Nifty opened higher on a bid for IT shares, then fell all day and closed at its low, down 1.19 per cent. Of the 712 shares we track, 83 rose and 629 fell. That is a crowd leaving, not 629 separate stories.
+Tuesday was the week. The Nifty opened higher on a bid for IT shares, then fell all day and closed at its low, down 1.19 per cent. Of the 712 shares we track, 83 rose and 629 fell. That is a crowd leaving.
 
 The cause was the long weekend. While the exchange was shut, oil rose to a four-month high and the American ten-year yield touched five per cent. And the Reserve Bank's bond-sale plan pushed our own ten-year yield to about 7.1 per cent. Tuesday was the first session anyone could trade any of that.
 
@@ -34,7 +34,7 @@ Why the fall came in the last hour rather than at the open, we could not establi
 
 Wednesday rose 0.43 per cent, and most shares did not rise with it. It was a big-company, financials-led day. Bond yields eased a little ahead of Thursday's sale, so the sectors hit on Tuesday rose first: public-sector banks, realty and life insurers.
 
-Thursday, the day we did not see. On Friday's account the Nifty rose about a fifth of a per cent and every wire report said little changed. The Federal Reserve raised its rate by a quarter point, the first rise since 2023. The Bank of Japan raised too. And the Reserve Bank sold its first 50,000 crore rupees of bonds into more than 66,000 crore of bids, with the yield essentially flat. Three feared events. No accident.
+Thursday, the day we did not see. On Friday's account the Nifty rose about a fifth of a per cent and the wires said little changed. The Federal Reserve raised its rate by a quarter point, the first rise since 2023. The Bank of Japan raised too. And the Reserve Bank sold its first 50,000 crore rupees of bonds into more than 66,000 crore of bids, with the yield essentially flat. Three feared events. No accident.
 
 Friday. The Nifty rose a third of a per cent and the Sensex fell slightly, and the gap is one stock. TCS fell nearly four per cent on the Tata Sons dispute, and TCS is heavier in the thirty-share Sensex than in the fifty-share Nifty. Underneath, it was the best day of the week for smaller companies: 364 of the 500 shares in the Nifty 500 rose.
 
@@ -44,7 +44,7 @@ The reason was mechanical, not news. A global index publisher, FTSE, put its Sep
 
 No company of any size reported quarterly results this week. The quarter now running ends on 30 September, and nobody can report it before it ends.
 
-What fills the gap is annual general meetings. Engineers India, the state-owned engineering consultancy, restated a record year on Friday, revenue up 27 per cent and profit up 37. Those are old numbers. The story was what was not said. In August the company promised 8,000 crore rupees of new orders this year and a sixteen per cent margin. The speech repeated neither and withdrew neither. And institutional shareholders voted sixty per cent against re-appointing one director. It passed anyway, because the government holds 51 per cent and voted for.
+What fills the gap is annual general meetings. Engineers India, the state-owned engineering consultancy, restated a record year on Friday, revenue up 27 per cent and profit up 37. The story was what was not said. In August the company promised 8,000 crore rupees of new orders this year and a sixteen per cent margin. The speech repeated neither and withdrew neither. And institutional shareholders voted sixty per cent against re-appointing one director. It passed anyway, because the government holds 51 per cent and voted for.
 
 ## 6. Three things worth understanding properly
 
@@ -78,7 +78,7 @@ Our last watch list is two weeks old, because no weekly was written for the week
 
 ## 9. What we could not explain
 
-Thursday, everything below the index. The week of 8 to 11 September, no brief at all, in which the Nifty fell about 2.1 per cent. Wednesday's foreign and domestic flows, never published by anyone, so I cannot tell you how long the foreign selling streak ran. Which weekday Nifty options expire: our two records disagree. Every Indian bond yield you heard today is a single web reading; our own feed has failed 33 runs running. And HDFC Bank's 2.5 per cent rise on Friday, most of Bank Nifty's move, has no cause we could find.
+Thursday below the index. The week of 8 to 11 September, no brief at all, in which the Nifty fell about 2.1 per cent. Wednesday's foreign and domestic flows, never published by anyone, so I cannot tell you how long the foreign selling streak ran. Which weekday Nifty options expire: our two records disagree. Every Indian bond yield you heard is a single web reading; our own feed has failed 33 runs running. And HDFC Bank's 2.5 per cent rise on Friday, most of Bank Nifty's move, has no cause we could find.
 
 ## 10. Close
 
